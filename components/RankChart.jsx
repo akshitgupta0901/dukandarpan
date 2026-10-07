@@ -39,7 +39,28 @@ function formatDate(iso) {
   return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
 }
 
-function CustomTooltip({ active, payload, label, colors }) {
+function formatDateTime(iso) {
+  return new Date(iso).toLocaleString(undefined, {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+}
+
+// Calendar day in the viewer's timezone, used to spot days with several checks.
+function dayKey(iso) {
+  return new Date(iso).toLocaleDateString();
+}
+
+// Date-only labels repeat when a day has several checks, so those days get the time too.
+function makeTickFormatter(points) {
+  const counts = new Map();
+  for (const p of points) counts.set(dayKey(p.checkedAt), (counts.get(dayKey(p.checkedAt)) ?? 0) + 1);
+  return (iso) => (counts.get(dayKey(iso)) > 1 ? formatDateTime(iso) : formatDate(iso));
+}
+
+function CustomTooltip({ active, payload, label, colors, formatLabel }) {
   if (!active || !payload || payload.length === 0) return null;
   const position = payload[0].value;
   return (
@@ -53,7 +74,7 @@ function CustomTooltip({ active, payload, label, colors }) {
         color: colors.textPrimary,
       }}
     >
-      <div style={{ color: colors.muted, marginBottom: 2 }}>{formatDate(label)}</div>
+      <div style={{ color: colors.muted, marginBottom: 2 }}>{formatLabel(label)}</div>
       <div style={{ fontWeight: 600 }}>{position == null ? `Not in top ${MAPS_RESULTS_LIMIT}` : `#${position}`}</div>
     </div>
   );
@@ -63,6 +84,7 @@ export default function RankChart({ history, businessName }) {
   const colors = useThemeColors();
 
   const points = history.map((h) => ({ checkedAt: h.checkedAt, position: h.position }));
+  const formatTick = makeTickFormatter(points);
   const observedPositions = points.map((p) => p.position).filter((p) => p != null);
   const maxPosition = observedPositions.length ? Math.max(...observedPositions) : 20;
   const domainMax = Math.max(maxPosition, 5);
@@ -101,7 +123,7 @@ export default function RankChart({ history, businessName }) {
           <CartesianGrid stroke={colors.gridline} strokeDasharray="0" vertical={false} />
           <XAxis
             dataKey="checkedAt"
-            tickFormatter={formatDate}
+            tickFormatter={formatTick}
             stroke={colors.muted}
             tick={{ fill: colors.muted, fontSize: 11 }}
             axisLine={{ stroke: colors.gridline }}
@@ -117,7 +139,7 @@ export default function RankChart({ history, businessName }) {
             tickLine={false}
             width={28}
           />
-          <Tooltip content={<CustomTooltip colors={colors} />} cursor={{ stroke: colors.gridline }} />
+          <Tooltip content={<CustomTooltip colors={colors} formatLabel={formatTick} />} cursor={{ stroke: colors.gridline }} />
           <Line
             type="linear"
             dataKey="position"
