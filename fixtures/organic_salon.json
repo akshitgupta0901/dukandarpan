@@ -1,0 +1,485 @@
+{
+  "search_metadata": {
+    "id": "6aace0e75c9301bc9eb47ff0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/rv49scc3AhdX0yQ53189en48oMCiAzTHXJyziFravd8/6aace0e75c9301bc9eb47ff0.json",
+    "markdown_endpoint": "https://serpapi.com/searches/rv49scc3AhdX0yQ53189en48oMCiAzTHXJyziFravd8/6aace0e75c9301bc9eb47ff0.md",
+    "pixel_position_endpoint": "https://serpapi.com/searches/rv49scc3AhdX0yQ53189en48oMCiAzTHXJyziFravd8/6aace0e75c9301bc9eb47ff0.json_with_pixel_position",
+    "created_at": "2026-09-18 06:57:43 UTC",
+    "processed_at": "2026-09-18 06:57:43 UTC",
+    "google_url": "https://www.google.com/search?q=salon+in+Katpadi&oq=salon+in+Katpadi&uule=w+CAIQICIYVmVsbG9yZSxUYW1pbCBOYWR1LEluZGlh&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/rv49scc3AhdX0yQ53189en48oMCiAzTHXJyziFravd8/6aace0e75c9301bc9eb47ff0.html",
+    "total_time_taken": 2.9
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "salon in Katpadi",
+    "location_requested": "Vellore, Tamil Nadu, India",
+    "location_used": "Vellore,Tamil Nadu,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "salon in Katpadi",
+    "total_results": 126,
+    "time_taken_displayed": 0.29,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+    "image": "https://www.google.com/maps/vt/data=iTgTj8LcCVw1fco3BsGe3gYAsMWyLcUrHNvgKm9meUlUrUoSZOGElWZWFtHfoN0UKAw0gRmTUNxc1rxh-MfAiPqbqfdv3kgxSP5WdwoblklJKD26jSInf_TxqJhm6Idy-0KeFtLDyYA4XLVWNIZ7R9umR3Fw8icl13Hv4fzVG8seiDQYzngLamKFkOUhtHyuH_Zx6cplHo3Rg-q0799S-H9_80AFXxBzCspFWHBKEo7oxVYyWgs-ZZlDio5uwCeVpAkttGtej5gcSgzeywa3V3rr-cy1-peqN4coiOWdjHEwbJ3TwbhnnoMk3X9Oul_6Q8L1J6uXlSw9syCFfOXkJJ-5so_aXBQclryuI6Zn4GAbGciPOhvBVc_NSeYtpA2gMjUNSld8D3MlJr55tdTIQpMqacMEwiY3IUa0e2DvBHkp_UYVJBa9EQRIENQWFBmwJqNgDcX1xts0QAFHxcg0fASlXLuIO9gPx2V3XpHvAUsxZ2E1g4fE46p-lRVV8g6yJokLtGhpxcooftLJZQQ5xkwi68soALJK875kXsZDR05N6hx9hIUB_0JoasXazr3LSzfEswFrjWEpuOUM2MPK0ta2GO-5IMWjb2hIlWzIjNkaeCtmv51jFjpgDwTO6wRmxj0TqeKJ8vdNEJ5G80v7QjY-V_1eLGJxdNhiqJ3Nhqo15saS0z6UH_KTougyv-vwzy0uyfyQLU8hY9S4CeOzgahRhN8TdRCOk_Ml-qyFW_cRZDhnlLHrhEUu7-EEipvqhwhu8oppuLzqbkdz3qD0qIauIdIjeX1GT4GXsCGueMnGOOXlodXq93cb58a0daei8JF0T12k8eSkQWib06XRLVkc-i2ZgrNB9lpJHO6o0tsyZFMXLO4FQtBG8KpoGIUX6xjlluoJr1NCHYgT07LWBUSevmMsk2FEyRTItCm2GkEueJMbeYeESLBNd6uXqXJynmlSS8e6ljFc89f5n-73pVuZhTOpF8_uQyeMp3lo8DMFqFLqHDAwS5pHd-BMJdL9wS7NlDlBR2VOupYQK_r9sV2dm4voppcXypr60O4IBI6CfzACg0Mghm4wIL4MVUEzitWXOl32xWSm0tf5Vo71wd__phln-80rl2oOSHm5bsYMWvA3_NkBERknviDOhRMzGCrKQHIK83V6pVWtr3SBEZfghDysCZQgx-GoWUdzhTztKYX4VEN5ohiPR9gO7LiE5dlRTle9h08Oc4iw2k13P14QmzVqe8b7duL40qWrmVC35AdBs2YPTgGgGOtZqC1URtvMkci8Li9D8AEsHtav55fiQXhFg_on6I5iFRYt7ahrBM-5Vdzr-JK6gJMOPHYAv2GuOtDP96B8W8semWWfMSfbAXdll6VKDr4qdLSItCEWlijCqWlNe3Kh5JHjAOm1JFENwbTjUqtZxLVpvUtI1b8HA7Um9XL2jiHBCOVkkyHJtg",
+    "gps_coordinates": {
+      "latitude": 12.955880713641998,
+      "longitude": 79.13928508758545
+    }
+  },
+  "local_results": {
+    "places": [
+      {
+        "position": 1,
+        "title": "Gorgeous Family Salon Katpadi",
+        "type": "Beauty Parlour",
+        "rating": 4.7,
+        "reviews": 886,
+        "description": "On-site services",
+        "thumbnail": "https://serpapi.com/searches/6aace0e75c9301bc9eb47ff0/images/-kWDtHWkIJR2dB1z4sLz31dP8P9tpma5WT1L3DF2aGRnaaRtOhcif_XWIXibb47s.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnh4hTMDKTKhMyxAv7a13nHR3iRu-YwGMNnrtHOGxgfettyfQE8xr3l_98-QkL2dWpiQwos1RO-cikvMBgdReCk3N6z4QJlCkxY7CezF-QohsjzSVnakpFd8CqA3agwzMOua3DqJg=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:0788 775 6789",
+          "website": "https://www.gorgeousfamilyspa.com/"
+        },
+        "place_id": "14160629533545795306",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=14160629533545795306&q=salon+in+Katpadi",
+        "provider_id": "/g/11lrh3997t",
+        "gps_coordinates": {
+          "latitude": 12.960351,
+          "longitude": 79.13744
+        },
+        "address": "No. 309, East Coast Rd, Bharathi Nagar, Katpadi, Vellore, Tamil Nadu 632007",
+        "hours": "Open · Closes 9 pm",
+        "phone": "0788 775 6789"
+      },
+      {
+        "position": 2,
+        "title": "Lakme Salon For Him and Her in Gandhinagar, Katpadi",
+        "type": "Beauty Parlour",
+        "rating": 4.8,
+        "reviews": 1547,
+        "description": "On-site services",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYa1GFfpDoLnpuVErJLixCCvMzoxNeBp-TRis0G-of3jM0WBQcAsxSNJWau2-o6f58801hgtc3DNp1SvSH2Jg8TxZZRdc_KA56BTw02yUut5X8YgBw-kK_16P_AvoUNAjHkHhd=w90-h90-n-k-no-l75",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYa1GFfpDoLnpuVErJLixCCvMzoxNeBp-TRis0G-of3jM0WBQcAsxSNJWau2-o6f58801hgtc3DNp1SvSH2Jg8TxZZRdc_KA56BTw02yUut5X8YgBw-kK_16P_AvoUNAjHkHhd=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:088790 04344",
+          "website": "https://salons.lakmesalon.in/lakme-salon-for-him-and-her-in-gandhinagar-katpadi-gandhinagar-vellore-beauty-parlour-gandhi-nagar-vellore-349667/Home"
+        },
+        "place_id": "9858649307846130205",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=9858649307846130205&q=salon+in+Katpadi",
+        "provider_id": "/g/11fd7lhkt_",
+        "gps_coordinates": {
+          "latitude": 12.950275,
+          "longitude": 79.141659
+        },
+        "address": "23, First Floor 8th East Main Road, Dhanabagyam Mandapam circle Gandhinagar East, Katpadi, Vellore, Tamil Nadu 632006",
+        "hours": "Open · Closes 9 pm",
+        "phone": "088790 04344"
+      },
+      {
+        "position": 3,
+        "title": "Elegant landmark unisex salon and academy pvt ltd",
+        "type": "Beauty Parlour",
+        "rating": 4.6,
+        "reviews": 493,
+        "description": "On-site services",
+        "thumbnail": "https://serpapi.com/searches/6aace0e75c9301bc9eb47ff0/images/-kWDtHWkIJR2dB1z4sLz315q0UORX_5Ub-ZUoy7k2ujkogNfMsYnpdiI6sJz4sHG.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkvoVJKUO5LrCzIbcuPqRg7fpqU_n31ucEbuKDcre1WDUcUy1LrMoOv75tz6asyr7sVuqxDpqhlhDF0pGwrWlCM7t7BxB3SO-qXz5duxr90105NvLYV7ce8_uoouw6g6CnE4mN=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:095858 22366",
+          "website": "http://elegantlandmarkunisexsalon.in/"
+        },
+        "place_id": "2277598003742106380",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=2277598003742106380&q=salon+in+Katpadi",
+        "provider_id": "/g/11twt_58ht",
+        "gps_coordinates": {
+          "latitude": 12.95358,
+          "longitude": 79.137429
+        },
+        "address": "2nd floor, 1st East Main Rd, Katpadi, Vellore, Tamil Nadu 632006",
+        "hours": "Open · Closes 10 pm",
+        "phone": "095858 22366"
+      }
+    ],
+    "more_locations_link": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&udm=1&lsack=6eCsarPBAv7k0PEPndmcuAU&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQjGp6BAgfEAA"
+  },
+  "knowledge_graph": {
+    "place_id": "ChIJH8Zh5CFHrTsR6g7n1oiphMQ"
+  },
+  "related_questions": [
+    {
+      "question": "What is the best and most affordable salon near Katpadi, Vellore?",
+      "type": "ai_overview",
+      "page_token": "KAGuu3icHdFRbpswGABg7TJ9bAws2RYpmpRgJ2OFFGP_YL9MYAcImMAaOid-21323AP1NJt2hE_f7z_mfOnfP7y18zxd14uFtfaxGcfGnB7VOCzK6_2iFqo0pipVv159Wnlfa7XBo93trnab8mmCkKIs_3JIQrhnAHvgZFmhyGpGfM7kskBaVI4S5jVBZkBkeyKO-U0oX5Yqn6IUyRx49F0E21TzeJZM2rhLIpXLieIlOpk2yLn1ssBMeSefAUzKMPQ8pM9lKALNqQVGXk9FxE7Ft5ty-C57MbPQZJptdxUkLSfNxyeuc-gnyHHLJUjLellzrM9xaLoCLZ8qZI6xo5JieNEuuih8dbGXoCP-7MmQZtpvXDJQP-7oKg7MTw6JZYzu014hwWHIGES4_afiiRNFlKY98RP_ajmGtBroLALYAh3PKadOdWaAw-hB0Arq2poNxOMHsqP81nKni3hvSNU3SNuHWv3aBA__HzY_6mFeTy9j8xcEDpak",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=KAGuu3icHdFRbpswGABg7TJ9bAws2RYpmpRgJ2OFFGP_YL9MYAcImMAaOid-21323AP1NJt2hE_f7z_mfOnfP7y18zxd14uFtfaxGcfGnB7VOCzK6_2iFqo0pipVv159Wnlfa7XBo93trnab8mmCkKIs_3JIQrhnAHvgZFmhyGpGfM7kskBaVI4S5jVBZkBkeyKO-U0oX5Yqn6IUyRx49F0E21TzeJZM2rhLIpXLieIlOpk2yLn1ssBMeSefAUzKMPQ8pM9lKALNqQVGXk9FxE7Ft5ty-C57MbPQZJptdxUkLSfNxyeuc-gnyHHLJUjLellzrM9xaLoCLZ8qZI6xo5JieNEuuih8dbGXoCP-7MmQZtpvXDJQP-7oKg7MTw6JZYzu014hwWHIGES4_afiiRNFlKY98RP_ajmGtBroLALYAh3PKadOdWaAw-hB0Arq2poNxOMHsqP81nKni3hvSNU3SNuHWv3aBA__HzY_6mFeTy9j8xcEDpak",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGJlc3QgYW5kIG1vc3QgYWZmb3JkYWJsZSBzYWxvbiBuZWFyIEthdHBhZGksIFZlbGxvcmU/IiwibGsiOiJHaWxqYUdWaGNDQmhibVFnWW1WemRDQnpZV3h2YmlCdVpXRnlJR3RoZEhCaFpHa2dkbVZzYkc5eVpRIiwiYnMiOiJjMTNRTVdfQ01CQUZZSFgxMUpWVUtxOWpWUVlVcVhNVUlnYlVnYTJaTF9aUld4ZzdzaDM2OTNFU0VDMmJwZmY1ZE85RUwtcFdVNEtKU0pyUmNVd2dwM0R5NC1OdzhFRlJaeG1Sckhkd1RBRmZsSHBTWm9WdnR0WUhyc3FQNGwxcXBuNzZPWTM0dzQ4engzbldZaXZRYWlQMTFTalBFYlUxaEUzZUkyR0llZUJic2Z4OU5EU2E3bWJFWHF4YnpZRWh5V0dISDg3cm92eGNJd3c5WjY3SkJEbmtZZzZOWnVmSVZPVkxzWmpFdjFUT3FXakVjaGR2NWNiZ1dnX0t4QlNNVEZXSjRqWGY2WGduNXdmeV9IUUIiLCJpZCI6ImZjXzZlQ3NhclBCQXY3azBQRVBuZG1jdUFVXzYifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGJlc3QgYW5kIG1vc3QgYWZmb3JkYWJsZSBzYWxvbiBuZWFyIEthdHBhZGksIFZlbGxvcmU%2FIiwibGsiOiJHaWxqYUdWaGNDQmhibVFnWW1WemRDQnpZV3h2YmlCdVpXRnlJR3RoZEhCaFpHa2dkbVZzYkc5eVpRIiwiYnMiOiJjMTNRTVdfQ01CQUZZSFgxMUpWVUtxOWpWUVlVcVhNVUlnYlVnYTJaTF9aUld4ZzdzaDM2OTNFU0VDMmJwZmY1ZE85RUwtcFdVNEtKU0pyUmNVd2dwM0R5NC1OdzhFRlJaeG1Sckhkd1RBRmZsSHBTWm9WdnR0WUhyc3FQNGwxcXBuNzZPWTM0dzQ4engzbldZaXZRYWlQMTFTalBFYlUxaEUzZUkyR0llZUJic2Z4OU5EU2E3bWJFWHF4YnpZRWh5V0dISDg3cm92eGNJd3c5WjY3SkJEbmtZZzZOWnVmSVZPVkxzWmpFdjFUT3FXakVjaGR2NWNiZ1dnX0t4QlNNVEZXSjRqWGY2WGduNXdmeV9IUUIiLCJpZCI6ImZjXzZlQ3NhclBCQXY3azBQRVBuZG1jdUFVXzYifQ%3D%3D"
+    },
+    {
+      "question": "Which salon does Alia Bhatt use?",
+      "type": "ai_overview",
+      "page_token": "LCTb7HicHdDdboIwGIDh7GY8nFD3a2KWIK3CRk1b2kJPFikqwsePimN6tnvZVe1qtuz0TZ6T9-sb9k31c_NR9H13mo7HwzDc7tp2B5tb29bj9enS2LFdA2RrW00fHh_cl62d4XPgzQ-Bx2TXKZ87AgqpSuKluhrSBrqo5lEKIVphyjMFfuaHjfDtkC8MMIBFrAzJ3O4odJ8kTk43JW2jMsTSlXfc6Q5pTC5mWSxpBcc0KbYUmUD4YaAc8qnxExKor3SZT3STu7pWE4n6pajuC9NY588Mwvk8q8TzVz6ZUwSEuflhDZTFNbkmiL5Ffz0D7zVOwkDu3VVE-Jm6XIrEu1IoGlxYZCS9pknIWEUQRadBYsWymvfpRHmKt3sm-dWWUKuFWRqUxwYXcbZ41lrzPY9DvMHPvsWhJ-q7i2Sjrf2YTUb_P2fv27qfdsd29wtd5YKN",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=LCTb7HicHdDdboIwGIDh7GY8nFD3a2KWIK3CRk1b2kJPFikqwsePimN6tnvZVe1qtuz0TZ6T9-sb9k31c_NR9H13mo7HwzDc7tp2B5tb29bj9enS2LFdA2RrW00fHh_cl62d4XPgzQ-Bx2TXKZ87AgqpSuKluhrSBrqo5lEKIVphyjMFfuaHjfDtkC8MMIBFrAzJ3O4odJ8kTk43JW2jMsTSlXfc6Q5pTC5mWSxpBcc0KbYUmUD4YaAc8qnxExKor3SZT3STu7pWE4n6pajuC9NY588Mwvk8q8TzVz6ZUwSEuflhDZTFNbkmiL5Ffz0D7zVOwkDu3VVE-Jm6XIrEu1IoGlxYZCS9pknIWEUQRadBYsWymvfpRHmKt3sm-dWWUKuFWRqUxwYXcbZ41lrzPY9DvMHPvsWhJ-q7i2Sjrf2YTUb_P2fv27qfdsd29wtd5YKN",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IldoaWNoIHNhbG9uIGRvZXMgQWxpYSBCaGF0dCB1c2U/IiwibGsiOiJHaDkzYUdsamFDQnpZV3h2YmlCa2IyVnpJR0ZzYVdFZ1ltaGhkSFFnZFhObCIsImJzIjoiYzEzUU1XX0NNQkFGWUhYMTFKVlVLcTlqVlFZVXFYTVVJZ2JVZ2EyWkxfWlJXeGc3c2gzNjkzRVNFQzJicGZmNWRPOUVMLXBXVTRLSlNKclJjVXdncDNEeTQtTnc4RUZSWnhtUnJIZHdUQUZmbEhwU1pvVnZ0dFlIcnNxUDRsMXFwbjc2T1kzNHc0OHp4M25XWWl2UWFpUDExU2pQRWJVMWhFM2VJMkdJZWVCYnNmeDlORFNhN21iRVhxeGJ6WUVoeVdHSEg4N3JvdnhjSXd3OVo2N0pCRG5rWWc2Tlp1ZklWT1ZMc1pqRXYxVE9xV2pFY2hkdjVjYmdXZ19LeEJTTVRGV0o0alhmNlhnbjV3ZnlfSFFCIiwiaWQiOiJmY182ZUNzYXJQQkF2N2swUEVQbmRtY3VBVV82In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IldoaWNoIHNhbG9uIGRvZXMgQWxpYSBCaGF0dCB1c2U%2FIiwibGsiOiJHaDkzYUdsamFDQnpZV3h2YmlCa2IyVnpJR0ZzYVdFZ1ltaGhkSFFnZFhObCIsImJzIjoiYzEzUU1XX0NNQkFGWUhYMTFKVlVLcTlqVlFZVXFYTVVJZ2JVZ2EyWkxfWlJXeGc3c2gzNjkzRVNFQzJicGZmNWRPOUVMLXBXVTRLSlNKclJjVXdncDNEeTQtTnc4RUZSWnhtUnJIZHdUQUZmbEhwU1pvVnZ0dFlIcnNxUDRsMXFwbjc2T1kzNHc0OHp4M25XWWl2UWFpUDExU2pQRWJVMWhFM2VJMkdJZWVCYnNmeDlORFNhN21iRVhxeGJ6WUVoeVdHSEg4N3JvdnhjSXd3OVo2N0pCRG5rWWc2Tlp1ZklWT1ZMc1pqRXYxVE9xV2pFY2hkdjVjYmdXZ19LeEJTTVRGV0o0alhmNlhnbjV3ZnlfSFFCIiwiaWQiOiJmY182ZUNzYXJQQkF2N2swUEVQbmRtY3VBVV82In0%3D"
+    },
+    {
+      "question": "Where can I get a 250 rupees haircut in Chennai?",
+      "type": "ai_overview",
+      "page_token": "bzBMk3icHdBNbqMwGIBh9TJdNvwMGSVSNBINJo3AGRt_5mczIoZAsA0MoXWS3VyhZ-ipeppWs3rXz_vvQ517-fnw3s7zeFkvFsaYp2YYGlU_iUEvysutFwtRKnUshVwvfy7tXyexCd6E_zwJn8A48i21kp6_wLbxiFyFnNEg18LUO_92CK5JGbYjhI11RPu-2sbX73q5pZbcHh2cXn3RVTF0qI9Z4xKYTQLIUIniw05RGs4ad0rSwA65nTuQzrKU89_Cqly2k7daxSZWNKRuazPXv1UarjV4-4qv_MyutmWGBqKLPspwQroKsX5wCVM6AjyC06bAYnPg6nfZF6dD9vKDMvScMjzlVu5USHh19m3bqTBi-zHJ0AR3aYJWOAXge57tCZHIwc7FQMDJUdM5d7nP6XAmQO-iUxpSfK4cb6ol6uoQ348g7IjzqEDUjZ3VK0iMgDyexNvGffz_evPnpOf1OA3NF8ACjSk",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=bzBMk3icHdBNbqMwGIBh9TJdNvwMGSVSNBINJo3AGRt_5mczIoZAsA0MoXWS3VyhZ-ipeppWs3rXz_vvQ517-fnw3s7zeFkvFsaYp2YYGlU_iUEvysutFwtRKnUshVwvfy7tXyexCd6E_zwJn8A48i21kp6_wLbxiFyFnNEg18LUO_92CK5JGbYjhI11RPu-2sbX73q5pZbcHh2cXn3RVTF0qI9Z4xKYTQLIUIniw05RGs4ad0rSwA65nTuQzrKU89_Cqly2k7daxSZWNKRuazPXv1UarjV4-4qv_MyutmWGBqKLPspwQroKsX5wCVM6AjyC06bAYnPg6nfZF6dD9vKDMvScMjzlVu5USHh19m3bqTBi-zHJ0AR3aYJWOAXge57tCZHIwc7FQMDJUdM5d7nP6XAmQO-iUxpSfK4cb6ol6uoQ348g7IjzqEDUjZ3VK0iMgDyexNvGffz_evPnpOf1OA3NF8ACjSk",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGdldCBhIDI1MCBydXBlZXMgaGFpcmN1dCBpbiBDaGVubmFpPyIsImxrIjoiR2hreU5UQWdjbk1nYUdGcGNtTjFkQ0JwYmlCamFHVnVibUZwIiwiYnMiOiJjMTNRTVdfQ01CQUZZSFgxMUpWVUtxOWpWUVlVcVhNVUlnYlVnYTJaTF9aUld4ZzdzaDM2OTNFU0VDMmJwZmY1ZE85RUwtcFdVNEtKU0pyUmNVd2dwM0R5NC1OdzhFRlJaeG1Sckhkd1RBRmZsSHBTWm9WdnR0WUhyc3FQNGwxcXBuNzZPWTM0dzQ4engzbldZaXZRYWlQMTFTalBFYlUxaEUzZUkyR0llZUJic2Z4OU5EU2E3bWJFWHF4YnpZRWh5V0dISDg3cm92eGNJd3c5WjY3SkJEbmtZZzZOWnVmSVZPVkxzWmpFdjFUT3FXakVjaGR2NWNiZ1dnX0t4QlNNVEZXSjRqWGY2WGduNXdmeV9IUUIiLCJpZCI6ImZjXzZlQ3NhclBCQXY3azBQRVBuZG1jdUFVXzYifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGdldCBhIDI1MCBydXBlZXMgaGFpcmN1dCBpbiBDaGVubmFpPyIsImxrIjoiR2hreU5UQWdjbk1nYUdGcGNtTjFkQ0JwYmlCamFHVnVibUZwIiwiYnMiOiJjMTNRTVdfQ01CQUZZSFgxMUpWVUtxOWpWUVlVcVhNVUlnYlVnYTJaTF9aUld4ZzdzaDM2OTNFU0VDMmJwZmY1ZE85RUwtcFdVNEtKU0pyUmNVd2dwM0R5NC1OdzhFRlJaeG1Sckhkd1RBRmZsSHBTWm9WdnR0WUhyc3FQNGwxcXBuNzZPWTM0dzQ4engzbldZaXZRYWlQMTFTalBFYlUxaEUzZUkyR0llZUJic2Z4OU5EU2E3bWJFWHF4YnpZRWh5V0dISDg3cm92eGNJd3c5WjY3SkJEbmtZZzZOWnVmSVZPVkxzWmpFdjFUT3FXakVjaGR2NWNiZ1dnX0t4QlNNVEZXSjRqWGY2WGduNXdmeV9IUUIiLCJpZCI6ImZjXzZlQ3NhclBCQXY3azBQRVBuZG1jdUFVXzYifQ%3D%3D"
+    },
+    {
+      "question": "Is Katpadi in Vellore district?",
+      "type": "ai_overview",
+      "page_token": "AjOhkXicHdDdbpswGABQ7WV62QBeOjVSNMkN5meNM7v4A3wzgUlC4w_wBiMNd3uXPdWeptWe4Ejnz1987e2_T3M7TW7crFbX6_X-PAxnPN6boVtV4603K1Mh1pWxm4cvD_7Xk9mGvxP69DOhQjkHO-m9eCx56XENnh-rTHeA9LYvMDHBOtEZluLC3mCH3w4huMqmBGKNUiVLnj9-5-GwHGL3We-4X9rHTufsCWK-7Dv5LEA-m5iJfcgi6bdeE403EUidZe0se3cpfa5kBihJqzhQksUNrQKXqgXnammSGllRWd9l0fmtzHE8fFhHBp4GoLVyVhIQ4DWztP5aIrU1YfQQpSRsTaAVX8oiFcKygAfjVYUg6k5OJQEKcngVSi7mgp0qKBwRi7xIp2PEd_wSEh3gvgEt6l5bHbtBiLuTmbfk7v_n9sepmzbu13B-B11MgsQ",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=AjOhkXicHdDdbpswGABQ7WV62QBeOjVSNMkN5meNM7v4A3wzgUlC4w_wBiMNd3uXPdWeptWe4Ejnz1987e2_T3M7TW7crFbX6_X-PAxnPN6boVtV4603K1Mh1pWxm4cvD_7Xk9mGvxP69DOhQjkHO-m9eCx56XENnh-rTHeA9LYvMDHBOtEZluLC3mCH3w4huMqmBGKNUiVLnj9-5-GwHGL3We-4X9rHTufsCWK-7Dv5LEA-m5iJfcgi6bdeE403EUidZe0se3cpfa5kBihJqzhQksUNrQKXqgXnammSGllRWd9l0fmtzHE8fFhHBp4GoLVyVhIQ4DWztP5aIrU1YfQQpSRsTaAVX8oiFcKygAfjVYUg6k5OJQEKcngVSi7mgp0qKBwRi7xIp2PEd_wSEh3gvgEt6l5bHbtBiLuTmbfk7v_n9sepmzbu13B-B11MgsQ",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IklzIEthdHBhZGkgaW4gVmVsbG9yZSBkaXN0cmljdD8iLCJsayI6IkdoNXBjeUJyWVhSd1lXUnBJR2x1SUhabGJHeHZjbVVnWkdsemRISnBZM1EiLCJicyI6ImMxM1FNV19DTUJBRllIWDExSlZVS3E5alZRWVVxWE1VSWdiVWdhMlpMX1pSV3hnN3NoMzY5M0VTRUMyYnBmZjVkTzlFTC1wV1U0S0pTSnJSY1V3Z3AzRHk0LU53OEVGUlp4bVJySGR3VEFGZmxIcFNab1Z2dHRZSHJzcVA0bDFxcG43Nk9ZMzR3NDh6eDNuV1lpdlFhaVAxMVNqUEViVTFoRTNlSTJHSWVlQmJzZng5TkRTYTdtYkVYcXhiellFaHlXR0hIODdyb3Z4Y0l3dzlaNjdKQkRua1lnNk5adWZJVk9WTHNaakV2MVRPcVdqRWNoZHY1Y2JnV2dfS3hCU01URldKNGpYZjZYZ241d2Z5X0hRQiIsImlkIjoiZmNfNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVVfNiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmJUQkxURXcyV1dGU2EwZEtUM0paZUVoRFRXdHNRbEF4WjFWWlZVczVTVE5DVW1OT1QyaFFOR2xmY0ZKVmVURkdWMU52UlhSSlRqRnZWVkJMT1hsbFZqQldkMnB6VjBaMlFsUmZZbHBKYTNVNGJUaElVR1ZMUjFNeFVSSVhObVZEYzJGeVVFSkJkamRyTUZCRlVHNWtiV04xUVZVYUlrRkVjM0k1WmxNMmFITjBOak4yWWtkT1NVSnVlVmt5TVdSbkxVUlZjblEyTUdjIiwiZmN2IjoiMyIsImVpIjoiNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVUiLCJxYyI6IkNoQnpZV3h2YmlCcGJpQnJZWFJ3WVdScEVBQjkzWmdZUHciLCJxdWVzdGlvbiI6IklzIEthdHBhZGkgaW4gVmVsbG9yZSBkaXN0cmljdD8iLCJsayI6IkdoNXBjeUJyWVhSd1lXUnBJR2x1SUhabGJHeHZjbVVnWkdsemRISnBZM1EiLCJicyI6ImMxM1FNV19DTUJBRllIWDExSlZVS3E5alZRWVVxWE1VSWdiVWdhMlpMX1pSV3hnN3NoMzY5M0VTRUMyYnBmZjVkTzlFTC1wV1U0S0pTSnJSY1V3Z3AzRHk0LU53OEVGUlp4bVJySGR3VEFGZmxIcFNab1Z2dHRZSHJzcVA0bDFxcG43Nk9ZMzR3NDh6eDNuV1lpdlFhaVAxMVNqUEViVTFoRTNlSTJHSWVlQmJzZng5TkRTYTdtYkVYcXhiellFaHlXR0hIODdyb3Z4Y0l3dzlaNjdKQkRua1lnNk5adWZJVk9WTHNaakV2MVRPcVdqRWNoZHY1Y2JnV2dfS3hCU01URldKNGpYZjZYZ241d2Z5X0hRQiIsImlkIjoiZmNfNmVDc2FyUEJBdjdrMFBFUG5kbWN1QVVfNiJ9"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Top Salons in Katpadi, Vellore - Best Beauty Salon near me",
+      "link": "https://www.justdial.com/Vellore/Salons-in-Katpadi/nct-10418299",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdwHrOzAV83Ac5RVG1n9Npghm0xpogRJN0N3TXkL4yUROgn-RuKdMkilffyBh9uVGpW8Cw9JvczTcKYzrwLpagIzL3zJl3H2eZYXZb3KAe7q60GoX31JqIK9rzIaHmnl__OJ7Sw2_jY1zbJHd2QTvCRpC7VSSBlTc&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://www.justdial.com › ... › 81+ Listings",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX9__z_5dHT5fSLvuX_pmf_awL_uYRyq9YMdcD_l0dKnNU8kNH-gBz_iTT_0K28hCtuAAAAWElEQVR4AWNAA4wgQhmIXROARIUBA8NUEGMFjLHDICfyKljELDQ0FMywCeGDMEwDGK5CGSDFTAw7TMMYgVIcXR0qoVOBDPaOdgbXmDkPGBiUFBgYBRiwAACC6Rgw_7hHtwAAAABJRU5ErkJggg.png",
+      "snippet": "Popular Salons in Katpadi, Vellore · Renew Bridal Studio & Academy · Naturals Family Salon · Cloud 9 Professional & Traditional Family Spa · UGlow Bridal Studio ...",
+      "snippet_highlighted_words": [
+        "Renew Bridal Studio & Academy"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Popular Salons in Katpadi, Vellore · Renew Bridal Studio & Academy · Naturals Family Salon · Cloud 9 Professional & Traditional Family Spa · UGlow Bridal Studio ...",
+          "source_info_link": "https://www.justdial.com/Vellore/Salons-in-Katpadi/nct-10418299",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX9__z_5dHT5fSLvuX_pmf_awL_uYRyq9YMdcD_l0dKnNU8kNH-gBz_iTT_0K28hCtuAAAAWElEQVR4AWNAA4wgQhmIXROARIUBA8NUEGMFjLHDICfyKljELDQ0FMywCeGDMEwDGK5CGSDFTAw7TMMYgVIcXR0qoVOBDPaOdgbXmDkPGBiUFBgYBRiwAACC6Rgw_7hHtwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Justdial",
+      "read_more_link": "https://www.justdial.com/Vellore/Salons-in-Katpadi/nct-10418299#:~:text=Popular%20Salons%20in%20Katpadi%2C%20Vellore&text=Renew%20Bridal%20Studio%20%26%20Academy&text=Naturals%20Family%20Salon&text=Cloud%209%20Professional%20%26%20Traditional,Family%20Spa&text=UGlow%20Bridal%20Studio%20%26%20Salon"
+    },
+    {
+      "position": 2,
+      "title": "Lakme Salon For Him and Her in Gandhinagar, Katpadi",
+      "link": "https://salons.lakmesalon.in/lakme-salon-for-him-and-her-in-gandhinagar-katpadi-gandhinagar-vellore-beauty-parlour-gandhi-nagar-vellore-349667/Home",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESzAEB6zswFVghAMxOn4NDz7EZ8uu2zYmjdaIvE_ro4EkbswJORLoDXees4zv73-3jkLi6A0UqGhDJWokvUd-pECfltPxRBtpceCbXu6eeG8h8Z0lv6e-2_vjHMKvGlOqGF4YIG-0z5EVz-_Ql-YqSh9JNYx0aKIHBL0p4t2vQSOEgehlAVqycZO3M3WB0wyZJraOLkhbYbAf5-Uy8aXLQ_G3t35EOMVITfN0rKqrmndo5Nm2MJcouyDr-P5itNR0W3Dm0QYwXLRh5hrM0Y7M&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://salons.lakmesalon.in › Home",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAilBMVEX____-_v7e3t4LCwsnJygwLi3i4uJLR0nDwcHQz820tLRTUlHo6OhkX17b29tYV1e6ubltbW2DgoDr6-tqZ2fl5eUAAACvrq5-fH2fnp-IhYb4-PcVFRVOTUyQj47y8vKpp6g3NjZDQkKbmZoJAQQaFRfLy8sjIyMcGxhsZ2h4dnc1NTUhHB6cl5nHh6bXAAABPklEQVR4AZ1SBYLDIBDcuBLaIyxECfVG_v-9q7sPzs4MCg9hbPMRb8Jfw3gz_T1My3ZcAHA9HyDYVGEUA0noCGD8x2hK-CaYoAD4QwkZ8nwcY17wsuJYj9QxGJUUGmy0cnFiTjHiMx_gGJwQnTS4YZiWFch5xFGGR-WCjlAIxBmY9nJKnE2wXhyD9SrCqUCKwo3Icq0vbEMgMSvbGhfLKs4bFJOK4z5oLruaFkZLU4fJSZP5NksJX3VLcxM0mMuBu8AKYG6smAIOJ7hOlBWerdZZQaUt23FB1el2E8wAvJXfNqMZSJ2jTxQYxj7OiB36ss_bRvTGVNdWqhWckFAvreZUboODHqgzUxfvlllz1XZjsZixta5Fi2r_SzaVq5dZWrgOsdvWqfza9yv167cxvv6HxqMp4yJo3Idv6iP-AfCPGtM1KoGPAAAAAElFTkSuQmCC.png",
+      "snippet": "No 23, 1st Floor, 8th East Main Road … +918879004344 Open until 09:00 PM - 09:00 PM Sun 10:00 AM - 09:00 PM",
+      "snippet_highlighted_words": [
+        "No 23, 1st Floor, 8th East Main Road"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "No 23, 1st Floor, 8th East Main Road … +918879004344 Open until 09:00 PM - 09:00 PM Sun 10:00 AM - 09:00 PM",
+          "source_info_link": "https://salons.lakmesalon.in/lakme-salon-for-him-and-her-in-gandhinagar-katpadi-gandhinagar-vellore-beauty-parlour-gandhi-nagar-vellore-349667/Home",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAilBMVEX____-_v7e3t4LCwsnJygwLi3i4uJLR0nDwcHQz820tLRTUlHo6OhkX17b29tYV1e6ubltbW2DgoDr6-tqZ2fl5eUAAACvrq5-fH2fnp-IhYb4-PcVFRVOTUyQj47y8vKpp6g3NjZDQkKbmZoJAQQaFRfLy8sjIyMcGxhsZ2h4dnc1NTUhHB6cl5nHh6bXAAABPklEQVR4AZ1SBYLDIBDcuBLaIyxECfVG_v-9q7sPzs4MCg9hbPMRb8Jfw3gz_T1My3ZcAHA9HyDYVGEUA0noCGD8x2hK-CaYoAD4QwkZ8nwcY17wsuJYj9QxGJUUGmy0cnFiTjHiMx_gGJwQnTS4YZiWFch5xFGGR-WCjlAIxBmY9nJKnE2wXhyD9SrCqUCKwo3Icq0vbEMgMSvbGhfLKs4bFJOK4z5oLruaFkZLU4fJSZP5NksJX3VLcxM0mMuBu8AKYG6smAIOJ7hOlBWerdZZQaUt23FB1el2E8wAvJXfNqMZSJ2jTxQYxj7OiB36ss_bRvTGVNdWqhWckFAvreZUboODHqgzUxfvlllz1XZjsZixta5Fi2r_SzaVq5dZWrgOsdvWqfza9yv167cxvv6HxqMp4yJo3Idv6iP-AfCPGtM1KoGPAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Lakme Salon"
+    },
+    {
+      "position": 3,
+      "title": "Elegant Landmark unisex salon | Family Friendly Salon",
+      "link": "https://www.instagram.com/elagantlandmarkunisexsalon/?hl=en",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScwHrOzAVrXfzxRNXB9HsKasSNjSmUgQo8uSVzJ0L5a2hWZwWevGjk9DUnahj4CKeVqvcZKWtMgcgKvfKK81pBCLIHrXjZxbbrJTK5jAeuwc_OTwx78FFovBBJ8Xt5Te_zQHBraE2pblYNubFrc-0YO2DdQc&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCoQAQ&uoh=1",
+      "displayed_link": "2.2K+ followers",
+      "favicon": "https://serpapi.com/searches/6aace0e75c9301bc9eb47ff0/images/q-ty2tG3gyY1FHhH8fv_fCsSYs7SHVOwIwhlP2hDKQ8.png",
+      "snippet": "Our chairs spin magic and style. ✨ ‍♀️ Katpadi | Anaicut Appointment for booking - 9698906532 / 9585822366 · Fresh cut. · One Two and Three Boom ...",
+      "snippet_highlighted_words": [
+        "Katpadi | Anaicut"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Our chairs spin magic and style. ✨ ‍♀️ Katpadi | Anaicut Appointment for booking - 9698906532 / 9585822366 · Fresh cut. · One Two and Three Boom ...",
+          "source_info_link": "https://www.instagram.com/elagantlandmarkunisexsalon/?hl=en",
+          "icon": "https://serpapi.com/searches/6aace0e75c9301bc9eb47ff0/images/q-ty2tG3gyY1FHhH8fv_fI7Up9STMf3MMPKo2qWEN_KLj-pNYgqh5nE8nEbNjm5v.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Instagram · elagantlandmarkunisexsalon",
+      "read_more_link": "https://www.instagram.com/elagantlandmarkunisexsalon/?hl=en#:~:text=%F0%9F%93%8C%20Our%20chairs%20spin%20magic,%F0%9F%93%B1%20%2D%209698906532%20%2F%209585822366"
+    },
+    {
+      "position": 4,
+      "title": "Gorgeous Family Salon | Best Hair & Beauty Salon | Bridal ...",
+      "link": "https://www.gorgeousfamilyspa.com/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWgHrOzAVhWzik98K4-UaYNILBheKU6JbgGUX6oBDsxic4XngES0XZ_hjh7pcdDxrSt03RxfSlUes8uhJnfDtoIuCh_Hq2AL-2zCkCOOX-7tYRa8riQobwuUS5Q&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCYQAQ&uoh=1",
+      "displayed_link": "https://www.gorgeousfamilyspa.com",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAABRUlEQVR4AYXQAwwWWgCA0fvj2UaYGrM1L3vInrJt27Zt2zaHbNvmya67nW-6Dq_G-kSVX0lCE-axhnWsf2ksBfieKO8s_pby7GIxtShEbopSn6kcYQZVib5a_CNduUx3EhMlEIjxL9lpxRnm8XWQKPW5Rwe-JnxCnAy0ZR6_BUnBEfaRgPCp8eo25KEb_wSpyBUmEfv8YuB3MhIP0pd79OFLi78iTiAQCTKZR1_agOS0ph8jGU7rIJN4xERin9kgGSVpyQ1OUCxIH26xm7_43BNilOUMs1_9QU32c4f8X_oHSnCOycSC5GEET5jHL1_YpAwXmUo8SCLKs5VHdOJ7wid04AGz-TpIhDRUYj23GUUaviNKnH8ox15WUo3Y25-TiqJ0YjWbmMhAhjGPZbQgBd_zwQf9TRaKUIv29KUHtcnK94RXngJClVtDzWd5QAAAAABJRU5ErkJggg.png",
+      "snippet": "Gorgeous Family Salon is one of a kind. 82, 2nd Floor, +91 97507 23333. Main Road, Bharathi Nagar, Katpadi,( Opp to KFC. Katpadi : +91 78877 56789 info@ ...",
+      "snippet_highlighted_words": [
+        "Salon",
+        "Katpadi",
+        "Katpadi"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Gorgeous Family Salon is one of a kind. 82, 2nd Floor, +91 97507 23333. Main Road, Bharathi Nagar, Katpadi,( Opp to KFC. Katpadi : +91 78877 56789 info@ ...",
+          "source_info_link": "https://www.gorgeousfamilyspa.com/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAABRUlEQVR4AYXQAwwWWgCA0fvj2UaYGrM1L3vInrJt27Zt2zaHbNvmya67nW-6Dq_G-kSVX0lCE-axhnWsf2ksBfieKO8s_pby7GIxtShEbopSn6kcYQZVib5a_CNduUx3EhMlEIjxL9lpxRnm8XWQKPW5Rwe-JnxCnAy0ZR6_BUnBEfaRgPCp8eo25KEb_wSpyBUmEfv8YuB3MhIP0pd79OFLi78iTiAQCTKZR1_agOS0ph8jGU7rIJN4xERin9kgGSVpyQ1OUCxIH26xm7_43BNilOUMs1_9QU32c4f8X_oHSnCOycSC5GEET5jHL1_YpAwXmUo8SCLKs5VHdOJ7wid04AGz-TpIhDRUYj23GUUaviNKnH8ox15WUo3Y25-TiqJ0YjWbmMhAhjGPZbQgBd_zwQf9TRaKUIv29KUHtcnK94RXngJClVtDzWd5QAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Gorgeous Family Salon"
+    },
+    {
+      "position": 5,
+      "title": "Best Salons in Katpadi, Vellore — Haircut Prices, Photos & ...",
+      "link": "https://magicpin.in/india/Vellore/Katpadi/Salon/?srsltid=AU7gw4XV6v22coNx_Nz6jklcg_HNJ9QUwbfox4_1z74YiMMHBxGwiF7T",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESqQEB6zswFRTSBHgeCjEE3vTjN0u5P2H9A1CucbX-af_IXl4i8Slmu-iNUCq78LwXMdwqIapvGZcHtlOnUfNxlpRQmzCOpX2fWFtinmQFfADjB6ae34jminJcHlXC1hXtb-1UNyh1K6OQMTQZhTfBpO2iuRGsJhg-heSvguIVZ6d1bYixkbzpy8cIlAzSmMMULIuWOZZdMZArR2y9-CmzmYtvCJ2Nir87tqkS&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCcQAQ&uoh=1",
+      "displayed_link": "https://magicpin.in › India › Vellore › Katpadi",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAV1BMVEVHcEzqJXXpIHPuJ3jpInTqJXXrJXbqJnXpIHPpHnLqJXT____pGXLoBWrqK3r3u9L85_D98Pb-_v7rO4L--PvuXJTwcaLtTIz72ebxgqz5y932rMf0m71dI1pdAAAAC3RSTlMAU9EOsG8gOun3j9KEG_YAAAFxSURBVCiRdZLZmoIwDIURUVqzdN95_-ecoDijfk6uoH9PTpJmmp5xvSxKa7VcrtNnXG8KkUNgRHX7wKtCzqZaW01mVOsrO2lsFiA65wFqQ3160Wk0AL0V5tI6wKA_7XnmATYj7Z6kJcem5_MBL9jAJuJt99yQkoOMl0OogoNA2YO31kPMVMCyekhPIhyUozcphGTAJTLQ8OF6wx4LV2iEzEQbVEzRHHkXdpUaGArGORNElrFaXu5wDgJMTFhBomP2g3o84BLEsjvOAF6KSsHJXf-EHA11y02Y0LxDuXs72qyVtphK3JUx5Lih7UdBK45YUhw0xNJvZJz8bUcr0yyVC8lSp7jvTQufn28ip4m7zzg2ymAwC_99lyVUl1Aoia5jcv2o9b4GMl0rWtda7JycDfPLMqy6yImMECrLV3lfhasu1hVtBpZYgz5Pb7GqXYGY7KfukVm8cv7KHhTAFv2F3asy5qvuPgzZ6_-YaJfljf0AXswenXpGqTQAAAAASUVORK5CYII.png",
+      "snippet": "Find top salons and beauty parlours in Katpadi, Vellore. Browse real photos, check haircut and treatment prices before booking. Exclusive cashback on every ...",
+      "snippet_highlighted_words": [
+        "Find top salons and beauty parlours in Katpadi"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Find top salons and beauty parlours in Katpadi, Vellore. Browse real photos, check haircut and treatment prices before booking. Exclusive cashback on every ...",
+          "source_info_link": "https://magicpin.in/india/Vellore/Katpadi/Salon/?srsltid=AU7gw4XV6v22coNx_Nz6jklcg_HNJ9QUwbfox4_1z74YiMMHBxGwiF7T",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAV1BMVEVHcEzqJXXpIHPuJ3jpInTqJXXrJXbqJnXpIHPpHnLqJXT____pGXLoBWrqK3r3u9L85_D98Pb-_v7rO4L--PvuXJTwcaLtTIz72ebxgqz5y932rMf0m71dI1pdAAAAC3RSTlMAU9EOsG8gOun3j9KEG_YAAAFxSURBVCiRdZLZmoIwDIURUVqzdN95_-ecoDijfk6uoH9PTpJmmp5xvSxKa7VcrtNnXG8KkUNgRHX7wKtCzqZaW01mVOsrO2lsFiA65wFqQ3160Wk0AL0V5tI6wKA_7XnmATYj7Z6kJcem5_MBL9jAJuJt99yQkoOMl0OogoNA2YO31kPMVMCyekhPIhyUozcphGTAJTLQ8OF6wx4LV2iEzEQbVEzRHHkXdpUaGArGORNElrFaXu5wDgJMTFhBomP2g3o84BLEsjvOAF6KSsHJXf-EHA11y02Y0LxDuXs72qyVtphK3JUx5Lih7UdBK45YUhw0xNJvZJz8bUcr0yyVC8lSp7jvTQufn28ip4m7zzg2ymAwC_99lyVUl1Aoia5jcv2o9b4GMl0rWtda7JycDfPLMqy6yImMECrLV3lfhasu1hVtBpZYgz5Pb7GqXYGY7KfukVm8cv7KHhTAFv2F3asy5qvuPgzZ6_-YaJfljf0AXswenXpGqTQAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "magicpin"
+    },
+    {
+      "position": 6,
+      "title": "Toni & Guy in Katpadi, Vellore",
+      "link": "https://toniandguysalon.in/salon-in-katpadi/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZAHrOzAViPrQZGqfFSs2BpJIDkoUE8zJY2eBhW3eEW-vReBm2W8bZdOGl1_9xOdsq83roKINoO_BkI-NFx7Fu9vY0OKGAZ3TcFTiK1LPBpMYMpRoiH9WHjazZaffL6SJeAOabMc&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCgQAQ&uoh=1",
+      "displayed_link": "https://toniandguysalon.in › salon-in-katpadi",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA-UlEQVR4AX3SIYiEQBSA4b-nTfZ6zbxFsLPJaBMumyx2uY7Nds1svC4Y7DDFbDCZTO_EmZubx7L71495PHiDvOnCJU6S1BdPCjtUPwpbVIPCdZqnaU6gmcezTaEtg15UGtttf4EJV5V5xgFfcYjGirBVYclVPfYZAJtDPzOy25ob8BEgwFjAt5wdESz_2AO1PBzKYqc6zIDdo88ikMkL3IHmwr6J71dx94cb8GWxxNWGY3ORLMTO4x2w2OVF8ZkCgzp2e6JbqAGMxx1gzh0a4CYO3VMiixNAH6CkXDVmeACk-mQJQfGhURp81fM3WWtL5SIaXZsxqwT9AuN59mWhCFVDAAAAAElFTkSuQmCC.png",
+      "snippet": "Toni & Guy in Katpadi, Vellore. Email toniandguykatpadi@gmail.com Phone 06381927370 ・ 30, First East Main Road, 2nd Cross Rd, Gandhi Nagar, Vellore, 09:00 AM ...",
+      "snippet_highlighted_words": [
+        "Toni & Guy in Katpadi, Vellore"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Toni & Guy in Katpadi, Vellore. Email toniandguykatpadi@gmail.com Phone 06381927370 ・ 30, First East Main Road, 2nd Cross Rd, Gandhi Nagar, Vellore, 09:00 AM ...",
+          "source_info_link": "https://toniandguysalon.in/salon-in-katpadi/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA-UlEQVR4AX3SIYiEQBSA4b-nTfZ6zbxFsLPJaBMumyx2uY7Nds1svC4Y7DDFbDCZTO_EmZubx7L71495PHiDvOnCJU6S1BdPCjtUPwpbVIPCdZqnaU6gmcezTaEtg15UGtttf4EJV5V5xgFfcYjGirBVYclVPfYZAJtDPzOy25ob8BEgwFjAt5wdESz_2AO1PBzKYqc6zIDdo88ikMkL3IHmwr6J71dx94cb8GWxxNWGY3ORLMTO4x2w2OVF8ZkCgzp2e6JbqAGMxx1gzh0a4CYO3VMiixNAH6CkXDVmeACk-mQJQfGhURp81fM3WWtL5SIaXZsxqwT9AuN59mWhCFVDAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "toniandguysalon.in"
+    },
+    {
+      "position": 7,
+      "title": "Top Beauty Parlours in Katpadi - Vellore",
+      "link": "https://www.justdial.com/Vellore/Beauty-Parlours-in-Katpadi/nct-10042247",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgAEB6zswFTRX4qbQHsLYUiB6qdrvKJdNUuDYSq_A0aWDE1myKwEWM0npJWe0iuWrgF9iGKLtmUj3QO8p581UMQ1CGJM1BW635lDArFS2DLw1jAKH3cI4XYHMczjYArW5T5dIIqKL8t895qENxZx0AGri4_zegTm8BqQK7KIXv1jAqA&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECFgQAQ&uoh=1",
+      "displayed_link": "https://www.justdial.com › ... › 79+ Listings",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX9__z_5dHT5fSLvuX_pmf_awL_uYRyq9YMdcD_l0dKnNU8kNH-gBz_iTT_0K28hCtuAAAAWElEQVR4AWNAA4wgQhmIXROARIUBA8NUEGMFjLHDICfyKljELDQ0FMywCeGDMEwDGK5CGSDFTAw7TMMYgVIcXR0qoVOBDPaOdgbXmDkPGBiUFBgYBRiwAACC6Rgw_7hHtwAAAABJRU5ErkJggg.png",
+      "snippet": "Popular Beauty Parlours in Katpadi, Vellore · Naturals Family Salon · Renew Bridal Studio & Academy · Cloud 9 Professional & Traditional Family Spa · Ah Salon - The ...",
+      "snippet_highlighted_words": [
+        "Popular Beauty Parlours in Katpadi, Vellore"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Popular Beauty Parlours in Katpadi, Vellore · Naturals Family Salon · Renew Bridal Studio & Academy · Cloud 9 Professional & Traditional Family Spa · Ah Salon - The ...",
+          "source_info_link": "https://www.justdial.com/Vellore/Beauty-Parlours-in-Katpadi/nct-10042247",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX9__z_5dHT5fSLvuX_pmf_awL_uYRyq9YMdcD_l0dKnNU8kNH-gBz_iTT_0K28hCtuAAAAWElEQVR4AWNAA4wgQhmIXROARIUBA8NUEGMFjLHDICfyKljELDQ0FMywCeGDMEwDGK5CGSDFTAw7TMMYgVIcXR0qoVOBDPaOdgbXmDkPGBiUFBgYBRiwAACC6Rgw_7hHtwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Justdial",
+      "read_more_link": "https://www.justdial.com/Vellore/Beauty-Parlours-in-Katpadi/nct-10042247#:~:text=Popular%20Beauty%20Parlours%20in%20Katpadi%2C,Vellore&text=Naturals%20Family%20Salon&text=Renew%20Bridal%20Studio%20%26%20Academy&text=Cloud%209%20Professional%20%26%20Traditional,Family%20Spa&text=Ah%20Salon%20%2D%20The%20American,Hair%20Care%20%2D%20Katpadi"
+    },
+    {
+      "position": 8,
+      "title": "Naturals Salon, Gandhi Nagar | Contact store - Official",
+      "link": "https://salons.naturals.in/naturals-salon-beauty-salons-gandhi-nagar-vellore-289498/Contact-Us",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFfECWfd8OVHWlwmMsuG69SP6vItUbz_t6i9QJlEUS9QqvyXoX3MBmQjuoyi2HaFm-Fn9Jad6qR3z5xZyLA-1ewz07UZ_If9HzLEbF0T-YHLthLXR-nLqsJYWTa-BNxt_d5D0D7XTgdToRMp7DlL2fqTRVm1dXYY4iHVo1akW_14Bq3f3mbyoat9pcucchIJNdl4&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://salons.naturals.in › ... › Naturals Salon",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAbFBMVEWBRZuAQ5p_QpuCRpt9P5mDS52OWqWvi8CHT6ChebbHr9Tg0ebl2-qdb6-TYKi6nMrq3-24lsd9PZiXZarWxd_____28ffw6_TayuLh1ejczOP59_ujeLeshb11NZJtLY_DqM_h1ueKU6TOutoHBUO3AAABFklEQVR4Ac2RBaKkMAxAK6kMTnC3-59xpCyLffeHpvGEvAIl74bOzL-M8JMaqBCCAbD7A1Lpgx7ExbId21KuJz3XD0I86KM4-UeapUmSM0a2oBckWwqJfB-g3KqrWCLZgXVqx3FsB2lVVUGuOK61m5GAunBEEF7dqCYSLfzXtw-AMNaBELztuoeMdMnPRNj3vXVp6cUqi6GIexeQ87U8GE3t_jilyUxmaSTkaBDbyUqsgW4MHNPV_R6KZRAhsoPBnd4TQrj5HELAycBnyCjDyFRij3g0CKTxwXF4xqDUxoCNxScNQD-XIv_7BmsX66AO2yxGY8AWaTVgvG7u1Nzsj4paPSRByQqFO2w5gUVaoXcIXSUjv5UbHIIlC2XxmAIAAAAASUVORK5CYII.png",
+      "snippet": "Naturals Salon, Gandhi Nagar, Vellore. Connect with us at +9173395136xx. 2nd Floor, 1st East Main. Open until 09:00 PM Open Now Wed 10:00 AM - 09:00 PM. Sat 10 ...",
+      "snippet_highlighted_words": [
+        "2nd"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Naturals Salon, Gandhi Nagar, Vellore. Connect with us at +9173395136xx. 2nd Floor, 1st East Main. Open until 09:00 PM Open Now Wed 10:00 AM - 09:00 PM. Sat 10 ...",
+          "source_info_link": "https://salons.naturals.in/naturals-salon-beauty-salons-gandhi-nagar-vellore-289498/Contact-Us",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAbFBMVEWBRZuAQ5p_QpuCRpt9P5mDS52OWqWvi8CHT6ChebbHr9Tg0ebl2-qdb6-TYKi6nMrq3-24lsd9PZiXZarWxd_____28ffw6_TayuLh1ejczOP59_ujeLeshb11NZJtLY_DqM_h1ueKU6TOutoHBUO3AAABFklEQVR4Ac2RBaKkMAxAK6kMTnC3-59xpCyLffeHpvGEvAIl74bOzL-M8JMaqBCCAbD7A1Lpgx7ExbId21KuJz3XD0I86KM4-UeapUmSM0a2oBckWwqJfB-g3KqrWCLZgXVqx3FsB2lVVUGuOK61m5GAunBEEF7dqCYSLfzXtw-AMNaBELztuoeMdMnPRNj3vXVp6cUqi6GIexeQ87U8GE3t_jilyUxmaSTkaBDbyUqsgW4MHNPV_R6KZRAhsoPBnd4TQrj5HELAycBnyCjDyFRij3g0CKTxwXF4xqDUxoCNxScNQD-XIv_7BmsX66AO2yxGY8AWaTVgvG7u1Nzsj4paPSRByQqFO2w5gUVaoXcIXSUjv5UbHIIlC2XxmAIAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Naturals Salon"
+    },
+    {
+      "position": 9,
+      "title": "Gorgeous Family Salon | Vellore",
+      "link": "https://www.facebook.com/gorgeousfamilyspa/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYwHrOzAVwj1kU7wVWfjKcYjR-IGR1lqhLUoNoNH88ZmslvHCJ2mOkTHWZapIbUEKqo71cM-Oo8WSHQRN94x5v7lSPIZATLNhQ29QtioWmqfxkRQDV_DKla84U5eB-Fs891BUEQ&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQFnoECCkQAQ&uoh=1",
+      "displayed_link": "3.2K+ followers",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "snippet": "Our professional Hair Smoothening service helps you achieve a polished look with long- lasting softness and shine. Gorgeous Family Salon | Vellore • Katpadi ...",
+      "snippet_highlighted_words": [
+        "Gorgeous Family Salon | Vellore • Katpadi"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 5,
+            "reviews": 11
+          },
+          "extensions": [
+            "5.0(11)"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Our professional Hair Smoothening service helps you achieve a polished look with long- lasting softness and shine. Gorgeous Family Salon | Vellore • Katpadi ...",
+          "source_info_link": "https://www.facebook.com/gorgeousfamilyspa/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Facebook · Gorgeous Family Salon",
+      "read_more_link": "https://www.facebook.com/gorgeousfamilyspa/#:~:text=Our%20professional%20Hair%20Smoothening%20service,Salon%20%7C%20Vellore%20%E2%80%A2%20Katpadi"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Salon in katpadi vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Salon+in+katpadi+vellore&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhSEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Salon+in+katpadi+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Salon in katpadi price list",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Salon+in+katpadi+price+list&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhXEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Salon+in+katpadi+price+list"
+    },
+    {
+      "block_position": 1,
+      "query": "Best salon in katpadi",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Best+salon+in+katpadi&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhWEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+salon+in+katpadi"
+    },
+    {
+      "block_position": 1,
+      "query": "Naturals Katpadi",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Naturals+Katpadi&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhUEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Naturals+Katpadi"
+    },
+    {
+      "block_position": 1,
+      "query": "Services offered by lakme salon katpadi",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Services+offered+by+lakme+salon+katpadi&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhTEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Services+offered+by+lakme+salon+katpadi"
+    },
+    {
+      "block_position": 1,
+      "query": "Gorgeous Salon Katpadi",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Gorgeous+Salon+Katpadi&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhVEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Gorgeous+Salon+Katpadi"
+    },
+    {
+      "block_position": 1,
+      "query": "Salon in Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Salon+in+Vellore&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhQEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Salon+in+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Lakme Salon katpadi photos",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Lakme+Salon+katpadi+photos&sa=X&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ1QJ6BAhREAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Lakme+Salon+katpadi+photos"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=10&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8NMDegQIQhAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=10&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAE",
+      "3": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=20&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAG",
+      "4": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=30&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAI",
+      "5": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=40&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAK",
+      "6": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=50&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAM",
+      "7": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=60&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAO",
+      "8": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=70&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAQ",
+      "9": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=80&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAS",
+      "10": "https://www.google.com/search?q=salon+in+Katpadi&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=6eCsarPBAv7k0PEPndmcuAU&start=90&sa=N&sstk=AS6-VmLFUaaWR-LTLFbeJuY6ICTmwP-LO9BqKeN36hwKeGNj-s5fXVuOF60TeOK-lajOZITV9S6ch_UU32g9XxvebPKGnUStA2-0rw&ved=2ahUKEwjz2e_WxveWAxV-MjQIHZ0sB1cQ8tMDegQIQhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=salon+in+Katpadi&start=90"
+    }
+  }
+}

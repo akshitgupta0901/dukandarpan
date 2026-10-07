@@ -1,0 +1,964 @@
+{
+  "search_metadata": {
+    "id": "6aace0dcf8cc78ffcd5c0b22",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/_sDRDmUxz3TVzIDlCkv_oefBrOJBCKWaSYKLBausMjo/6aace0dcf8cc78ffcd5c0b22.json",
+    "markdown_endpoint": "https://serpapi.com/searches/_sDRDmUxz3TVzIDlCkv_oefBrOJBCKWaSYKLBausMjo/6aace0dcf8cc78ffcd5c0b22.md",
+    "created_at": "2026-09-18 06:57:32 UTC",
+    "processed_at": "2026-09-18 06:57:32 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/restaurant+near+VIT+Vellore/@12.9680,79.1503,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/_sDRDmUxz3TVzIDlCkv_oefBrOJBCKWaSYKLBausMjo/6aace0dcf8cc78ffcd5c0b22.html",
+    "prettify_html_file": "https://serpapi.com/searches/_sDRDmUxz3TVzIDlCkv_oefBrOJBCKWaSYKLBausMjo/6aace0dcf8cc78ffcd5c0b22.prettify",
+    "total_time_taken": 0.8
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "restaurant near VIT Vellore",
+    "ll": "@12.9680,79.1503,14z",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "restaurant near VIT Vellore"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Zaitoon Restaurant, Vellore",
+      "place_id": "ChIJWV3IY_dHrTsRJH_TSU97Ty8",
+      "data_id": "0x3bad47f763c85d59:0x2f4f7b4f49d37f24",
+      "data_cid": "3409079023413985060",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f763c85d59%3A0x2f4f7b4f49d37f24&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f763c85d59%3A0x2f4f7b4f49d37f24&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9680894,
+        "longitude": 79.1503738
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWV3IY_dHrTsRJH_TSU97Ty8",
+      "provider_id": "/g/11k3d4cz59",
+      "rating": 4.8,
+      "reviews": 11799,
+      "type": "Middle Eastern restaurant",
+      "types": [
+        "Middle Eastern restaurant",
+        "Chinese restaurant"
+      ],
+      "address": "1st floor, Selvam Square, Tiruvalam Rd, Selvam Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 PM",
+      "hours": "Open · Closes 11:30 PM",
+      "operating_hours": {
+        "friday": "11 AM–11:30 PM",
+        "saturday": "11 AM–11:30 PM",
+        "sunday": "11 AM–11:30 PM",
+        "monday": "11 AM–11:30 PM",
+        "tuesday": "11 AM–11:30 PM",
+        "wednesday": "11 AM–11:30 PM",
+        "thursday": "11 AM–11:30 PM"
+      },
+      "phone": "+91 90871 11211",
+      "website": "https://www.thezaitoon.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrM2Q0Y3o1ORgBOgMI8A0%3D&g2lbs=AEzIGDt6UuKTncrs6nAcn47-8T0IpW19vgS0PWVkD7vm9xVfQrbKFouxeFDFjHt2K-YIm5yk6GWI&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYWIvlGPFhp9LoWduBa8F1ExsE6HgLhJDLUe1uco-C3HL_9okVdpkmE2kpOpf4yjXavp2SGCxchbAuOLOoONd4_2Vj8SLpoqiBDvSeAv_hDjNbzSZwj445JmRT3uWYBka_ORf7dA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NUo28XicHcRJDoIwFADQE1VGx8QFCIqmsQZU1A3BUqlMv1qKww09grcx8S3e98PbVsiJplXc6uUAecWUZHcKTcuatkeh1nIhEZVIak4QbrZxc4yXXbXYzLkYY4gz5aajueE_pT8IcsxXHt4xQ1FAMyvAyRjKfSbK2jdLQcTFfhWHtBNmtJg9KT87imACZJ3ZibkvRhEWcLu6Xhcxp0u4V6zP7-j0KGy7v6rDraXio1umCQkvw8yZPgxd1xH_T1HzAxecRdc"
+    },
+    {
+      "position": 2,
+      "title": "One Food World",
+      "place_id": "ChIJN8XWTlBHrTsRl6hvRP600Cs",
+      "data_id": "0x3bad47504ed6c537:0x2bd0b4fe446fa897",
+      "data_cid": "3157222342949578903",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47504ed6c537%3A0x2bd0b4fe446fa897&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47504ed6c537%3A0x2bd0b4fe446fa897&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9726758,
+        "longitude": 79.1569475
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJN8XWTlBHrTsRl6hvRP600Cs",
+      "provider_id": "/g/11rqj47gy_",
+      "rating": 4.7,
+      "reviews": 359,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "address": "Gorbachev Rd, VIT University, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "website": "https://www.instagram.com/one_food_world_vit?igsh=OGQ5ZDc2ODk2ZA==",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmeItSpgaIiHyP6zy-sSEeUF4s7Mev8vm8qfKHzzXBexB-8W_oL3CK-0bdDHYC2e7dDizeGPAns0lowGAjERwFiO9PhHo7bHkHzsrPRPJnVw_lYC2iX4TVNh9PJ3sjkupyEgSeg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/csj0ZnicHcvNssEwGADQJ4rmqtEyY1FVgnvJtH5XhvpuUtqkfKGaF_QM3oaxObvzekpjSuw6Ti7dhtBa5HBDuKZaGVCmkerCESWSFAk6AYv5Yl3A2CSl2I8zVvO2rQkmESyHLfT-4O7fC__yP2XWbvrw6BN_vdO_bjgl9HAcsG3YBO84yCyMeKCQ5roaBacorobZvMMl096BnZnFK4_5RK2qXf4Z2aa1WM1kh09cPJ1vZR2JBESv-qGUEvk1JeoNkatFWg"
+    },
+    {
+      "position": 3,
+      "title": "Kailash Parbat",
+      "place_id": "ChIJBZ9Zn4s5rTsRqamTHguKEnE",
+      "data_id": "0x3bad398b9f599f05:0x71128a0b1e93a9a9",
+      "data_cid": "8147726456228915625",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad398b9f599f05%3A0x71128a0b1e93a9a9&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad398b9f599f05%3A0x71128a0b1e93a9a9&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9378655,
+        "longitude": 79.16534949999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBZ9Zn4s5rTsRqamTHguKEnE",
+      "provider_id": "/g/11pz8lnf08",
+      "rating": 4.7,
+      "reviews": 5711,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant",
+        "North Indian restaurant"
+      ],
+      "address": "C8 & C9 Phase 1, Arcot Rd, TNHB, Sathuvachari, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "11 AM–11 PM",
+        "saturday": "11 AM–11 PM",
+        "sunday": "11 AM–11 PM",
+        "monday": "11 AM–11 PM",
+        "tuesday": "11 AM–11 PM",
+        "wednesday": "11 AM–11 PM",
+        "thursday": "11 AM–11 PM"
+      },
+      "phone": "+91 74491 12244",
+      "website": "http://www.kailashparbatgroup.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwejhsbmYwOBgBOgMI8A0%3D&g2lbs=AEzIGDtbMnejOh1hhJHNUFoUC0p4D_QXCvJh2B-tc7JN2ZfE6c4sQFqPCR4FYB_qW1AAgQNMsPuE&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmji73_ZrX0ANJpK501yUhrVDR6fzIhUXC5w_FVvrNgcJ9LRdTgiMExUz8DinrNUwedDk1ITauQJoAxYhMP5m87Tpco2z3cNgt9QhR270RFfP4DBPyVe773A6hz7NTRleWV4-P_vQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/z0wHGHicHcTRroIgAADQLyIxM6qtB--1VlYMGVr3vrhGBJaKA8ryD_uE_qat83DeL-Vca2eeV6lgILWWlbhZYbhunGjcgOvak60F3ALrRStK2L6-lCgo_s0BRjhpNyH0n5kyeUzH536tssNv2BXL_G6w5Ml0S09MlrvFI-sncdkYnHXiFF_9NTve0kRHjz-1I2E9QazletgHHEs3TRUdIkiXZzKKf8gzFwgF0Vj1CDNaiX0-AqS4p_POhxAC9Z2D5gPL6URq"
+    },
+    {
+      "position": 4,
+      "title": "Eato Restaurant",
+      "place_id": "ChIJl2OrcQBHrTsRdioMK8leRhM",
+      "data_id": "0x3bad470071ab6397:0x13465ec92b0c2a76",
+      "data_cid": "1388901753194031734",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad470071ab6397%3A0x13465ec92b0c2a76&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad470071ab6397%3A0x13465ec92b0c2a76&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9680286,
+        "longitude": 79.1494783
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJl2OrcQBHrTsRdioMK8leRhM",
+      "provider_id": "/g/11zd8dd98v",
+      "rating": 4.9,
+      "reviews": 48,
+      "type": "Family restaurant",
+      "types": [
+        "Family restaurant"
+      ],
+      "address": "Varahi Complex, near VIT University, Solai Nagar, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "11 AM–11 PM",
+        "saturday": "11 AM–11 PM",
+        "sunday": "11 AM–11 PM",
+        "monday": "11 AM–11 PM",
+        "tuesday": "11 AM–11 PM",
+        "wednesday": "11 AM–11 PM",
+        "thursday": "11 AM–11 PM"
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmx170K_rCM2h1AIER3Egihhqbdw09dbi-XwX4yEc6htPLZB5p8lzLnPKAtBQ9Hrg1EBek1BSGXkXkMRrIkjaYHlP-S_pnaaKT89LE3Sw3pc7UCW3ascZKsZIZGcHilH-UUr7YkQlj4TD1d=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/JVPnFHicHcTNboMgAADgJ6LCaGtdsoN2pBhtYv1JrZfGogELRQYsbnvJnfc2TfYdvr9f4b1xr0GgBF7xeeZq_HSjZbP2o_YrNj8CbhxgDrggpmVRnx9fKITZ1e6PLwLFKSkx4ZMQH7dhgdFwm0C7tOtvwrbCF3mXbMxO_eS6yGKfnCJqOSLJKFFSHVrZymNpU3nvL1QVoLoa3fdZvYtygqsFGxY2-zPuHesy16XdgdFJUdA0NrzIk7qv63c0vC0IQgjE_wzoJzCNRi8"
+    },
+    {
+      "position": 5,
+      "title": "Masaledaar Dhaba - Vellore",
+      "place_id": "ChIJkTKHjERHrTsRMqcq6tgM4p8",
+      "data_id": "0x3bad47448c873291:0x9fe20cd8ea2aa732",
+      "data_cid": "11520784922548283186",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47448c873291%3A0x9fe20cd8ea2aa732&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47448c873291%3A0x9fe20cd8ea2aa732&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9680699,
+        "longitude": 79.14928189999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJkTKHjERHrTsRMqcq6tgM4p8",
+      "provider_id": "/g/11yhjx4mhn",
+      "rating": 4.7,
+      "reviews": 400,
+      "type": "North Indian restaurant",
+      "types": [
+        "North Indian restaurant",
+        "Restaurant"
+      ],
+      "address": "Ashokan plaza, VIT Rd, Solai Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 3:30 PM · Reopens 7 PM",
+      "hours": "Open · Closes 3:30 PM · Reopens 7 PM",
+      "operating_hours": {
+        "friday": "11:30 AM–3:30 PM, 7–11:30 PM",
+        "saturday": "11:30 AM–3:30 PM, 7–11:30 PM",
+        "sunday": "11:30 AM–3:30 PM, 7–11:30 PM",
+        "monday": "11:30 AM–3:30 PM, 7–11:30 PM",
+        "tuesday": "11:30 AM–3:30 PM, 7–11:30 PM",
+        "wednesday": "11:30 AM–3:30 PM, 7–11 PM",
+        "thursday": "11:30 AM–3:30 PM, 7–11:30 PM"
+      },
+      "phone": "+91 95972 96611",
+      "website": "http://www.masaledaar.in/",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5aGp4NG1obhgBOgMI8A0%3D&g2lbs=AEzIGDvyk4p89hPDKdpAtX5nPcbE7cpNYzt1W2T96YQkFML9-bA0of8G8gCT4dKAg33OIWiaqaXw&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwjdwAmRasCvgalJbY1xqu91OQSIHzi5DyuJwf79KmUHJX2H5Ks0GtHTcyE761vabrTgjSqGR5FdJqnQa_2V5xdYnRwugdtms-H89q3CYkOCNACkKw66_OzXZqMzyymS7mBZ7RsvGMRIfo=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/H2teSHicHcTBboIwGADgJ6qABhhLdmC4USGOWdgULwYLliltrX-hwkt63tss2Xf4fh-t1ld4tqyuXcyYlKxremhuVArdCD2jklvsCogCAivE5LPYcnOuTchJBdHAqi45ls5d9YGTbfIVnn7c5dgn5uQHKf_CyW6O3RTsWOOCjm--5wzV8Vawc65i4r7XiRKb6jD_du91KYjpWa05IPwUqEVUXrLoI4wuqfG8Qzbt9mo9jSPPff669wkM8ZqsTvLFOLZto_Z_isQfDGxIZg"
+    },
+    {
+      "position": 6,
+      "title": "Hot Stone Kitchen",
+      "place_id": "ChIJQfY9mfhHrTsRHJU55B8Y4W4",
+      "data_id": "0x3bad47f8993df641:0x6ee1181fe439951c",
+      "data_cid": "7989693739184002332",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f8993df641%3A0x6ee1181fe439951c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f8993df641%3A0x6ee1181fe439951c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.968199,
+        "longitude": 79.1537549
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQfY9mfhHrTsRHJU55B8Y4W4",
+      "provider_id": "/g/11fmzk37gv",
+      "rating": 4.4,
+      "reviews": 844,
+      "type": "Italian restaurant",
+      "types": [
+        "Italian restaurant",
+        "Italian grocery store"
+      ],
+      "address": "near VIT, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "12–10 PM",
+        "saturday": "12–10 PM",
+        "sunday": "12–10 PM",
+        "monday": "12–10 PM",
+        "tuesday": "12–10 PM",
+        "wednesday": "12–10 PM",
+        "thursday": "12–10 PM"
+      },
+      "phone": "+91 99626 76676",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmbXprMzdndhgBOgMI8A0%3D&g2lbs=AEzIGDtRqEjUxqR9a_5bv6zybUlG-st9NH5gBFRatkYAYxIpn4UUFZq0p7A5_AWkfalwi9Vxzcv8&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOhmm4LJMoHgbnxHge7NWBjvSHu1Ycu775552hpEjIVA_4NGjkjO01Xilf5R1ThPVJIj8TRfBiFh5DcJMgNPOG6sObIFzUEjPGTZcFk_gXPVQDXbqoEcjMp7R59VhCVhvYJ9PZAE_JcUUI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Cyu5mHicHcTdboIwGADQJ0Jg2jGXeIGTv2ZAh1DRGxK-YD8rUFxBF1_Sa9_GZOfiPB84joP-NM0W5zOhlGibSTe_oPqx6ccZqM4UgzZAG9p0w4zluzbFrlt801iFou7_QtE4yW4tr9twsvcwOQ4h5A0HT0bcrRZJIM8ytezy1B5JZufIOI3kR54d1ycfyQZoLBKWBu86rSP_XniSBfkB_HMlSsZ_NmV9UR7IeHAysuT4xfG6p0t2cL2KQlFEq5ttWZaB_4PRvwBIgUYt"
+    },
+    {
+      "position": 7,
+      "title": "The Vellore Kitchen",
+      "place_id": "ChIJL3EU1JA4rTsRsK1OmLomSfg",
+      "data_id": "0x3bad3890d414712f:0xf84926ba984eadb0",
+      "data_cid": "17890873577567071664",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3890d414712f%3A0xf84926ba984eadb0&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3890d414712f%3A0xf84926ba984eadb0&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.931508899999999,
+        "longitude": 79.1362734
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL3EU1JA4rTsRsK1OmLomSfg",
+      "provider_id": "/g/1232pvvx8",
+      "rating": 4,
+      "reviews": 18108,
+      "type": "Non vegetarian restaurant",
+      "types": [
+        "Non vegetarian restaurant",
+        "Biryani restaurant"
+      ],
+      "address": "W4GJ+228, New Bangalore Service Road, No: 1, Near Green Circle, NH 46 Service Rd, Vellore, Tamil Nadu 632004, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "6:30 AM–10:30 PM",
+        "saturday": "6:30 AM–10:30 PM",
+        "sunday": "6:30 AM–10:30 PM",
+        "monday": "6:30 AM–10:30 PM",
+        "tuesday": "6:30 AM–10:30 PM",
+        "wednesday": "6:30 AM–10:30 PM",
+        "thursday": "6:30 AM–10:30 PM"
+      },
+      "phone": "+91 89405 89405",
+      "website": "https://www.thevellorekitchen.in/",
+      "description": "Light, family Indian & Asian restaurant. Indian and Asian dishes are served at this family-focused diner with high ceilings and big windows.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiYKJOICITIfEhgiFtLX29IPEAoML2cvMTIzMnB2dng4GAA6AwjwDQ%3D%3D&g2lbs=AEzIGDtGCKHoczN9XcGnXsJxJdDI1i4P_VRodKA0AaK4rfA_7PwBCHuvlew8Vg6kjBK-IR_ZtsCO&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmvHyRpcMbMA696W8cnF7MG7pfvdpjbx8GhBS7tfkX4Ab5GInathPXWy0kRkrdw0OnIRqyJBSr2Jw7KQB6dW90otjwLLPb80OS5vM-MPpqMvoZhtOQV-2onM7FsGL9dZoKiGS4=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/mjVpInicHcRLEoIgAADQE5FUKtpMC12IlYymTTruEj-UBSSkecHu0G2a6S3e98O0lmpjGHe2XnRCdPfmpZqBCq4brhdUPIxOKkAVUIYXpskpf4zhnEpKKuLZrp07lAeIYCTbsZa36u1g5mdIt31hepWFd_yiWVLkM-zTfqgnGPNd-pz3fjas9hM6HH27zl0o9G2KoqRyYJxZIwEkkU8yipLp-HgGK8EJChSO3LoUhyvOzO20hBAC9p8C_gMZu0P4"
+    },
+    {
+      "position": 8,
+      "title": "PNS NAKSHATRA - VRINDAVAN - Veg Fine Dining in Vellore",
+      "place_id": "ChIJYy8Hask5rTsRxVj539Y8fEg",
+      "data_id": "0x3bad39c96a072f63:0x487c3cd6dff958c5",
+      "data_cid": "5223116561421260997",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad39c96a072f63%3A0x487c3cd6dff958c5&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad39c96a072f63%3A0x487c3cd6dff958c5&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9408636,
+        "longitude": 79.1776414
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYy8Hask5rTsRxVj539Y8fEg",
+      "provider_id": "/g/11lm9m53jt",
+      "rating": 4.7,
+      "reviews": 1229,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant",
+        "Andhra restaurant",
+        "Asian restaurant",
+        "Indian restaurant",
+        "Modern Indian restaurant",
+        "North Indian restaurant",
+        "Restaurant",
+        "South Indian restaurant",
+        "Vegan restaurant",
+        "Vegetarian cafe and deli"
+      ],
+      "address": "171, Bengaluru - Chennai Hwy, Rangapuram, Sathuvachari, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "7 AM–11 PM",
+        "saturday": "7 AM–11 PM",
+        "sunday": "7 AM–11 PM",
+        "monday": "7 AM–11 PM",
+        "tuesday": "7 AM–11 PM",
+        "wednesday": "7 AM–11 PM",
+        "thursday": "7 AM–11 PM"
+      },
+      "phone": "+91 75984 98603",
+      "website": "https://www.hotelpnsnakshatra.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2Q5FlnqjFHhUuEAwmrWOqQquBGOS64e8GZxdbalvsEqVMixE6TgybhpOkO62tnYoCIfao8dNVZdkQ4l4P8jWnj8S7sAZJfR8kHodPFG5NGI9y4U4LbsV7dIQwoM0aK8AZ2n7CN2Pyenrn=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/bwxb1XicHcRJboMwFADQExEodcCN1AWNmNqGIQOo7AA7uGC-AZsQTtl1bxMpb_H-_5hSg9zpOmevm0aIhtNZ0qkWoCioTS16vRmkVktN6k5wTM55b6Zbj8PYegG7zK6z9FMej-k4f_jxyUIU-8WdVCW_SXfMDr931zo3a8WGuIstU8GP2IfXUmASZQXpUsRRgtscWnyypVN8Xo-4CwRJPH8b-eHbii7ou5KZTcJ0EQej_MJOYYK9j8xkpTDB-_JiGIbGntcaPADsh0d3"
+    },
+    {
+      "position": 9,
+      "title": "Hart Lounge",
+      "place_id": "ChIJk6i0p59HrTsRMv_jewP0hJQ",
+      "data_id": "0x3bad479fa7b4a893:0x9484f4037be3ff32",
+      "data_cid": "10701946910339759922",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad479fa7b4a893%3A0x9484f4037be3ff32&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad479fa7b4a893%3A0x9484f4037be3ff32&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9674464,
+        "longitude": 79.1574598
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJk6i0p59HrTsRMv_jewP0hJQ",
+      "provider_id": "/g/11c6cqxd1q",
+      "rating": 4.2,
+      "reviews": 2427,
+      "unclaimed_listing": true,
+      "type": "Fast food restaurant",
+      "types": [
+        "Fast food restaurant",
+        "Barbecue restaurant",
+        "Mexican restaurant"
+      ],
+      "address": "No.268, Katpadi, Chennai Salai, VIT Main Road, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "12–11 PM",
+        "saturday": "12–11 PM",
+        "sunday": "12–11 PM",
+        "monday": "12–11 PM",
+        "tuesday": "12–11 PM",
+        "wednesday": "12–11 PM",
+        "thursday": "12–11 PM"
+      },
+      "phone": "+91 96002 94979",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjNmNxeGQxcRgBOgMI8A0%3D&g2lbs=AEzIGDuIX7Ijv0OHchsVLdbyrvdgoQwWpEJSeJd8U5hZG7HpQF7RnHjX-E61okp2BqUCBxSIDDM-&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnvoprRhhPcEmQXSp4iBj5jVpVXtxDx2cf4cfuq9l8cyfK8Ba3R6Y8yLhC3vDx1gUx62H5AehSxmfiqskxcvLpbT1O5u1CXofrmvQKE5rTHsxFcAwkZywzuC_9XOB4iEH2910tM=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/7Ku1EXicHcRJDoIwFADQEyGUwYCJCyZDokYZVHRj9IdSFGilBYoX9AzexsS3eN8PEYLxharWxJiVlJZ10fOiA9qKohUzoI1aMq4AV7jqRsk-O7UDZV1CyB7CJs5TZlbew3oc2TEXMpA6YBNw_3JqGya8tr2bkczP9rQhvjEEEpUHOdcjyy1IKhtcvfhTwrBh9wztrB75OcVdM8Tr0OqyiMsVuOPzMo3v3r86-c4zqzDSHaSJ7XJEmqYp5D8o7Q8E0EXs"
+    },
+    {
+      "position": 10,
+      "title": "Limra Students Restaurant",
+      "place_id": "ChIJRU1PSXVHrTsRHoGw5ykiMBM",
+      "data_id": "0x3bad4775494f4d45:0x13302229e7b0811e",
+      "data_cid": "1382642648978850078",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4775494f4d45%3A0x13302229e7b0811e&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4775494f4d45%3A0x13302229e7b0811e&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9690105,
+        "longitude": 79.1538341
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRU1PSXVHrTsRHoGw5ykiMBM",
+      "provider_id": "/g/11f2w5jkrv",
+      "rating": 4.2,
+      "reviews": 764,
+      "unclaimed_listing": true,
+      "type": "Fast food restaurant",
+      "types": [
+        "Fast food restaurant",
+        "Breakfast restaurant"
+      ],
+      "address": "X593+JG4, VIT University, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "11:30 AM–10 PM",
+        "saturday": "11:30 AM–10 PM",
+        "sunday": "11:30 AM–10 PM",
+        "monday": "11:30 AM–10 PM",
+        "tuesday": "11:30 AM–10 PM",
+        "wednesday": "11:30 AM–10 PM",
+        "thursday": "11:30 AM–10 PM"
+      },
+      "phone": "+91 99447 98518",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmMnc1amtydhgBOgMI8A0%3D&g2lbs=AEzIGDvjwZ6MKca_KXMXQY_n0Z2x9ioA2QJyGsWan9aUu5jvjL5rkK1mDGE7etpMc-5CoLsFij92&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnFsUlWVkSRqfTbL_2tWwZx0vUTfSHmwrezVMrjg9qOBRZQnNVPx3YxCLYucjOa-KujCtC4zZTWLqrVQ_i7Uhl-RGZF3d2N-P3jAXwxjaEeyyImjHsYV9FMmNOFH0SH-1VaaR67=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/pWLeZ3icHcThEoEwAADgJ5pGTsedH3QyJ5VVS_1xmVWmltpSvKBn8DbufD--76dQ6iEXmlYW-iiv67xknWQtrYViQo1oXWn5QwIqgdRWCHtBJCwZlhG5-7jJgot9nqioTwb4DIPMR1Xfsjc5tDyfN-4aJ0fhEG_Q48G0445yNwX7jpvKnL6TILKblhzPNyMsSoC3iaVfJw7wdL469QNPN-z12lUcyZjMrUPluBaCPgJjkqZ4Ziz7MYQQFP8pED8DOUVQ"
+    },
+    {
+      "position": 11,
+      "title": "Hundreds Heritage",
+      "place_id": "ChIJk76VwWNHrTsRVuPDE8Bm4ww",
+      "data_id": "0x3bad4763c195be93:0xce366c013c3e356",
+      "data_cid": "928698923319812950",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4763c195be93%3A0xce366c013c3e356&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4763c195be93%3A0xce366c013c3e356&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.950386,
+        "longitude": 79.13910299999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJk76VwWNHrTsRVuPDE8Bm4ww",
+      "provider_id": "/g/1tzlxdcn",
+      "rating": 4.1,
+      "reviews": 4720,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant",
+        "Biryani restaurant"
+      ],
+      "address": "10, 14th East Cross Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 3:30 PM · Reopens 7:30 PM",
+      "hours": "Open · Closes 3:30 PM · Reopens 7:30 PM",
+      "operating_hours": {
+        "friday": "12–3:30 PM, 7:30–10:30 PM",
+        "saturday": "12–3:30 PM, 7:30–10:30 PM",
+        "sunday": "12–3:30 PM, 7:30–10:30 PM",
+        "monday": "12–3:30 PM, 7:30–10:30 PM",
+        "tuesday": "12–3:30 PM, 7:30–10:30 PM",
+        "wednesday": "12–3:30 PM, 7:30–10:30 PM",
+        "thursday": "12–3:30 PM, 7:30–10:30 PM"
+      },
+      "phone": "+91 96550 57100",
+      "description": "Casual multicuisine restaurant. Multicuisine restaurant featuring North Indian & Chinese cuisine in an easygoing atmosphere.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXR6bHhkY24YAToDCPAN&g2lbs=AEzIGDsazST3Cox_Q48_XCNQWNtcw2Irv_-zprWi0AnDsCFrRhftuXF5nWnCTrK3XHiE3Iz10sMG&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh4.googleusercontent.com/3H-xfPAicgMA0fHDmbUcDWCVqKyRT2jhMBRN85rPPuA7_QvfJS6Oqk57eThuAkYL=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/gfpO_Xicu1mUUVJSUGylr5-TYaKXnp-fnpNaWpxalJyfV5KaV6KXnJ-rb-yhW5EW4JiZnO7raJDm4ZKbFJrsEu4cVuhdGRRilJXh6xTkZ2FaFBBQ6mgeH1iW5hVs5l-YbWqeGpJR6pgd6WNbbmhgYKCbASaTdfMAjQEnIg"
+    },
+    {
+      "position": 12,
+      "title": "Salt and Pepper",
+      "place_id": "ChIJRx8Q7lNHrTsRUrQK0QyreQw",
+      "data_id": "0x3bad4753ee101f47:0xc79ab0cd10ab452",
+      "data_cid": "898937672172221522",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4753ee101f47%3A0xc79ab0cd10ab452&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4753ee101f47%3A0xc79ab0cd10ab452&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.967018699999999,
+        "longitude": 79.1595566
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRx8Q7lNHrTsRUrQK0QyreQw",
+      "provider_id": "/g/11t6xc05nh",
+      "rating": 4.2,
+      "reviews": 162,
+      "type": "Kerala restaurant",
+      "types": [
+        "Kerala restaurant",
+        "Barbecue restaurant"
+      ],
+      "address": "Vit University Vit Guest House, Brahmapuram, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "8 AM–11 PM",
+        "saturday": "8 AM–11 PM",
+        "sunday": "8 AM–11 PM",
+        "monday": "8 AM–11 PM",
+        "tuesday": "8 AM–11 PM",
+        "wednesday": "8 AM–11 PM",
+        "thursday": "8 AM–11 PM"
+      },
+      "phone": "+91 97462 94153",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSiiwqXby87vtckqMHbY-3TAObBGNo24dfGCUZxogUxy6YuKeuJNMo1jd5TwckOtfZysBmjJn9wYZT9Zmw8Dkk59fjSMxKt-WKVWyQqiPS2OIdPOWLC8RR84EUdei27PSoQRPG=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/D-us_nicHcRJDoIwAADAF1U2FTDxIGpQEagsIhwpZYeKLRZe6Bv8jYlzmO-nZOxJN4LQlsqiIKRo8UjxC5Ge4Z4tEOmE4kkBooAKu5MHg6j1q4oPj3TW1DdDzWCf0hgowc5NDdMh8jLLzX2YTKQIp3kdjxYeL45NpDpbBRw1LsuTmRpdfel1HieBnnRcOzTNSs9r354sBiLrHs23oYK-7J4z6EbXveZ52vIYZriSVeiTmwfNLZdEUQTlfwT6H9unRTc"
+    },
+    {
+      "position": 13,
+      "title": "Alankar's Virundhu",
+      "place_id": "ChIJZXOX2-lHrTsRlWmUaakRai8",
+      "data_id": "0x3bad47e9db977365:0x2f6a11a969946995",
+      "data_cid": "3416562686632421781",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47e9db977365%3A0x2f6a11a969946995&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47e9db977365%3A0x2f6a11a969946995&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.953731099999999,
+        "longitude": 79.1368815
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZXOX2-lHrTsRlWmUaakRai8",
+      "provider_id": "/g/11y5_mvchd",
+      "rating": 4.8,
+      "reviews": 3319,
+      "type": "Non vegetarian restaurant",
+      "types": [
+        "Non vegetarian restaurant"
+      ],
+      "address": "57, Katpadi Rd, near Millineum plaza, Suthanthira Ponvizha Nagar, Thiru Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "11:30 AM–10:30 PM",
+        "saturday": "11:30 AM–10:30 PM",
+        "sunday": "11:30 AM–10:30 PM",
+        "monday": "11:30 AM–10:30 PM",
+        "tuesday": "11:30 AM–10:30 PM",
+        "wednesday": "11:30 AM–10:30 PM",
+        "thursday": "11:30 AM–10:30 PM"
+      },
+      "phone": "+91 86680 99895",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF5NV9tdmNoZBgAOgMI8A0%3D&g2lbs=AEzIGDuED_aZhc7ENM04Izg_f0K3VDpnD-Ot1IY-1GyuM34rlE_4ubzxhBBU9TXkRnNV-IYiz2wc&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlyt7Ilk_MHrS7XAeu9A6T8R8qQ56sO6UZaf6vtUfWp5N7yT9HSDAKxBMgghDFODqCW5WUGwzNgC_iSEUM8DjIhv4PO1myn0X91QwSl05ZYGJ08U7Uyqby07VKsjHnu9XdoLIU0i5HrLlvt=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NfJxw3icHcTBboIwAADQL0JKtlJYsgPKZlERFSroxShiq9YWaIF1P-nZv1myd3ivJ9O6Vh-2zdnbiEpJedWpqi2l0JXQo1I-bForq1SWsgO8WWU5NxpF_H6IcZuiIqg6P3Azb-M1a-iqxCX748XtNbnkNVwik_k4DYP5zzimlIXfSdhMcpiT6fC7pJPDNf0isRfeIta_rxLnYQQofGc9pBzA_W46Ax5BxDQnA9B2rm5YdH5xlouIgCvE7YL3-nNwAAAW-7-0xB8xu0Y6"
+    },
+    {
+      "position": 14,
+      "title": "Punjabi rassoi Real taste of North Indian food",
+      "place_id": "ChIJe6HibRdHrTsRUBlNsDnxQ7E",
+      "data_id": "0x3bad47176de2a17b:0xb143f139b04d1950",
+      "data_cid": "12773318198226131280",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47176de2a17b%3A0xb143f139b04d1950&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47176de2a17b%3A0xb143f139b04d1950&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9673745,
+        "longitude": 79.1567298
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJe6HibRdHrTsRUBlNsDnxQ7E",
+      "provider_id": "/g/11syr3pvy2",
+      "rating": 4.7,
+      "reviews": 722,
+      "type": "Punjabi restaurant",
+      "types": [
+        "Punjabi restaurant"
+      ],
+      "address": "X584+WMV, Kangayanellore Rd, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "11 AM–10 PM",
+        "saturday": "11 AM–10 PM",
+        "sunday": "11 AM–10 PM",
+        "monday": "11 AM–10 PM",
+        "tuesday": "11 AM–10 PM",
+        "wednesday": "11 AM–10 PM",
+        "thursday": "11 AM–10 PM"
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFO3W9gvnAX2pPxK36l8Ynid2MHVPh235Z5p4jXd0vcGHfH_9sTLShsDr6usXsY8bgayQPyuCfXElB90mY3eX0uSYnxXuMkBYSJccmym1IHRkqLBt8_j41FF1TGi7GBWr45ue9Dg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/YKJ2unicHcRNcoIwGADQEyGBgIXOuBAtpP5MURhJ3Dg2xkSBQPkSK0fsEXqbzvQt3u-PMqaHV9dtFJ7IrpONsCAG3mkjtJnwrnVlDw4HB9w52edlVacfuIrlQ8-p3-fPNZ42EdO3i78lh1z5ODyGfXCnF_TgGbmSUwzlplCwHKYWKLDoU57HXT7axZW-NUmMWoYFRbZg-knttk5YseK8HVvvnezrr01iotM98NLUK7PbS5ZUQxBaES_l7NtDCDnqf-7oP7JNRI0"
+    },
+    {
+      "position": 15,
+      "title": "The Vellore Kitchen | Gandhi Nagar",
+      "place_id": "ChIJNWRzGpdHrTsRG2r_mXrCLVE",
+      "data_id": "0x3bad47971a736435:0x512dc27a99ff6a1b",
+      "data_cid": "5849545322849593883",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47971a736435%3A0x512dc27a99ff6a1b&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47971a736435%3A0x512dc27a99ff6a1b&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.949882299999999,
+        "longitude": 79.13740489999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNWRzGpdHrTsRG2r_mXrCLVE",
+      "provider_id": "/g/11pw2vvh82",
+      "rating": 4,
+      "reviews": 3148,
+      "type": "Non vegetarian restaurant",
+      "types": [
+        "Non vegetarian restaurant",
+        "Restaurant"
+      ],
+      "address": "Silk Mill, No: 27/4, 1st East Main Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "6:30 AM–10:30 PM",
+        "saturday": "6:30 AM–10:30 PM",
+        "sunday": "6:30 AM–10:30 PM",
+        "monday": "6:30 AM–10:30 PM",
+        "tuesday": "6:30 AM–10:30 PM",
+        "wednesday": "6:30 AM–10:30 PM",
+        "thursday": "6:30 AM–10:30 PM"
+      },
+      "phone": "+91 70920 23331",
+      "website": "https://www.thevellorekitchen.in/index.php/order-online/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwdzJ2dmg4MhgBOgMI8A0%3D&g2lbs=AEzIGDtGaoU8yDSRCccnasDwmmPaV7p-Jx-tR4dlD9TsZF9oQ1aFe0PbVCTLE5YLG535YSy7G1h3&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkjmw2__QItXEXDCdgqtHFT9zJF5X84AnKw5522KEUqCDj3ezSgE1d3mJ-siei84JXRjThi4SUS1R-17t6opyrS5TvUGoLZDXdpj1H8ilo4muZUAAmaSJ870HjvZDcMLRYhSERL=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/rq-q4HicHcRLToQwAADQExUoH0ETF4SPCJhoC7GyIaY0LZVSmHaGOBf0DN5mknmL9_8nrN3Mk-suInC41nxhZ8NOVK-WrdahWrl8M4AaYNy0Qu_d549Uhz-OH6-WFCTPJr7bquwer3UZkSRM1-aIIt9vin7PchmwK-YFnAJVAzOzOQlrgmQn5hD3GCIAY_ugt98TjrpL_6LbISfTJmGVzIsO1Xno01R94zqJvUpehpy-tehL4AK1zwf0PA-I-xSsN-TWQyI"
+    },
+    {
+      "position": 16,
+      "title": "Darling Namma Veedu",
+      "place_id": "ChIJUeLBh6U5rTsRWV5XDPG9S2k",
+      "data_id": "0x3bad39a587c1e251:0x694bbdf10c575e59",
+      "data_cid": "7587366840227552857",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad39a587c1e251%3A0x694bbdf10c575e59&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad39a587c1e251%3A0x694bbdf10c575e59&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9316157,
+        "longitude": 79.1377378
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJUeLBh6U5rTsRWV5XDPG9S2k",
+      "provider_id": "/g/11l8gnx2f8",
+      "rating": 4,
+      "reviews": 3846,
+      "type": "Biryani restaurant",
+      "types": [
+        "Biryani restaurant",
+        "Non vegetarian restaurant"
+      ],
+      "address": "12, New Katpadi Road, Green Cir, Vellore, Tamil Nadu 632004, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "7 AM–10 PM",
+        "saturday": "7 AM–10 PM",
+        "sunday": "7 AM–10 PM",
+        "monday": "7 AM–10 PM",
+        "tuesday": "7 AM–10 PM",
+        "wednesday": "7 AM–10 PM",
+        "thursday": "7 AM–10 PM"
+      },
+      "phone": "+91 98403 08888",
+      "website": "https://darlingnammaveedu.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsOGdueDJmOBgBOgMI8A0%3D&g2lbs=AEzIGDusKvNOozpnvrehrr8qk8NJZW1Lj3DXk1spR2DEmZex6daEOHQSu5VyYE2crKhz4OZmXd6o&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYg87pxjkFfvCX6YC_10Js846f_nN4i9hqcysp34iET1HeW9ecfGhs4NY8t01GF22dqpmBwnckJbdhozZ9JG4q-my8quE4vBrYI3n8CNdvzJUlPQAWBjGtJQWIN3FjCi0rkJI8bg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/YXiLqnicHcTbDoIgAADQLyIxWWFbD-nS5MFVq5m9uIUI3gCF7PKHfUJ_09Z5ON-PsFableN0wptxpXjH7oaNVEnLpJ1R1TtcG0ANMM5md9yfsj7neKmfTRtVU3hZ5GHhQmIwWlSFTFHti4G-jPZQvT25O5b5jFaxMCjNsYVuHM3n5aD74CFpS26lUO-rT2I0gP6Fh_sWTcGYJ57EYVpOb3Lu9odNFjSxJYcsSb2oCWs4tiTBN75-uBBCIP5TIH_AHUS9"
+    },
+    {
+      "position": 17,
+      "title": "Revelry Cuisine",
+      "place_id": "ChIJ6ageiNlHrTsRTYmBYMKOvc4",
+      "data_id": "0x3bad47d9881ea8e9:0xcebd8ec26081894d",
+      "data_cid": "14897220107905370445",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47d9881ea8e9%3A0xcebd8ec26081894d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47d9881ea8e9%3A0xcebd8ec26081894d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9675239,
+        "longitude": 79.1572274
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6ageiNlHrTsRTYmBYMKOvc4",
+      "provider_id": "/g/11trvyqwzj",
+      "rating": 4.9,
+      "reviews": 37,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "address": "568/IAB, VIT Rd, opp. Vellore - Chennai Road, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "12–10 PM",
+        "saturday": "12–10 PM",
+        "sunday": "12–10 PM",
+        "monday": "12–10 PM",
+        "tuesday": "12–10 PM",
+        "wednesday": "12–10 PM",
+        "thursday": "12–10 PM"
+      },
+      "website": "https://www.instagram.com/revelry_cuisine/",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmLHDhDHwZSZSlzVSSp7xgaO9YsGP_y2bbFqBz0LCJnAac5OJ9qUdFqJdXRiRqQzdu_HI2RtaQkV1UisII30iGEbwHD8oOHITMHKTjs2rNI748_z-3k2ByEUESYX2bekk3bA4UR=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/XUwip3icHcRJDoIwAADAF1Vq0bgkHlDQFhe0BbcLoYUAghRsDcoHfYO_MXEO8_1kWtdqahhlZvZSKdMyearkIWSlk0r3hLwbaa2AUEAZFqZ7_3TfYDuzcXtlV1Z2R8bq0SuNvMlFrfbhG3G-bOYd3CzcyorE0HMnTRAvGzc-05w2hy5-hpggqqNDcewHuSLEhPnK4S22x9LDxN_itX9T6LEjo8E47IBZoPnbCRx2OSOeFIXJrUFAZ20fQgiy_wJUP1UVQ7E"
+    },
+    {
+      "position": 18,
+      "title": "Signature by Darling",
+      "place_id": "ChIJk0CjGJ1HrTsRy_THrhwU-cI",
+      "data_id": "0x3bad479d18a34093:0xc2f9141caec7f4cb",
+      "data_cid": "14049282625982952651",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad479d18a34093%3A0xc2f9141caec7f4cb&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad479d18a34093%3A0xc2f9141caec7f4cb&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9510732,
+        "longitude": 79.1368964
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJk0CjGJ1HrTsRy_THrhwU-cI",
+      "provider_id": "/g/11xfrqmrwx",
+      "rating": 4.5,
+      "reviews": 1668,
+      "type": "Non vegetarian restaurant",
+      "types": [
+        "Non vegetarian restaurant"
+      ],
+      "address": "Katpadi - Vellore Rd, Suthanthira Ponvizha Nagar, Bharathi Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:25 PM",
+      "hours": "Open · Closes 10:25 PM",
+      "operating_hours": {
+        "friday": "11:30 AM–10:25 PM",
+        "saturday": "11:30 AM–10:25 PM",
+        "sunday": "11:30 AM–10:25 PM",
+        "monday": "11:30 AM–10:25 PM",
+        "tuesday": "11:30 AM–10:25 PM",
+        "wednesday": "11:30 AM–10:25 PM",
+        "thursday": "11:30 AM–10:25 PM"
+      },
+      "phone": "+91 97874 07777",
+      "website": "https://signaturebydarling.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF4ZnJxbXJ3eBgBOgMI8A0%3D&g2lbs=AEzIGDuiRaY_NgJYOfwYDp2i3LClnR3N95FOJSNUjCfDs9DDcvslXzIf2BU3_TV4GXU6U4DpoDQo&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzS4cRNUQzP0g4pVPcwqH0C-EymN6jQln0-p2F6yMB40AISTx9eHmRMvwME1aDDTzXfH9xcmWBrTsGrTICMwb7WVwBj1vKMIOcKZWqVy0yp-Ws47x7YuE-nZpHNgCQ3va3i0KRWSIiy94i=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/7Si-k3icHcTNboMgAADgJ6LiJDUu2aFaW4zB-cNk660jDm0UqVgRX3Lnvc2Sfofv77edZ6VfHadvvZ0YR9E3D91MfJRzI-cdHwdHKA24Bto54DKnrN8qxMvso9hyKJCqc27uGEYgtkO2vxW9hEC9nPaWhAgekoquQYOHkiyGxO71eKTb5w8OVj6wcKL6PNEkIubbZ7UJb-6SkuSdpxd2ry20CjCN_NX_esRAXhTORFR4y9XrYFqyKulsgLo340IIQfucA_kPTQRGaw"
+    },
+    {
+      "position": 19,
+      "title": "Amirtha fine dining",
+      "place_id": "ChIJNXOhc7NHrTsRNsCdUnIYp4g",
+      "data_id": "0x3bad47b373a17335:0x88a71872529dc036",
+      "data_cid": "9846865989560287286",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47b373a17335%3A0x88a71872529dc036&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47b373a17335%3A0x88a71872529dc036&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.950885999999999,
+        "longitude": 79.1367527
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNXOhc7NHrTsRNsCdUnIYp4g",
+      "provider_id": "/g/11vjtcsg_w",
+      "rating": 4.5,
+      "reviews": 4242,
+      "type": "Vegetarian restaurant",
+      "types": [
+        "Vegetarian restaurant",
+        "Restaurant"
+      ],
+      "address": "Katpadi - Vellore Rd, Suthanthira Ponvizha Nagar, Bharathi Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "7 AM–10 PM",
+        "saturday": "7 AM–10 PM",
+        "sunday": "7 AM–10 PM",
+        "monday": "7 AM–10 PM",
+        "tuesday": "7 AM–10 PM",
+        "wednesday": "7 AM–10 PM",
+        "thursday": "7 AM–10 PM"
+      },
+      "phone": "+91 90471 39999",
+      "website": "https://amirthafinedining.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2anRjc2dfdxgBOgMI8A0%3D&g2lbs=AEzIGDtJMbA0v3100Uy2znaEKg93lfXexlzr4G7RzvdTQMdhg8AoLzfbtbwFplmNt665Tn53ccAr&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpPSolRK9BG9iNBJDi6YOwA9RTi4SMvbsRvTEaFhtqTCqKo5RGwRsslbqhWDnqtnX50Vsnn072PDvtTBP88l0EPzy84rdo4a6KQhtxl3pxpo46uKVXPiEJaeuzBDa1v77Vx-3fp2u_irua=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8E0LiXicHcTdboIwGADQJ6pUQX6W7EIGukh0XW3QXS0VGW1S28LXAvMld723WbJzcX5_hHMWnoJAiXDRGdOp1kM7NEa7VrtFY-5BZwE1gCDYvFLCzndLTkbRKst3mTzm-0LGH2_TJqNMRqfDeAU6spJvhevZS1-ZNd1NFEBde3EudO_0ZY1r0BonK1KMjuUkTRUuyeM7jYabiXhcvQs3q9DO1kSxr-oLkeWet_6RF3w5Jkk9o_DLrvynHDx_npYYYyT-b5D-A9OWSCw"
+    },
+    {
+      "position": 20,
+      "title": "Andhra Spice Restaurant",
+      "place_id": "ChIJlVlMtZ9HrTsR9kGbqe-VcHo",
+      "data_id": "0x3bad479fb54c5995:0x7a7095efa99b41f6",
+      "data_cid": "8822716526594048502",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad479fb54c5995%3A0x7a7095efa99b41f6&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad479fb54c5995%3A0x7a7095efa99b41f6&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9675245,
+        "longitude": 79.15573239999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJlVlMtZ9HrTsR9kGbqe-VcHo",
+      "provider_id": "/g/11_t11hlk",
+      "rating": 3.9,
+      "reviews": 1693,
+      "type": "Andhra restaurant",
+      "types": [
+        "Andhra restaurant",
+        "Hyderabadi restaurant",
+        "Indian restaurant"
+      ],
+      "address": "VIT Rd, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "11 AM–10 PM",
+        "saturday": "11 AM–10 PM",
+        "sunday": "11 AM–10 PM",
+        "monday": "11 AM–10 PM",
+        "tuesday": "11 AM–10 PM",
+        "wednesday": "11 AM–10 PM",
+        "thursday": "11 AM–10 PM"
+      },
+      "phone": "+91 81222 89998",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiYKJOICITIfEhgiFtLX29IPEAoML2cvMTFfdDExaGxrGAE6AwjwDQ%3D%3D&g2lbs=AEzIGDteG3Vw59SYcbHZ6qzopK0-SwuD6nKSQFyGnAvVdzKaZvC6fkoLX2WQYBXa5kaaBz6OL-Fk&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=3eCsapV709ym1A_thoSBCg&ei=3eCsapV709ym1A_thoSBCg&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnLK4vhakskDwVAFPsQZD9_xbNV5JSfAjV_q1UsannGwYUFWsBBb76lBd_X25I_JEkrHeK_RRf4ITsjYPpJmRj5DSKs7Ooc6gpOkDCG05nYCCrtcWLa9Ry3yxbHPOGDdf3zd1M0xw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2CzfDnicHcRNcoIwGADQEyFBREdnXACpIFjBqFC6yUD4G8AE-aKgN-wRepvO9C3e708tZQ8bVe1qfVYJUXXFA4qBCS4LLmdM3NSqB4WBAqrpkvAS84O_eNZpCy0eI3MXwukbr-mUHSPDO5dmE9G7doWUc2dMrrsYLCtbLTsrp19zY0-9j3ZwC58SUi72F2iSsPdupDHw2YdVINiy6oMW2w4yeGLbg2TxIV2Tl_6aMjcMHJyX-jvXPtE0bkcNIaTU_zOF_wEEk0VW"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9680%2C79.1503%2C14z&q=restaurant+near+VIT+Vellore&start=20&type=search"
+  }
+}

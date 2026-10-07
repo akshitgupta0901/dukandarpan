@@ -1,0 +1,2288 @@
+{
+  "search_metadata": {
+    "id": "6aace0f1792d6869a666a89b",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/OQlf8DyrwUKT8rfF9qpWFik7BGikjNa8OiHwQj5fY54/6aace0f1792d6869a666a89b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/OQlf8DyrwUKT8rfF9qpWFik7BGikjNa8OiHwQj5fY54/6aace0f1792d6869a666a89b.md",
+    "created_at": "2026-09-18 06:57:53 UTC",
+    "processed_at": "2026-09-18 06:57:53 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/cafe+near+VIT+Vellore/@12.9680,79.1503,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/OQlf8DyrwUKT8rfF9qpWFik7BGikjNa8OiHwQj5fY54/6aace0f1792d6869a666a89b.html",
+    "prettify_html_file": "https://serpapi.com/searches/OQlf8DyrwUKT8rfF9qpWFik7BGikjNa8OiHwQj5fY54/6aace0f1792d6869a666a89b.prettify",
+    "total_time_taken": 1.35
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "cafe near VIT Vellore",
+    "ll": "@12.9680,79.1503,14z",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "cafe near VIT Vellore"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Café Laylat,",
+      "place_id": "ChIJwa6lRShHrTsRmoFBHt6ndfc",
+      "data_id": "0x3bad472845a5aec1:0xf775a7de1e41819a",
+      "data_cid": "17831342872075534746",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad472845a5aec1%3A0xf775a7de1e41819a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad472845a5aec1%3A0xf775a7de1e41819a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.967513499999999,
+        "longitude": 79.1503558
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwa6lRShHrTsRmoFBHt6ndfc",
+      "provider_id": "/g/11msfjp60z",
+      "rating": 4.7,
+      "reviews": 80,
+      "price": "₹1–400",
+      "extracted_price": 1,
+      "type": "Cafe",
+      "types": [
+        "Cafe"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe"
+      ],
+      "address": "VIT Rd, opposite to INOX theatre, Bharathi Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "11 AM–10:30 PM",
+        "saturday": "11 AM–10:30 PM",
+        "sunday": "11 AM–10:30 PM",
+        "monday": "11 AM–10:30 PM",
+        "tuesday": "11 AM–10:30 PM",
+        "wednesday": "11 AM–10:30 PM",
+        "thursday": "11 AM–10:30 PM"
+      },
+      "phone": "+91 73388 29027",
+      "extensions": [
+        {
+          "from_the_business": [
+            "Identifies as women-owned"
+          ]
+        },
+        {
+          "service_options": [
+            "Curbside pickup",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Assisted listening devices"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually plenty of parking",
+            "Valet parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "service_options": [
+            "Delivery"
+          ]
+        },
+        {
+          "dining_options": [
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "delivery": false
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtc2ZqcDYwehgBOgMI8A0%3D&g2lbs=AEzIGDuJ9USQaAJyk6vnia15nT3X6eCFXIqjc85zt4KAD4oSUX_4Uqj0zJ2XQhbeiBN-cTGhAnOK&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Amazing cafe\nHas great ambience\nGreat taste\nVery student friendly prices\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl3-6SOMJWAdQeFdgo9V9kgkl_ScJihA98k8XNvJoznYEi-4l9fS0aTNXVAzw-BahTwNd6jwkghABHulmt8zdDp2rEzzTylmHYk1LrTo-RfbEhJHWF-RlPiHTtgw4j236zTmNFvTW9J5CUo=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/12KyunicHcTBboIwGADgJ_oFRQldskPdIE2zMQed6GnRgi22UEKrzfqSO-9tlvgdvr9f6dxkn6JIy2QhjBG6u9lu5mZ03egW3AyRmCxwCzbCpNqxRieQ1h_vtMHtZ1e0wqA9UkLp75rTXmKUqexQ3qkJ4zHvYa3RpY5PrDzscfCwPUnmyza9eiUk3pKbHlwW2tdpNechsB89kKNavs3MQHU555KSpoBK73rCnPDr6ypJAxvK4s4aRDcvX-bZL-M4BvmYw_gPqpNHmA"
+    },
+    {
+      "position": 2,
+      "title": "Hangout cafe",
+      "place_id": "ChIJW56DiKtHrTsRn_4MVUT7t0Q",
+      "data_id": "0x3bad47ab88839e5b:0x44b7fb44550cfe9f",
+      "data_cid": "4951702586220412575",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47ab88839e5b%3A0x44b7fb44550cfe9f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47ab88839e5b%3A0x44b7fb44550cfe9f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.956827899999999,
+        "longitude": 79.1450667
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJW56DiKtHrTsRn_4MVUT7t0Q",
+      "provider_id": "/g/11p3bd76tq",
+      "rating": 4.4,
+      "reviews": 293,
+      "price": "₹1–400",
+      "extracted_price": 1,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Burglar alarm store",
+        "Coffee shop",
+        "Sandwich shop"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "burglar_alarm_store",
+        "coffee_shop",
+        "sandwich_shop"
+      ],
+      "address": "Katpadi, 1, 17th East Cross Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 79041 45035",
+      "website": "https://hangout-cafe-vlr.waiterio.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Dinner",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwM2JkNzZ0cRgBOgMI8A0%3D&g2lbs=AEzIGDufH5xPmvGcGvnfAW7oAn4_jYZUIlZfAjZtrgbG8F-rRKwXAheIrMuJC3_-iovAaK-4EMJR&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Great cafe with a lovely ambiance and delicious food:)\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWngLa3UX_39HiHOSoYnZpMpp-l8AaLfBxFtAEENqSncHzAARhDfkar0F1OepgPYVCuROg64UIT_av8_sXj3IkctCp-ZlpmtQpGKsj8GlDj_sJaJCVT0EFA6cin7P6PPT57wzUK6=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/jScwLnicHcRJDoIwFADQExVqUEQTFxVBHKkIThvSNFjE2n5tHeIFPYO3MfEt3vdTWwum77qy9hyhtZDV3VQ3rpWtlHW4vrgCDOIGGZckGc23SsyZV-xKr5ecknSt9-oACwAkA8Lmx-ErtiSKlte14smbkKweHc_shuNWWoGg-014z1Lht4tJXrJHUJpd403O3IaADhIudgXjmWmCsRw1pZmyabjJcRQTn59Ul_qU5p3u813M_MGzhTFG9X-O1A9gIURP"
+    },
+    {
+      "position": 3,
+      "title": "Break Time",
+      "place_id": "ChIJt8reuIpHrTsRqlyneKEUa3I",
+      "data_id": "0x3bad478ab8decab7:0x726b14a178a75caa",
+      "data_cid": "8244706226578349226",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad478ab8decab7%3A0x726b14a178a75caa&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad478ab8decab7%3A0x726b14a178a75caa&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9666933,
+        "longitude": 79.1555271
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJt8reuIpHrTsRqlyneKEUa3I",
+      "provider_id": "/g/11yysjllr7",
+      "rating": 5,
+      "reviews": 21,
+      "unclaimed_listing": true,
+      "type": "Cafe",
+      "types": [
+        "Cafe"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe"
+      ],
+      "address": "Main gate, opp. to VIT University, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "user_review": "\"They have the best ambience and food taste is also good 💯\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmiKAz53cfpt837QH9GVhAcAU_8coVrpcswBmI8ltRSaUg_D6ymSxyXdNDIXjHsScKsnVwOniLWfaKoFjP8UOj-2XjUfCCALRhv2iBCKFIQWHKLV8nRZT9wlMUnvzuQqjKI90jKIXHl752Q=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ty4T1nicHcTBboIwGADgJ6ogxFmW7FAxWlKcAhbILsb8A0pTWmarTF9yZ99my77D9_wRzo321fOUCGedMZ1qrra5gNGu0W4GZvC60SKwyHqE5odjNfSMPBYhtKPD4TKj0bYUBAg_YTDlZQQ7rYYEK5cXZ96d1i_3ofi-15_v66SW1BbArC6nve7Tqj0zs5EHzPcSBbXkbRyTNBe3oF_FbJNkFWVpiXX-cYwmteP69rhmX5Ilkf9XTdVyEWRv09z3fST-B6R_AdNJR20"
+    },
+    {
+      "position": 4,
+      "title": "Zaitoon Restaurant, Vellore",
+      "place_id": "ChIJWV3IY_dHrTsRJH_TSU97Ty8",
+      "data_id": "0x3bad47f763c85d59:0x2f4f7b4f49d37f24",
+      "data_cid": "3409079023413985060",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f763c85d59%3A0x2f4f7b4f49d37f24&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f763c85d59%3A0x2f4f7b4f49d37f24&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9680894,
+        "longitude": 79.1503738
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWV3IY_dHrTsRJH_TSU97Ty8",
+      "provider_id": "/g/11k3d4cz59",
+      "rating": 4.8,
+      "reviews": 11799,
+      "price": "₹400–1,600",
+      "extracted_price": 400,
+      "type": "Middle Eastern restaurant",
+      "types": [
+        "Middle Eastern restaurant",
+        "Chinese restaurant"
+      ],
+      "type_id": "middle_eastern_restaurant",
+      "type_ids": [
+        "middle_eastern_restaurant",
+        "chinese_restaurant"
+      ],
+      "address": "1st floor, Selvam Square, Tiruvalam Rd, Selvam Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 11:30 PM",
+      "hours": "Open · Closes 11:30 PM",
+      "operating_hours": {
+        "friday": "11 AM–11:30 PM",
+        "saturday": "11 AM–11:30 PM",
+        "sunday": "11 AM–11:30 PM",
+        "monday": "11 AM–11:30 PM",
+        "tuesday": "11 AM–11:30 PM",
+        "wednesday": "11 AM–11:30 PM",
+        "thursday": "11 AM–11:30 PM"
+      },
+      "phone": "+91 90871 11211",
+      "website": "https://www.thezaitoon.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "offerings": [
+            "All you can eat",
+            "Coffee",
+            "Private dining room",
+            "Quick bite",
+            "Small plates",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Good for kids birthday",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrM2Q0Y3o1ORgBOgMI8A0%3D&g2lbs=AEzIGDs_Cy73YoeVrGpD60rIT6dw_oKmdlAvN-K0BIGQfctl_eGu3_t4Ecd41E9l8N0kA0n8_-Gt&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Great ambience and food outside VIT campus.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWllalJ17NtpyBDR_rilC8gteJT1EkIgYVOh6eUR2DqApOIcZ1UT6xQdIXVMrasrnwZ4FrVE6Oh_1Z56ICMdzCbKNun25QeZ_J2UYSIWVlKPAPNwJqsB7yWdat74bpvKiAKnXMff=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/tXP4xnicHcTbboIwAADQL0IoU1hMfOCisRAuMi7CC8FSW7Ou1LaK7gf9Bv9myc7Deb-o1kKtTZPRjwWZJsLwTWGJJq4x1ws0_ZhEKAMpQ5nevsjLhrGBRcBNtXj6YdHLCws-icZRCbbfkLR1Rh1cFXZ49UQGUQeq0nkcRnisEzkoyeduuZP11sloD7qVA4Nk_A1OcXrj9uqAuz6yq_YLNjWLcy9P5-iqfPfZjIN2lydxjy9ezI_J-byZgWVZBv0fGfwPXqxEnA"
+    },
+    {
+      "position": 5,
+      "title": "Arcadia Speciality Coffee House",
+      "place_id": "ChIJezJ3SfRHrTsRCZT7Ss_LbhY",
+      "data_id": "0x3bad47f44977327b:0x166ecbcf4afb9409",
+      "data_cid": "1616453407449256969",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f44977327b%3A0x166ecbcf4afb9409&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f44977327b%3A0x166ecbcf4afb9409&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9677577,
+        "longitude": 79.1507908
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJezJ3SfRHrTsRCZT7Ss_LbhY",
+      "provider_id": "/g/11wx9rfql0",
+      "rating": 4.7,
+      "reviews": 31,
+      "price": "₹1–400",
+      "extracted_price": 1,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "No 152, Rajaram Building, Chennai Salai, near VIT, Old Katpadi, Bharathi Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "10 AM–10 PM",
+        "saturday": "10 AM–10 PM",
+        "sunday": "10 AM–10 PM",
+        "monday": "10 AM–10 PM",
+        "tuesday": "10 AM–10 PM",
+        "wednesday": "10 AM–10 PM",
+        "thursday": "10 AM–10 PM"
+      },
+      "phone": "+91 82485 39578",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "Curbside pickup",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates",
+            "Vegetarian options only"
+          ]
+        },
+        {
+          "dining_options": [
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking",
+            "On-site parking"
+          ]
+        },
+        {
+          "pets": [
+            "Dogs allowed outside"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "service_options": [
+            "Delivery"
+          ]
+        },
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "delivery": false
+      },
+      "user_review": "\"... owners are amazing, lovely vibe and I'm obsessed with the coffee.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3_EGTdje16EJn7GarYuKVchBpJ55EW6jrZXwrpX2ZsUdFOu3Yh2z01Al2It4xpscuaf7WHnvK20IZ8H6_gqP1PJYA8Ez9n-F7lOA5vPgNnwvtv949eAr-zetevW_JysHBytda=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Xc7kkHicHcTbCoIwAADQL1pOTc2ghwVeMiiJysuLyFwbYXNtc5Y_2Df0N0Hn4Xw_TGuh1pbVM3dBh4H2ZFRE4oFrwvUCDw-LCgWwAspC6Sk_Fw-3iZJzdye2H2U8SFpZjfsrZluReV5U-HdZl5MUpVOrSxcfR7dizgxt1Ds7vXwJhcf2FhQpN3sH7upV6jf0mdt5VqFVNIccxEF_RJ7J6YFPRptwGRIkwUw0MUWTvVW6feuu3Uw2hBCw_xjwHyRVRIc"
+    },
+    {
+      "position": 6,
+      "title": "Chitra coffee bar-VIT VELLORE சித்ரா காபி பார் விஐடி வேலூர்",
+      "place_id": "ChIJpVb_DABHrTsRGp3LKa-flaw",
+      "data_id": "0x3bad47000cff56a5:0xac959faf29cb9d1a",
+      "data_cid": "12436021520722795802",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47000cff56a5%3A0xac959faf29cb9d1a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47000cff56a5%3A0xac959faf29cb9d1a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9680088,
+        "longitude": 79.1496521
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpVb_DABHrTsRGp3LKa-flaw",
+      "provider_id": "/g/11w1fk_4ms",
+      "rating": 4.3,
+      "reviews": 102,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "1st Floor, Inox Theater, No 618/1B, VIT Rd, Solai Nagar, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "5 AM–11 PM",
+        "saturday": "5 AM–11 PM",
+        "sunday": "5 AM–11 PM",
+        "monday": "5 AM–11 PM",
+        "tuesday": "5 AM–11 PM",
+        "wednesday": "5 AM–11 PM",
+        "thursday": "5 AM–11 PM"
+      },
+      "website": "https://www.chitracoffeebar.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Coffee",
+            "Healthy options",
+            "Quick bite",
+            "Vegetarian options only"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually difficult to find a space"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true
+      },
+      "user_review": "\"Awesome tea and coffee with reasonable price...\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm582e70GkGujezaWDu8qZGiTOZkKtX5ESXhV3BDGGWpVanMvuWI_h5PWLDbqb9_QbfmVWvbPKlpDzLI1elXClJsS775Yl8E5qA8iPpblGKo8pqdOOxzkIE_37aKJ1PRhOAzVnerSZ_Rleo=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/HZ0DZ3icHcTBboMgAADQL7LqDJEu2cFVQ61dZNqI82LEUWlFwILd4k_uvL9p0nd4_3_cWm1eXVfwYDMoNQi2GHbrlbRM2k2vJnfQxumNY9xoX-ATmQB8YaGHRrRc2dqReIFzgy6nvBkzW4OkrHkVvMcIEV118uO-kLTlAJNjTGe6bT_pearIneJM6Hg9pj4T9U4cTBmG4EvABMwRvGBNBcoU1PN3nv-uY5q0QdhlBx8XPI_WSrJb2bSFYOrtx_c8z-HPe0c-AJyQR7E"
+    },
+    {
+      "position": 7,
+      "title": "Krish cafe",
+      "place_id": "ChIJmTb9D_dHrTsR6sHsYYQHA3E",
+      "data_id": "0x3bad47f70ffd3699:0x7103078461ecc1ea",
+      "data_cid": "8143360816375972330",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f70ffd3699%3A0x7103078461ecc1ea&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f70ffd3699%3A0x7103078461ecc1ea&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9661066,
+        "longitude": 79.16365859999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJmTb9D_dHrTsR6sHsYYQHA3E",
+      "provider_id": "/g/11ll6dkpcj",
+      "rating": 4.1,
+      "reviews": 133,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "unclaimed_listing": true,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "SJT, Vaibhav Nagar, VIT University, Brahmapuram, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open now",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "user_review": "\"This place located straight opposite to vit 11th gate\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl7nvsa791ffW_f3RCf-0unHzy5jg7DEPvwUrC9cuujA2OScAKSm6V2kSL8fBXXAI47WSeY9q_HyHJP1SXHX6lZDoMt5JiaHBKurGd2mlFJj7_T0w3SuzEA50VvwPVwRcz-GGtf=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/suLOWHicHcRdboMgAADgE1FRZ5lL9kB_JrNtaqRT2xfTMNE5hFZAUi-4M-w2S_Y9fL8_nTE3_eJ5ogsXrVKtaKxuRqakaaRZMDV47U0DpoH2MMmzUymQnPQVxT7nZc3DfM0BtJLMj6hv0WabTe5jXMfM2h4HR8rwjg7LIvim-2e-qir8_oRK2pzje00eJM18WpFqKS4bdTBR-nUlq50dk89gEG9pj-oTdCG18xZHsJhcVriczSBJDH91PoQQdP8zIP8AEixDwQ"
+    },
+    {
+      "position": 8,
+      "title": "One Food World",
+      "place_id": "ChIJN8XWTlBHrTsRl6hvRP600Cs",
+      "data_id": "0x3bad47504ed6c537:0x2bd0b4fe446fa897",
+      "data_cid": "3157222342949578903",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47504ed6c537%3A0x2bd0b4fe446fa897&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47504ed6c537%3A0x2bd0b4fe446fa897&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9726758,
+        "longitude": 79.1569475
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJN8XWTlBHrTsRl6hvRP600Cs",
+      "provider_id": "/g/11rqj47gy_",
+      "rating": 4.7,
+      "reviews": 359,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant"
+      ],
+      "address": "Gorbachev Rd, VIT University, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "website": "https://www.instagram.com/one_food_world_vit?igsh=OGQ5ZDc2ODk2ZA==",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great dessert"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "All you can eat",
+            "Coffee",
+            "Halal food",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Counter service",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups"
+          ]
+        },
+        {
+          "planning": [
+            "Usually a wait"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "user_review": "\"Loved the foodddd and atmosphere A must have place for all VITians\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmeItSpgaIiHyP6zy-sSEeUF4s7Mev8vm8qfKHzzXBexB-8W_oL3CK-0bdDHYC2e7dDizeGPAns0lowGAjERwFiO9PhHo7bHkHzsrPRPJnVw_lYC2iX4TVNh9PJ3sjkupyEgSeg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/csj0ZnicHcvNssEwGADQJ4rmqtEyY1FVgnvJtH5XhvpuUtqkfKGaF_QM3oaxObvzekpjSuw6Ti7dhtBa5HBDuKZaGVCmkerCESWSFAk6AYv5Yl3A2CSl2I8zVvO2rQkmESyHLfT-4O7fC__yP2XWbvrw6BN_vdO_bjgl9HAcsG3YBO84yCyMeKCQ5roaBacorobZvMMl096BnZnFK4_5RK2qXf4Z2aa1WM1kh09cPJ1vZR2JBESv-qGUEvk1JeoNkatFWg"
+    },
+    {
+      "position": 9,
+      "title": "Zan cafe",
+      "place_id": "ChIJsXYwFqhHrTsRoVxp7yhLX20",
+      "data_id": "0x3bad47a8163076b1:0x6d5f4b28ef695ca1",
+      "data_cid": "7881100512109092001",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47a8163076b1%3A0x6d5f4b28ef695ca1&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47a8163076b1%3A0x6d5f4b28ef695ca1&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9682183,
+        "longitude": 79.15361349999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJsXYwFqhHrTsRoVxp7yhLX20",
+      "provider_id": "/g/11vcdpkk4r",
+      "rating": 4.5,
+      "reviews": 63,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Cafe",
+      "types": [
+        "Cafe"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe"
+      ],
+      "address": "No.9, Katpadi to Chennai Salai, Taluk, near VIT Road, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "10 AM–10:30 PM",
+        "saturday": "10 AM–10:30 PM",
+        "sunday": "10 AM–10:30 PM",
+        "monday": "10 AM–10:30 PM",
+        "tuesday": "10 AM–10:30 PM",
+        "wednesday": "10 AM–10:30 PM",
+        "thursday": "10 AM–10:30 PM"
+      },
+      "phone": "+91 97870 02700",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "Delivery",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2Y2Rwa2s0chgBOgMI8A0%3D&g2lbs=AEzIGDuBmOVs0wKLjrvYdOBWI8oftfA8E7hWmkda84fhvlGoZCteLrMkuStSI2LB81YrDEqxmpxZ&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Decent cafe and pocket friendly cafe with delicious food\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSYv5GBu5vS4UuLul60Xm7s6I-U9GaDcvbdx_B56flkUsXMR6dUrlwXNctySDXvVtMpK4foNNlZm6syJIjo6BkyNPwR8M4-obx3z_r3LYSxVQaHqHq0VvShojJtiQYO2gF5xI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/5TR_ZHicHcRdEoFAAADgE62Wav3MeNA0FBVapbwYVgpbW-22lQO6g9uY8T18308mRMlnikIzdZAyltKk4UlNWCGSQgwIy5W05IBwwJWF5e8OR4pjqa-MRpdYCxqnoQhG-ZgjGwTT1cUk8nrrzoaO7vQV8Mj10S2oaRt5RPTYjGQo3HKj3Znn0VOOeL-2nwwZr97btf7E1QC7dur7XKtOjLtwf7Eqq4KhxBl7rsVjH29H6VLv7Hk7hBCC7D8BxQ9VU0VI"
+    },
+    {
+      "position": 10,
+      "title": "Café Coffeeto",
+      "place_id": "ChIJ49tgIthHrTsRTbi4nIq6zbc",
+      "data_id": "0x3bad47d82260dbe3:0xb7cdba8a9cb8b84d",
+      "data_cid": "13244447183664101453",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47d82260dbe3%3A0xb7cdba8a9cb8b84d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47d82260dbe3%3A0xb7cdba8a9cb8b84d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9673739,
+        "longitude": 79.15783909999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ49tgIthHrTsRTbi4nIq6zbc",
+      "provider_id": "/g/11mckbk_sj",
+      "rating": 4.3,
+      "reviews": 25,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "VIT 3rd Gate, 46, nearby Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "9 AM–10:30 PM",
+        "saturday": "9 AM–10:30 PM",
+        "sunday": "9 AM–10:30 PM",
+        "monday": "9 AM–10:30 PM",
+        "tuesday": "9 AM–10:30 PM",
+        "wednesday": "9 AM–10:30 PM",
+        "thursday": "9 AM–10:30 PM"
+      },
+      "phone": "+91 99522 82117",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "user_review": "\"I love 💗 ambience and good price food also 👌👌😋😋\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk1etiAgNxV6g5i_QHcZEG7C9trDyDQaGQqT0g5gmT1m0ldB9xXVoeu4GYV-Bb3z3hklXB8iJmQnCMUof4U9NYv6xqT7bDTUfp8JkxUnBCzyStKIAfF2xj7QqE52ijEJZOa0vr5xGNusaY=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/S9oGtHicHcRLcoIwAADQE0WCiEhnuuBXlE5pYwMVNx1MQ0AgARI0ekj3vU1n-hbv91ErNcgnw-hqa8GEYB2dJZ2I4IpytSCiN9ggAZFAGt52_4G_WpOqxmOpztfMbr7Rlhyj2AlcNYW3EJUxGjFkNuux2cPux3f1IRd0XsVFDvyTdbfqtjv4mybpEQ_eMlGtMjctLms9YucU4qwaNkmrM-4H99unet151ctSnx00RvayOUfJ8b2El8nWcTrLsni-mhBCUP9PAP8DN99G4g"
+    },
+    {
+      "position": 11,
+      "title": "Hart Lounge",
+      "place_id": "ChIJk6i0p59HrTsRMv_jewP0hJQ",
+      "data_id": "0x3bad479fa7b4a893:0x9484f4037be3ff32",
+      "data_cid": "10701946910339759922",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad479fa7b4a893%3A0x9484f4037be3ff32&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad479fa7b4a893%3A0x9484f4037be3ff32&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9674464,
+        "longitude": 79.1574598
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJk6i0p59HrTsRMv_jewP0hJQ",
+      "provider_id": "/g/11c6cqxd1q",
+      "rating": 4.2,
+      "reviews": 2427,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "unclaimed_listing": true,
+      "type": "Fast food restaurant",
+      "types": [
+        "Fast food restaurant",
+        "Barbecue restaurant",
+        "Mexican restaurant"
+      ],
+      "type_id": "fast_food_restaurant",
+      "type_ids": [
+        "fast_food_restaurant",
+        "barbecue_restaurant",
+        "mexican_restaurant"
+      ],
+      "address": "No.268, Katpadi, Chennai Salai, VIT Main Road, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "friday": "12–11 PM",
+        "saturday": "12–11 PM",
+        "sunday": "12–11 PM",
+        "monday": "12–11 PM",
+        "tuesday": "12–11 PM",
+        "wednesday": "12–11 PM",
+        "thursday": "12–11 PM"
+      },
+      "phone": "+91 96002 94979",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Late-night food",
+            "Quick bite",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjNmNxeGQxcRgBOgMI8A0%3D&g2lbs=AEzIGDvwB8MQZwHHVc_WgqsJ56jHCs4Q4hx2L_l98I9pFgGWLI-3UV5OLhsAoNYjutbxarW6MyoU&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"They have variety of dishes at such a affordable price and a good ambience.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl9OXbIPfXL4Tli6LjgbORpKa7OJiMd2POL_uTRUCKU1-KWVSyzV3t_d4FtmBbiva99E4o57MnZfDfEzqP4c4t7PaFoqdXgkM3oA5xzBiS8IdL8TbJQ6oFoubZRIXszI65_bth-=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/pCN1Y3icHcRLDoIwFADAE1VQCoiJC39EBEJFVOKG0AIFRR7a4ocLegZvY-Is5vsppWzFRFHqUhtwAF7nncjvDBqZN3LA4KrwViAmkFBm65BEx9oKYuqQIvZwVFeGd-Y0CFs3NYNN5WcjEnhJF4X7hbsfIvd42L37gyaTDNvyOqfVI7WsFQbd9JtTsSxW_Y1ghqVJUhtuWcwvvgYz_dXPq93YybxxRDdbA2zo6Cl0YtE7hp5QWaLpc6iqKir_M9T8AByTRA4"
+    },
+    {
+      "position": 12,
+      "title": "Zolives Hobby Shop & Cafe Vellore",
+      "place_id": "ChIJqRs_JvBHrTsRGl5TwWKuAd8",
+      "data_id": "0x3bad47f0263f1ba9:0xdf01ae62c1535e1a",
+      "data_cid": "16069316684608134682",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f0263f1ba9%3A0xdf01ae62c1535e1a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f0263f1ba9%3A0xdf01ae62c1535e1a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.967513799999999,
+        "longitude": 79.15725599999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqRs_JvBHrTsRGl5TwWKuAd8",
+      "provider_id": "/g/11zd9g4ws9",
+      "rating": 5,
+      "reviews": 14,
+      "type": "Board game club",
+      "types": [
+        "Board game club"
+      ],
+      "type_id": "board_game_club",
+      "type_ids": [
+        "board_game_club"
+      ],
+      "address": "568/1A, Vellore - Chennai Rd, 1st gate>3rd gate, opp. to VIT University, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "10 AM–10 PM",
+        "saturday": "10 AM–10 PM",
+        "sunday": "10 AM–10 PM",
+        "monday": "10 AM–10 PM",
+        "tuesday": "10 AM–10 PM",
+        "wednesday": "10 AM–10 PM",
+        "thursday": "10 AM–10 PM"
+      },
+      "phone": "+91 93442 99134",
+      "website": "https://zolives.com/",
+      "user_review": "\"Good and tasty food nice ambience\nWe'll trained stwed I pefair\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpsywkjvABk3Hig5flaSrNmkzATyBZ7EGWE30m3EkAoUYptXqNmG2oOVM2ot8IDXgQK0h-FJHze7auVjdxO_hJBC_8LjuugtZ7W2r60YDjchPWt0nUoOqCW1zbKEHyV-trrKwZP5Dfum0_=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/0L4RGnicHcTBboIwGADgJ6pUiMMs8QCCMtkEp1LlQlyH7YBSbP8O4SU9-zZL9h2-54MDdPrVshruTJiUrCmNLhWVLZQtTKgUFus0ohppy4s-0wMRnR76uvr1_NqJftjs2lz2aivq0TsMfu6GaxI6WDhh7cnjuYPTbSvWtkyyD1vC_C04sV2MOVptorF0Lyarvu9JwTf-spi_V8YwyF1iqxd8DirKUwK4PcrktiTT8SsOoyFDoFTc5-ksuBqBi0U_xRgj_j9F7R8GaEgy"
+    },
+    {
+      "position": 13,
+      "title": "Vellore Karupatti coffee",
+      "place_id": "ChIJVxZdtuhHrTsR64XvhyuQdVw",
+      "data_id": "0x3bad47e8b65d1657:0x5c75902b87ef85eb",
+      "data_cid": "6662389740403131883",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47e8b65d1657%3A0x5c75902b87ef85eb&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47e8b65d1657%3A0x5c75902b87ef85eb&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.950830799999999,
+        "longitude": 79.1415524
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVxZdtuhHrTsR64XvhyuQdVw",
+      "provider_id": "/g/11w9_sdgzq",
+      "rating": 4.8,
+      "reviews": 30,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "24, 8th East Main Rd, Suthanthira Ponvizha Nagar, Gandhi nagar, katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "5 AM–10 PM",
+        "saturday": "5 AM–10 PM",
+        "sunday": "5 AM–10 PM",
+        "monday": "5 AM–10 PM",
+        "tuesday": "5 AM–10 PM",
+        "wednesday": "5 AM–10 PM",
+        "thursday": "5 AM–10 PM"
+      },
+      "phone": "+91 90252 70941",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite"
+          ]
+        },
+        {
+          "dining_options": [
+            "Dessert",
+            "Seating"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Family-friendly",
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "user_review": "\"Taste of coffee was unique and they have maintained good hygiene.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8n5TcfRi1XmQHXU89fD9YjcgZXoDDnvXJNeKDmoveHElHcnjoqY7nSt9b3cBTYrs5-wTGj-2xu_LN9x4TkibHQ1QMJTMBlHzU2P_v55j7ZOfYUT59KWopk6KBu08uc_mrpHAa=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/EQjJwHicHcRLDoIwFADAE5WPWqUmLiAYG_GHlghuiLwUEKFFWtB4Qc_gbUycxXw_pdatmptmXY6NQsqi5r3iHUihudAGyMYsWoVAIWW69HhgZ-EIzCA_3uy4CWkcOST3SVJBcYml74shXu944Ddy4HRZUxCVfCQzcdIkG4PHkk5h9GSrCo1efbrZkdeE3W8ZDe1wu2Zbr6bvaHRIB4yr2WWfJxHDJDjL9j4NvN5yekibrqXudfG0LctC5X9A4gdf3URv"
+    },
+    {
+      "position": 14,
+      "title": "Ram's Cafe",
+      "place_id": "ChIJN1iBcZc4rTsRyj7P1JOMUu0",
+      "data_id": "0x3bad389771815837:0xed528c93d4cf3eca",
+      "data_cid": "17100885301637627594",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad389771815837%3A0xed528c93d4cf3eca&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad389771815837%3A0xed528c93d4cf3eca&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.933629199999999,
+        "longitude": 79.13564269999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJN1iBcZc4rTsRyj7P1JOMUu0",
+      "provider_id": "/g/11bx564xhq",
+      "rating": 4.2,
+      "reviews": 994,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "New Bridge Rd, Thottapalayam, Vellore, Tamil Nadu 632004, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:10 PM",
+      "hours": "Open · Closes 10:10 PM",
+      "operating_hours": {
+        "friday": "5:45 AM–10:10 PM",
+        "saturday": "5:45 AM–10:10 PM",
+        "sunday": "5:45 AM–10:10 PM",
+        "monday": "5:45 AM–10:10 PM",
+        "tuesday": "5:45 AM–10:10 PM",
+        "wednesday": "5:45 AM–10:10 PM",
+        "thursday": "5:45 AM–10:10 PM"
+      },
+      "phone": "+91 96295 44433",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Healthy options",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Lunch",
+            "Dessert"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually somewhat difficult to find a space"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "dining_options": [
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFieDU2NHhocRgBOgMI8A0%3D&g2lbs=AEzIGDvr_OpAHAzrxu_sbOfGnhAkO4cFwADt0CElO5OAZQcs8iV0hx0MNJWRNoIZpQ70UygK0zm8&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Good coffee at affordable price.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkNHOV9C0n33mBQCHLWRRtYW_JEWIR_RP2yDeTwL2Of2YzCX8MMl-lQtp2Wgrf2i4hLnw6RwJZ7zAtujW-oQjJzJzlAFzlcyO4QnR29RkAyQcye4bKLo75ud49kYlImM9W5ng6TdA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/WiNWYXicHcRRboIwAADQE1WwIA6TfXQ4gwjDNsQOf0xWalFKS2wJoTf0CLuNie_j_T9bawez8TzZBguhtZB8NPzBtLJc2QXTvScGA5gBxkMpOVa0-0nLU5z4Kgj6L5ykOSXE1vSSfdM9uZAjnLe8mnJYXmHtkt-PopBAYjtAKh5XeAvbXE0RmbLz2iE73inQ-J65zEm0c5LNZYgVgTHp0IzZzMO_Q67Xq7EJ466W-76I6UqJqGrQ57T0fR-07xlQL47cRK4"
+    },
+    {
+      "position": 15,
+      "title": "Vellore coffee house",
+      "place_id": "ChIJQzfVDABHrTsRt8iqqmEvdj0",
+      "data_id": "0x3bad47000cd53743:0x3d762f61aaaac8b7",
+      "data_cid": "4428779380087113911",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47000cd53743%3A0x3d762f61aaaac8b7&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47000cd53743%3A0x3d762f61aaaac8b7&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9473086,
+        "longitude": 79.13796119999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQzfVDABHrTsRt8iqqmEvdj0",
+      "provider_id": "/g/11ltq13p_6",
+      "rating": 5,
+      "reviews": 10,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "Municipal Colony, Mottur, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "6 AM–9 PM",
+        "saturday": "6 AM–9 PM",
+        "sunday": "6 AM–9 PM",
+        "monday": "6 AM–9 PM",
+        "tuesday": "6 AM–9 PM",
+        "wednesday": "6 AM–9 PM",
+        "thursday": "6 AM–9 PM"
+      },
+      "phone": "+91 82208 56751",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "Delivery",
+            "Drive-through",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "delivery": true
+      },
+      "user_review": "\"Highly recommended for anyone looking for a satisfying snack and a cozy vibe\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmnjECJIWO6OVR5XGmnTn8n1TApLRDGP47_A83_QMwtSbZaWGlRZ2-zAJcgyQBkgSqtOUisTfA_B1r6G7Oz1qpUKyKE-J5BrxyPdNiZljVyBLzrgPHA2DGRX82unG_2RooE-u6y7w=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/qWPC1HicHcRJDoIwAADAF1UWZYmJh6KkigtYUAwXohWLCi3SEiw_9An-xsQ5zPdTStmIqaZV5XhEOadV0YmiJZzJgskR4bVGGwGIAEKDSxwlac0e_jxYpaEdHrF1QjVLmMuMBDYbvEDRxMmhO873217Gl-ycogpnJhhgQKjae08av2R4uIvkBnPPaG3khIPxag5rtfZBYHntW0XX3T2rHkflbYaWRktoLhA-uWbHUG5izn3Q2crpZ72h6zoo_xPAfpFBRIs"
+    },
+    {
+      "position": 16,
+      "title": "Hot Stone Kitchen",
+      "place_id": "ChIJQfY9mfhHrTsRHJU55B8Y4W4",
+      "data_id": "0x3bad47f8993df641:0x6ee1181fe439951c",
+      "data_cid": "7989693739184002332",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f8993df641%3A0x6ee1181fe439951c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f8993df641%3A0x6ee1181fe439951c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.968199,
+        "longitude": 79.1537549
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQfY9mfhHrTsRHJU55B8Y4W4",
+      "provider_id": "/g/11fmzk37gv",
+      "rating": 4.4,
+      "reviews": 844,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Italian restaurant",
+      "types": [
+        "Italian restaurant",
+        "Italian grocery store"
+      ],
+      "type_id": "italian_restaurant",
+      "type_ids": [
+        "italian_restaurant",
+        "italian_grocery_store"
+      ],
+      "address": "near VIT, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "12–10 PM",
+        "saturday": "12–10 PM",
+        "sunday": "12–10 PM",
+        "monday": "12–10 PM",
+        "tuesday": "12–10 PM",
+        "wednesday": "12–10 PM",
+        "thursday": "12–10 PM"
+      },
+      "phone": "+91 99626 76676",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "offerings": [
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Good for kids birthday"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually somewhat difficult to find a space"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmbXprMzdndhgBOgMI8A0%3D&g2lbs=AEzIGDsiXV9zKT2MPNwtjXPCyuPkr4UN1hk-m3MyKBhvsw8Yu1rJtMJrPSYaanqSMW6lEgGEaNYL&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Well the menu is little bit expensive but the quality of food is very good.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlj8sUup1lZ_N3H0uzVZUym7XMto7R8VijmiC2B_C_Oi7mfaDI6qexBJiyDLNn0d1uffPt8gPx7IO9hcOq0kDCNFxcjZPzQ5DU3hOUpjpby79OVhPuN1cSlqYZLOSkde9nL3BX=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/uRZlR3icHcRRboIwAADQEyFlZBZM_BCI0QVpp8KUH-JqoWBpy9pG8II7g7cx8X285z8zRumF63LmzxopG06tpn9ECkOFmRHZu43SDtGOdlebPT7-CN4FOrfK42WV-RtgH0WZTz087YyE-6Bou76NP6IqrlAL-_qSbOcDHaOvdkrSTICrZ-sam6DBI9yikBE0gFsSZ-uRdCV-fH8muc9Qrjr1O8EQFQzbzCMHPpzLFB1uVxqK1I9Oy7sHAHDYe-KIF6IJRSI"
+    },
+    {
+      "position": 17,
+      "title": "Dream Coffee Shop",
+      "place_id": "ChIJLwQSBZ9HrTsRZGXnNDrQeGw",
+      "data_id": "0x3bad479f0512042f:0x6c78d03a34e76564",
+      "data_cid": "7816226101715756388",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad479f0512042f%3A0x6c78d03a34e76564&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad479f0512042f%3A0x6c78d03a34e76564&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.96734,
+        "longitude": 79.15825
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLwQSBZ9HrTsRZGXnNDrQeGw",
+      "provider_id": "/g/1vnngvh2",
+      "rating": 5,
+      "reviews": 1,
+      "unclaimed_listing": true,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Coffee shop"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "address": "VIT College, 3, opposite VIT Road, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "user_review": "\"Boost is tasty here 😋\"",
+      "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4lOm0yQAlez1lD8NMLbkqQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=212.10829&pitch=0&thumbfov=100",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/KMr1YXicHc3bDcIgFADQbfiTV_xoTYgx8dNHOoGh9ArES8GCxTqNa7mNxgXO-bxdKSlvGMtlAiizh5r8EzCvkqY2Rougk8_UxMBmwYp7hH7UHrdJj9EPao3nwJduh_ASuG9Ox0N_u3fE9BeDHsaiMujJOGrrT5ziQG3KpKqGE6daSRZdlRSSCt7IliRfjFOc_JdrnJXg_AtyrTly"
+    },
+    {
+      "position": 18,
+      "title": "AISHWARYAM 2.0",
+      "place_id": "ChIJpYXVEvJHrTsRrsC87xqpHXo",
+      "data_id": "0x3bad47f212d585a5:0x7a1da91aefbcc0ae",
+      "data_cid": "8799375180108185774",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f212d585a5%3A0x7a1da91aefbcc0ae&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f212d585a5%3A0x7a1da91aefbcc0ae&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9677771,
+        "longitude": 79.1527897
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpYXVEvJHrTsRrsC87xqpHXo",
+      "provider_id": "/g/11yt35q9wk",
+      "rating": 3.7,
+      "reviews": 29,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Coffee shop"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "address": "VIT, ROAD, next to LANSON TOYOTA SHOWROOM, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "9 AM–10:30 PM",
+        "saturday": "9 AM–10:30 PM",
+        "sunday": "9 AM–10:30 PM",
+        "monday": "9 AM–10:30 PM",
+        "tuesday": "9 AM–10:30 PM",
+        "wednesday": "9 AM–10:30 PM",
+        "thursday": "9 AM–10:30 PM"
+      },
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Small plates"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "user_review": "\"Best spot for birthday celebration 🎉 and sweet are excellent taste and fresh\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl3BeMDZguPRbOKw6At9zEjzrZCFT5ckpVNvADKnHr8Oc2kKhzqkXPzNS3EUagKHXyfKSjdwmUBPvMtpKCdz3C5L4Iej2IvpE0Otw1K-23sDAucIzked2aZcIacOHa6uSRCTo37Xc3ZXhyM=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/WOqN53icHcTBboIwGADgJ6ognTqXeEDAQDqEAG6EG_7UNoC00gKxL7mzb2Oy7_C9_rjWUn1ZVs_xignBejopOoIYNB30CsTdYlIhUEhZbpilxW-PjzT2Kzal2TUhy9bVexO0Zqy8U7GBTv6cZ9cnQzh-JuB0hJtHV6bmnOPgUjMSls8bydtmuV-O6RxrSbzGYG_z_RHR1olmGdiJXtYEOVj57gSR6Wjj1BVENSRhvZ3yzCsE3pWAq5I_48Oytm0b8f8BDW_MdkeC"
+    },
+    {
+      "position": 19,
+      "title": "Story Book Cafe",
+      "place_id": "ChIJMRCZ6chHrTsRb4OeR4ofT2o",
+      "data_id": "0x3bad47c8e9991031:0x6a4f1f8a479e836f",
+      "data_cid": "7660376169948021615",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47c8e9991031%3A0x6a4f1f8a479e836f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47c8e9991031%3A0x6a4f1f8a479e836f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9674879,
+        "longitude": 79.1575301
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMRCZ6chHrTsRb4OeR4ofT2o",
+      "provider_id": "/g/11wmhx_pmq",
+      "rating": 4.3,
+      "reviews": 52,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "type": "Cafe",
+      "types": [
+        "Cafe"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe"
+      ],
+      "address": "story Book Cafe, No: 296, 3, VIT Rd, opp. Gate 3, opp. Vellore, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10:30 PM",
+      "hours": "Open · Closes 10:30 PM",
+      "operating_hours": {
+        "friday": "10:30 AM–10:30 PM",
+        "saturday": "10:30 AM–10:30 PM",
+        "sunday": "10:30 AM–10:30 PM",
+        "monday": "10:30 AM–10:30 PM",
+        "tuesday": "10:30 AM–10:30 PM",
+        "wednesday": "10:30 AM–10:30 PM",
+        "thursday": "10:30 AM–10:30 PM"
+      },
+      "phone": "+91 93841 45281",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Live music",
+            "Live performances",
+            "Sports"
+          ]
+        },
+        {
+          "popular_for": [
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Dessert",
+            "Seating"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "On-site parking",
+            "Usually plenty of parking"
+          ]
+        },
+        {
+          "pets": [
+            "Dogs allowed outside"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "user_review": "\"Awesome space and good ambience excellent taste and affordable in price\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAmyeUKUGeen6MMSKzk5QxbbZ1BVZKToo0MxmoK2VqEm32UBvFXQWtfgsr5iDFQ2iNiGsXkYrMsqAz0GIV2Jr8GTkqbSGTXSGSboNTxLRuvul4-9uhSrx46YApaaY6iDoM0wQ7=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/fX03kHicHcRLDoIwFADAE1UqIn4SFxi1KtaILQjuhFQgfB60RdELegZvY-Is5vvJtG7U3DDKbDRIAdJSdErIBGotaj1IoDLSRqFEIWU42_OJXwqnegnf9YkQtU0pc9_F2Ovj-DpcBleXA2DaV-CaQbuuRqa_fGxC76LvqZLjfLXxzPyYExUWkaSqdd6Y7AJzL6eEF23MCA8ZYTEceX84d4-utNCsy5jsLTtymtstsvMVUPz0JovnEGOMsv8Jqn-bvEUo"
+    },
+    {
+      "position": 20,
+      "title": "Limra Students Restaurant",
+      "place_id": "ChIJRU1PSXVHrTsRHoGw5ykiMBM",
+      "data_id": "0x3bad4775494f4d45:0x13302229e7b0811e",
+      "data_cid": "1382642648978850078",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4775494f4d45%3A0x13302229e7b0811e&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4775494f4d45%3A0x13302229e7b0811e&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9690105,
+        "longitude": 79.1538341
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRU1PSXVHrTsRHoGw5ykiMBM",
+      "provider_id": "/g/11f2w5jkrv",
+      "rating": 4.2,
+      "reviews": 764,
+      "price": "₹1–200",
+      "extracted_price": 1,
+      "unclaimed_listing": true,
+      "type": "Fast food restaurant",
+      "types": [
+        "Fast food restaurant",
+        "Breakfast restaurant"
+      ],
+      "type_id": "fast_food_restaurant",
+      "type_ids": [
+        "fast_food_restaurant",
+        "breakfast_restaurant"
+      ],
+      "address": "X593+JG4, VIT University, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "11:30 AM–10 PM",
+        "saturday": "11:30 AM–10 PM",
+        "sunday": "11:30 AM–10 PM",
+        "monday": "11:30 AM–10 PM",
+        "tuesday": "11:30 AM–10 PM",
+        "wednesday": "11:30 AM–10 PM",
+        "thursday": "11:30 AM–10 PM"
+      },
+      "phone": "+91 99447 98518",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "Delivery",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Late-night food",
+            "Quick bite"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmMnc1amtydhgBOgMI8A0%3D&g2lbs=AEzIGDsO7lMaCEslaxOC-CdMZeQS7FXsDofXeFljeZnPiiKz9MHZUXlgqkfXRCmK2_53SHJKKkzW&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=8eCsasP6La-6hbIPxtPB-Q0&ei=8eCsasP6La-6hbIPxtPB-Q0&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Ah their rolls, pasta, and burgers are so good for small budget.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnF640hxgZsM53lc3f41TdQAl6VBF6Belv7-AyKVMCbq1-G0sVYejJyx12wfh5eXkbfgvIyEkscM30H5A6lobM0rZ9hdjO5dwYeiE6vllr8wrtywW8Mb2-KVeaXMdXNQicLid8aBQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/1JPBvXicHcRdDoIgAADgE5GoSdbWg7b-o7I1s94SECwSE5I8YkfoNm19D9_3I4yp9chxpPB7XCku2UuzhqjKsMr0iHo4vNaAaKCdaHHYH0_VDPWhePOLxoEviV_03SNNIonSeIZiJtsBiLp1iif50wVzqNMzu626t-vZQgQsu-cFb5fd9K4J9uEiiJBUOYbNZSjobRdQe2blFLVSNqFtTGdPIc49sE7ZNcM02yYl2ZQ0vMbJ2LoQQiD-E1D9AIKmRNQ"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9680%2C79.1503%2C14z&q=cafe+near+VIT+Vellore&start=20&type=search"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "dukandarpan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-pack rank tracking for the SerpApi India Hackathon.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test test/*.test.mjs",
+    "db:migrate": "node db/migrate.mjs",
+    "db:seed": "node db/seed.mjs",
+    "check": "node scripts/run-check-cli.mjs",
+    "check:all": "node scripts/run-all-cli.mjs",
+    "cron:daemon": "node scripts/cron-daemon.mjs",
+    "test:alert": "node scripts/test-alert.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "next": "^15.5.25",
+    "node-cron": "^4.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.10.1"
+  }
+}

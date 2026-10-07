@@ -1,0 +1,1638 @@
+{
+  "search_metadata": {
+    "id": "6aace0e500a197f64d56fda7",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/SGYuzf4ALHOBOCR6V7srPDuXII0ZtN0ZO25wSFvbsIc/6aace0e500a197f64d56fda7.json",
+    "markdown_endpoint": "https://serpapi.com/searches/SGYuzf4ALHOBOCR6V7srPDuXII0ZtN0ZO25wSFvbsIc/6aace0e500a197f64d56fda7.md",
+    "created_at": "2026-09-18 06:57:41 UTC",
+    "processed_at": "2026-09-18 06:57:41 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/salon+in+Katpadi/@12.9680,79.1503,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/SGYuzf4ALHOBOCR6V7srPDuXII0ZtN0ZO25wSFvbsIc/6aace0e500a197f64d56fda7.html",
+    "prettify_html_file": "https://serpapi.com/searches/SGYuzf4ALHOBOCR6V7srPDuXII0ZtN0ZO25wSFvbsIc/6aace0e500a197f64d56fda7.prettify",
+    "total_time_taken": 1.06
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "salon in Katpadi",
+    "ll": "@12.9680,79.1503,14z",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "salon in Katpadi"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Lakme Salon For Him and Her in Gandhinagar, Katpadi",
+      "place_id": "ChIJb1Jqp85HrTsRHbpR50_10Ig",
+      "data_id": "0x3bad47cea76a526f:0x88d0f54fe751ba1d",
+      "data_cid": "9858649307846130205",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47cea76a526f%3A0x88d0f54fe751ba1d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47cea76a526f%3A0x88d0f54fe751ba1d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9502747,
+        "longitude": 79.14165919999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJb1Jqp85HrTsRHbpR50_10Ig",
+      "provider_id": "/g/11fd7lhkt_",
+      "rating": 4.8,
+      "reviews": 1547,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "23, First Floor 8th East Main Road, Dhanabagyam Mandapam circle Gandhinagar East, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 88790 04344",
+      "website": "https://salons.lakmesalon.in/lakme-salon-for-him-and-her-in-gandhinagar-katpadi-gandhinagar-vellore-beauty-parlour-gandhi-nagar-vellore-349667/Home",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Very good haircut service and very pocket friendly\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYa1GFfpDoLnpuVErJLixCCvMzoxNeBp-TRis0G-of3jM0WBQcAsxSNJWau2-o6f58801hgtc3DNp1SvSH2Jg8TxZZRdc_KA56BTw02yUut5X8YgBw-kK_16P_AvoUNAjHkHhd=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/gNYonHicHcRJDoIwFADQE1VaCISYuCiiElSiDKJuiKnQOvU3tgx6Qc_gbUx8i_f9CGOUHlvWXTgjDsDvdavrJwNpamlGDB4WVxoxjbRFo3STl_JwIot5o0JYSdXuZs94dRmm0279hiGpA4Xy9KLxAkHjXNe4DLaM6iFL4vLU2gi8xvV9TAQ3zAkTRbIui-yY-_lwPKZnVi2p6wV5j-1X0Rp37x940KPbsiLepqIdFAm9RrdInCc9wRgj8Z8h-QM5ukOx"
+    },
+    {
+      "position": 2,
+      "title": "Gorgeous Family Salon Katpadi",
+      "place_id": "ChIJH8Zh5CFHrTsR6g7n1oiphMQ",
+      "data_id": "0x3bad4721e461c61f:0xc484a988d6e70eea",
+      "data_cid": "14160629533545795306",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4721e461c61f%3A0xc484a988d6e70eea&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4721e461c61f%3A0xc484a988d6e70eea&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.960351399999999,
+        "longitude": 79.1374402
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJH8Zh5CFHrTsR6g7n1oiphMQ",
+      "provider_id": "/g/11lrh3997t",
+      "rating": 4.7,
+      "reviews": 886,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "No. 309, East Coast Rd, Suthanthira Ponvizha Nagar, Bharathi Nagar, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 788 775 6789",
+      "website": "https://www.gorgeousfamilyspa.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "offerings": [
+            "Beverages"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"I suggest do visit katpadi gorgeous for very good service.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnh4hTMDKTKhMyxAv7a13nHR3iRu-YwGMNnrtHOGxgfettyfQE8xr3l_98-QkL2dWpiQwos1RO-cikvMBgdReCk3N6z4QJlCkxY7CezF-QohsjzSVnakpFd8CqA3agwzMOua3DqJg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/h7yq2HicHcRdDoIgAADgE5EaraytB7MfV5FBLtdTc0hgGJhgmjfsCN2mre_h-36EtZWZOU4p4IBrzUvWGFZTrSxTdkD1w-GVAdQA4wQROSapEiORoOUu2Qn07oLXJPOgiggsSAMu7QYdVG2jeNPxG7P2fcMrv6theZ36AMv9ME-rArfaeCQGtJAvtOA5YaGEh3E_wtsylN1lErJ-DbAW5t6fziqT1Tr3w2cAM972KG4yuHxu-bz1XNcF4j8F6gc4O0Zz"
+    },
+    {
+      "position": 3,
+      "title": "Elegant landmark unisex salon and academy pvt ltd",
+      "place_id": "ChIJBYW__0xHrTsRDOMvMlGnmx8",
+      "data_id": "0x3bad474cffbf8505:0x1f9ba751322fe30c",
+      "data_cid": "2277598003742106380",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad474cffbf8505%3A0x1f9ba751322fe30c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad474cffbf8505%3A0x1f9ba751322fe30c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9535799,
+        "longitude": 79.1374292
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBYW__0xHrTsRDOMvMlGnmx8",
+      "provider_id": "/g/11twt_58ht",
+      "rating": 4.6,
+      "reviews": 493,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Facial spa",
+        "Nail salon",
+        "Hairdresser"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "facial_spa",
+        "nail_salon",
+        "unisex_hairdresser"
+      ],
+      "address": "2nd floor, 1st East Main Rd, Suthanthira Ponvizha Nagar, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "8 AM–10 PM",
+        "saturday": "8 AM–10 PM",
+        "sunday": "8 AM–10 PM",
+        "monday": "8 AM–10 PM",
+        "tuesday": "8 AM–10 PM",
+        "wednesday": "8 AM–10 PM",
+        "thursday": "8 AM–10 PM"
+      },
+      "phone": "+91 95858 22366",
+      "website": "http://elegantlandmarkunisexsalon.in/",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Appointments recommended"
+          ]
+        },
+        {
+          "recycling": [
+            "Plastic bottles"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking garage",
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"I visited for hair cut n head massage.. Both the services were good.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkvoVJKUO5LrCzIbcuPqRg7fpqU_n31ucEbuKDcre1WDUcUy1LrMoOv75tz6asyr7sVuqxDpqhlhDF0pGwrWlCM7t7BxB3SO-qXz5duxr90105NvLYV7ce8_uoouw6g6CnE4mN=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Keqe83icHcTbboIwGADgJ6q0QahbsgsFdlAUowO2KzP_dW0i9lxAXtBn2Nss2Xfx_d6F99o9RlEn4hlXincsOGZBSc-kn4G6Rlw7BA65aPl62L-38tKrZr2pq6S02fR2hrA3B05_tKlPMiYBinPY5GAZafMa6hsp7VZVPU38lH65m6WuCWbMtRGdyJ-xfhls22Vb6ulqXMXHCpmPKfkOo33ABCe7vvxsKLDFKSgVhpSnmSzm193TQDDGSPwPSP4BAu1F-g"
+    },
+    {
+      "position": 4,
+      "title": "Simply Sparkle Beauty Salon & Bridal Studio -katpadi, vellore [Hair | Skin| Makeup| Nails] Exclusive for women’s and kids",
+      "place_id": "ChIJ5fPm6KhHrTsRNlgfGlmqhoI",
+      "data_id": "0x3bad47a8e8e6f3e5:0x8286aa591a1f5836",
+      "data_cid": "9405392171476932662",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47a8e8e6f3e5%3A0x8286aa591a1f5836&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47a8e8e6f3e5%3A0x8286aa591a1f5836&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9689128,
+        "longitude": 79.1412277
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ5fPm6KhHrTsRNlgfGlmqhoI",
+      "provider_id": "/g/11q55tfq0d",
+      "rating": 4.9,
+      "reviews": 180,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Bridal shop",
+        "Make-up artist",
+        "Nail salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "bridal_shop",
+        "makeup_artist",
+        "nail_salon"
+      ],
+      "address": "First Floor, 90, VIT Rd, next to Galaxy Cinemas, Dharapadavedu, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 95975 87040",
+      "website": "http://www.simplysparklebeautysalon.com/",
+      "extensions": [
+        {
+          "from_the_business": [
+            "Identifies as women-owned"
+          ]
+        },
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "planning": [
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Google Pay"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"I had step hair cut and they did really well.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmTIM8zUYjOmc3GonJYo6baviGR3Wv0M0gHqp-MzNgVQ4FZW2f8c_Dff5MUPX5AN9rUtDE9K5okX1ALys9L02N0Y2Y74ZuaKcEBkgVJ4pr-u0QaoGhbkPSonI6JGC1KngHvxMeu=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/L7O7aHicHcRbcoIwFADQFUXCs9KZfqBQEAxFK88fBzMQWiSXkoCtG-waupvOeD7O328n5SieFeXa6SsGwK7NLJqJApcNlysKg8JGgahAQnGCY3LKh9OOrO9p-fk2UN0HHpZgXerlwz_q-YIJZsHXiMg9ZtnBeK1yrV3Ts9u2JkmTwnRie0ql69mRCX2hOvsfYe-xFuNSK5-Maq4j6m16loXGOKEZH2rwu0ufvAPfWaG_VSPOguWbNPPLTcUYo-4xRfwf54VDNg"
+    },
+    {
+      "position": 5,
+      "title": "Essensuals by Toni&Guy Hairdressing, Katpadi",
+      "place_id": "ChIJj_J20edHrTsRQ7sOhBUklsw",
+      "data_id": "0x3bad47e7d176f28f:0xcc962415840ebb43",
+      "data_cid": "14742010105072368451",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47e7d176f28f%3A0xcc962415840ebb43&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47e7d176f28f%3A0xcc962415840ebb43&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9679197,
+        "longitude": 79.1553637
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJj_J20edHrTsRQ7sOhBUklsw",
+      "provider_id": "/g/11xlst_3v4",
+      "rating": 4.8,
+      "reviews": 352,
+      "type": "Hairdresser",
+      "types": [
+        "Hairdresser"
+      ],
+      "type_id": "unisex_hairdresser",
+      "type_ids": [
+        "unisex_hairdresser"
+      ],
+      "address": "No.167, GMR Complex, VIT Rd, opposite Vellore, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "phone": "+91 88079 90789",
+      "extensions": [
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "user_review": "\"Had a haircut, facial, and pedicure, and everything was done perfectly.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOiiowjsZ6hTxCeTsgoyRETIRxuhyBict1l2Qevl_yafoWxBey6OrPExY3o-rlcsLRxSoT-J80QBQJF2l1WDKFduhSYfIoc49BYi-LTPhb559qTLC5RoRpJDR0AV5LzH7PFKGdtUux48fh=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/vQKbqXicHcTdDsEwGADQJ6p1mL_EhWGYJbYqy9wI1a2j9s3a0XlJ195G4lyc70doXaqRZUnRaWUAmeS14hWDQvNCtxjcraxUiCmkrMmShDS-bfIcXld16AlqppyqDBoypytiatG4OdO2bEf8KY_NKYXYuLzpbapwbpIOoEoyFRCzBYr8AY7cyPfa0o5na-9Si22SroB1h26So4CG4uw4wwcNpg4BUvozgid7J3gv-6G3Xlz0rjbdQSrGLxtjjMR_hoofXYdH2w"
+    },
+    {
+      "position": 6,
+      "title": "Slick & Sculpt Unisex salon & spa",
+      "place_id": "ChIJe0o742JHrTsRD5ZR4qDvzJg",
+      "data_id": "0x3bad4762e33b4a7b:0x98ccefa0e251960f",
+      "data_cid": "11010438663284823567",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4762e33b4a7b%3A0x98ccefa0e251960f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4762e33b4a7b%3A0x98ccefa0e251960f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.966980699999999,
+        "longitude": 79.1568906
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJe0o742JHrTsRD5ZR4qDvzJg",
+      "provider_id": "/g/11n4sr835w",
+      "rating": 4.9,
+      "reviews": 33,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "3rd, VIT University, 2, Kankeyanallur Road, opp. to Main gate, Vellaikalmedu, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9:30 AM–9 PM",
+        "saturday": "9:30 AM–9 PM",
+        "sunday": "9:30 AM–9 PM",
+        "monday": "9:30 AM–9 PM",
+        "tuesday": "9:30 AM–9 PM",
+        "wednesday": "9:30 AM–9 PM",
+        "thursday": "9:30 AM–9 PM"
+      },
+      "website": "https://2026.geteasysoftware.com/slick_sculpt/qr/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09",
+      "extensions": [
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "user_review": "\"They did a good hair cut.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk3PKlBC8LW2_B5Qy5s45FILVlhUov-g_51xfTDK4tymrXN35T_GDIl_9Ga3Gd13ZoveZBAj9jJA8hTNVicMDfVYi6EdCbCVD6cpKm2LaWuYyBSLDKGBn-FuaXTI44MNf0PLu-S8jvYfZgl=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PBPus3icHcTBToMwAADQL-qAlS7MxANQx5COoKswuBDWQTsslKwF5Ss9-zcmvsP7_RHGTPrJsqSAG64Ul-2s2wdTo2lHs2FqsPikAdNAW_7xPaPFJ8wSGYQeKbZ1gN5WpF10iEkuxYdaAK-R891RnLhmHR6XFCJaRziW9T5qYHRzYKWWtgr8ft-_-p6gaX5nJ9zl5X33cguvYY53bEqGLWmKuVyDM8FJFIzgMDcXGrvuKe3sjMzg7PVL2VVcPn85tm0D8T8D4x-_xUUm"
+    },
+    {
+      "position": 7,
+      "title": "Samsan blendz unisex salon",
+      "place_id": "ChIJv294gk9HrTsRHVU-OPFYj3w",
+      "data_id": "0x3bad474f82786fbf:0x7c8f58f1383e551d",
+      "data_cid": "8975490375426659613",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad474f82786fbf%3A0x7c8f58f1383e551d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad474f82786fbf%3A0x7c8f58f1383e551d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.967396899999999,
+        "longitude": 79.15748119999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJv294gk9HrTsRHVU-OPFYj3w",
+      "provider_id": "/g/11nqxjm1rm",
+      "rating": 5,
+      "reviews": 63,
+      "type": "Hairdresser",
+      "types": [
+        "Hairdresser"
+      ],
+      "type_id": "unisex_hairdresser",
+      "type_ids": [
+        "unisex_hairdresser"
+      ],
+      "address": "Opposite vit 1st gate, VIT Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "phone": "+91 63741 04787",
+      "extensions": [
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "user_review": "\"The best saloon I’ve ever visited, the charges was reasonable.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmf3eREdMJIqn8ffYizpqLRJD0rdIwlZS_eEz-XRCSzPcksgJ4Qv-sfG0obchQVwKAxqQVWsXvUvwGU__IsI0ClKNfdU7vauTtwCHmjrkwlX1m3tv9x4sIqF-FzBjfj3GvqBR4j5_9pgCbK=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2ddJUnicHcTBboIwGADgJ6rUwLK5ZAdlioVtkSrKdiGztGVYKOWvreElPe9tluw7fL_3xtoBnoNANeFMai0VvwIfme4t7-2M6S6QAyAGCILllu4Op06EnK7r95SY_kmIz59pMG80fcVjTbz62ld8PaGSxvtpxy4g0yh3CESC9Zk1-dFny5vJjycoXeF8UlQVAYJjlX2Iunh039eD9fG2a8eLV-W8C61b3CIgZoM206oVbZg4s6JR-1AtBhmfsxc_xxij5n-G-j9lMkle"
+    },
+    {
+      "position": 8,
+      "title": "Finecut Men's Salon",
+      "place_id": "ChIJXVqUEWdHrTsRBkIFo2Qb3Qw",
+      "data_id": "0x3bad476711945a5d:0xcdd1b64a3054206",
+      "data_cid": "926927217353900550",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad476711945a5d%3A0xcdd1b64a3054206&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad476711945a5d%3A0xcdd1b64a3054206&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9685919,
+        "longitude": 79.1428155
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXVqUEWdHrTsRBkIFo2Qb3Qw",
+      "provider_id": "/g/11n0zcgfm4",
+      "rating": 4.6,
+      "reviews": 321,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "VIT, to, Katpadi Rd, opp. to Moni restaurant, Katpadi, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 8 PM",
+      "hours": "Open · Closes 8 PM",
+      "operating_hours": {
+        "friday": "8 AM–8 PM",
+        "saturday": "8 AM–8 PM",
+        "sunday": "8 AM–8 PM",
+        "monday": "8 AM–8 PM",
+        "tuesday": "Closed",
+        "wednesday": "8 AM–8 PM",
+        "thursday": "8 AM–8 PM"
+      },
+      "phone": "+91 99623 80886",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "amenities": [
+            "Gender-neutral restroom",
+            "Restroom"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"A very good salon with full focus on quality of service.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmPdlwlqyazuMiSGoncLCSXLpUSdMEKedCHUoXvTfNCjjN8B2Oxvc3FuIu0oAHB2xvHmdVJnxZdef9s4hOS9adY7SvCbAXcEC1mUO-j4pmBUdsCtIDD5-vpFFG1ztQ76nWiiUIg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/kSBGEXicHcRLcoIwAADQE4WfWqszLiCC0CLYxijtziaRz5BPmxCoF-wZehtnfIv3_9cYo_Tadftm5tRS1j0bNPshUhgmjEMkd2ulAdFAu2H6fjie-YH2Y__9e7kN-xbtpCA5RFWuMKL7-JVRmGJZ2eO1gF1XPEdBOVkyS4Zs8GSYRsFkU05PL2L6pOy60vOmRKsL_VgiC7_CisTQ57gE3VzxCFMNTbbdLoBVSbLzb-Zt-STObYuzejP6nueB5jEB4g7pBEVQ"
+    },
+    {
+      "position": 9,
+      "title": "Essensuals by Toni & Guy.",
+      "place_id": "ChIJB4s9UGtHrTsRNRPFazJ9GLU",
+      "data_id": "0x3bad476b503d8b07:0xb5187d326bc51335",
+      "data_cid": "13049317575815926581",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad476b503d8b07%3A0xb5187d326bc51335&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad476b503d8b07%3A0xb5187d326bc51335&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.959938699999999,
+        "longitude": 79.13688619999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJB4s9UGtHrTsRNRPFazJ9GLU",
+      "provider_id": "/g/11b_30_6p3",
+      "rating": 4.5,
+      "reviews": 512,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Spa",
+        "Hairdresser"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "spa",
+        "unisex_hairdresser"
+      ],
+      "address": "No:5, Apl towers, 63, Katpadi - Vellore Rd, near Bombay Anantha bavan, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "9 AM–10 PM",
+        "saturday": "9 AM–10 PM",
+        "sunday": "9 AM–10 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "phone": "+91 97869 69911",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Excellent service for hair spa and haircut.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0tXXEvU1WeZmok5O-dUIFGfJMECs_vQ1s4MyNBNeikg1IpImWlekcOHYWXg4ZhoZXKId8rorUVDEH9WM7i298X8Wf2lR3DyWeYpxlyh1KDZ2QL553ebSsRQ7v7oV5PdB2OEFN=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/LWGVwnicHcRdboIwAADgExUoPwGX7EEFhDlA2LCVFxNLbQ2FEtqhnHBn8DYmfg_f859rPaoP0xTcMZiUTNA_RSciB00HbRDZm2xUgCigzHVSHX5Rb2mMo7mGiDa97LwCtHUa765fWbRV57mEys2WfJPTW8dgOqY9ErQjRXJCmLkNlw3ep20wyak-hlGyQpl_s1cBDtDVFpUTLoiexodYONyHjV1-e55DLz-qKv3Zl0fv0G7sIorzzzu0LAvw9wQMLy7NQ2I"
+    },
+    {
+      "position": 10,
+      "title": "Friends Salon AC",
+      "place_id": "ChIJCRnupJ9HrTsROvizAejf2ks",
+      "data_id": "0x3bad479fa4ee1909:0x4bdadfe801b3f83a",
+      "data_cid": "5465927285321496634",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad479fa4ee1909%3A0x4bdadfe801b3f83a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad479fa4ee1909%3A0x4bdadfe801b3f83a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9673226,
+        "longitude": 79.1573204
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCRnupJ9HrTsROvizAejf2ks",
+      "provider_id": "/g/1v1vbmw9",
+      "rating": 4.9,
+      "reviews": 172,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "Gaurang Mall, Tiruvalam Rd, opp. VIT, near Vit College, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 8:30 PM",
+      "hours": "Open · Closes 8:30 PM",
+      "operating_hours": {
+        "friday": "10:30 AM–8:30 PM",
+        "saturday": "10:30 AM–8:30 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "10:30 AM–8:30 PM",
+        "tuesday": "3–8:30 PM",
+        "wednesday": "10:30 AM–8:30 PM",
+        "thursday": "10:30 AM–8:30 PM"
+      },
+      "phone": "+91 95436 77833",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Very professional haircut in cheap price!\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnrWjxUPy0QMFvuya-GZ0SSBR7HCxWHXoB0Ln8MYxyckoYdOzRtMveXlJCVG5qy2cfEK-vp9uiHXCVh3ZDopBG0wropeIf0Jg3FfbphpVZ5bpHCtI0gdzOw6an-_ZVDpEZWZQcg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/da6nNHicHcRbUsIwFADQFYVe7YDKjB-2QAPSAYq0JT8MhDRRS3Jt0hcbZA3sxhnOx7nflHNox55XKn8gjZGlqK2ouNFOaDfg5uJJtIRbYr0Pmqy_Ml1lP91u3cMmnjV1fyQRg-02SF5o2GU0NwEs9Wu873r-a_bn1TVxcSPychGm0fCvf-bF9JM0-FZ_0zxMlc8mBoMI2sqgmBewkP6sOKHClA1PSEM3B3m-rtrRUZMDSyc4ZRnbcPnePgEAUY850f-zRUWc"
+    },
+    {
+      "position": 11,
+      "title": "Naturals Salon",
+      "place_id": "ChIJr6HRtWhHrTsR-dyR4kUMUvU",
+      "data_id": "0x3bad4768b5d1a1af:0xf5520c45e291dcf9",
+      "data_cid": "17677204981676104953",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4768b5d1a1af%3A0xf5520c45e291dcf9&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4768b5d1a1af%3A0xf5520c45e291dcf9&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9586983,
+        "longitude": 79.137507
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJr6HRtWhHrTsR-dyR4kUMUvU",
+      "provider_id": "/g/124ymg5w7",
+      "rating": 4.2,
+      "reviews": 1101,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Cosmetics store",
+        "Facial spa",
+        "Nail salon",
+        "Hairdresser"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "cosmetics_store",
+        "facial_spa",
+        "nail_salon",
+        "unisex_hairdresser"
+      ],
+      "address": "2nd Floor, 1st East Main Road, Pillaiyar Koil St, FLN Rd 4, opposite ODA, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 73395 13667",
+      "website": "https://salons.naturals.in/naturals-salon-beauty-salons-gandhi-nagar-vellore-289498/Home?utm_source=locator&utm_medium=googleplaces",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Appointments recommended",
+            "Accepts walk-ins"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Visited this salon well maintained and good service by the staff.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl0agD59NBfkzfqQoJKVgN77uIVB2DILhJwzge42lT8_f7mfh1p2F53oKye5pAzfOEDCmo9fJqO1Hzv_5DJiqlIhKqB1_AVmItzWkw-5vBUAaPIper3taVd8y3R5Lp5_xi-Uz9PfQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/UuZ9_nicHcRJDoIwAADAF1U2G8TEA4jGgkEwgkdCsIux0GKLSH_oE_yNiXOY74dpLdXasjjzFlQIyvGo8LMVvca9XrSis6hUoFVAWeHhnF-u3G5oDIMsIg9DhkIkaUUz3x9RFbkxOrJkMhQvXX5Z1cTvCHOku4eeSGcMZWjIaRdvOxGQZDg5B_OqYZzcB45YOkROHVYd0ub6mAB8RWXY5Ejip6eb6raavTM8Sli_76A0QU6KzeTYtg3Y_xb0P7VwROc"
+    },
+    {
+      "position": 12,
+      "title": "Bodycraft Salon & Spa Katpadi Vellore",
+      "place_id": "ChIJQ0gg3TlHrTsRk2sgOfWv0z0",
+      "data_id": "0x3bad4739dd204843:0x3dd3aff539206b93",
+      "data_cid": "4455097924159826835",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4739dd204843%3A0x3dd3aff539206b93&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4739dd204843%3A0x3dd3aff539206b93&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9560681,
+        "longitude": 79.1374898
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ0gg3TlHrTsRk2sgOfWv0z0",
+      "provider_id": "/g/11yl36hmdz",
+      "rating": 4.9,
+      "reviews": 188,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Facial spa",
+        "Foot massage parlor",
+        "Nail salon",
+        "Spa",
+        "Hairdresser"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "facial_spa",
+        "foot_massage_parlor",
+        "nail_salon",
+        "spa",
+        "unisex_hairdresser"
+      ],
+      "address": "Shop 22, 2nd Flr, 1st East Main Rd, Suthanthira Ponvizha Nagar, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9:30 PM",
+      "hours": "Open · Closes 9:30 PM",
+      "operating_hours": {
+        "friday": "9 AM–9:30 PM",
+        "saturday": "9 AM–9:30 PM",
+        "sunday": "9 AM–9:30 PM",
+        "monday": "9 AM–9:30 PM",
+        "tuesday": "9 AM–9:30 PM",
+        "wednesday": "9 AM–9:30 PM",
+        "thursday": "9 AM–9:30 PM"
+      },
+      "phone": "+91 97434 08444",
+      "website": "https://www.bodycraft.co.in/location-salon/vellore?utm_source=gmb&utm_medium=organic&utm_campaign=website",
+      "extensions": [
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "book_online": "https://bodycraft.zenoti.com/webstoreNew/services/0d3535ba-c3ca-4ccc-8526-de2ee8fe34ed?merchantId=0d3535ba-c3ca-4ccc-8526-de2ee8fe34ed&booking_source=booknow&booking_medium=google&rwg_token=AE37R_gPUCEYWmvGXPJUyS3DsB305jDFSc707MLLKo_lEAyscGXjaV1GZWclzG3gVTALzKQ0itCLXQfhdMLa3Hl2viI1cJ9thQ%3D%3D",
+      "user_review": "\"The service was friendly and quality haircut is done here\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQEUPAYuUrtr-M25Z9AS8fTcvV9offqvutKT2TskiZlIIiqeVdDL3e-G8TOSluXVlW0tmZrCxgYQUJWwTBDI4qdwgMu1jXuexOTodrgds5B0XFcpIXCHkLK7kkzZMcH-AIOxo9OwWY_cgF=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/U4roSHicHcRJDoIwAADAF1XqFsXEA-JCVYJLWS8eSilKpdBFiJ_07G9MnMN8P6XWjVpYFi_HAyYE49QoKomoNa31gIinxRoFiALKcrzLCcf1eROenNSEUkvgj6aZ7VznBSavyBZF0b6MPuARVtU94wjdWxrl6-OYgt0cB1dukojHUD8z6fYsPYf7uMOrNZq0ecd8M3wkhvYBFrlkuZquYLIlDUpcrzoeZlX1znziAQcFvbCDLk5vhG2X3RBCCMr_BNQ_A5FIhg"
+    },
+    {
+      "position": 13,
+      "title": "Lee & Guy Unisex Salon",
+      "place_id": "ChIJCfFWjhVHrTsR-UwNbeV_l0w",
+      "data_id": "0x3bad47158e56f109:0x4c977fe56d0d4cf9",
+      "data_cid": "5519020491719658745",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47158e56f109%3A0x4c977fe56d0d4cf9&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47158e56f109%3A0x4c977fe56d0d4cf9&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9676967,
+        "longitude": 79.15595309999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCfFWjhVHrTsR-UwNbeV_l0w",
+      "provider_id": "/g/11dftwj2_j",
+      "rating": 4.5,
+      "reviews": 559,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Bridal shop",
+        "Facial spa",
+        "Hair transplantation clinic",
+        "Laser hair removal service",
+        "Skin care clinic",
+        "Weight loss service"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "bridal_shop",
+        "facial_spa",
+        "hair_transplantation_clinic",
+        "laser_hair_removal_service",
+        "skin_care_clinic",
+        "weight_loss_service"
+      ],
+      "address": "Lee&guy unisex salon, VIT Rd, opp. VIT University, Vaibhav Nagar, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "8 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "phone": "+91 93453 55355",
+      "extensions": [
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "user_review": "\"Very professional and affordable in katpadi.Staff Junaid service  awesome.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmXGVvP_9zKdkqm-HcG9gI6ku3S9SIqFqkIf0cMqJcd_Nj_5JnBvf-EIXJYZ8S8Ty7IaSHUJWC15KpJ18xwX22syVTBis7S0zamXWd0MHc8ua2En4BRGi-mTII-GjcmZXtkGqoA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/byToYnicHcRNjoIwGADQE1UKjgqTuJCJU1rjxFiUjhtCPhAU21Jb_LugZ_A2Jr7Fez0b5zr77XmnZjiota5PVW-rM2jlKuUGoKVXdxaBRdabJetVmklBtpdVHj0WZWskSoBENR23_ZBHnJpf09I9hqVhUOZ_x3zEVHzZozkV7H8X8jC9T2jBkw3LfvzRomN-eLuKILD3bRof7ITjRyFFVuJlAmFfBHP1Fa_JAcmUUkSOIHfCtcTo2fTqY4xR8xmQegMPbkOD"
+    },
+    {
+      "position": 14,
+      "title": "Cheap And Best Men's salon, Katpadi",
+      "place_id": "ChIJL--nX_tHrTsRvFd7WQSTPms",
+      "data_id": "0x3bad47fb5fa7ef2f:0x6b3e9304597b57bc",
+      "data_cid": "7727775657504757692",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47fb5fa7ef2f%3A0x6b3e9304597b57bc&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47fb5fa7ef2f%3A0x6b3e9304597b57bc&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.968308299999999,
+        "longitude": 79.1484448
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL--nX_tHrTsRvFd7WQSTPms",
+      "provider_id": "/g/11z947jtsf",
+      "rating": 4.7,
+      "reviews": 26,
+      "type": "Hairdresser",
+      "types": [
+        "Hairdresser"
+      ],
+      "type_id": "unisex_hairdresser",
+      "type_ids": [
+        "unisex_hairdresser"
+      ],
+      "address": "VIT Rd, Old Katpadi, Solai Nagar, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "7:30 AM–10 PM",
+        "saturday": "7:30 AM–10 PM",
+        "sunday": "7:30 AM–10 PM",
+        "monday": "7:30 AM–10 PM",
+        "tuesday": "7:30 AM–10 PM",
+        "wednesday": "7:30 AM–10 PM",
+        "thursday": "7:30 AM–10 PM"
+      },
+      "phone": "+91 81480 18070",
+      "extensions": [
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "user_review": "\"Best salon with affordable price, in Katpadi with good ambiance\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlYBDL8L-x9NkwHgXWwxU6WRWh74Gg3L3Oly26ulJwi7KTamZLX-lXvtCKeZa3YMjbjsw_kqq0-pRAXHee08wNQ01dBUY0zIcGpfmBxzphUeA4bYFx1rPWU0NMKDUPvzEnHYNGMtKMTA787=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/F-HTmXicHcTbboIwAADQL6qUYYQt2QN4gclljNCU-mK0dq1aoNpqGT-5Z__GxPNwHv_CGKU_HEcKb8L7nkt20-xK-86wzkxo3zpcaUA10E6YVGWNJYkWWZCB4b0424Q32A5ohiss_GnMvcz7ln9vs5tc26Of1rt2kzVANnczT9lm55H8tD9puz1fLhCoKmwSxmBgix_oHiJE4PhFY_XbRsOoBGLhdE9Wg3stMYJFni5QeR-XXUKKODdpXod-4H9aF0IIxGsKuid25Uar"
+    },
+    {
+      "position": 15,
+      "title": "McKingstown at Katpadi",
+      "place_id": "ChIJG83BQUFHrTsRRsJcnixEYDc",
+      "data_id": "0x3bad474141c1cd1b:0x3760442c9e5cc246",
+      "data_cid": "3990264228276388422",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad474141c1cd1b%3A0x3760442c9e5cc246&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad474141c1cd1b%3A0x3760442c9e5cc246&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9670294,
+        "longitude": 79.1597307
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJG83BQUFHrTsRRsJcnixEYDc",
+      "provider_id": "/g/11zks0l6s0",
+      "rating": 4.6,
+      "reviews": 79,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Barber shop",
+        "Hairdresser"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "barber_shop",
+        "unisex_hairdresser"
+      ],
+      "address": "45/2B3, Vellore - Chennai Rd, opp. to VIT 3rd Gate, Dharapadavedu, Katpadi, Brahmapuram, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "7 AM–9 PM",
+        "saturday": "7 AM–9 PM",
+        "sunday": "7 AM–9 PM",
+        "monday": "7 AM–9 PM",
+        "tuesday": "7 AM–9 PM",
+        "wednesday": "7 AM–9 PM",
+        "thursday": "7 AM–9 PM"
+      },
+      "phone": "+91 88077 02858",
+      "website": "https://mckingstown.in/",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "payments": [
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Affordable, neat and clean...Good ambience\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnPnUfmLUl9OEG8ijxl-X6ujAk6-T381pw_sok0kdBCW5iaXmOOJH1u9ZlMC1rCtvL8WOQ6W1lfaQ-zWmU2WdWKr-D2PPWucJsZ_scyQE9dKOOoC42Gk1lGANrNMZJqwQkECbOUj89pwNjJ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Oo1X0nicHcTBDoIgAADQLyLFymlbByNnsxJtOZyXVmiaIJhgVj_Zub9p6x3e91Nr3amFYfB6OqmkrHg5qLKnUuhS6AmVrVF1ClAFlOFtDvGRiFik13aXchf7gXNrnhxk9tB4zAbHqQO78aQkM1mxQmR-O2ctxuEGDm7O9wj2SD92DsGJTSC_nhPwJm1qkYJse7C24pgMNFT5SdFX4rvFFmOJZlbAIA-8qI_2eXgfE-ajC04bx-3GqAmXIzRNE9T_KRA_V8RGfQ"
+    },
+    {
+      "position": 16,
+      "title": "HAIR TRENDS VELLORE",
+      "place_id": "ChIJe6l_vQVHrTsRngABCCOWca4",
+      "data_id": "0x3bad4705bd7fa97b:0xae7196230801009e",
+      "data_cid": "12569993112170070174",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4705bd7fa97b%3A0xae7196230801009e&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4705bd7fa97b%3A0xae7196230801009e&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.958637399999999,
+        "longitude": 79.1385789
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJe6l_vQVHrTsRngABCCOWca4",
+      "provider_id": "/g/11h852pdst",
+      "rating": 4.8,
+      "reviews": 126,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "Auxilium College Road, No:13, 4th East Cross, Maraimalai Street, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "7:45 AM–9 PM",
+        "saturday": "7:30 AM–9 PM",
+        "sunday": "7:30 AM–9 PM",
+        "monday": "7:45 AM–9 PM",
+        "tuesday": "7:45 AM–9 PM",
+        "wednesday": "7:45 AM–9 PM",
+        "thursday": "7:45 AM–9 PM"
+      },
+      "phone": "+91 98414 18027",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"For simple hair cut and low price you go here.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBdXLiDozu4OeflnQOubR74EpRTj6xMZOFwDiyTYIjVi4_55GAruW5PStn2H1fpKxic5CgUSBbl1bMRPf9bP8_KGD5HGhHJMJJO4md0jVUVfW97NIikKj5lIciN6_wq_mR1iga=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/tq7CBHicHcTbEoFAAADQL0pF6zbjAdFNykrhpdGqbbPtxm4TftA3-BszzsP5fkopGzFVVVoOephzTPNW5A_EmcyZ7CFeq7gRChKKUOc2DKOELq7HDTH5uzWCvKBsF7QZHBmrBkbV8Omfg3Vnkld0cqqYGCkA1vzRJiDcS9a39aLxngSBJT7sFxnVMx-GxSQLx6lnmcC2Stv1XTcw6qtWxYe4SCajrUNuXgWog8h2mHb3tIY6wZdZp2uappT_kcJ-VJtEJA"
+    },
+    {
+      "position": 17,
+      "title": "GREEN TRENDS UNISEX HAIR & STYLE SALON",
+      "place_id": "ChIJKXwni5NHrTsRLWTWyyItLus",
+      "data_id": "0x3bad47938b277c29:0xeb2e2d22cbd6642d",
+      "data_cid": "16946532075313718317",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47938b277c29%3A0xeb2e2d22cbd6642d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47938b277c29%3A0xeb2e2d22cbd6642d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.958412899999999,
+        "longitude": 79.1403496
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKXwni5NHrTsRLWTWyyItLus",
+      "provider_id": "/g/11vqgwjkpq",
+      "rating": 4.8,
+      "reviews": 926,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Beautician",
+        "Bridal shop",
+        "Eyelash salon",
+        "Facial spa",
+        "Make-up artist",
+        "Spa",
+        "Stylist",
+        "Hairdresser",
+        "Waxing hair removal service"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "beautician",
+        "bridal_shop",
+        "eyelash_salon",
+        "facial_spa",
+        "makeup_artist",
+        "spa",
+        "stylist",
+        "unisex_hairdresser",
+        "waxing_hair_removal_service"
+      ],
+      "address": "First Floor, no.6, 4th East Cross Rd, opposite City Union Bank, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "8 AM–9 PM",
+        "sunday": "8 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 416 406 0500",
+      "website": "https://salons.mygreentrends.in/salon-in-gandhi-nagar-vellore-tamilnadu",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Beverages"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Accepts walk-ins"
+          ]
+        },
+        {
+          "recycling": [
+            "Plastic bottles"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "On-site parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible restroom"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"I visited Green Trends in Katpadi for a facial, pedicure, and threading.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmS_n_RCjQNDetm21prBPtLvANxrkGkQsLwSO7fZpD0CfwIawNNY3BUEvfMy3hcSFbE6lP_eBTgrFTXBN7nsCl5ICyZG6BS2bqmI6i2uaMYS5szyFf50xV-wgxkn8GJW7Inp7Sy=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/IHiVNHicHcTdzoIgAADQJyJJp7Zv6yIszVZkYb83rhhiqcgnFNoL9gy9TVvn4nzehdZS_VlWVTgD3jS8Yg_FWtoIzYQe0Ka2uFSAKqCsyXybpIeaZCLbBvcNnjJd20PZokQvnxPctWVUbtTSkLWfn-UUBrmJLwbjk4N2s2e-6p2CkvA686okYyjlbZgeEfaFCio3Dvpz5CFiX__r2LvZj8vqRFz16sPchd0eGN6VYhQtDn4spE_6sRlCCEHxmwLxBZsARQI"
+    },
+    {
+      "position": 18,
+      "title": "Studieo7 Signature Lounge Vellore",
+      "place_id": "ChIJxebdH8hHrTsRagreZpcJgFI",
+      "data_id": "0x3bad47c81fdde6c5:0x5280099766de0a6a",
+      "data_cid": "5944762053999594090",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47c81fdde6c5%3A0x5280099766de0a6a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47c81fdde6c5%3A0x5280099766de0a6a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9582708,
+        "longitude": 79.1419497
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxebdH8hHrTsRagreZpcJgFI",
+      "provider_id": "/g/11n3__0g7v",
+      "rating": 4.9,
+      "reviews": 208,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "11/1, Auxiliam College Rd, near Kamaraj Statue, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 91509 93999",
+      "website": "https://studieo7.in/",
+      "extensions": [
+        {
+          "from_the_business": [
+            "Identifies as women-owned"
+          ]
+        },
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"He gave me a wonderful haircut.the shop is very clean .\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHAJq9Hakf5kDKkpV6d6nIKe1ogCAV89-fmh5XJP3fM8pNjCTxCaZWb81RiCSICDM7x3Il1m8A6nm6aLX3ufG9IpXgKQrNh57r93dO4vohYei0Vj7N6YyfDVYSLz62llgQov6v_V6iAOcM=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/EmxkjnicHcTbToMwAADQL-oAKwVMfGhKIozBrunAF4OsF0ZpK2U4_Umf_RsTz8P5_ZHzbN2T5ykJV8IYodjNsakzemZ6XnVm9IR1oHPAeTg77E5nleH1R5K1Aw-HtBgsRRek84IFRhBM4wTwUYb1egd5GdvqSk530r6e3-Pg0JNjTtIyusNcBWOMkR5Ru6nhjb8kua1FsZ8qGUZTAi_bx8XIhvU-vUYVar54Spvj5hs9KCX2ZkHLG0U93nbl82fg-z6Q_3dA_wHhckWX"
+    },
+    {
+      "position": 19,
+      "title": "Toni&Guy Hairdressing ,Katpadi, Vellore",
+      "place_id": "ChIJf0HqgBtHrTsR2Ia6v2KtR6g",
+      "data_id": "0x3bad471b80ea417f:0xa847ad62bfba86d8",
+      "data_cid": "12125851161353422552",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad471b80ea417f%3A0xa847ad62bfba86d8&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad471b80ea417f%3A0xa847ad62bfba86d8&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.951786,
+        "longitude": 79.1374396
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJf0HqgBtHrTsR2Ia6v2KtR6g",
+      "provider_id": "/g/11grc2986t",
+      "rating": 4.4,
+      "reviews": 1258,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon",
+        "Hair salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon",
+        "hair_salon"
+      ],
+      "address": "Anuragha Food Land Premises, 30, 1st East Main Rd, Suthanthira Ponvizha Nagar, East, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM",
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM"
+      },
+      "phone": "+91 63819 27370",
+      "website": "https://toniandguysalon.in/salon-in-katpadi/",
+      "extensions": [
+        {
+          "from_the_business": [
+            "Identifies as women-owned"
+          ]
+        },
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "offerings": [
+            "Beverages"
+          ]
+        },
+        {
+          "amenities": [
+            "Gender-neutral restroom",
+            "Restroom",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Best haircut i have ever experienced and the service is too good.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn1HKqIKkcC5Z-GIpSIuuT8NU2lyCFWH5r9CXFc1nxmt5qypi6Vc4GFBW2v4j3bxZC376Oq_rd1DAnJxDQm7DFoy_QMOgxYdr5cjBbDG8_ZVfDM2bDlVMU-SV46EOmYPYqabhPdrCUNupQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Bo_PinicHcRLcoIwAADQE0X-aDvThSblUwcBFRA2TAkIWkhCEipc0n1v0xnf4v09OymZeFeUvjNWLaVt30yi4ZgS2RC5wnRQWiYAFkAoW-8YnTOiefvR3_9gaBXA9dnJn6bz5pDo_QKdzLP4G7w4WCPzIK1xYTc7xabr7DL917wb1VxAY22HY8lrDW3J14ziYY0cupRxELZzXnML33cVcjdlkV5RoFeoT4MEnFLT_gyHPMrH76qLag6Tw8Tij4emqiroXmNA_gHZ3kX0"
+    },
+    {
+      "position": 20,
+      "title": "Lakme Salon For Him and Her in Green Circle, Vellore",
+      "place_id": "ChIJeR03uJA4rTsRQJbUSq4HRbU",
+      "data_id": "0x3bad3890b8371d79:0xb54507ae4ad49640",
+      "data_cid": "13061854739419141696",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3890b8371d79%3A0xb54507ae4ad49640&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3890b8371d79%3A0xb54507ae4ad49640&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9328837,
+        "longitude": 79.13869919999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeR03uJA4rTsRQJbUSq4HRbU",
+      "provider_id": "/g/1tx8rmwf",
+      "rating": 4.7,
+      "reviews": 2043,
+      "type": "Beauty salon",
+      "types": [
+        "Beauty salon"
+      ],
+      "type_id": "beauty_salon",
+      "type_ids": [
+        "beauty_salon"
+      ],
+      "address": "1st Floor, GDS Complex, New Bypass Road, Green Cir, Samuel Nagar, Thottapalayam, Vellore, Tamil Nadu 632004, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "10 AM–9 PM",
+        "saturday": "10 AM–9 PM",
+        "sunday": "10 AM–9 PM",
+        "monday": "10 AM–9 PM",
+        "tuesday": "10 AM–9 PM",
+        "wednesday": "10 AM–9 PM",
+        "thursday": "10 AM–9 PM"
+      },
+      "phone": "+91 82910 49005",
+      "website": "https://salons.lakmesalon.in/lakme-salon-for-him-and-her-in-green-circle-vellore-green-circle-vellore-beauty-parlour-green-circle-vellore-388925/Home",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "planning": [
+            "Appointment required",
+            "Appointments recommended"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "onsite_services": true
+      },
+      "user_review": "\"Good haircut and friendly services by stylist bhuvaneshwari.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBF0dP3copJvltPbTvrsVQgHL3wpqTJoo-7T5eXapv8nGwhp4UkTnPeDop1Mq1QObHbO2KVIRScl3s_9zNkQq_0JSUhO8j9I3l2YXgjc6pBQLJc-IPFElnDrW4bvpOBWLBThvl=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/psOA-nicHcTdbsIgGADQJ8JScf4s2YWN07ZWSxWtuzIrEogifC1Ik73gnsG3MfFcnOe_8h7cZxRpRQbSWqnFw4mOW-OF8QNu75EEh7hDLpqnO8pqkyzxhRJuIQ_a04aFzh0rmRakh5bl1qIJ-xCnXwhTs-oVjA43ZqhYWIg3bVyVTdqUw_Ux2-25Ju48-9veqvaM8_1BldPrLCN6-HOSVz6GpCpyjjK6_NZm0dWjJkCZ1EXCVNBffYwxRuo9R-YFpIFE-g"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9680%2C79.1503%2C14z&q=salon+in+Katpadi&start=20&type=search"
+  }
+}

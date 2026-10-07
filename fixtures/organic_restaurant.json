@@ -1,0 +1,757 @@
+{
+  "search_metadata": {
+    "id": "6aace0df408027c490ecd89c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/BulqWOfBHPIRJ75RSG2XFdydbR4FaxH7FsmggECbP4A/6aace0df408027c490ecd89c.json",
+    "markdown_endpoint": "https://serpapi.com/searches/BulqWOfBHPIRJ75RSG2XFdydbR4FaxH7FsmggECbP4A/6aace0df408027c490ecd89c.md",
+    "pixel_position_endpoint": "https://serpapi.com/searches/BulqWOfBHPIRJ75RSG2XFdydbR4FaxH7FsmggECbP4A/6aace0df408027c490ecd89c.json_with_pixel_position",
+    "created_at": "2026-09-18 06:57:35 UTC",
+    "processed_at": "2026-09-18 06:57:35 UTC",
+    "google_url": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&oq=restaurant+near+VIT+Vellore&uule=w+CAIQICIYVmVsbG9yZSxUYW1pbCBOYWR1LEluZGlh&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/BulqWOfBHPIRJ75RSG2XFdydbR4FaxH7FsmggECbP4A/6aace0df408027c490ecd89c.html",
+    "total_time_taken": 4.67
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "restaurant near VIT Vellore",
+    "location_requested": "Vellore, Tamil Nadu, India",
+    "location_used": "Vellore,Tamil Nadu,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "restaurant near VIT Vellore",
+    "total_results": 133,
+    "time_taken_displayed": 0.32,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+    "image": "https://www.google.com/maps/vt/data=Ty8wRq_Qnlk75c0tRusIJTHgxnVddvVeh7p_mU8z4y27xSS-PFs4D5FP7CDjizG1chWZYVRKw5liQA8g9YlqNf6POXwtuSxkJh3Nuqllj9Ef4sLwDzaIWOmIFa_lC8IwblWXo5HnKPofi4zjAf55HrC9Ycrzl8qNENpZO3zgfPJbMLJ-SW31UGyJfw4T1Dc0Af6BID4PLSoFzZDl5quvvVnJVkwVguUjc5py0zu8-YjWa8zRPo8iUzz3_l6wNoxRtqR7XQrisDGlikj4lsBC9fxgh7vsqqAt8tYFu3nyCtYblJVMVhuR6cPyUiru0Xxu16OdSiMb6C3RRSiVdH21_1U9Y0ANZfamHY1oinfK9MwH-ei6hMlG5GVudZOMV1JvorA4IH7oZgcLeG31V2xQUPs2wsLb05oHmL-psHf-zn-AZaBaKz6-NEG5mFJR6RNGdo7xs-VV_xglryXmP5CzFyAh5sFP8ZecgYYhyuXmdVxYKnk1BOimJTRNc26CLl3liK-qrMKHBOObRhaLFBaUW5YjVOCpgdQQQhliUyRvAfCaDWjmpN5irOlLPbb96wltt_EsvnM2uxZRJu_8Du0CiWwja7s2B9wqeKEj010UnJEZbQfkNskgkhmDW7M7HKnBuuLA-HvcpJwfso4H8hs1LLMAxwG2xFgBvLM2YiYLMdNyC2cDtC4-O43l5Ixe69lp-cKjvi1zcn2j3F7lgBJzf1UfT-4PvWOM01dhNMroTvp71bo5949pso60muPnEDkuxtB_gFR5wWd_6oUySRgaCdPZp8vGgIblEvyD_-DUGA1CH2Aayt7dUXI_8L05lHeglnppfqr5DnnZMeTXY0TTlpyvkRsr835MxiTgrhCZdvK9d1N5A--s3YcjzVwQFyEHKp8U_URapOPSg1tach1HpoI92zUYCwij8RrzJ8INGW1xKovPQjK2HUYMhvclePTbOLUqKL4YmXG0wnEdNNa2vxoZ_s2B-yFOZ_LEDh2AIyVUrFudpQjFXySrEHyLWybsuXxyWbq3td0GOzdwm4yx8Ff5NmFMal4n4tTMvHFHErxy9rvJixuCeJKfI1DRUmxzcB85Ob0cfty5VwHGQVSW9ZNRNS610zT9r1gTJ_LAHQNM9oUpldUxihNdwv6uJEZB3DzK95GkI2rX_-3jsvzzxo406ujYGrq5njNlp-djKgsjyR38JwYrubYUcEWL3fCkm9u4HwKUias8IRNj1h4Ot3Ek0ITXGLTSi9CJR175JR1g9yKWJvdbigfeKhu1jsWPIEnj_yMAZIhPq8k0QTd6Yh_7JjMY-opT-ZsfFXr0iW3vQjy5G85nd7SQJI7ygWX3G-YrSAYpK1rYvJ2Omeq2_U3KMwQp4OednOh7YpCekmjvQRwFuEUUqeLhyeaebO4YKkI2DgpLOP-WGrc3jbw0QpnYogF9AG_4Z3oWQAwNLM-jUB9BENc",
+    "gps_coordinates": {
+      "latitude": 12.943333543267157,
+      "longitude": 79.14173126220703
+    }
+  },
+  "local_results": {
+    "places": [
+      {
+        "position": 1,
+        "title": "Zaitoon Restaurant, Vellore",
+        "type": "Middle Eastern restaurant",
+        "rating": 4.8,
+        "reviews": 11799,
+        "price": "₹400–1,600",
+        "description": "All you can eat·Private dining room·Vegetarian options",
+        "thumbnail": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/mQ_HruIfOBJPOaFZOYQuFtQZO2Rfflr7BqU5mXxZkpZfLdRj9P5GQ_xIpz_RVY17.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYWIvlGPFhp9LoWduBa8F1ExsE6HgLhJDLUe1uco-C3HL_9okVdpkmE2kpOpf4yjXavp2SGCxchbAuOLOoONd4_2Vj8SLpoqiBDvSeAv_hDjNbzSZwj445JmRT3uWYBka_ORf7dA=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:090871 11211",
+          "website": "https://www.thezaitoon.com/"
+        },
+        "place_id": "3409079023413985060",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=3409079023413985060&q=restaurant+near+VIT+Vellore",
+        "provider_id": "/g/11k3d4cz59",
+        "gps_coordinates": {
+          "latitude": 12.968089,
+          "longitude": 79.150374
+        },
+        "address": "1st floor, Selvam Square, Tiruvalam Rd, Selvam Nagar, Katpadi, Vellore, Tamil Nadu 632014",
+        "hours": "Open · Closes 11:30 pm",
+        "phone": "090871 11211"
+      },
+      {
+        "position": 2,
+        "title": "Al Sultan Restaurant & Grills",
+        "type": "Restaurant",
+        "rating": 4.8,
+        "reviews": 1665,
+        "description": "All you can eat",
+        "thumbnail": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/mQ_HruIfOBJPOaFZOYQuFg1SgeyV1LWBqovhS4UT_t-TfHKjaenl7It2o63UAqBt.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlFIf26hr9F33PHPdFZnPyaJTQX9vjVj4WhdSLmMll47ve3R0TVf0lXGZTljk3hxNNadPn0lzfPWCd-onlMT_kp7YJfq6VD62AiHypxjRW-ZayanwoX6ZIrsGTx9_qugT9LefB5_YV2aaQ=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:073395 12905"
+        },
+        "place_id": "2800878846966143157",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=2800878846966143157&q=restaurant+near+VIT+Vellore",
+        "provider_id": "/g/11lmkqq4kl",
+        "gps_coordinates": {
+          "latitude": 12.913616,
+          "longitude": 79.133003
+        },
+        "address": "No.28, AKS Complex, Arni Rd, near CMC eye hospital, Kosapet, Vellore, Tamil Nadu 632001",
+        "hours": "Open · Closes 11 pm",
+        "phone": "073395 12905"
+      },
+      {
+        "position": 3,
+        "title": "Eato Restaurant",
+        "type": "Family restaurant",
+        "rating": 4.9,
+        "reviews": 48,
+        "price": "₹200–400",
+        "description": "Dine-in·Drive-through·Delivery",
+        "thumbnail": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/mQ_HruIfOBJPOaFZOYQuFttXWN-A5EAtZ8VueGf287ucUwWrrWlmESoqry9AZ_GV.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmx170K_rCM2h1AIER3Egihhqbdw09dbi-XwX4yEc6htPLZB5p8lzLnPKAtBQ9Hrg1EBek1BSGXkXkMRrIkjaYHlP-S_pnaaKT89LE3Sw3pc7UCW3ascZKsZIZGcHilH-UUr7YkQlj4TD1d=w1000-h1000-c-n",
+        "place_id": "1388901753194031734",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=1388901753194031734&q=restaurant+near+VIT+Vellore",
+        "provider_id": "/g/11zd8dd98v",
+        "gps_coordinates": {
+          "latitude": 12.968029,
+          "longitude": 79.149478
+        },
+        "address": "Varahi Complex, near VIT University, Katpadi, Vellore, Tamil Nadu 632007",
+        "hours": "Open · Closes 11 pm"
+      }
+    ],
+    "more_locations_link": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&udm=1&lsack=4uCsarf8IrSrwbkPo8CcsAM&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQjGp6BAg9EAA"
+  },
+  "related_questions": [
+    {
+      "question": "Is vit tier 2 or tier 3 college?",
+      "type": "ai_overview",
+      "page_token": "IxDnynicHdBdToMwAADgeJk9OkoVdcliglAcupr-8fdioLAxWgpuOAZv3sVTeRqNN_jyfX3rg1E_V-d6GPrTarkcx_F633V7XV3Lrl3mp8nIpcy1LnKpVs6dAx53cu1_btynj41LRN9HHrWYGliusFNAt6uMGguTvaTxvb3lKMU8SkjUi22Ab2gMWClu7awlILFQnkKXxlozbuoxVmhM7DKJBH4p216nUXjksw-xX2uuI6_yKKEAEWZqvm1Cso3DDRHI5-DBUEFJZtCRWWXP4gfAjUtxgxppUSA92nKo7D_PxJosrJL-zIN0YnZIsB35EULOa1xuCiWn3Mi5ShD1a2mVAs9pErZvvp4EDGHaDqSYay-F2OW0OxBBZ9noViRUSRV6dC4_ClCfRXALeXC65E_AeRV7WASX52xc7OR5DRf_n-v3XTus-mO3_wWpqoLn",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=IxDnynicHdBdToMwAADgeJk9OkoVdcliglAcupr-8fdioLAxWgpuOAZv3sVTeRqNN_jyfX3rg1E_V-d6GPrTarkcx_F633V7XV3Lrl3mp8nIpcy1LnKpVs6dAx53cu1_btynj41LRN9HHrWYGliusFNAt6uMGguTvaTxvb3lKMU8SkjUi22Ab2gMWClu7awlILFQnkKXxlozbuoxVmhM7DKJBH4p216nUXjksw-xX2uuI6_yKKEAEWZqvm1Cso3DDRHI5-DBUEFJZtCRWWXP4gfAjUtxgxppUSA92nKo7D_PxJosrJL-zIN0YnZIsB35EULOa1xuCiWn3Mi5ShD1a2mVAs9pErZvvp4EDGHaDqSYay-F2OW0OxBBZ9noViRUSRV6dC4_ClCfRXALeXC65E_AeRV7WASX52xc7OR5DRf_n-v3XTus-mO3_wWpqoLn",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiSXMgdml0IHRpZXIgMiBvciB0aWVyIDMgY29sbGVnZT8iLCJsayI6ImM1T1N6eXhXS01zc1VTakpUQzFTTUZMSUw0S3dqQldTODNOeVV0TlRBUSIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiSXMgdml0IHRpZXIgMiBvciB0aWVyIDMgY29sbGVnZT8iLCJsayI6ImM1T1N6eXhXS01zc1VTakpUQzFTTUZMSUw0S3dqQldTODNOeVV0TlRBUSIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0%3D"
+    },
+    {
+      "question": "What are the must-try restaurants in Vellore?",
+      "type": "ai_overview",
+      "page_token": "eGxj_HicHZBBjpswAADVz-xxY6-TVIkUrUrA2UUbUhtsjC-VMSQO2AYlNFm49Qt9Q1_V1zTqbU6j0fz6Y8--_fvltxmG_rqeze73-_Op6062ftadm6nr6PVMK2tLpdv18usSvh71JrrpYHvRAWF9z0MKUlAt0yxwRBgoQI9ZE3AOzZHDZK9hHJaedrWNR-J7xtpeFK2cshF2ZSYTieVZvayGnMeqdsO-fku4Dnl7iExQcvuTCJ4nApvMcUJD8qm8fK-EBfsGN8pXovIG80luD7j3ZW7m6a5YcLfallzKwsdvAtFLBSTJANxSRrsSJeiQ2w-BJFKunX88WGO6fLReBagUi6pdvlt91x4XtI0b5jnIfZyQ6eGbgltkNKhYMhUidofIjgzFqHADKScTFigJMtqdCaOTbqxjAKa1kO8k-7bYp1DJ3eolxRan3oy5W8xV-2nl_emobxv09P_15sfRDev-0p3-AervjUA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=eGxj_HicHZBBjpswAADVz-xxY6-TVIkUrUrA2UUbUhtsjC-VMSQO2AYlNFm49Qt9Q1_V1zTqbU6j0fz6Y8--_fvltxmG_rqeze73-_Op6062ftadm6nr6PVMK2tLpdv18usSvh71JrrpYHvRAWF9z0MKUlAt0yxwRBgoQI9ZE3AOzZHDZK9hHJaedrWNR-J7xtpeFK2cshF2ZSYTieVZvayGnMeqdsO-fku4Dnl7iExQcvuTCJ4nApvMcUJD8qm8fK-EBfsGN8pXovIG80luD7j3ZW7m6a5YcLfallzKwsdvAtFLBSTJANxSRrsSJeiQ2w-BJFKunX88WGO6fLReBagUi6pdvlt91x4XtI0b5jnIfZyQ6eGbgltkNKhYMhUidofIjgzFqHADKScTFigJMtqdCaOTbqxjAKa1kO8k-7bYp1DJ3eolxRan3oy5W8xV-2nl_emobxv09P_15sfRDev-0p3-AervjUA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIG11c3QtdHJ5IHJlc3RhdXJhbnRzIGluIFZlbGxvcmU/IiwibGsiOiJHaXgzYUdGMElHRnlaU0IwYUdVZ2JYVnpkQzEwY25rZ2NtVnpkR0YxY21GdWRITWdhVzRnZG1Wc2JHOXlaUSIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIG11c3QtdHJ5IHJlc3RhdXJhbnRzIGluIFZlbGxvcmU%2FIiwibGsiOiJHaXgzYUdGMElHRnlaU0IwYUdVZ2JYVnpkQzEwY25rZ2NtVnpkR0YxY21GdWRITWdhVzRnZG1Wc2JHOXlaUSIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0%3D"
+    },
+    {
+      "question": "Is non-veg allowed in vit?",
+      "type": "ai_overview",
+      "page_token": "bTejjnicHdDbboIwGADg7GW8nFTURROzBAUMccUW-hd7s5QWUCmHeUK427vsqfY0S_Y9wvf9Y051-fuSHG-39rocj7uuey2apjDZq2qqsbz2tRoraUwqVbmcv83Re65W7rVz1k3nENa2sKFWZMREgeijs-PhqrmpwZHAn1-UP125gW4XBz1FC8MAoxRocgBzF0kzA_AgTJyY2E4lB_JUvpiErLQi_8hSrpFwF0nmmjuugi33dIITyGU5CxXD0Y7riajFQGoRpBXsMehQrdE-9ug-c2eIlUAwf-4yVwtqf9gkxiXh1w67bRzxIvIGioiNj6o6TKMkiFWtTxI5j9DFZ2V52D8FDt3iPuSCSSQuwtPHzGjBfA_UYExWTQftGyviCwBG7VGuHit79D-2-syr27K9NMUfJpB5gw",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=bTejjnicHdDbboIwGADg7GW8nFTURROzBAUMccUW-hd7s5QWUCmHeUK427vsqfY0S_Y9wvf9Y051-fuSHG-39rocj7uuey2apjDZq2qqsbz2tRoraUwqVbmcv83Re65W7rVz1k3nENa2sKFWZMREgeijs-PhqrmpwZHAn1-UP125gW4XBz1FC8MAoxRocgBzF0kzA_AgTJyY2E4lB_JUvpiErLQi_8hSrpFwF0nmmjuugi33dIITyGU5CxXD0Y7riajFQGoRpBXsMehQrdE-9ug-c2eIlUAwf-4yVwtqf9gkxiXh1w67bRzxIvIGioiNj6o6TKMkiFWtTxI5j9DFZ2V52D8FDt3iPuSCSSQuwtPHzGjBfA_UYExWTQftGyviCwBG7VGuHit79D-2-syr27K9NMUfJpB5gw",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiSXMgbm9uLXZlZyBhbGxvd2VkIGluIHZpdD8iLCJsayI6IkdobHBjeUJ1YjI0Z2RtVm5JR0ZzYkc5M1pXUWdhVzRnZG1sMCIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiSXMgbm9uLXZlZyBhbGxvd2VkIGluIHZpdD8iLCJsayI6IkdobHBjeUJ1YjI0Z2RtVm5JR0ZzYkc5M1pXUWdhVzRnZG1sMCIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0%3D"
+    },
+    {
+      "question": "What is the famous food of Vellore?",
+      "type": "ai_overview",
+      "page_token": "Q2vKhnicHdBRboIwAADQ7DJ-agV1w8QsYQKKaw2lLdCfpbZqhVZw4kD_dpedaqdZsneE9_1jTufq9-lLt21znY9GXdcNj3V9NPuhrO1IXO9nOZLCmJ2Q1Xz2PBu_HuQiuK39t8vaT2jTsCUGqdFCmvCdVSzmrrnAXGXCtqjIpgmxY6Cc41gyr9lRT0NmHpwxLpZxhqrYlXZyh6AhhYOjXdiU2OEtpkGHV-q2D19cRVQvKegg04KF1XQb9SnKeQ-N5yuAN9DqnIZqInOWi4gj6HgxBH2UBmyVnRMHEXWHpbIo8lJqwlmWmZCVXBBnWu3P8YaXWpCIH6BhMS3ZhGcYB1oCRdGjyGO7DcydurFb2DbZPfSycJFPcH1KKH7I0lhaIoxpeyWWpRhonlZ9mAWgJ2_jNSPU3a58QpPBQX4t3MH_5-LjYNt581kf_wAqi4Lt",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Q2vKhnicHdBRboIwAADQ7DJ-agV1w8QsYQKKaw2lLdCfpbZqhVZw4kD_dpedaqdZsneE9_1jTufq9-lLt21znY9GXdcNj3V9NPuhrO1IXO9nOZLCmJ2Q1Xz2PBu_HuQiuK39t8vaT2jTsCUGqdFCmvCdVSzmrrnAXGXCtqjIpgmxY6Cc41gyr9lRT0NmHpwxLpZxhqrYlXZyh6AhhYOjXdiU2OEtpkGHV-q2D19cRVQvKegg04KF1XQb9SnKeQ-N5yuAN9DqnIZqInOWi4gj6HgxBH2UBmyVnRMHEXWHpbIo8lJqwlmWmZCVXBBnWu3P8YaXWpCIH6BhMS3ZhGcYB1oCRdGjyGO7DcydurFb2DbZPfSycJFPcH1KKH7I0lhaIoxpeyWWpRhonlZ9mAWgJ2_jNSPU3a58QpPBQX4t3MH_5-LjYNt581kf_wAqi4Lt",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgZmFtb3VzIGZvb2Qgb2YgVmVsbG9yZT8iLCJsayI6IkdpSjNhR0YwSUdseklIUm9aU0JtWVcxdmRYTWdabTl2WkNCdlppQjJaV3hzYjNKbCIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWRVMDVTa1JUWkUwd05XaDNjREl5V1VwUFVsTm1kRVkyV1hoSFRGSnJNVWR2VDBWdE1GTnhUMU41VlVsTlFuSTNZV2cxTlY5SGVURkZhamhCUWt3d1VVNTVXRkp4VkRZeVJqTkNaSEZrUkZZeGNrZEdiVkpIU0dZelp4SVhOSFZEYzJGeVpqaEpjbE55ZDJKclVHODRRMk56UVUwYUlrRkVjM0k1WmxONWVrUnlaVGxVU0ZCaVNVMXdMVUppYjBWcFVsazVhM1E1UkVFIiwiZmN2IjoiMyIsImVpIjoiNHVDc2FyZjhJclNyd2JrUG84Q2NzQU0iLCJxYyI6IkNodHlaWE4wWVhWeVlXNTBJRzVsWVhJZ2RtbDBJSFpsYkd4dmNtVVFBSDF5VHVBLSIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgZmFtb3VzIGZvb2Qgb2YgVmVsbG9yZT8iLCJsayI6IkdpSjNhR0YwSUdseklIUm9aU0JtWVcxdmRYTWdabTl2WkNCdlppQjJaV3hzYjNKbCIsImJzIjoiYzQyT1BRX0NNQXhFeFpxSmxUQndmSXlVb1V4TW5SZ1FPNHdvb2k2TmxOWlM0cmJpM3hOYUpBWUVZck44Ny15bjlncUhnTllLeEpKSEN2YkR0TVdWbmFNYlplbGN6LXh2UmwxVWNpNk53SGlDbElTcUNaS0l2OE5URU5ONFUwdUFyWEVpNTlqSG14dTk3djRwdEVOQjdaU09ualhYU1VzM21ManNLTzhCSzFrNjFSUGJwX2hNMVZFdGU3ZElQRDhWcHVJbW9HRE93Y1hiYUtVWDNYZnM1VEVlUFFBIiwiaWQiOiJmY180dUNzYXJmOElyU3J3YmtQbzhDY3NBTV82In0%3D"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Please do suggest some good restaurants near Vit Vellore",
+      "link": "https://www.reddit.com/r/Vit/comments/1lx6hi2/please_do_suggest_some_good_restaurants_near_vit/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlwEB6zswFa0ae5pHGMSA_KRwcUXSXSfHSMBA8CTlbQJR0QykjcwXQU1l3PD9mOV1C34mOGvNTunvJnPcJWY8TXth18Lc5MHavZbHQQMos9tgNZTIVkoRiC9hrtCmdt9_5N-I94n83N77aR_Abdj4vtk-5V-XlS4II2jqddo22BIDvbfdWGhOuHP3m-FgpRNVHon0Ra_92022&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECCkQAQ&uoh=1",
+      "displayed_link": "30+ comments · 1 year ago",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAhFBMVEVHcEz_RQD_RQD_RQD_RQD_RQD_RQD_RQD_RQD_PQD_NgD-XS32dlf5vK3____64dusLADUz9H-jXLOPAoSHiFrLBm3uLn3_f7jVS_b6e77pJDJo6H718__RQDw9ffs5-jm8fPIXlHqKwD5-PjolIP_VgP_SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb__________________________8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT____dm6Enc-MZH8Qz2V3Je_rj7Lgekec659N_fIgPnn-yCULaYaYwsCqShYhiQXQ-dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK_caJUygTMzN7eTnxdBXMcb3-0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB_TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg-vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F-rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1-vt1Z4HeDI_1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC.png",
+      "snippet": "Zan Cafe (for creamy pasta, fried chicken etc) Burgerman. Olio Pizza (pizza varients) Tom's Diner (continental) Zaitoon Hive Food Court. ...",
+      "snippet_highlighted_words": [
+        "Zan Cafe"
+      ],
+      "sitelinks": {
+        "list": [
+          {
+            "title": "Food spots near VIT Vellore (outside campus)? - Reddit",
+            "link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/",
+            "answer_count": 24,
+            "date": "4 Sept 2025"
+          },
+          {
+            "title": "Can you guys recommend places to eat around vellore ...",
+            "link": "https://www.reddit.com/r/Vit/comments/1c7cxjo/can_you_guys_recommend_places_to_eat_around/",
+            "answer_count": 9,
+            "date": "18 Apr 2024"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Zan Cafe (for creamy pasta, fried chicken etc) Burgerman. Olio Pizza (pizza varients) Tom's Diner (continental) Zaitoon Hive Food Court.  ...",
+          "source_info_link": "https://www.reddit.com/r/Vit/comments/1lx6hi2/please_do_suggest_some_good_restaurants_near_vit/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAhFBMVEVHcEz_RQD_RQD_RQD_RQD_RQD_RQD_RQD_RQD_PQD_NgD-XS32dlf5vK3____64dusLADUz9H-jXLOPAoSHiFrLBm3uLn3_f7jVS_b6e77pJDJo6H718__RQDw9ffs5-jm8fPIXlHqKwD5-PjolIP_VgP_SQLQ2uAyODvQ4ekABAhqcHK4ptuCAAAAHnRSTlMAPobB7P9mHdb__________________________8J6YdtgAAABWUlEQVR4AWySYZNDMBCGWyw2SI9TGnWqILT____dm6Enc-MZH8Qz2V3Je_rj7Lgekec659N_fIgPnn-yCULaYaYwsCqShYhiQXQ-dJxIedltQDZfqZQyY6K1st3vO78WsiyNDI3zySK_caJUygTMzN7eTnxdBXMcb3-0TsMC30RUJfciqSIs8JCZycHwWV1n2UVuXDKzxsDOySWu5AGVoB_TUh5imhJFpQTNfav7uDcSlBERJLUN9LOLewn6LnpCNS0EyvKg-vLRjVRLUIuxe8hSDYyyLqatyr68jdO6cxpvWGIeDOQQujagNs7YuumbJmYiZz0E3aJvMc95Ps8F-rV6PQQ0JY4XpVqVv0Cu2lYps9HbDp6HRS9Kv1-vt1Z4HeDI_1yZiFMNFIzWqYkChftl8zSkegE6HSYmENgxYYQHRGzUHiLHyh3ModvZo7nHxA71ofwdSnYAAPpVIo4RUPiIAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Reddit · r/Vit"
+    },
+    {
+      "position": 2,
+      "title": "THE 10 BEST Restaurants Near VIT University, Vellore",
+      "link": "https://www.tripadvisor.in/RestaurantsNear-g1152780-d8265220-VIT_University-Vellore_Vellore_District_Tamil_Nadu.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrAEB6zswFSUyKTXrrPnxKSH7elleMjex3S3aQoYtNVb99hehRjN0BDJpT2li6bZUXxEptoIAV7hJLZSvUCt-lTqVhwLJ8gQyVM1T3P0GZ-OmCfsLOdbXunDPtd1R9y7xGZjS5te76VaiwBXMLgHTmsdCMP3i7T0iy4Sa59K4JUxZuDozq0PdaY60Nph_BAzmbrHmX-nQCKeTZ4X7BZPSQiL4VgansVMfxWC63mnJ&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://www.tripadvisor.in › ... › Vellore Restaurants",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff_rTWAzeoCpDfJwnP8cxogY-1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG_63mKIftueuJJBt_wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc-ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK-Gwutdv7qYf_2vIxSyzAlDMvW_ftUc4j_nA89zGjJlkfnSAAAAAElFTkSuQmCC.png",
+      "snippet": "one of the best pure veg restaurant in Vellore, Saisuprabaatham Veg 4.5. Darling Namma Veedu 2.3. Khanna Fiesta 3.8. The Ajax Cafe 5.0 5",
+      "snippet_highlighted_words": [
+        "Saisuprabaatham Veg 4.5"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "one of the best pure veg restaurant in Vellore, Saisuprabaatham Veg 4.5. Darling Namma Veedu 2.3. Khanna Fiesta 3.8. The Ajax Cafe 5.0 5",
+          "source_info_link": "https://www.tripadvisor.in/RestaurantsNear-g1152780-d8265220-VIT_University-Vellore_Vellore_District_Tamil_Nadu.html",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAilBMVEUA61sA7VwA8F0A814A1lMAvEkAq0IAwksA2VQA7FsA9F4A01IAgTIAJg8AAAAALhIAhTQA41gA3VYAayoAHQsAYSYAnD0AWiMACwUAeS8AFgkADwYAIw4AKxEAyU4A9l8AMxQAEwgAGwsAcSwAQRoAlToAaCkAoD4As0UATx8Ady4Ap0EAPRgAjTfyrsZwAAABNUlEQVR4Ac3RRYLEIBQE0PDpOFTcId7eff_rTWAzeoCpDfJwnP8cxogY-1M4nVzP8wNOXz1kR6JYSNgk6YmbntBalud5UKAsq7Su06Ys2870ZKHBvEc7KJ2MEyfikyu1GlokFh2Wz1r1y4qUOyFtWJdeyd1hjsVYDZvrnxVExC9tch3dy6ADiyGb29t0JJsx3rA7pl63d24nunhMebW7kYuuQRw9X5dsOipmKp3hTs0qkVG_63mKIftueuJJBt_wp13qY46Ucp98aFVNHq4WPZwnF9iiYNB6yajBMk4CLrOP0JZZlJ34dFFal2LicRbFgwrtPalG4lJ0uiwHquGRc-ZJeOTY8DewlMC9KtdtB9QA1NyI1fHxSprjeK-Gwutdv7qYf_2vIxSyzAlDMvW_ftUc4j_nA89zGjJlkfnSAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 3,
+      "title": "The Best Restaurants in Vellore for Dining Out",
+      "link": "https://www.zomato.com/vellore/restaurants?category=2",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbQHrOzAVBsbHV1fV5Qd-TTHFs3LZqHJH0q4leCvlaOo7AGzpbWOko8jBHa_R5NmUMVu3WDxuR7NmnhdB1x0k1EBR59zP-FZfrxk0CQd6Vtv6SbCKx1aggojWHDHvonV8zLtWkpCc5UimqyN-XwU&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://www.zomato.com › vellore › restaurants",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAOVBMVEXMIC7MIC7KAhvLEiTMGyrJABDqsbTab3bQNkH34uPy0dPTS1TegofuwcP78PH____kmp7ceoDYZGvt5Z2BAAAAAXRSTlNy_u3IdgAAAIRJREFUeAHtT8UBwzAMtGWB-dzsv2s4eZX-rZjBOf8SnPNv4KeTFO4ki1AQYQkbkoiorZK3JMeUc0mZU02WrPVU0WPqhffkwANjRUVDtbp6JWlqtCV914gIXZkxksEgmLpuSWrAyMi1Tyiw3latiu55O4hkPYT2c_i0iEj4iz__SfcmtwAmuQepUtP-GwAAAABJRU5ErkJggg.png",
+      "snippet": "Restaurants in Vellore · Pastel Poetry · Hundreds Heritage · The Vellore Kitchen · Barbeque Nation · Abhiruchi Restaurant · Zufruita · Kailash Parbat · Hot Stone ...",
+      "snippet_highlighted_words": [
+        "Pastel Poetry"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Restaurants in Vellore · Pastel Poetry · Hundreds Heritage · The Vellore Kitchen · Barbeque Nation · Abhiruchi Restaurant · Zufruita · Kailash Parbat · Hot Stone ...",
+          "source_info_link": "https://www.zomato.com/vellore/restaurants?category=2",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAOVBMVEXMIC7MIC7KAhvLEiTMGyrJABDqsbTab3bQNkH34uPy0dPTS1TegofuwcP78PH____kmp7ceoDYZGvt5Z2BAAAAAXRSTlNy_u3IdgAAAIRJREFUeAHtT8UBwzAMtGWB-dzsv2s4eZX-rZjBOf8SnPNv4KeTFO4ki1AQYQkbkoiorZK3JMeUc0mZU02WrPVU0WPqhffkwANjRUVDtbp6JWlqtCV914gIXZkxksEgmLpuSWrAyMi1Tyiw3latiu55O4hkPYT2c_i0iEj4iz__SfcmtwAmuQepUtP-GwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Zomato",
+      "read_more_link": "https://www.zomato.com/vellore/restaurants?category=2#:~:text=Restaurants%20in%20Vellore&text=Pastel%20Poetry&text=Hundreds%20Heritage&text=The%20Vellore%20Kitchen&text=Barbeque%20Nation&text=Abhiruchi%20Restaurant&text=Zufruita&text=Kailash%20Parbat&text=Hot%20Stone%20Kitchen"
+    },
+    {
+      "position": 4,
+      "title": "Best Restaurants in Vit Main Road, Vellore",
+      "link": "https://www.justdial.com/Vellore/Restaurants-in-Vit-Main-Road/nct-10408936",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFT3Ypd6gFJ4KssqW_H-FbbDxqXT_4S-VVHU43NAq0RxX_N-4MYQpDBTl2ZBZfYJ02ImPzMlaIU_S01V-vZf5RRcT-mIluiIW0_tnzYbRI9U1vTAYnG-P0uB0uDocBLQRB53fO8wZDc-QbAWbzWHV5gzhqj002AXODZFq9g3d&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECEwQAQ&uoh=1",
+      "displayed_link": "https://www.justdial.com › ... › 354+ Listings",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX9__z_5dHT5fSLvuX_pmf_awL_uYRyq9YMdcD_l0dKnNU8kNH-gBz_iTT_0K28hCtuAAAAWElEQVR4AWNAA4wgQhmIXROARIUBA8NUEGMFjLHDICfyKljELDQ0FMywCeGDMEwDGK5CGSDFTAw7TMMYgVIcXR0qoVOBDPaOdgbXmDkPGBiUFBgYBRiwAACC6Rgw_7hHtwAAAABJRU5ErkJggg.png",
+      "snippet": "Best Restaurants in Vit Main Road, Vellore - Food Restaurants Nearby · Kanmani Biriyani · Zaitoon Restaurant · Hundreds Heritage · Amirtha Fine Dining.",
+      "snippet_highlighted_words": [
+        "Kanmani Biriyani"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Best Restaurants in Vit Main Road, Vellore - Food Restaurants Nearby · Kanmani Biriyani · Zaitoon Restaurant · Hundreds Heritage · Amirtha Fine Dining.",
+          "source_info_link": "https://www.justdial.com/Vellore/Restaurants-in-Vit-Main-Road/nct-10408936",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEX9__z_5dHT5fSLvuX_pmf_awL_uYRyq9YMdcD_l0dKnNU8kNH-gBz_iTT_0K28hCtuAAAAWElEQVR4AWNAA4wgQhmIXROARIUBA8NUEGMFjLHDICfyKljELDQ0FMywCeGDMEwDGK5CGSDFTAw7TMMYgVIcXR0qoVOBDPaOdgbXmDkPGBiUFBgYBRiwAACC6Rgw_7hHtwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Justdial",
+      "read_more_link": "https://www.justdial.com/Vellore/Restaurants-in-Vit-Main-Road/nct-10408936#:~:text=Best%20Restaurants%20in%20Vit%20Main,Vellore%20%2D%20Food%20Restaurants%20Nearby&text=Kanmani%20Biriyani&text=Zaitoon%20Restaurant&text=Hundreds%20Heritage&text=Amirtha%20Fine%20Dining"
+    },
+    {
+      "position": 5,
+      "title": "Order Food Online in Vellore Institute Of Technology",
+      "link": "https://www.swiggy.com/city/vellore/vellore-institute-of-technology-order-online",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFeSWtb7R97wB8-Lymg0YxLHNBnD8f8QyObzAkBqjEUJ0wih3GKb8403XTiwk1Lm7qBFoKXsWjZSo4AEbo1RzzRBSYx_u5IZeUs9DNBOJiePaMSLRiJ2FRM_9B8hI0QVaCrKteaMKTRAkqMmbck9PZ4nL-ROvoL1eMY1UX_yvx6_3Mmk4&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECEkQAQ&uoh=1",
+      "displayed_link": "https://www.swiggy.com › City › Vellore",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAUVBMVEVHcEz_UQD_UgD_UwH_UwH_UwD_UgD_UgD_UwD_TwD_VAH_TQD_RwD_mHj_uaP_UQD_____PgD_18n_UwH_qI7_9_P_7uf_Xh__hF3_dkj_x7WVei3oAAAAFHRSTlMAPIa00OL4_4cY______85____s2YKJhkAAADzSURBVHgBYgABQN9kgQAhCARAzDUApeP__7ygbMd2aHarumm7vodA33dtM1QoMrYTXGnH4Hq4pf_bFgozxvOu7q8_yOCJUEomDJkF1cXRNUBL5Ro1EGF8TXAGEZG7xDIIFeri3GkHERUk0f-7gUCH4kRmu-4kid32Wcok_w0omyVESZJ01hmWZ5OlWwuKmyKTVevGWWK6Oc9OEswm3XyWmPAfKq1QknnDJmwpJX5fsU8y9epp6jHJDorVq9argkJX9jovIcE7KaDAfG40b9kAG7NWE2zUaNlLl0eawgS1e7t37Xto_m0LD0Gd0kEc00HUIR2-Jr0cxE3AGaUAAAAASUVORK5CYII.png",
+      "snippet": "Top restaurant chains in Vellore Institute Of Technology ; Thambi Biryani Kadai. ₹150 OFF. ABOVE ₹499. Thambi Biryani Kadai ; Limra Garden Restaurant. ITEMS. AT ...",
+      "snippet_highlighted_words": [
+        "Thambi Biryani Kadai"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Top restaurant chains in Vellore Institute Of Technology ; Thambi Biryani Kadai. ₹150 OFF. ABOVE ₹499. Thambi Biryani Kadai ; Limra Garden Restaurant. ITEMS. AT ...",
+          "source_info_link": "https://www.swiggy.com/city/vellore/vellore-institute-of-technology-order-online",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAUVBMVEVHcEz_UQD_UgD_UwH_UwH_UwD_UgD_UgD_UwD_TwD_VAH_TQD_RwD_mHj_uaP_UQD_____PgD_18n_UwH_qI7_9_P_7uf_Xh__hF3_dkj_x7WVei3oAAAAFHRSTlMAPIa00OL4_4cY______85____s2YKJhkAAADzSURBVHgBYgABQN9kgQAhCARAzDUApeP__7ygbMd2aHarumm7vodA33dtM1QoMrYTXGnH4Hq4pf_bFgozxvOu7q8_yOCJUEomDJkF1cXRNUBL5Ro1EGF8TXAGEZG7xDIIFeri3GkHERUk0f-7gUCH4kRmu-4kid32Wcok_w0omyVESZJ01hmWZ5OlWwuKmyKTVevGWWK6Oc9OEswm3XyWmPAfKq1QknnDJmwpJX5fsU8y9epp6jHJDorVq9argkJX9jovIcE7KaDAfG40b9kAG7NWE2zUaNlLl0eawgS1e7t37Xto_m0LD0Gd0kEc00HUIR2-Jr0cxE3AGaUAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Swiggy",
+      "read_more_link": "https://www.swiggy.com/city/vellore/vellore-institute-of-technology-order-online#:~:text=Top%20restaurant%20chains%20in%20Vellore,Institute%20Of%20Technology&text=%E2%82%B9150%20OFF,Thambi%20Biryani%20Kadai&text=ITEMS,AT%20%E2%82%B969"
+    },
+    {
+      "position": 6,
+      "title": "Streets of Vellore | Vellore VIT College NEW SPOT : Story ...",
+      "link": "https://www.instagram.com/reel/DGVfwmjponV/",
+      "displayed_link": "1.7K+ likes · 1 year ago",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl0m1OBohyJjcQ94j0R8e9ymiHJnw6xX2gyzZZEt0Ac75mNin4Y9bgGg&s",
+      "favicon": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/MFidXYuMa6xYlAcnWI2ciDEmYDUvWouLtSieVlm1gso.png",
+      "snippet": "📍VIT Rd, opposite … 3 places to put on your food list: 📍 Zaitoon Restaurant 📍 Black Bird Cafe & Restaurant 📍 Purple Moon Cafe Whether craving ...",
+      "duration": "0:34",
+      "about_this_result": {
+        "source": {
+          "description": "📍VIT Rd, opposite … 3 places to put on your food list: 📍 Zaitoon Restaurant 📍 Black Bird Cafe & Restaurant 📍 Purple Moon Cafe Whether craving ...",
+          "icon": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/MFidXYuMa6xYlAcnWI2ciMT5Zp0p8Z1h367G0Fk4qdpsJ3e3F4orn3oWSaFLwMH3.png"
+        }
+      },
+      "source": "Instagram · streetsofvellore"
+    },
+    {
+      "position": 7,
+      "title": "Limra Star Restaurant | Katpadi, Vellore",
+      "link": "https://www.district.in/dining/vellore/limra-star-restaurant-katpadi?srsltid=AU7gw4W4awFW9NbMYZO4PzVaDiZo627xc31hx83otjSBT1uB-klo6mrE",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESvgEB6zswFbbZQco2OLzzA_BogUUODVTHmihuIdXeWwOqIDLxpnQRaEf-Rg8ZoyPwnd5fylBQR2Jh5RgnyMsBE0cqOCbyMLeaVgdqhMajgdcuCmELWwAhTFRUGYLr20GUeBUQ9ZvEz4DeeTbwFaC5XyUQBYndWc_9wpzBXe_Rn3IqevaC6uS_3DFYQ5GUHOqw90PadSTsBJsJP4toUJ76h9MWegUwyIjr1FeBLz1-aJEHeaHWYdlaPRiqFia5FBm6&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECEsQAQ&uoh=1",
+      "displayed_link": "https://www.district.in › dining › limra-star-restaurant-kat...",
+      "favicon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgNCgkLDRYPDQwMFRsUFRAWFR0iIiAdHx8kHSggGCYqJx8dITIhMS0rLi4uLyAzODMsNygtLisBCgoKDgwNGRAQFy0lGSUtNy8sLS0rNyssKzc3Lzg3LTQtLS8tLTE3NCstODIuLys3LSsrLTcwNy03Ny0rNys3Lf_AABEIACAAIAMBEQACEQEDEQH_xAAZAAADAQEBAAAAAAAAAAAAAAABAwUEAgD_xAAoEAACAgIBAgQHAQAAAAAAAAABAwIEABEFFCEGEjFBFiIyUmJxohP_xAAaAQACAwEBAAAAAAAAAAAAAAAAAgEDBAUG_8QAHhEAAgIDAQADAAAAAAAAAAAAAAECEQMEEiEUMUH_2gAMAwEAAhEDEQA_AJLLIz2P2d2WZCJ3NHWM36UvKAWon3wtNkLMNXbBODf4WxzGvguClyCJWrT4LVJDpoAnEMZJY-311mHNtKEqRz3Mbx3hCw6-hfIvWpDgw7hPUj_nv02MSe4ubE6MfwpyO64E0nqIxkr5_qEjEA_1l3y4BZ65xC6PC173VrayVmapBchKOogaIxcOx3koZSBxnP2aNZFQIrER88YvbCRmoN7S0QcbLqKTsSiqjxQ_qGAvpQBaWykYM8rJT8wI1v8ALM71Ego4HiFi3pcuzRiYwisCEGajGLQwD9A4PWTJJHJ80yxTZR6OmtBaWRKISiYnQBMdntvWaMetw7AlBh9--a-rAOoS9O2TSkAAo7yFD0kDDueQ37QH_9k.jpeg",
+      "snippet": "Limra Star Restaurant 4.0 VIT University Main Gate, Opposite Katpadi, Ward 8, Katpadi, Vellore ₹350 for two Open • 11:00 AM to 10:00 PM … +919994515405",
+      "snippet_highlighted_words": [
+        "4.0 VIT University Main Gate, Opposite Katpadi, Ward 8, Katpadi, Vellore"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Limra Star Restaurant 4.0 VIT University Main Gate, Opposite Katpadi, Ward 8, Katpadi, Vellore ₹350 for two Open • 11:00 AM to 10:00 PM … +919994515405",
+          "source_info_link": "https://www.district.in/dining/vellore/limra-star-restaurant-katpadi?srsltid=AU7gw4W4awFW9NbMYZO4PzVaDiZo627xc31hx83otjSBT1uB-klo6mrE",
+          "icon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgNCgkLDRYPDQwMFRsUFRAWFR0iIiAdHx8kHSggGCYqJx8dITIhMS0rLi4uLyAzODMsNygtLisBCgoKDgwNGRAQFy0lGSUtNy8sLS0rNyssKzc3Lzg3LTQtLS8tLTE3NCstODIuLys3LSsrLTcwNy03Ny0rNys3Lf_AABEIACAAIAMBEQACEQEDEQH_xAAZAAADAQEBAAAAAAAAAAAAAAABAwUEAgD_xAAoEAACAgIBAgQHAQAAAAAAAAABAwIEABEFFCEGEjFBFiIyUmJxohP_xAAaAQACAwEBAAAAAAAAAAAAAAAAAgEDBAUG_8QAHhEAAgIDAQADAAAAAAAAAAAAAAECEQMEEiEUMUH_2gAMAwEAAhEDEQA_AJLLIz2P2d2WZCJ3NHWM36UvKAWon3wtNkLMNXbBODf4WxzGvguClyCJWrT4LVJDpoAnEMZJY-311mHNtKEqRz3Mbx3hCw6-hfIvWpDgw7hPUj_nv02MSe4ubE6MfwpyO64E0nqIxkr5_qEjEA_1l3y4BZ65xC6PC173VrayVmapBchKOogaIxcOx3koZSBxnP2aNZFQIrER88YvbCRmoN7S0QcbLqKTsSiqjxQ_qGAvpQBaWykYM8rJT8wI1v8ALM71Ego4HiFi3pcuzRiYwisCEGajGLQwD9A4PWTJJHJ80yxTZR6OmtBaWRKISiYnQBMdntvWaMetw7AlBh9--a-rAOoS9O2TSkAAo7yFD0kDDueQ37QH_9k.jpeg"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "District by Zomato"
+    },
+    {
+      "position": 8,
+      "title": "Restaurants Near Vit Vellore",
+      "link": "https://www.instagram.com/popular/restaurants-near-vit-vellore/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdwHrOzAVfXRAGNr6395CTQ4XBN7w4WqDj7Nlk82dlc-d3q8QDvBaBsStgl-qRv-4zSO6tKRtwaTM35cvulq2IXHoAj7q0xQYqqbQJhxd-70my-JlPLG6kcIwX7H0A4ft5GgFZceM1opURqsiLc5LTzmQz-NTO8SF&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQFnoECEoQAQ&uoh=1",
+      "displayed_link": "https://www.instagram.com › popular › restaurants-near...",
+      "favicon": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/MFidXYuMa6xYlAcnWI2ciKk9BmfLTeaCZb7_pMZ46cw.png",
+      "snippet": "VIT Vellore in Katpadi has many dining options along VIT Main Road. Popular spots include Zaitoon Restaurant for biryani and multicuisine, Kunafa house, near ...",
+      "snippet_highlighted_words": [
+        "VIT Vellore in Katpadi has many dining options along VIT Main Road"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "VIT Vellore in Katpadi has many dining options along VIT Main Road. Popular spots include Zaitoon Restaurant for biryani and multicuisine, Kunafa house, near  ...",
+          "source_info_link": "https://www.instagram.com/popular/restaurants-near-vit-vellore/",
+          "icon": "https://serpapi.com/searches/6aace0df408027c490ecd89c/images/MFidXYuMa6xYlAcnWI2ciB31XVh9HQx4yyPXW_KzBdricEBS4UQSQ_-hueuXOrvs.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Instagram"
+    }
+  ],
+  "filters": [
+    {
+      "name": "Open now",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rqLfsI3pwfqgnpbgoCsr0q0mOPHN-dyi1tVW4E9pYfCtVxrgXIXEgioRsfbbTC7gSvl2K5c4cvlYSuv56_7JHZ7JB0cCPkYpoXl1aDAFxcac7arD3KUI8gkJyLRMQtpQtkKMhAjQZNeFvHvoijRbEhks3nHKLvO872fy2gmfLGDyikfPGSW5W-palVE0k1zqmrlQSBA",
+        "q": "restaurant near VIT Vellore open now"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=restaurant+near+VIT+Vellore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqLfsI3pwfqgnpbgoCsr0q0mOPHN-dyi1tVW4E9pYfCtVxrgXIXEgioRsfbbTC7gSvl2K5c4cvlYSuv56_7JHZ7JB0cCPkYpoXl1aDAFxcac7arD3KUI8gkJyLRMQtpQtkKMhAjQZNeFvHvoijRbEhks3nHKLvO872fy2gmfLGDyikfPGSW5W-palVE0k1zqmrlQSBA&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQxKsJKAB6BAgxEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqLfsI3pwfqgnpbgoCsr0q0mOPHN-dyi1tVW4E9pYfCtVxrgXIXEgioRsfbbTC7gSvl2K5c4cvlYSuv56_7JHZ7JB0cCPkYpoXl1aDAFxcac7arD3KUI8gkJyLRMQtpQtkKMhAjQZNeFvHvoijRbEhks3nHKLvO872fy2gmfLGDyikfPGSW5W-palVE0k1zqmrlQSBA"
+    },
+    {
+      "name": "Top rated",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rUwpzMyGpIg3IjWkFnH1lKlGrxpAT-y0hdqvnuvv7LxX9qeIysejDaXVTS4vXhNVWjC8eXLwioePQ1Tce0uU3DHcWg01Q18qkQODHUfvn9sk9WaCeIm_zzE96oQdofaAg2gXulX4CQAb2q3OIXANG2i1kadMOQ1lOdDfMubNjOKTE9DbwuOaJHTNmzDztl6l8DK9Zvg",
+        "q": "top rated restaurant near VIT Vellore"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=top+rated+restaurant+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rUwpzMyGpIg3IjWkFnH1lKlGrxpAT-y0hdqvnuvv7LxX9qeIysejDaXVTS4vXhNVWjC8eXLwioePQ1Tce0uU3DHcWg01Q18qkQODHUfvn9sk9WaCeIm_zzE96oQdofaAg2gXulX4CQAb2q3OIXANG2i1kadMOQ1lOdDfMubNjOKTE9DbwuOaJHTNmzDztl6l8DK9Zvg&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQxKsJKAF6BAgzEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=top+rated+restaurant+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rUwpzMyGpIg3IjWkFnH1lKlGrxpAT-y0hdqvnuvv7LxX9qeIysejDaXVTS4vXhNVWjC8eXLwioePQ1Tce0uU3DHcWg01Q18qkQODHUfvn9sk9WaCeIm_zzE96oQdofaAg2gXulX4CQAb2q3OIXANG2i1kadMOQ1lOdDfMubNjOKTE9DbwuOaJHTNmzDztl6l8DK9Zvg"
+    },
+    {
+      "name": "Cuisine",
+      "options": [
+        {
+          "name": "Any cuisine"
+        },
+        {
+          "name": "Buffet",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NlRRm9KwY2xZtSOffH-t4wUCwFjmw16N3A41_fUD1_dN_sZ1muY0-HW-NFYiDQnpFerIlYT5FvKIVBAxqiLjL_jM-UK5sXgo6C-mCZI33qHPKk9TitGHVq-W_L6P_PWW4jQOEHfXlz0UT-7F1D5qMKgnVUeqW40WV4av_XdRt-aYG4rUR8qp0KLmvZrgDZeEm38J8fogZE_ZyX4wSBDBP5HQsfwdcUDGXkgGmfzhU_JqTHSNjfgvHAtzivpcC6grOgH1spSctUqeJO57glCFqU4fmkMxn7cO2rjZ-CArkfZC58fSQiDok16Zbs_faqNE_H42Wc5PkYZAaZWEaRQGu1s70lVbMTFuX769gzGnjNER0qy8KD1eA1z-a6GhuWE9r8w-5vwsfzI-cW-bNPydMBexT7avXq2CQ25AcKBaIn8DKmCThH6EZq9a_5-1l8FQopQt0s7pSsXfEDrGQYkyPmM8sV2kpL37behizHTNQQiwHNuZTLz2W37QBMaZjxl2w-_k7INCV_0g4c44Mz8WD12yHpK5tqzPFmenmqj-MeV3MP2eUsNUJ5yn76XoLBk53f9p4UHjoPIlYaduZAtbMgrfHmxAE64z71Z8vacPTEPpuCY6Rhsyn-QB8s-lAkmGORFoUIOAIzMu-Qf8U8MvaJ3Va2HOtGtaNEqBitTFWNd_5M36X8raS7Xz2_gjrr4FrPvMVWw",
+            "q": "buffet restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=buffet+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NlRRm9KwY2xZtSOffH-t4wUCwFjmw16N3A41_fUD1_dN_sZ1muY0-HW-NFYiDQnpFerIlYT5FvKIVBAxqiLjL_jM-UK5sXgo6C-mCZI33qHPKk9TitGHVq-W_L6P_PWW4jQOEHfXlz0UT-7F1D5qMKgnVUeqW40WV4av_XdRt-aYG4rUR8qp0KLmvZrgDZeEm38J8fogZE_ZyX4wSBDBP5HQsfwdcUDGXkgGmfzhU_JqTHSNjfgvHAtzivpcC6grOgH1spSctUqeJO57glCFqU4fmkMxn7cO2rjZ-CArkfZC58fSQiDok16Zbs_faqNE_H42Wc5PkYZAaZWEaRQGu1s70lVbMTFuX769gzGnjNER0qy8KD1eA1z-a6GhuWE9r8w-5vwsfzI-cW-bNPydMBexT7avXq2CQ25AcKBaIn8DKmCThH6EZq9a_5-1l8FQopQt0s7pSsXfEDrGQYkyPmM8sV2kpL37behizHTNQQiwHNuZTLz2W37QBMaZjxl2w-_k7INCV_0g4c44Mz8WD12yHpK5tqzPFmenmqj-MeV3MP2eUsNUJ5yn76XoLBk53f9p4UHjoPIlYaduZAtbMgrfHmxAE64z71Z8vacPTEPpuCY6Rhsyn-QB8s-lAkmGORFoUIOAIzMu-Qf8U8MvaJ3Va2HOtGtaNEqBitTFWNd_5M36X8raS7Xz2_gjrr4FrPvMVWw&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAD",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=buffet+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NlRRm9KwY2xZtSOffH-t4wUCwFjmw16N3A41_fUD1_dN_sZ1muY0-HW-NFYiDQnpFerIlYT5FvKIVBAxqiLjL_jM-UK5sXgo6C-mCZI33qHPKk9TitGHVq-W_L6P_PWW4jQOEHfXlz0UT-7F1D5qMKgnVUeqW40WV4av_XdRt-aYG4rUR8qp0KLmvZrgDZeEm38J8fogZE_ZyX4wSBDBP5HQsfwdcUDGXkgGmfzhU_JqTHSNjfgvHAtzivpcC6grOgH1spSctUqeJO57glCFqU4fmkMxn7cO2rjZ-CArkfZC58fSQiDok16Zbs_faqNE_H42Wc5PkYZAaZWEaRQGu1s70lVbMTFuX769gzGnjNER0qy8KD1eA1z-a6GhuWE9r8w-5vwsfzI-cW-bNPydMBexT7avXq2CQ25AcKBaIn8DKmCThH6EZq9a_5-1l8FQopQt0s7pSsXfEDrGQYkyPmM8sV2kpL37behizHTNQQiwHNuZTLz2W37QBMaZjxl2w-_k7INCV_0g4c44Mz8WD12yHpK5tqzPFmenmqj-MeV3MP2eUsNUJ5yn76XoLBk53f9p4UHjoPIlYaduZAtbMgrfHmxAE64z71Z8vacPTEPpuCY6Rhsyn-QB8s-lAkmGORFoUIOAIzMu-Qf8U8MvaJ3Va2HOtGtaNEqBitTFWNd_5M36X8raS7Xz2_gjrr4FrPvMVWw"
+        },
+        {
+          "name": "Chinese",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1Nb3YN_6jOljucdr_d8WMu4LZiQKmTbsZAxKnFhGZjODiXj55QaR_toJkC-OVu0fp9dvlaY1M9IHnmmB-cEB3g2a4ObNYWT9axmSFL5p6zMW_n3efOuwFcdDDUyPXkUdKjpSJmZwWmTv47Yztw-g78WutGKaSz1CmYAXjaBGnNWbOdcppiUZ4_eHdpY8FoMDKNwANAq3s4vrYiWxeiUVqAzJIjatK_-yClWApcF9HY8PXE_vI4zKGfPRL2K5pQXA4CgS20Lt4756s0Cso_ho-0vLkh98A_tUmNE3EFGN3DLicZblewq2XtZXqlPeF09jyKImOheOcHaH9JIxuxGGHA0s38G16NULgC_zZZjZi5jiv_CMDqouRaCGcy9o13PWXdg_Onhzj842p6g3K1KD86omN3YvW4hXvxOF0Hp6bPDJzzLJAzH2Li0TtF6Z_iVGyjP1AKXguiSDJzdD-MR89TBDCvmSY71U9L2NX9Fc0XHzbmC8qSL4LeSRsnq2SB2gb1TagUNq6xGEDZUbC7RlOHo12LnI4sZxta4RW1hM4SY0O3s6zHSC1FqVKJFHd4KxyTRclF0Ng1ff-Rz8RpxUfRNlNnyHS1ontkGPkpMRVs593Oe-7wmwmiq4g4ioB4BDY_c_VNin3uSR7waqChEWmp0ISOIBWlL3Ih9AQvIenELBhxISCHI2V2LfGV4fTcpIVtwA3wDiww75PGZ4g875VtzQW1HrE",
+            "q": "chinese restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=chinese+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1Nb3YN_6jOljucdr_d8WMu4LZiQKmTbsZAxKnFhGZjODiXj55QaR_toJkC-OVu0fp9dvlaY1M9IHnmmB-cEB3g2a4ObNYWT9axmSFL5p6zMW_n3efOuwFcdDDUyPXkUdKjpSJmZwWmTv47Yztw-g78WutGKaSz1CmYAXjaBGnNWbOdcppiUZ4_eHdpY8FoMDKNwANAq3s4vrYiWxeiUVqAzJIjatK_-yClWApcF9HY8PXE_vI4zKGfPRL2K5pQXA4CgS20Lt4756s0Cso_ho-0vLkh98A_tUmNE3EFGN3DLicZblewq2XtZXqlPeF09jyKImOheOcHaH9JIxuxGGHA0s38G16NULgC_zZZjZi5jiv_CMDqouRaCGcy9o13PWXdg_Onhzj842p6g3K1KD86omN3YvW4hXvxOF0Hp6bPDJzzLJAzH2Li0TtF6Z_iVGyjP1AKXguiSDJzdD-MR89TBDCvmSY71U9L2NX9Fc0XHzbmC8qSL4LeSRsnq2SB2gb1TagUNq6xGEDZUbC7RlOHo12LnI4sZxta4RW1hM4SY0O3s6zHSC1FqVKJFHd4KxyTRclF0Ng1ff-Rz8RpxUfRNlNnyHS1ontkGPkpMRVs593Oe-7wmwmiq4g4ioB4BDY_c_VNin3uSR7waqChEWmp0ISOIBWlL3Ih9AQvIenELBhxISCHI2V2LfGV4fTcpIVtwA3wDiww75PGZ4g875VtzQW1HrE&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=chinese+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1Nb3YN_6jOljucdr_d8WMu4LZiQKmTbsZAxKnFhGZjODiXj55QaR_toJkC-OVu0fp9dvlaY1M9IHnmmB-cEB3g2a4ObNYWT9axmSFL5p6zMW_n3efOuwFcdDDUyPXkUdKjpSJmZwWmTv47Yztw-g78WutGKaSz1CmYAXjaBGnNWbOdcppiUZ4_eHdpY8FoMDKNwANAq3s4vrYiWxeiUVqAzJIjatK_-yClWApcF9HY8PXE_vI4zKGfPRL2K5pQXA4CgS20Lt4756s0Cso_ho-0vLkh98A_tUmNE3EFGN3DLicZblewq2XtZXqlPeF09jyKImOheOcHaH9JIxuxGGHA0s38G16NULgC_zZZjZi5jiv_CMDqouRaCGcy9o13PWXdg_Onhzj842p6g3K1KD86omN3YvW4hXvxOF0Hp6bPDJzzLJAzH2Li0TtF6Z_iVGyjP1AKXguiSDJzdD-MR89TBDCvmSY71U9L2NX9Fc0XHzbmC8qSL4LeSRsnq2SB2gb1TagUNq6xGEDZUbC7RlOHo12LnI4sZxta4RW1hM4SY0O3s6zHSC1FqVKJFHd4KxyTRclF0Ng1ff-Rz8RpxUfRNlNnyHS1ontkGPkpMRVs593Oe-7wmwmiq4g4ioB4BDY_c_VNin3uSR7waqChEWmp0ISOIBWlL3Ih9AQvIenELBhxISCHI2V2LfGV4fTcpIVtwA3wDiww75PGZ4g875VtzQW1HrE"
+        },
+        {
+          "name": "European",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NjGd_l05jS7kpZvTjwEyzAau2cIb_WSvqJPG_rHrQwdyJTfE7rnl2CDdUPBnaraiWpHIq97UKxf6zaWVA9ysY0dfOkSLqePHfA2Op0pDekzyPspEyVuibKOT2B3K65emTwMN2ln1vN7S0mpEhptFs0RhHm8ihmRd96gPouH66WNEeJnk_5FzYECu-IaX6QN8wXoJRFy5MYrkBvFPQ57xdAl-ZOtPOvlCxB0TSFTWmgkjf0xUrVT21lG2BUmsvHlWkU01vKdZ__5ZeGjaah2D_0SjiHYwXyBDJGH5OW2SpyqkeJKQ9H2j2uMFXzuKgwEN5TqckAqtO-rAZHWbAnEVxCF8UVut_Kja2kAtWEfBxBw77v4Ljb3ebrzFj8c5mNJK6mxo_MQelDbgLmqCJvVHDnUSlbrs5-BpJRsBfn6hauXRV56xrhXSJ5bhQCbSb5a2I8FDxTZcAw9MHxsX9MNfEyy7M5BMxL7eDpxJvNH8nU8sZUHZ15xdjsccq3Yr-G7WvROlgbidtftB2-aown7fiek-vcx-Qp6WfjqP5mIw_HGtOcbTBMILyl6n7fhndthIcH0zcjVTt3anvnDIqIn40me2Sb0FN40jlr38vkuNysZGtZ9dcQnSAObAHXAEtgMOz_mECukbTciOs_dRmLQKRhSyUn_A3-L02G-l7r9pp9r01SHeSFVYP8lFapxBq4RAmie42VQ",
+            "q": "european restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=european+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NjGd_l05jS7kpZvTjwEyzAau2cIb_WSvqJPG_rHrQwdyJTfE7rnl2CDdUPBnaraiWpHIq97UKxf6zaWVA9ysY0dfOkSLqePHfA2Op0pDekzyPspEyVuibKOT2B3K65emTwMN2ln1vN7S0mpEhptFs0RhHm8ihmRd96gPouH66WNEeJnk_5FzYECu-IaX6QN8wXoJRFy5MYrkBvFPQ57xdAl-ZOtPOvlCxB0TSFTWmgkjf0xUrVT21lG2BUmsvHlWkU01vKdZ__5ZeGjaah2D_0SjiHYwXyBDJGH5OW2SpyqkeJKQ9H2j2uMFXzuKgwEN5TqckAqtO-rAZHWbAnEVxCF8UVut_Kja2kAtWEfBxBw77v4Ljb3ebrzFj8c5mNJK6mxo_MQelDbgLmqCJvVHDnUSlbrs5-BpJRsBfn6hauXRV56xrhXSJ5bhQCbSb5a2I8FDxTZcAw9MHxsX9MNfEyy7M5BMxL7eDpxJvNH8nU8sZUHZ15xdjsccq3Yr-G7WvROlgbidtftB2-aown7fiek-vcx-Qp6WfjqP5mIw_HGtOcbTBMILyl6n7fhndthIcH0zcjVTt3anvnDIqIn40me2Sb0FN40jlr38vkuNysZGtZ9dcQnSAObAHXAEtgMOz_mECukbTciOs_dRmLQKRhSyUn_A3-L02G-l7r9pp9r01SHeSFVYP8lFapxBq4RAmie42VQ&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAF",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=european+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NjGd_l05jS7kpZvTjwEyzAau2cIb_WSvqJPG_rHrQwdyJTfE7rnl2CDdUPBnaraiWpHIq97UKxf6zaWVA9ysY0dfOkSLqePHfA2Op0pDekzyPspEyVuibKOT2B3K65emTwMN2ln1vN7S0mpEhptFs0RhHm8ihmRd96gPouH66WNEeJnk_5FzYECu-IaX6QN8wXoJRFy5MYrkBvFPQ57xdAl-ZOtPOvlCxB0TSFTWmgkjf0xUrVT21lG2BUmsvHlWkU01vKdZ__5ZeGjaah2D_0SjiHYwXyBDJGH5OW2SpyqkeJKQ9H2j2uMFXzuKgwEN5TqckAqtO-rAZHWbAnEVxCF8UVut_Kja2kAtWEfBxBw77v4Ljb3ebrzFj8c5mNJK6mxo_MQelDbgLmqCJvVHDnUSlbrs5-BpJRsBfn6hauXRV56xrhXSJ5bhQCbSb5a2I8FDxTZcAw9MHxsX9MNfEyy7M5BMxL7eDpxJvNH8nU8sZUHZ15xdjsccq3Yr-G7WvROlgbidtftB2-aown7fiek-vcx-Qp6WfjqP5mIw_HGtOcbTBMILyl6n7fhndthIcH0zcjVTt3anvnDIqIn40me2Sb0FN40jlr38vkuNysZGtZ9dcQnSAObAHXAEtgMOz_mECukbTciOs_dRmLQKRhSyUn_A3-L02G-l7r9pp9r01SHeSFVYP8lFapxBq4RAmie42VQ"
+        },
+        {
+          "name": "Fast food",
+          "parameters": {
+            "uds": "AJ5uw19tC8PRVLGT1bqBM7aYqr9hP9evf5B353E5G8PbIBtMHlDZE6tT4dZJkQbDeIDfS67QhdhOa1u8Zcthg-TDq9O11m-TPgxeCeLEncx4WXav7y8D2km5lXaqTDT7szxdvmYIoepYz0aeEFTBpgVvrHFPPYuYrnEeQL8x86u_ROMza6JwQMi7iFYbErYWjhLwqahfCRLyVUMdLQdInOuaAwUArumvgCds0pRfiMig7_P8DUwWU_XuKNUMfo-so913FzbH2dAP5o-PkXobB__eDSjkT0XHavMVhagAZsPzl2Tqak_VlZjlzM6WWBg5qdT4XFMQbDyKtO6y9GfSX2JQri7C0AKZlrKlvE3kYfFhAlE6eW0xKdQE6IT6gXCIcpBRa1s2GYdgCHyjmXg6-0DrITxuCzpvJw3eR2l88Llppi3k7qwS2_d4Pnqx9kmqFdtnoE2wJXib0Dotl-2SGCtWXX94xt6xXjQq4nmwQJiQcJws5YpMpCWrLU2FVjeJVkMEvGyweq-0FF9l_xvNTlWnE88AZdsTmueyI7DS1Nkk5guHZ0xdxeFJSUqk06sQ5v3ojTPDLDIzn6NHc4xcSvGSv9w0PpRrhyv7agzQnOhu0kliI30Hn-he2pnYOkxz-Nn62lCAnC50MHJlTNGhMHfMGhNHlMSuXdiTVfE7RMAjNy1JhHAJV5qRQNwSRMFNVDvb3LfspQpZJfYkL-Jhwb8uQm4Vq-qtFg",
+            "q": "fast food restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=fast+food+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hP9evf5B353E5G8PbIBtMHlDZE6tT4dZJkQbDeIDfS67QhdhOa1u8Zcthg-TDq9O11m-TPgxeCeLEncx4WXav7y8D2km5lXaqTDT7szxdvmYIoepYz0aeEFTBpgVvrHFPPYuYrnEeQL8x86u_ROMza6JwQMi7iFYbErYWjhLwqahfCRLyVUMdLQdInOuaAwUArumvgCds0pRfiMig7_P8DUwWU_XuKNUMfo-so913FzbH2dAP5o-PkXobB__eDSjkT0XHavMVhagAZsPzl2Tqak_VlZjlzM6WWBg5qdT4XFMQbDyKtO6y9GfSX2JQri7C0AKZlrKlvE3kYfFhAlE6eW0xKdQE6IT6gXCIcpBRa1s2GYdgCHyjmXg6-0DrITxuCzpvJw3eR2l88Llppi3k7qwS2_d4Pnqx9kmqFdtnoE2wJXib0Dotl-2SGCtWXX94xt6xXjQq4nmwQJiQcJws5YpMpCWrLU2FVjeJVkMEvGyweq-0FF9l_xvNTlWnE88AZdsTmueyI7DS1Nkk5guHZ0xdxeFJSUqk06sQ5v3ojTPDLDIzn6NHc4xcSvGSv9w0PpRrhyv7agzQnOhu0kliI30Hn-he2pnYOkxz-Nn62lCAnC50MHJlTNGhMHfMGhNHlMSuXdiTVfE7RMAjNy1JhHAJV5qRQNwSRMFNVDvb3LfspQpZJfYkL-Jhwb8uQm4Vq-qtFg&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAG",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=fast+food+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hP9evf5B353E5G8PbIBtMHlDZE6tT4dZJkQbDeIDfS67QhdhOa1u8Zcthg-TDq9O11m-TPgxeCeLEncx4WXav7y8D2km5lXaqTDT7szxdvmYIoepYz0aeEFTBpgVvrHFPPYuYrnEeQL8x86u_ROMza6JwQMi7iFYbErYWjhLwqahfCRLyVUMdLQdInOuaAwUArumvgCds0pRfiMig7_P8DUwWU_XuKNUMfo-so913FzbH2dAP5o-PkXobB__eDSjkT0XHavMVhagAZsPzl2Tqak_VlZjlzM6WWBg5qdT4XFMQbDyKtO6y9GfSX2JQri7C0AKZlrKlvE3kYfFhAlE6eW0xKdQE6IT6gXCIcpBRa1s2GYdgCHyjmXg6-0DrITxuCzpvJw3eR2l88Llppi3k7qwS2_d4Pnqx9kmqFdtnoE2wJXib0Dotl-2SGCtWXX94xt6xXjQq4nmwQJiQcJws5YpMpCWrLU2FVjeJVkMEvGyweq-0FF9l_xvNTlWnE88AZdsTmueyI7DS1Nkk5guHZ0xdxeFJSUqk06sQ5v3ojTPDLDIzn6NHc4xcSvGSv9w0PpRrhyv7agzQnOhu0kliI30Hn-he2pnYOkxz-Nn62lCAnC50MHJlTNGhMHfMGhNHlMSuXdiTVfE7RMAjNy1JhHAJV5qRQNwSRMFNVDvb3LfspQpZJfYkL-Jhwb8uQm4Vq-qtFg"
+        },
+        {
+          "name": "Italian",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N0v0eCGz63rLplXN_A6w-b_9-SR7rUhSmMqLbIgLnwplPDZ2xr30GiMoL_7v6ZIXSpVjb2MkdpEDYXG47UN4nzP3-jO64puDf8xim6oojyWa6GNHjbK500xSu8wzTd_Fv3XWGc7VwYOPafggqRGH0kuiACMoDjhfTebVDMyUnDBXLOqvnv0IRRwGPbvfgVIg1Sp3Zx4xOzpAjEY44ZXi30ms5n3AyBiR9cNrhQs0gvLQv9wOHZ2lxR2BZjVy3z_BaMtAzhawfHZVMrmQK8f4yUenxIi5hVQr6uWono83BWnq81B7dfdJ8a8uVFP7LheWs6m6WCvqKJPCzDkEQp6nrET07NF9RPS-jYLixFoHTBDFOPBKrDf8DO8dXENYyL2CSkC8gd3t90ZMO9FjciXAluGalAEPbPG9DL4LkFl8A7TLpeg2G5V1uDfsjxKcjl_Gs_77h7dLO6x028x6k__bI8HWWKcpsmC-0sm3Dzm8xhDTO8WJTPmle3vHzouLpY_V38SF9yyqxquqP96l-LpDSPaaPigcaQlf8eeKuKvTXuugmsdUbqy-I-M0ov0fwaq7X5iCyoyXNkj3Ju_2m3tYa1blJuiWhoTBo7vvJt_RILTPpjXqT4XdiuTWiZdmrcqhMIE0KXDz4xlgIIIwG7lFpBlV8Ypabte_k8x0c6exym-17K7QwZSysOlXLjsAof951fR6waubkd3_qpw6-eth5Siy74-0",
+            "q": "italian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=italian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N0v0eCGz63rLplXN_A6w-b_9-SR7rUhSmMqLbIgLnwplPDZ2xr30GiMoL_7v6ZIXSpVjb2MkdpEDYXG47UN4nzP3-jO64puDf8xim6oojyWa6GNHjbK500xSu8wzTd_Fv3XWGc7VwYOPafggqRGH0kuiACMoDjhfTebVDMyUnDBXLOqvnv0IRRwGPbvfgVIg1Sp3Zx4xOzpAjEY44ZXi30ms5n3AyBiR9cNrhQs0gvLQv9wOHZ2lxR2BZjVy3z_BaMtAzhawfHZVMrmQK8f4yUenxIi5hVQr6uWono83BWnq81B7dfdJ8a8uVFP7LheWs6m6WCvqKJPCzDkEQp6nrET07NF9RPS-jYLixFoHTBDFOPBKrDf8DO8dXENYyL2CSkC8gd3t90ZMO9FjciXAluGalAEPbPG9DL4LkFl8A7TLpeg2G5V1uDfsjxKcjl_Gs_77h7dLO6x028x6k__bI8HWWKcpsmC-0sm3Dzm8xhDTO8WJTPmle3vHzouLpY_V38SF9yyqxquqP96l-LpDSPaaPigcaQlf8eeKuKvTXuugmsdUbqy-I-M0ov0fwaq7X5iCyoyXNkj3Ju_2m3tYa1blJuiWhoTBo7vvJt_RILTPpjXqT4XdiuTWiZdmrcqhMIE0KXDz4xlgIIIwG7lFpBlV8Ypabte_k8x0c6exym-17K7QwZSysOlXLjsAof951fR6waubkd3_qpw6-eth5Siy74-0&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAH",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=italian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N0v0eCGz63rLplXN_A6w-b_9-SR7rUhSmMqLbIgLnwplPDZ2xr30GiMoL_7v6ZIXSpVjb2MkdpEDYXG47UN4nzP3-jO64puDf8xim6oojyWa6GNHjbK500xSu8wzTd_Fv3XWGc7VwYOPafggqRGH0kuiACMoDjhfTebVDMyUnDBXLOqvnv0IRRwGPbvfgVIg1Sp3Zx4xOzpAjEY44ZXi30ms5n3AyBiR9cNrhQs0gvLQv9wOHZ2lxR2BZjVy3z_BaMtAzhawfHZVMrmQK8f4yUenxIi5hVQr6uWono83BWnq81B7dfdJ8a8uVFP7LheWs6m6WCvqKJPCzDkEQp6nrET07NF9RPS-jYLixFoHTBDFOPBKrDf8DO8dXENYyL2CSkC8gd3t90ZMO9FjciXAluGalAEPbPG9DL4LkFl8A7TLpeg2G5V1uDfsjxKcjl_Gs_77h7dLO6x028x6k__bI8HWWKcpsmC-0sm3Dzm8xhDTO8WJTPmle3vHzouLpY_V38SF9yyqxquqP96l-LpDSPaaPigcaQlf8eeKuKvTXuugmsdUbqy-I-M0ov0fwaq7X5iCyoyXNkj3Ju_2m3tYa1blJuiWhoTBo7vvJt_RILTPpjXqT4XdiuTWiZdmrcqhMIE0KXDz4xlgIIIwG7lFpBlV8Ypabte_k8x0c6exym-17K7QwZSysOlXLjsAof951fR6waubkd3_qpw6-eth5Siy74-0"
+        },
+        {
+          "name": "North indian",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N9hVz0u4gOancY4IF3o5BRrwgskbf1yk5Q-qclP1S_-FlVrv1e6Zbn_GZN0p3q80AJ4vagEQoIcAAStiqrT4yMwbjY3pivW7-IhMFYxOccfrZYr21OnBs1h6NifS-N3NjmwXxg9O1mJKKcbxvNmXF_CWOYvDxQafRpRtkKJ_4krd5tNMIMMRzo_XkH5_Fd7gyWd-5ocboGMxZSA4k69fYrOif0yXmF4dr-vyYwp__oAafEtvXfeW4xM9IzrY1G6Q9Prs2KXG3AZgcRAINESaJuyHX0V27vtmUj8_ljXgj0K_5zvVOgIY_kpcRw5vH7Ns_Kx2SSKAFG53JGhBFoVtlV34PLK7i20d20nanGLRGyLsgjsM_1kFqz710mkNUIKShUEMxstTrCiPae9NX5nAe09hTdeHTYbjxWL4FffrsvxROjKea37331M0DQLW7nILhLIdbnwOp0QKqT7kKDgTPFhD49mUb3v-E_3AS9FAfdW40-peclpNunm8K5X2cDy4QbyMjDq8uYVkXTKpTIhAjSduP0bilMiDVnwdJSjGRukEzmjzD4UsDBI-i3_TRpZfeo_2DZbXPoRbiJfCKg9bc03a7AZQgbhY9vPLYm0snab1-aw9F8QtPQNAawjvXi-ufZ4jgKHJmLKxjXClwYIoYP7Y07AfSiv4ij5ou5s86mMgSXRAUeYq8jLAdVD1aP0GdG7z-J4Phwyf9eX4peOKnq7AF1tk",
+            "q": "north indian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=north+indian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N9hVz0u4gOancY4IF3o5BRrwgskbf1yk5Q-qclP1S_-FlVrv1e6Zbn_GZN0p3q80AJ4vagEQoIcAAStiqrT4yMwbjY3pivW7-IhMFYxOccfrZYr21OnBs1h6NifS-N3NjmwXxg9O1mJKKcbxvNmXF_CWOYvDxQafRpRtkKJ_4krd5tNMIMMRzo_XkH5_Fd7gyWd-5ocboGMxZSA4k69fYrOif0yXmF4dr-vyYwp__oAafEtvXfeW4xM9IzrY1G6Q9Prs2KXG3AZgcRAINESaJuyHX0V27vtmUj8_ljXgj0K_5zvVOgIY_kpcRw5vH7Ns_Kx2SSKAFG53JGhBFoVtlV34PLK7i20d20nanGLRGyLsgjsM_1kFqz710mkNUIKShUEMxstTrCiPae9NX5nAe09hTdeHTYbjxWL4FffrsvxROjKea37331M0DQLW7nILhLIdbnwOp0QKqT7kKDgTPFhD49mUb3v-E_3AS9FAfdW40-peclpNunm8K5X2cDy4QbyMjDq8uYVkXTKpTIhAjSduP0bilMiDVnwdJSjGRukEzmjzD4UsDBI-i3_TRpZfeo_2DZbXPoRbiJfCKg9bc03a7AZQgbhY9vPLYm0snab1-aw9F8QtPQNAawjvXi-ufZ4jgKHJmLKxjXClwYIoYP7Y07AfSiv4ij5ou5s86mMgSXRAUeYq8jLAdVD1aP0GdG7z-J4Phwyf9eX4peOKnq7AF1tk&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=north+indian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N9hVz0u4gOancY4IF3o5BRrwgskbf1yk5Q-qclP1S_-FlVrv1e6Zbn_GZN0p3q80AJ4vagEQoIcAAStiqrT4yMwbjY3pivW7-IhMFYxOccfrZYr21OnBs1h6NifS-N3NjmwXxg9O1mJKKcbxvNmXF_CWOYvDxQafRpRtkKJ_4krd5tNMIMMRzo_XkH5_Fd7gyWd-5ocboGMxZSA4k69fYrOif0yXmF4dr-vyYwp__oAafEtvXfeW4xM9IzrY1G6Q9Prs2KXG3AZgcRAINESaJuyHX0V27vtmUj8_ljXgj0K_5zvVOgIY_kpcRw5vH7Ns_Kx2SSKAFG53JGhBFoVtlV34PLK7i20d20nanGLRGyLsgjsM_1kFqz710mkNUIKShUEMxstTrCiPae9NX5nAe09hTdeHTYbjxWL4FffrsvxROjKea37331M0DQLW7nILhLIdbnwOp0QKqT7kKDgTPFhD49mUb3v-E_3AS9FAfdW40-peclpNunm8K5X2cDy4QbyMjDq8uYVkXTKpTIhAjSduP0bilMiDVnwdJSjGRukEzmjzD4UsDBI-i3_TRpZfeo_2DZbXPoRbiJfCKg9bc03a7AZQgbhY9vPLYm0snab1-aw9F8QtPQNAawjvXi-ufZ4jgKHJmLKxjXClwYIoYP7Y07AfSiv4ij5ou5s86mMgSXRAUeYq8jLAdVD1aP0GdG7z-J4Phwyf9eX4peOKnq7AF1tk"
+        },
+        {
+          "name": "Pizza",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NHt5A0du8d5w9R3HfXVx_Gr7RUxxfDU9EzQP3QJaFm8Tn_WswiVm2A-VQ55Uuh31ZcXh9_iFJVlHKpejLrs7LqzroDhL8HmOKQj5LrbhpPWGFktpy7Q4d-xiH86WtWvBDH5zZzkAK5mlDAfZhlXKzJp5SI430OD7iA98tQVWrN_UJ3_6fM4R18UmsXOzoOVGW23bVrMFU2IM5L4bv7XU_DG8zpxi9ByDbsekE1QnmmWkCI9ivKR9Q-k71pbjAa_gELHjY3ilNIc1cjBUUSjnPr5Uv9r3hVfQpr83pw_vExSWXTyNoz2tCPF9X0QlcWG9r1l1ffGaHVplRKVXLD8sXqAL6mr-uTDFrgG4a9skq1VC2H359J9_7LmY7SjkGpeZln_nYtYldUFUrWksQK7ILPujOiD0ldTZ8v0Xavtia78tjG7GomqN-J76RQAQVXqbACqCAqZVs5IylcC8oO-db09qdLHWbhyMBF-6vX07NaM1nzVeOHbipsbxwD0hPGYj5xGlK9MLMjmN1_jTnEqa3Ou2_FzQZAID8OpDWwFyKrstZrWxB9iFnwpN7f1fgPbLfWjmvdRb4YxmnfrGJAh3BdpR2cwbOK2ewVFV4chvd6SyA6h98UkzM6K1pP8F9amo89Agl1QK6ZTnK3rMKVLS_zecu5IzN3wL0cmwoNTX_jvOKGD3SQS334v2umPPnpMwYlbeeHfo_XuPdw1Pv7Yz25aMjAYw",
+            "q": "pizza restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=pizza+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NHt5A0du8d5w9R3HfXVx_Gr7RUxxfDU9EzQP3QJaFm8Tn_WswiVm2A-VQ55Uuh31ZcXh9_iFJVlHKpejLrs7LqzroDhL8HmOKQj5LrbhpPWGFktpy7Q4d-xiH86WtWvBDH5zZzkAK5mlDAfZhlXKzJp5SI430OD7iA98tQVWrN_UJ3_6fM4R18UmsXOzoOVGW23bVrMFU2IM5L4bv7XU_DG8zpxi9ByDbsekE1QnmmWkCI9ivKR9Q-k71pbjAa_gELHjY3ilNIc1cjBUUSjnPr5Uv9r3hVfQpr83pw_vExSWXTyNoz2tCPF9X0QlcWG9r1l1ffGaHVplRKVXLD8sXqAL6mr-uTDFrgG4a9skq1VC2H359J9_7LmY7SjkGpeZln_nYtYldUFUrWksQK7ILPujOiD0ldTZ8v0Xavtia78tjG7GomqN-J76RQAQVXqbACqCAqZVs5IylcC8oO-db09qdLHWbhyMBF-6vX07NaM1nzVeOHbipsbxwD0hPGYj5xGlK9MLMjmN1_jTnEqa3Ou2_FzQZAID8OpDWwFyKrstZrWxB9iFnwpN7f1fgPbLfWjmvdRb4YxmnfrGJAh3BdpR2cwbOK2ewVFV4chvd6SyA6h98UkzM6K1pP8F9amo89Agl1QK6ZTnK3rMKVLS_zecu5IzN3wL0cmwoNTX_jvOKGD3SQS334v2umPPnpMwYlbeeHfo_XuPdw1Pv7Yz25aMjAYw&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAJ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=pizza+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NHt5A0du8d5w9R3HfXVx_Gr7RUxxfDU9EzQP3QJaFm8Tn_WswiVm2A-VQ55Uuh31ZcXh9_iFJVlHKpejLrs7LqzroDhL8HmOKQj5LrbhpPWGFktpy7Q4d-xiH86WtWvBDH5zZzkAK5mlDAfZhlXKzJp5SI430OD7iA98tQVWrN_UJ3_6fM4R18UmsXOzoOVGW23bVrMFU2IM5L4bv7XU_DG8zpxi9ByDbsekE1QnmmWkCI9ivKR9Q-k71pbjAa_gELHjY3ilNIc1cjBUUSjnPr5Uv9r3hVfQpr83pw_vExSWXTyNoz2tCPF9X0QlcWG9r1l1ffGaHVplRKVXLD8sXqAL6mr-uTDFrgG4a9skq1VC2H359J9_7LmY7SjkGpeZln_nYtYldUFUrWksQK7ILPujOiD0ldTZ8v0Xavtia78tjG7GomqN-J76RQAQVXqbACqCAqZVs5IylcC8oO-db09qdLHWbhyMBF-6vX07NaM1nzVeOHbipsbxwD0hPGYj5xGlK9MLMjmN1_jTnEqa3Ou2_FzQZAID8OpDWwFyKrstZrWxB9iFnwpN7f1fgPbLfWjmvdRb4YxmnfrGJAh3BdpR2cwbOK2ewVFV4chvd6SyA6h98UkzM6K1pP8F9amo89Agl1QK6ZTnK3rMKVLS_zecu5IzN3wL0cmwoNTX_jvOKGD3SQS334v2umPPnpMwYlbeeHfo_XuPdw1Pv7Yz25aMjAYw"
+        },
+        {
+          "name": "Seafood",
+          "parameters": {
+            "uds": "AJ5uw1-3U10Z2MuosnO7HtXgdu0F2qFAcS4c2dBdVeNmSIkiQb7V__0sQ2NzB6EcNhhE8oYhGi9G6W943eo_aP9-iHViKUV-vfafkCBmkwDelYiMe8F8rYEODpiPA15-j1tNmouGlzHsYFUi2Wv-Wl60u5dYP_dptAui2F7f7nVfBAR_srQ-LtZXCTAgJgdgDMt0t14oHJIUA7-VGqn8AsOPbmMOrF5lW7PBN3So9yGotyUdeIt-RJZ4J_HrzgRYkR7sXuyGm3w_1udZn8G4hlNyQQKRhp5ewj4npURaFpOn37tI8IIy_Yd3hsshHEQBaYCMrmzB2Xz9awLiK8jsBoQQZoi_MgukEBxy-KSUMAj2LJcvH9-AEdYnJx2qN5aJAm2X_CMmKkAeA7zNok58nVAj501rx-7g5c0og8_DdyuawNMdD3FCBWQTrtWNeVK-nYKAdnD6Ggy_2SNBbwhSMwH1Xh1_PROjvIaIw_UyvgmWJhHRZB9WG9wT68BmI0Er9fPUhjm8URHdjlQep15_Tszo68M8tE6z43T57sZ56oiPn5fyo2NGG3B66M6_bzATngG1N61klujJeUmyZx5odSjni3WOoCq0tUSjZv3o83CZOEsmrvcWxTQsgoeMmBlPG44wNB9PBz7zkZcf3XJBs4Vb53IeRniL5GqYIIWuGXtviGUWG4dX1QVKOhBIRr0RenDH0vFkR8PwCuB6AAEzjGU6-piXI5JI26SjQ4fj0fIjxaKGL2jniDc",
+            "q": "seafood restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=seafood+restaurant+near+VIT+Vellore&uds=AJ5uw1-3U10Z2MuosnO7HtXgdu0F2qFAcS4c2dBdVeNmSIkiQb7V__0sQ2NzB6EcNhhE8oYhGi9G6W943eo_aP9-iHViKUV-vfafkCBmkwDelYiMe8F8rYEODpiPA15-j1tNmouGlzHsYFUi2Wv-Wl60u5dYP_dptAui2F7f7nVfBAR_srQ-LtZXCTAgJgdgDMt0t14oHJIUA7-VGqn8AsOPbmMOrF5lW7PBN3So9yGotyUdeIt-RJZ4J_HrzgRYkR7sXuyGm3w_1udZn8G4hlNyQQKRhp5ewj4npURaFpOn37tI8IIy_Yd3hsshHEQBaYCMrmzB2Xz9awLiK8jsBoQQZoi_MgukEBxy-KSUMAj2LJcvH9-AEdYnJx2qN5aJAm2X_CMmKkAeA7zNok58nVAj501rx-7g5c0og8_DdyuawNMdD3FCBWQTrtWNeVK-nYKAdnD6Ggy_2SNBbwhSMwH1Xh1_PROjvIaIw_UyvgmWJhHRZB9WG9wT68BmI0Er9fPUhjm8URHdjlQep15_Tszo68M8tE6z43T57sZ56oiPn5fyo2NGG3B66M6_bzATngG1N61klujJeUmyZx5odSjni3WOoCq0tUSjZv3o83CZOEsmrvcWxTQsgoeMmBlPG44wNB9PBz7zkZcf3XJBs4Vb53IeRniL5GqYIIWuGXtviGUWG4dX1QVKOhBIRr0RenDH0vFkR8PwCuB6AAEzjGU6-piXI5JI26SjQ4fj0fIjxaKGL2jniDc&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAK",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=seafood+restaurant+near+VIT+Vellore&uds=AJ5uw1-3U10Z2MuosnO7HtXgdu0F2qFAcS4c2dBdVeNmSIkiQb7V__0sQ2NzB6EcNhhE8oYhGi9G6W943eo_aP9-iHViKUV-vfafkCBmkwDelYiMe8F8rYEODpiPA15-j1tNmouGlzHsYFUi2Wv-Wl60u5dYP_dptAui2F7f7nVfBAR_srQ-LtZXCTAgJgdgDMt0t14oHJIUA7-VGqn8AsOPbmMOrF5lW7PBN3So9yGotyUdeIt-RJZ4J_HrzgRYkR7sXuyGm3w_1udZn8G4hlNyQQKRhp5ewj4npURaFpOn37tI8IIy_Yd3hsshHEQBaYCMrmzB2Xz9awLiK8jsBoQQZoi_MgukEBxy-KSUMAj2LJcvH9-AEdYnJx2qN5aJAm2X_CMmKkAeA7zNok58nVAj501rx-7g5c0og8_DdyuawNMdD3FCBWQTrtWNeVK-nYKAdnD6Ggy_2SNBbwhSMwH1Xh1_PROjvIaIw_UyvgmWJhHRZB9WG9wT68BmI0Er9fPUhjm8URHdjlQep15_Tszo68M8tE6z43T57sZ56oiPn5fyo2NGG3B66M6_bzATngG1N61klujJeUmyZx5odSjni3WOoCq0tUSjZv3o83CZOEsmrvcWxTQsgoeMmBlPG44wNB9PBz7zkZcf3XJBs4Vb53IeRniL5GqYIIWuGXtviGUWG4dX1QVKOhBIRr0RenDH0vFkR8PwCuB6AAEzjGU6-piXI5JI26SjQ4fj0fIjxaKGL2jniDc"
+        },
+        {
+          "name": "South indian",
+          "parameters": {
+            "uds": "AJ5uw19tC8PRVLGT1bqBM7aYqr9h_b4NQJXmDRDkxfvQb3cUlVMjpWjz2sGUTwr3xgsED9dTqFtxP4wBf3t3uzYB3X1q_Mca0x6dh8It_HlO1NfdnUueCPUZWez71OTRpEOXKgHacz6ww19uyDdIR3fMPrhWvU_8135RbjMG_ZdNY36ZCML8G99JbuKz5Cv3ka3tedzyNq5-aeFxaCAvAJPJDsbWU0YefzlNkR6m1dI_ThhjNoVJVUzFM2TFLRgUWl7NBTwTgyCSp8vvK3kgWfT7JdJ36aHecEQDoysblq8abnrhgotLWrcp18AEeX4rFEWvYR7_FOO_BvltjISHi_ScrK11xMIg6FKWHfzy620Zkkm9Y9kqFbK59SjKiLXDXYlt2uu404aY7awCaqTsMR4JTF3f2un-qWtXOJaEC8kNxvTe95aa0hgjJFRe3oKjOredSFn0ctN2qIpAA_eChAerN4LPLxf4T7BEZiUqmrI-rJ6Vb9aYygFNcGP_5piboNb4QUUnO_wV4jDGsOXLXGkeoTIzCAtSrO16MZh_oX78zwnjxe2JvU5wLwbCsI5qZjE4LWzfqn68GCTzJNN3rhqdbQYHnYNubOmDTopK28wsuuxtmWhr2PN2ziWufEWDflu37mWrPVUKna9_Rs6w7hLXnYlhyxJhtUXT7IrlLvElVQbKOaqFeP1bz_tGf_0H8LXFN4N-2W0yXdz0GE4TvWCAYUeWN1ateUr70d-fPGb3NxUam7nguXQ",
+            "q": "south indian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=south+indian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9h_b4NQJXmDRDkxfvQb3cUlVMjpWjz2sGUTwr3xgsED9dTqFtxP4wBf3t3uzYB3X1q_Mca0x6dh8It_HlO1NfdnUueCPUZWez71OTRpEOXKgHacz6ww19uyDdIR3fMPrhWvU_8135RbjMG_ZdNY36ZCML8G99JbuKz5Cv3ka3tedzyNq5-aeFxaCAvAJPJDsbWU0YefzlNkR6m1dI_ThhjNoVJVUzFM2TFLRgUWl7NBTwTgyCSp8vvK3kgWfT7JdJ36aHecEQDoysblq8abnrhgotLWrcp18AEeX4rFEWvYR7_FOO_BvltjISHi_ScrK11xMIg6FKWHfzy620Zkkm9Y9kqFbK59SjKiLXDXYlt2uu404aY7awCaqTsMR4JTF3f2un-qWtXOJaEC8kNxvTe95aa0hgjJFRe3oKjOredSFn0ctN2qIpAA_eChAerN4LPLxf4T7BEZiUqmrI-rJ6Vb9aYygFNcGP_5piboNb4QUUnO_wV4jDGsOXLXGkeoTIzCAtSrO16MZh_oX78zwnjxe2JvU5wLwbCsI5qZjE4LWzfqn68GCTzJNN3rhqdbQYHnYNubOmDTopK28wsuuxtmWhr2PN2ziWufEWDflu37mWrPVUKna9_Rs6w7hLXnYlhyxJhtUXT7IrlLvElVQbKOaqFeP1bz_tGf_0H8LXFN4N-2W0yXdz0GE4TvWCAYUeWN1ateUr70d-fPGb3NxUam7nguXQ&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAL",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=south+indian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9h_b4NQJXmDRDkxfvQb3cUlVMjpWjz2sGUTwr3xgsED9dTqFtxP4wBf3t3uzYB3X1q_Mca0x6dh8It_HlO1NfdnUueCPUZWez71OTRpEOXKgHacz6ww19uyDdIR3fMPrhWvU_8135RbjMG_ZdNY36ZCML8G99JbuKz5Cv3ka3tedzyNq5-aeFxaCAvAJPJDsbWU0YefzlNkR6m1dI_ThhjNoVJVUzFM2TFLRgUWl7NBTwTgyCSp8vvK3kgWfT7JdJ36aHecEQDoysblq8abnrhgotLWrcp18AEeX4rFEWvYR7_FOO_BvltjISHi_ScrK11xMIg6FKWHfzy620Zkkm9Y9kqFbK59SjKiLXDXYlt2uu404aY7awCaqTsMR4JTF3f2un-qWtXOJaEC8kNxvTe95aa0hgjJFRe3oKjOredSFn0ctN2qIpAA_eChAerN4LPLxf4T7BEZiUqmrI-rJ6Vb9aYygFNcGP_5piboNb4QUUnO_wV4jDGsOXLXGkeoTIzCAtSrO16MZh_oX78zwnjxe2JvU5wLwbCsI5qZjE4LWzfqn68GCTzJNN3rhqdbQYHnYNubOmDTopK28wsuuxtmWhr2PN2ziWufEWDflu37mWrPVUKna9_Rs6w7hLXnYlhyxJhtUXT7IrlLvElVQbKOaqFeP1bz_tGf_0H8LXFN4N-2W0yXdz0GE4TvWCAYUeWN1ateUr70d-fPGb3NxUam7nguXQ"
+        },
+        {
+          "name": "Vegetarian",
+          "parameters": {
+            "uds": "AJ5uw19tC8PRVLGT1bqBM7aYqr9hAuSvI78OGEUUArGXeixCtn_k1DJ-k4CDE-vhHmiJD-7U2nFEYoVvAMj5BunHZMdTy1PMdshcusXVJXTMdvYUzH8QqsoirmF71Cd0M-w2-Twp7tdKhENesBEDtIgVzBmN3ZAFTZII5ukRvEcC4toyIC668c5nWZ-w-PT3id726vLiTei45GeTucGQWUPjsMmxxn29SCiHFg6NSGJZuDjfWIpmIGVCTUfIR4GcwWUbCTCtq3WIBchuP5wAYR81mPkYdZrXNp43GvZrvmRrkeq0AyD9tzMEuh_WiPKHJNikEYFLVBz0kQvsZ5UsPBmoRoQkPPqvEN-pS-OKZvJSXRLcDvafUrqPp41LLQGtWdY90AFFfM6PVLOmBd1N5iVByK3akZiO_LBNhPG3rCUkxy5YNrvF6IcJH5zeiUQxrC05Y311FiUlobBmCqdpL4jR-KFjUEaYUSkTv3EPaRFG4NZKchvmyDgOfJISm95EjKcb3G8byDFk2MojyhSWNorv-2qFH981KaiqdCuJTgUjHyZH4iOI1bbj1e-Cuc6PvLpTXFExhS_kagG3iBVHyYCvxicy9-QLejqyMwJ3oBLDWrakuVaRk5FauqE9qzgsA8n16R6VrHQPgjyuyJoKgVg4XQkjk_d6YuQdq6MVSZIWmGgqPCiOtor-hgHw-byOCrqCF_YdYRcMariP5F56PXihUF71w5Sejw",
+            "q": "vegetarian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=vegetarian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hAuSvI78OGEUUArGXeixCtn_k1DJ-k4CDE-vhHmiJD-7U2nFEYoVvAMj5BunHZMdTy1PMdshcusXVJXTMdvYUzH8QqsoirmF71Cd0M-w2-Twp7tdKhENesBEDtIgVzBmN3ZAFTZII5ukRvEcC4toyIC668c5nWZ-w-PT3id726vLiTei45GeTucGQWUPjsMmxxn29SCiHFg6NSGJZuDjfWIpmIGVCTUfIR4GcwWUbCTCtq3WIBchuP5wAYR81mPkYdZrXNp43GvZrvmRrkeq0AyD9tzMEuh_WiPKHJNikEYFLVBz0kQvsZ5UsPBmoRoQkPPqvEN-pS-OKZvJSXRLcDvafUrqPp41LLQGtWdY90AFFfM6PVLOmBd1N5iVByK3akZiO_LBNhPG3rCUkxy5YNrvF6IcJH5zeiUQxrC05Y311FiUlobBmCqdpL4jR-KFjUEaYUSkTv3EPaRFG4NZKchvmyDgOfJISm95EjKcb3G8byDFk2MojyhSWNorv-2qFH981KaiqdCuJTgUjHyZH4iOI1bbj1e-Cuc6PvLpTXFExhS_kagG3iBVHyYCvxicy9-QLejqyMwJ3oBLDWrakuVaRk5FauqE9qzgsA8n16R6VrHQPgjyuyJoKgVg4XQkjk_d6YuQdq6MVSZIWmGgqPCiOtor-hgHw-byOCrqCF_YdYRcMariP5F56PXihUF71w5Sejw&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAM",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=vegetarian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hAuSvI78OGEUUArGXeixCtn_k1DJ-k4CDE-vhHmiJD-7U2nFEYoVvAMj5BunHZMdTy1PMdshcusXVJXTMdvYUzH8QqsoirmF71Cd0M-w2-Twp7tdKhENesBEDtIgVzBmN3ZAFTZII5ukRvEcC4toyIC668c5nWZ-w-PT3id726vLiTei45GeTucGQWUPjsMmxxn29SCiHFg6NSGJZuDjfWIpmIGVCTUfIR4GcwWUbCTCtq3WIBchuP5wAYR81mPkYdZrXNp43GvZrvmRrkeq0AyD9tzMEuh_WiPKHJNikEYFLVBz0kQvsZ5UsPBmoRoQkPPqvEN-pS-OKZvJSXRLcDvafUrqPp41LLQGtWdY90AFFfM6PVLOmBd1N5iVByK3akZiO_LBNhPG3rCUkxy5YNrvF6IcJH5zeiUQxrC05Y311FiUlobBmCqdpL4jR-KFjUEaYUSkTv3EPaRFG4NZKchvmyDgOfJISm95EjKcb3G8byDFk2MojyhSWNorv-2qFH981KaiqdCuJTgUjHyZH4iOI1bbj1e-Cuc6PvLpTXFExhS_kagG3iBVHyYCvxicy9-QLejqyMwJ3oBLDWrakuVaRk5FauqE9qzgsA8n16R6VrHQPgjyuyJoKgVg4XQkjk_d6YuQdq6MVSZIWmGgqPCiOtor-hgHw-byOCrqCF_YdYRcMariP5F56PXihUF71w5Sejw"
+        }
+      ]
+    },
+    {
+      "name": "Cuisine",
+      "options": [
+        {
+          "name": "Any cuisine"
+        },
+        {
+          "name": "Buffet",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NlRRm9KwY2xZtSOffH-t4wUCwFjmw16N3A41_fUD1_dN_sZ1muY0-HW-NFYiDQnpFerIlYT5FvKIVBAxqiLjL_jM-UK5sXgo6C-mCZI33qHPKk9TitGHVq-W_L6P_PWW4jQOEHfXlz0UT-7F1D5qMKgnVUeqW40WV4av_XdRt-aYG4rUR8qp0KLmvZrgDZeEm38J8fogZE_ZyX4wSBDBP5HQsfwdcUDGXkgGmfzhU_JqTHSNjfgvHAtzivpcC6grOgH1spSctUqeJO57glCFqU4fmkMxn7cO2rjZ-CArkfZC58fSQiDok16Zbs_faqNE_H42Wc5PkYZAaZWEaRQGu1s70lVbMTFuX769gzGnjNER0qy8KD1eA1z-a6GhuWE9r8w-5vwsfzI-cW-bNPydMBexT7avXq2CQ25AcKBaIn8DKmCThH6EZq9a_5-1l8FQopQt0s7pSsXfEDrGQYkyPmM8sV2kpL37behizHTNQQiwHNuZTLz2W37QBMaZjxl2w-_k7INCV_0g4c44Mz8WD12yHpK5tqzPFmenmqj-MeV3MP2eUsNUJ5yn76XoLBk53f9p4UHjoPIlYaduZAtbMgrfHmxAE64z71Z8vacPTEPpuCY6Rhsyn-QB8s-lAkmGORFoUIOAIzMu-Qf8U8MvaJ3Va2HOtGtaNEqBitTFWNd_5M36X8raS7Xz2_gjrr4FrPvMVWw",
+            "q": "buffet restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=buffet+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NlRRm9KwY2xZtSOffH-t4wUCwFjmw16N3A41_fUD1_dN_sZ1muY0-HW-NFYiDQnpFerIlYT5FvKIVBAxqiLjL_jM-UK5sXgo6C-mCZI33qHPKk9TitGHVq-W_L6P_PWW4jQOEHfXlz0UT-7F1D5qMKgnVUeqW40WV4av_XdRt-aYG4rUR8qp0KLmvZrgDZeEm38J8fogZE_ZyX4wSBDBP5HQsfwdcUDGXkgGmfzhU_JqTHSNjfgvHAtzivpcC6grOgH1spSctUqeJO57glCFqU4fmkMxn7cO2rjZ-CArkfZC58fSQiDok16Zbs_faqNE_H42Wc5PkYZAaZWEaRQGu1s70lVbMTFuX769gzGnjNER0qy8KD1eA1z-a6GhuWE9r8w-5vwsfzI-cW-bNPydMBexT7avXq2CQ25AcKBaIn8DKmCThH6EZq9a_5-1l8FQopQt0s7pSsXfEDrGQYkyPmM8sV2kpL37behizHTNQQiwHNuZTLz2W37QBMaZjxl2w-_k7INCV_0g4c44Mz8WD12yHpK5tqzPFmenmqj-MeV3MP2eUsNUJ5yn76XoLBk53f9p4UHjoPIlYaduZAtbMgrfHmxAE64z71Z8vacPTEPpuCY6Rhsyn-QB8s-lAkmGORFoUIOAIzMu-Qf8U8MvaJ3Va2HOtGtaNEqBitTFWNd_5M36X8raS7Xz2_gjrr4FrPvMVWw&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAD",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=buffet+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NlRRm9KwY2xZtSOffH-t4wUCwFjmw16N3A41_fUD1_dN_sZ1muY0-HW-NFYiDQnpFerIlYT5FvKIVBAxqiLjL_jM-UK5sXgo6C-mCZI33qHPKk9TitGHVq-W_L6P_PWW4jQOEHfXlz0UT-7F1D5qMKgnVUeqW40WV4av_XdRt-aYG4rUR8qp0KLmvZrgDZeEm38J8fogZE_ZyX4wSBDBP5HQsfwdcUDGXkgGmfzhU_JqTHSNjfgvHAtzivpcC6grOgH1spSctUqeJO57glCFqU4fmkMxn7cO2rjZ-CArkfZC58fSQiDok16Zbs_faqNE_H42Wc5PkYZAaZWEaRQGu1s70lVbMTFuX769gzGnjNER0qy8KD1eA1z-a6GhuWE9r8w-5vwsfzI-cW-bNPydMBexT7avXq2CQ25AcKBaIn8DKmCThH6EZq9a_5-1l8FQopQt0s7pSsXfEDrGQYkyPmM8sV2kpL37behizHTNQQiwHNuZTLz2W37QBMaZjxl2w-_k7INCV_0g4c44Mz8WD12yHpK5tqzPFmenmqj-MeV3MP2eUsNUJ5yn76XoLBk53f9p4UHjoPIlYaduZAtbMgrfHmxAE64z71Z8vacPTEPpuCY6Rhsyn-QB8s-lAkmGORFoUIOAIzMu-Qf8U8MvaJ3Va2HOtGtaNEqBitTFWNd_5M36X8raS7Xz2_gjrr4FrPvMVWw"
+        },
+        {
+          "name": "Chinese",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1Nb3YN_6jOljucdr_d8WMu4LZiQKmTbsZAxKnFhGZjODiXj55QaR_toJkC-OVu0fp9dvlaY1M9IHnmmB-cEB3g2a4ObNYWT9axmSFL5p6zMW_n3efOuwFcdDDUyPXkUdKjpSJmZwWmTv47Yztw-g78WutGKaSz1CmYAXjaBGnNWbOdcppiUZ4_eHdpY8FoMDKNwANAq3s4vrYiWxeiUVqAzJIjatK_-yClWApcF9HY8PXE_vI4zKGfPRL2K5pQXA4CgS20Lt4756s0Cso_ho-0vLkh98A_tUmNE3EFGN3DLicZblewq2XtZXqlPeF09jyKImOheOcHaH9JIxuxGGHA0s38G16NULgC_zZZjZi5jiv_CMDqouRaCGcy9o13PWXdg_Onhzj842p6g3K1KD86omN3YvW4hXvxOF0Hp6bPDJzzLJAzH2Li0TtF6Z_iVGyjP1AKXguiSDJzdD-MR89TBDCvmSY71U9L2NX9Fc0XHzbmC8qSL4LeSRsnq2SB2gb1TagUNq6xGEDZUbC7RlOHo12LnI4sZxta4RW1hM4SY0O3s6zHSC1FqVKJFHd4KxyTRclF0Ng1ff-Rz8RpxUfRNlNnyHS1ontkGPkpMRVs593Oe-7wmwmiq4g4ioB4BDY_c_VNin3uSR7waqChEWmp0ISOIBWlL3Ih9AQvIenELBhxISCHI2V2LfGV4fTcpIVtwA3wDiww75PGZ4g875VtzQW1HrE",
+            "q": "chinese restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=chinese+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1Nb3YN_6jOljucdr_d8WMu4LZiQKmTbsZAxKnFhGZjODiXj55QaR_toJkC-OVu0fp9dvlaY1M9IHnmmB-cEB3g2a4ObNYWT9axmSFL5p6zMW_n3efOuwFcdDDUyPXkUdKjpSJmZwWmTv47Yztw-g78WutGKaSz1CmYAXjaBGnNWbOdcppiUZ4_eHdpY8FoMDKNwANAq3s4vrYiWxeiUVqAzJIjatK_-yClWApcF9HY8PXE_vI4zKGfPRL2K5pQXA4CgS20Lt4756s0Cso_ho-0vLkh98A_tUmNE3EFGN3DLicZblewq2XtZXqlPeF09jyKImOheOcHaH9JIxuxGGHA0s38G16NULgC_zZZjZi5jiv_CMDqouRaCGcy9o13PWXdg_Onhzj842p6g3K1KD86omN3YvW4hXvxOF0Hp6bPDJzzLJAzH2Li0TtF6Z_iVGyjP1AKXguiSDJzdD-MR89TBDCvmSY71U9L2NX9Fc0XHzbmC8qSL4LeSRsnq2SB2gb1TagUNq6xGEDZUbC7RlOHo12LnI4sZxta4RW1hM4SY0O3s6zHSC1FqVKJFHd4KxyTRclF0Ng1ff-Rz8RpxUfRNlNnyHS1ontkGPkpMRVs593Oe-7wmwmiq4g4ioB4BDY_c_VNin3uSR7waqChEWmp0ISOIBWlL3Ih9AQvIenELBhxISCHI2V2LfGV4fTcpIVtwA3wDiww75PGZ4g875VtzQW1HrE&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=chinese+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1Nb3YN_6jOljucdr_d8WMu4LZiQKmTbsZAxKnFhGZjODiXj55QaR_toJkC-OVu0fp9dvlaY1M9IHnmmB-cEB3g2a4ObNYWT9axmSFL5p6zMW_n3efOuwFcdDDUyPXkUdKjpSJmZwWmTv47Yztw-g78WutGKaSz1CmYAXjaBGnNWbOdcppiUZ4_eHdpY8FoMDKNwANAq3s4vrYiWxeiUVqAzJIjatK_-yClWApcF9HY8PXE_vI4zKGfPRL2K5pQXA4CgS20Lt4756s0Cso_ho-0vLkh98A_tUmNE3EFGN3DLicZblewq2XtZXqlPeF09jyKImOheOcHaH9JIxuxGGHA0s38G16NULgC_zZZjZi5jiv_CMDqouRaCGcy9o13PWXdg_Onhzj842p6g3K1KD86omN3YvW4hXvxOF0Hp6bPDJzzLJAzH2Li0TtF6Z_iVGyjP1AKXguiSDJzdD-MR89TBDCvmSY71U9L2NX9Fc0XHzbmC8qSL4LeSRsnq2SB2gb1TagUNq6xGEDZUbC7RlOHo12LnI4sZxta4RW1hM4SY0O3s6zHSC1FqVKJFHd4KxyTRclF0Ng1ff-Rz8RpxUfRNlNnyHS1ontkGPkpMRVs593Oe-7wmwmiq4g4ioB4BDY_c_VNin3uSR7waqChEWmp0ISOIBWlL3Ih9AQvIenELBhxISCHI2V2LfGV4fTcpIVtwA3wDiww75PGZ4g875VtzQW1HrE"
+        },
+        {
+          "name": "European",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NjGd_l05jS7kpZvTjwEyzAau2cIb_WSvqJPG_rHrQwdyJTfE7rnl2CDdUPBnaraiWpHIq97UKxf6zaWVA9ysY0dfOkSLqePHfA2Op0pDekzyPspEyVuibKOT2B3K65emTwMN2ln1vN7S0mpEhptFs0RhHm8ihmRd96gPouH66WNEeJnk_5FzYECu-IaX6QN8wXoJRFy5MYrkBvFPQ57xdAl-ZOtPOvlCxB0TSFTWmgkjf0xUrVT21lG2BUmsvHlWkU01vKdZ__5ZeGjaah2D_0SjiHYwXyBDJGH5OW2SpyqkeJKQ9H2j2uMFXzuKgwEN5TqckAqtO-rAZHWbAnEVxCF8UVut_Kja2kAtWEfBxBw77v4Ljb3ebrzFj8c5mNJK6mxo_MQelDbgLmqCJvVHDnUSlbrs5-BpJRsBfn6hauXRV56xrhXSJ5bhQCbSb5a2I8FDxTZcAw9MHxsX9MNfEyy7M5BMxL7eDpxJvNH8nU8sZUHZ15xdjsccq3Yr-G7WvROlgbidtftB2-aown7fiek-vcx-Qp6WfjqP5mIw_HGtOcbTBMILyl6n7fhndthIcH0zcjVTt3anvnDIqIn40me2Sb0FN40jlr38vkuNysZGtZ9dcQnSAObAHXAEtgMOz_mECukbTciOs_dRmLQKRhSyUn_A3-L02G-l7r9pp9r01SHeSFVYP8lFapxBq4RAmie42VQ",
+            "q": "european restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=european+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NjGd_l05jS7kpZvTjwEyzAau2cIb_WSvqJPG_rHrQwdyJTfE7rnl2CDdUPBnaraiWpHIq97UKxf6zaWVA9ysY0dfOkSLqePHfA2Op0pDekzyPspEyVuibKOT2B3K65emTwMN2ln1vN7S0mpEhptFs0RhHm8ihmRd96gPouH66WNEeJnk_5FzYECu-IaX6QN8wXoJRFy5MYrkBvFPQ57xdAl-ZOtPOvlCxB0TSFTWmgkjf0xUrVT21lG2BUmsvHlWkU01vKdZ__5ZeGjaah2D_0SjiHYwXyBDJGH5OW2SpyqkeJKQ9H2j2uMFXzuKgwEN5TqckAqtO-rAZHWbAnEVxCF8UVut_Kja2kAtWEfBxBw77v4Ljb3ebrzFj8c5mNJK6mxo_MQelDbgLmqCJvVHDnUSlbrs5-BpJRsBfn6hauXRV56xrhXSJ5bhQCbSb5a2I8FDxTZcAw9MHxsX9MNfEyy7M5BMxL7eDpxJvNH8nU8sZUHZ15xdjsccq3Yr-G7WvROlgbidtftB2-aown7fiek-vcx-Qp6WfjqP5mIw_HGtOcbTBMILyl6n7fhndthIcH0zcjVTt3anvnDIqIn40me2Sb0FN40jlr38vkuNysZGtZ9dcQnSAObAHXAEtgMOz_mECukbTciOs_dRmLQKRhSyUn_A3-L02G-l7r9pp9r01SHeSFVYP8lFapxBq4RAmie42VQ&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAF",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=european+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NjGd_l05jS7kpZvTjwEyzAau2cIb_WSvqJPG_rHrQwdyJTfE7rnl2CDdUPBnaraiWpHIq97UKxf6zaWVA9ysY0dfOkSLqePHfA2Op0pDekzyPspEyVuibKOT2B3K65emTwMN2ln1vN7S0mpEhptFs0RhHm8ihmRd96gPouH66WNEeJnk_5FzYECu-IaX6QN8wXoJRFy5MYrkBvFPQ57xdAl-ZOtPOvlCxB0TSFTWmgkjf0xUrVT21lG2BUmsvHlWkU01vKdZ__5ZeGjaah2D_0SjiHYwXyBDJGH5OW2SpyqkeJKQ9H2j2uMFXzuKgwEN5TqckAqtO-rAZHWbAnEVxCF8UVut_Kja2kAtWEfBxBw77v4Ljb3ebrzFj8c5mNJK6mxo_MQelDbgLmqCJvVHDnUSlbrs5-BpJRsBfn6hauXRV56xrhXSJ5bhQCbSb5a2I8FDxTZcAw9MHxsX9MNfEyy7M5BMxL7eDpxJvNH8nU8sZUHZ15xdjsccq3Yr-G7WvROlgbidtftB2-aown7fiek-vcx-Qp6WfjqP5mIw_HGtOcbTBMILyl6n7fhndthIcH0zcjVTt3anvnDIqIn40me2Sb0FN40jlr38vkuNysZGtZ9dcQnSAObAHXAEtgMOz_mECukbTciOs_dRmLQKRhSyUn_A3-L02G-l7r9pp9r01SHeSFVYP8lFapxBq4RAmie42VQ"
+        },
+        {
+          "name": "Fast food",
+          "parameters": {
+            "uds": "AJ5uw19tC8PRVLGT1bqBM7aYqr9hP9evf5B353E5G8PbIBtMHlDZE6tT4dZJkQbDeIDfS67QhdhOa1u8Zcthg-TDq9O11m-TPgxeCeLEncx4WXav7y8D2km5lXaqTDT7szxdvmYIoepYz0aeEFTBpgVvrHFPPYuYrnEeQL8x86u_ROMza6JwQMi7iFYbErYWjhLwqahfCRLyVUMdLQdInOuaAwUArumvgCds0pRfiMig7_P8DUwWU_XuKNUMfo-so913FzbH2dAP5o-PkXobB__eDSjkT0XHavMVhagAZsPzl2Tqak_VlZjlzM6WWBg5qdT4XFMQbDyKtO6y9GfSX2JQri7C0AKZlrKlvE3kYfFhAlE6eW0xKdQE6IT6gXCIcpBRa1s2GYdgCHyjmXg6-0DrITxuCzpvJw3eR2l88Llppi3k7qwS2_d4Pnqx9kmqFdtnoE2wJXib0Dotl-2SGCtWXX94xt6xXjQq4nmwQJiQcJws5YpMpCWrLU2FVjeJVkMEvGyweq-0FF9l_xvNTlWnE88AZdsTmueyI7DS1Nkk5guHZ0xdxeFJSUqk06sQ5v3ojTPDLDIzn6NHc4xcSvGSv9w0PpRrhyv7agzQnOhu0kliI30Hn-he2pnYOkxz-Nn62lCAnC50MHJlTNGhMHfMGhNHlMSuXdiTVfE7RMAjNy1JhHAJV5qRQNwSRMFNVDvb3LfspQpZJfYkL-Jhwb8uQm4Vq-qtFg",
+            "q": "fast food restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=fast+food+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hP9evf5B353E5G8PbIBtMHlDZE6tT4dZJkQbDeIDfS67QhdhOa1u8Zcthg-TDq9O11m-TPgxeCeLEncx4WXav7y8D2km5lXaqTDT7szxdvmYIoepYz0aeEFTBpgVvrHFPPYuYrnEeQL8x86u_ROMza6JwQMi7iFYbErYWjhLwqahfCRLyVUMdLQdInOuaAwUArumvgCds0pRfiMig7_P8DUwWU_XuKNUMfo-so913FzbH2dAP5o-PkXobB__eDSjkT0XHavMVhagAZsPzl2Tqak_VlZjlzM6WWBg5qdT4XFMQbDyKtO6y9GfSX2JQri7C0AKZlrKlvE3kYfFhAlE6eW0xKdQE6IT6gXCIcpBRa1s2GYdgCHyjmXg6-0DrITxuCzpvJw3eR2l88Llppi3k7qwS2_d4Pnqx9kmqFdtnoE2wJXib0Dotl-2SGCtWXX94xt6xXjQq4nmwQJiQcJws5YpMpCWrLU2FVjeJVkMEvGyweq-0FF9l_xvNTlWnE88AZdsTmueyI7DS1Nkk5guHZ0xdxeFJSUqk06sQ5v3ojTPDLDIzn6NHc4xcSvGSv9w0PpRrhyv7agzQnOhu0kliI30Hn-he2pnYOkxz-Nn62lCAnC50MHJlTNGhMHfMGhNHlMSuXdiTVfE7RMAjNy1JhHAJV5qRQNwSRMFNVDvb3LfspQpZJfYkL-Jhwb8uQm4Vq-qtFg&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAG",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=fast+food+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hP9evf5B353E5G8PbIBtMHlDZE6tT4dZJkQbDeIDfS67QhdhOa1u8Zcthg-TDq9O11m-TPgxeCeLEncx4WXav7y8D2km5lXaqTDT7szxdvmYIoepYz0aeEFTBpgVvrHFPPYuYrnEeQL8x86u_ROMza6JwQMi7iFYbErYWjhLwqahfCRLyVUMdLQdInOuaAwUArumvgCds0pRfiMig7_P8DUwWU_XuKNUMfo-so913FzbH2dAP5o-PkXobB__eDSjkT0XHavMVhagAZsPzl2Tqak_VlZjlzM6WWBg5qdT4XFMQbDyKtO6y9GfSX2JQri7C0AKZlrKlvE3kYfFhAlE6eW0xKdQE6IT6gXCIcpBRa1s2GYdgCHyjmXg6-0DrITxuCzpvJw3eR2l88Llppi3k7qwS2_d4Pnqx9kmqFdtnoE2wJXib0Dotl-2SGCtWXX94xt6xXjQq4nmwQJiQcJws5YpMpCWrLU2FVjeJVkMEvGyweq-0FF9l_xvNTlWnE88AZdsTmueyI7DS1Nkk5guHZ0xdxeFJSUqk06sQ5v3ojTPDLDIzn6NHc4xcSvGSv9w0PpRrhyv7agzQnOhu0kliI30Hn-he2pnYOkxz-Nn62lCAnC50MHJlTNGhMHfMGhNHlMSuXdiTVfE7RMAjNy1JhHAJV5qRQNwSRMFNVDvb3LfspQpZJfYkL-Jhwb8uQm4Vq-qtFg"
+        },
+        {
+          "name": "Italian",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N0v0eCGz63rLplXN_A6w-b_9-SR7rUhSmMqLbIgLnwplPDZ2xr30GiMoL_7v6ZIXSpVjb2MkdpEDYXG47UN4nzP3-jO64puDf8xim6oojyWa6GNHjbK500xSu8wzTd_Fv3XWGc7VwYOPafggqRGH0kuiACMoDjhfTebVDMyUnDBXLOqvnv0IRRwGPbvfgVIg1Sp3Zx4xOzpAjEY44ZXi30ms5n3AyBiR9cNrhQs0gvLQv9wOHZ2lxR2BZjVy3z_BaMtAzhawfHZVMrmQK8f4yUenxIi5hVQr6uWono83BWnq81B7dfdJ8a8uVFP7LheWs6m6WCvqKJPCzDkEQp6nrET07NF9RPS-jYLixFoHTBDFOPBKrDf8DO8dXENYyL2CSkC8gd3t90ZMO9FjciXAluGalAEPbPG9DL4LkFl8A7TLpeg2G5V1uDfsjxKcjl_Gs_77h7dLO6x028x6k__bI8HWWKcpsmC-0sm3Dzm8xhDTO8WJTPmle3vHzouLpY_V38SF9yyqxquqP96l-LpDSPaaPigcaQlf8eeKuKvTXuugmsdUbqy-I-M0ov0fwaq7X5iCyoyXNkj3Ju_2m3tYa1blJuiWhoTBo7vvJt_RILTPpjXqT4XdiuTWiZdmrcqhMIE0KXDz4xlgIIIwG7lFpBlV8Ypabte_k8x0c6exym-17K7QwZSysOlXLjsAof951fR6waubkd3_qpw6-eth5Siy74-0",
+            "q": "italian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=italian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N0v0eCGz63rLplXN_A6w-b_9-SR7rUhSmMqLbIgLnwplPDZ2xr30GiMoL_7v6ZIXSpVjb2MkdpEDYXG47UN4nzP3-jO64puDf8xim6oojyWa6GNHjbK500xSu8wzTd_Fv3XWGc7VwYOPafggqRGH0kuiACMoDjhfTebVDMyUnDBXLOqvnv0IRRwGPbvfgVIg1Sp3Zx4xOzpAjEY44ZXi30ms5n3AyBiR9cNrhQs0gvLQv9wOHZ2lxR2BZjVy3z_BaMtAzhawfHZVMrmQK8f4yUenxIi5hVQr6uWono83BWnq81B7dfdJ8a8uVFP7LheWs6m6WCvqKJPCzDkEQp6nrET07NF9RPS-jYLixFoHTBDFOPBKrDf8DO8dXENYyL2CSkC8gd3t90ZMO9FjciXAluGalAEPbPG9DL4LkFl8A7TLpeg2G5V1uDfsjxKcjl_Gs_77h7dLO6x028x6k__bI8HWWKcpsmC-0sm3Dzm8xhDTO8WJTPmle3vHzouLpY_V38SF9yyqxquqP96l-LpDSPaaPigcaQlf8eeKuKvTXuugmsdUbqy-I-M0ov0fwaq7X5iCyoyXNkj3Ju_2m3tYa1blJuiWhoTBo7vvJt_RILTPpjXqT4XdiuTWiZdmrcqhMIE0KXDz4xlgIIIwG7lFpBlV8Ypabte_k8x0c6exym-17K7QwZSysOlXLjsAof951fR6waubkd3_qpw6-eth5Siy74-0&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAH",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=italian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N0v0eCGz63rLplXN_A6w-b_9-SR7rUhSmMqLbIgLnwplPDZ2xr30GiMoL_7v6ZIXSpVjb2MkdpEDYXG47UN4nzP3-jO64puDf8xim6oojyWa6GNHjbK500xSu8wzTd_Fv3XWGc7VwYOPafggqRGH0kuiACMoDjhfTebVDMyUnDBXLOqvnv0IRRwGPbvfgVIg1Sp3Zx4xOzpAjEY44ZXi30ms5n3AyBiR9cNrhQs0gvLQv9wOHZ2lxR2BZjVy3z_BaMtAzhawfHZVMrmQK8f4yUenxIi5hVQr6uWono83BWnq81B7dfdJ8a8uVFP7LheWs6m6WCvqKJPCzDkEQp6nrET07NF9RPS-jYLixFoHTBDFOPBKrDf8DO8dXENYyL2CSkC8gd3t90ZMO9FjciXAluGalAEPbPG9DL4LkFl8A7TLpeg2G5V1uDfsjxKcjl_Gs_77h7dLO6x028x6k__bI8HWWKcpsmC-0sm3Dzm8xhDTO8WJTPmle3vHzouLpY_V38SF9yyqxquqP96l-LpDSPaaPigcaQlf8eeKuKvTXuugmsdUbqy-I-M0ov0fwaq7X5iCyoyXNkj3Ju_2m3tYa1blJuiWhoTBo7vvJt_RILTPpjXqT4XdiuTWiZdmrcqhMIE0KXDz4xlgIIIwG7lFpBlV8Ypabte_k8x0c6exym-17K7QwZSysOlXLjsAof951fR6waubkd3_qpw6-eth5Siy74-0"
+        },
+        {
+          "name": "North indian",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N9hVz0u4gOancY4IF3o5BRrwgskbf1yk5Q-qclP1S_-FlVrv1e6Zbn_GZN0p3q80AJ4vagEQoIcAAStiqrT4yMwbjY3pivW7-IhMFYxOccfrZYr21OnBs1h6NifS-N3NjmwXxg9O1mJKKcbxvNmXF_CWOYvDxQafRpRtkKJ_4krd5tNMIMMRzo_XkH5_Fd7gyWd-5ocboGMxZSA4k69fYrOif0yXmF4dr-vyYwp__oAafEtvXfeW4xM9IzrY1G6Q9Prs2KXG3AZgcRAINESaJuyHX0V27vtmUj8_ljXgj0K_5zvVOgIY_kpcRw5vH7Ns_Kx2SSKAFG53JGhBFoVtlV34PLK7i20d20nanGLRGyLsgjsM_1kFqz710mkNUIKShUEMxstTrCiPae9NX5nAe09hTdeHTYbjxWL4FffrsvxROjKea37331M0DQLW7nILhLIdbnwOp0QKqT7kKDgTPFhD49mUb3v-E_3AS9FAfdW40-peclpNunm8K5X2cDy4QbyMjDq8uYVkXTKpTIhAjSduP0bilMiDVnwdJSjGRukEzmjzD4UsDBI-i3_TRpZfeo_2DZbXPoRbiJfCKg9bc03a7AZQgbhY9vPLYm0snab1-aw9F8QtPQNAawjvXi-ufZ4jgKHJmLKxjXClwYIoYP7Y07AfSiv4ij5ou5s86mMgSXRAUeYq8jLAdVD1aP0GdG7z-J4Phwyf9eX4peOKnq7AF1tk",
+            "q": "north indian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=north+indian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N9hVz0u4gOancY4IF3o5BRrwgskbf1yk5Q-qclP1S_-FlVrv1e6Zbn_GZN0p3q80AJ4vagEQoIcAAStiqrT4yMwbjY3pivW7-IhMFYxOccfrZYr21OnBs1h6NifS-N3NjmwXxg9O1mJKKcbxvNmXF_CWOYvDxQafRpRtkKJ_4krd5tNMIMMRzo_XkH5_Fd7gyWd-5ocboGMxZSA4k69fYrOif0yXmF4dr-vyYwp__oAafEtvXfeW4xM9IzrY1G6Q9Prs2KXG3AZgcRAINESaJuyHX0V27vtmUj8_ljXgj0K_5zvVOgIY_kpcRw5vH7Ns_Kx2SSKAFG53JGhBFoVtlV34PLK7i20d20nanGLRGyLsgjsM_1kFqz710mkNUIKShUEMxstTrCiPae9NX5nAe09hTdeHTYbjxWL4FffrsvxROjKea37331M0DQLW7nILhLIdbnwOp0QKqT7kKDgTPFhD49mUb3v-E_3AS9FAfdW40-peclpNunm8K5X2cDy4QbyMjDq8uYVkXTKpTIhAjSduP0bilMiDVnwdJSjGRukEzmjzD4UsDBI-i3_TRpZfeo_2DZbXPoRbiJfCKg9bc03a7AZQgbhY9vPLYm0snab1-aw9F8QtPQNAawjvXi-ufZ4jgKHJmLKxjXClwYIoYP7Y07AfSiv4ij5ou5s86mMgSXRAUeYq8jLAdVD1aP0GdG7z-J4Phwyf9eX4peOKnq7AF1tk&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=north+indian+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1N9hVz0u4gOancY4IF3o5BRrwgskbf1yk5Q-qclP1S_-FlVrv1e6Zbn_GZN0p3q80AJ4vagEQoIcAAStiqrT4yMwbjY3pivW7-IhMFYxOccfrZYr21OnBs1h6NifS-N3NjmwXxg9O1mJKKcbxvNmXF_CWOYvDxQafRpRtkKJ_4krd5tNMIMMRzo_XkH5_Fd7gyWd-5ocboGMxZSA4k69fYrOif0yXmF4dr-vyYwp__oAafEtvXfeW4xM9IzrY1G6Q9Prs2KXG3AZgcRAINESaJuyHX0V27vtmUj8_ljXgj0K_5zvVOgIY_kpcRw5vH7Ns_Kx2SSKAFG53JGhBFoVtlV34PLK7i20d20nanGLRGyLsgjsM_1kFqz710mkNUIKShUEMxstTrCiPae9NX5nAe09hTdeHTYbjxWL4FffrsvxROjKea37331M0DQLW7nILhLIdbnwOp0QKqT7kKDgTPFhD49mUb3v-E_3AS9FAfdW40-peclpNunm8K5X2cDy4QbyMjDq8uYVkXTKpTIhAjSduP0bilMiDVnwdJSjGRukEzmjzD4UsDBI-i3_TRpZfeo_2DZbXPoRbiJfCKg9bc03a7AZQgbhY9vPLYm0snab1-aw9F8QtPQNAawjvXi-ufZ4jgKHJmLKxjXClwYIoYP7Y07AfSiv4ij5ou5s86mMgSXRAUeYq8jLAdVD1aP0GdG7z-J4Phwyf9eX4peOKnq7AF1tk"
+        },
+        {
+          "name": "Pizza",
+          "parameters": {
+            "uds": "AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NHt5A0du8d5w9R3HfXVx_Gr7RUxxfDU9EzQP3QJaFm8Tn_WswiVm2A-VQ55Uuh31ZcXh9_iFJVlHKpejLrs7LqzroDhL8HmOKQj5LrbhpPWGFktpy7Q4d-xiH86WtWvBDH5zZzkAK5mlDAfZhlXKzJp5SI430OD7iA98tQVWrN_UJ3_6fM4R18UmsXOzoOVGW23bVrMFU2IM5L4bv7XU_DG8zpxi9ByDbsekE1QnmmWkCI9ivKR9Q-k71pbjAa_gELHjY3ilNIc1cjBUUSjnPr5Uv9r3hVfQpr83pw_vExSWXTyNoz2tCPF9X0QlcWG9r1l1ffGaHVplRKVXLD8sXqAL6mr-uTDFrgG4a9skq1VC2H359J9_7LmY7SjkGpeZln_nYtYldUFUrWksQK7ILPujOiD0ldTZ8v0Xavtia78tjG7GomqN-J76RQAQVXqbACqCAqZVs5IylcC8oO-db09qdLHWbhyMBF-6vX07NaM1nzVeOHbipsbxwD0hPGYj5xGlK9MLMjmN1_jTnEqa3Ou2_FzQZAID8OpDWwFyKrstZrWxB9iFnwpN7f1fgPbLfWjmvdRb4YxmnfrGJAh3BdpR2cwbOK2ewVFV4chvd6SyA6h98UkzM6K1pP8F9amo89Agl1QK6ZTnK3rMKVLS_zecu5IzN3wL0cmwoNTX_jvOKGD3SQS334v2umPPnpMwYlbeeHfo_XuPdw1Pv7Yz25aMjAYw",
+            "q": "pizza restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=pizza+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NHt5A0du8d5w9R3HfXVx_Gr7RUxxfDU9EzQP3QJaFm8Tn_WswiVm2A-VQ55Uuh31ZcXh9_iFJVlHKpejLrs7LqzroDhL8HmOKQj5LrbhpPWGFktpy7Q4d-xiH86WtWvBDH5zZzkAK5mlDAfZhlXKzJp5SI430OD7iA98tQVWrN_UJ3_6fM4R18UmsXOzoOVGW23bVrMFU2IM5L4bv7XU_DG8zpxi9ByDbsekE1QnmmWkCI9ivKR9Q-k71pbjAa_gELHjY3ilNIc1cjBUUSjnPr5Uv9r3hVfQpr83pw_vExSWXTyNoz2tCPF9X0QlcWG9r1l1ffGaHVplRKVXLD8sXqAL6mr-uTDFrgG4a9skq1VC2H359J9_7LmY7SjkGpeZln_nYtYldUFUrWksQK7ILPujOiD0ldTZ8v0Xavtia78tjG7GomqN-J76RQAQVXqbACqCAqZVs5IylcC8oO-db09qdLHWbhyMBF-6vX07NaM1nzVeOHbipsbxwD0hPGYj5xGlK9MLMjmN1_jTnEqa3Ou2_FzQZAID8OpDWwFyKrstZrWxB9iFnwpN7f1fgPbLfWjmvdRb4YxmnfrGJAh3BdpR2cwbOK2ewVFV4chvd6SyA6h98UkzM6K1pP8F9amo89Agl1QK6ZTnK3rMKVLS_zecu5IzN3wL0cmwoNTX_jvOKGD3SQS334v2umPPnpMwYlbeeHfo_XuPdw1Pv7Yz25aMjAYw&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAJ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=pizza+restaurant+near+VIT+Vellore&uds=AJ5uw1-sbZR5vX2xU6f7ZAAFnr1NHt5A0du8d5w9R3HfXVx_Gr7RUxxfDU9EzQP3QJaFm8Tn_WswiVm2A-VQ55Uuh31ZcXh9_iFJVlHKpejLrs7LqzroDhL8HmOKQj5LrbhpPWGFktpy7Q4d-xiH86WtWvBDH5zZzkAK5mlDAfZhlXKzJp5SI430OD7iA98tQVWrN_UJ3_6fM4R18UmsXOzoOVGW23bVrMFU2IM5L4bv7XU_DG8zpxi9ByDbsekE1QnmmWkCI9ivKR9Q-k71pbjAa_gELHjY3ilNIc1cjBUUSjnPr5Uv9r3hVfQpr83pw_vExSWXTyNoz2tCPF9X0QlcWG9r1l1ffGaHVplRKVXLD8sXqAL6mr-uTDFrgG4a9skq1VC2H359J9_7LmY7SjkGpeZln_nYtYldUFUrWksQK7ILPujOiD0ldTZ8v0Xavtia78tjG7GomqN-J76RQAQVXqbACqCAqZVs5IylcC8oO-db09qdLHWbhyMBF-6vX07NaM1nzVeOHbipsbxwD0hPGYj5xGlK9MLMjmN1_jTnEqa3Ou2_FzQZAID8OpDWwFyKrstZrWxB9iFnwpN7f1fgPbLfWjmvdRb4YxmnfrGJAh3BdpR2cwbOK2ewVFV4chvd6SyA6h98UkzM6K1pP8F9amo89Agl1QK6ZTnK3rMKVLS_zecu5IzN3wL0cmwoNTX_jvOKGD3SQS334v2umPPnpMwYlbeeHfo_XuPdw1Pv7Yz25aMjAYw"
+        },
+        {
+          "name": "Seafood",
+          "parameters": {
+            "uds": "AJ5uw1-3U10Z2MuosnO7HtXgdu0F2qFAcS4c2dBdVeNmSIkiQb7V__0sQ2NzB6EcNhhE8oYhGi9G6W943eo_aP9-iHViKUV-vfafkCBmkwDelYiMe8F8rYEODpiPA15-j1tNmouGlzHsYFUi2Wv-Wl60u5dYP_dptAui2F7f7nVfBAR_srQ-LtZXCTAgJgdgDMt0t14oHJIUA7-VGqn8AsOPbmMOrF5lW7PBN3So9yGotyUdeIt-RJZ4J_HrzgRYkR7sXuyGm3w_1udZn8G4hlNyQQKRhp5ewj4npURaFpOn37tI8IIy_Yd3hsshHEQBaYCMrmzB2Xz9awLiK8jsBoQQZoi_MgukEBxy-KSUMAj2LJcvH9-AEdYnJx2qN5aJAm2X_CMmKkAeA7zNok58nVAj501rx-7g5c0og8_DdyuawNMdD3FCBWQTrtWNeVK-nYKAdnD6Ggy_2SNBbwhSMwH1Xh1_PROjvIaIw_UyvgmWJhHRZB9WG9wT68BmI0Er9fPUhjm8URHdjlQep15_Tszo68M8tE6z43T57sZ56oiPn5fyo2NGG3B66M6_bzATngG1N61klujJeUmyZx5odSjni3WOoCq0tUSjZv3o83CZOEsmrvcWxTQsgoeMmBlPG44wNB9PBz7zkZcf3XJBs4Vb53IeRniL5GqYIIWuGXtviGUWG4dX1QVKOhBIRr0RenDH0vFkR8PwCuB6AAEzjGU6-piXI5JI26SjQ4fj0fIjxaKGL2jniDc",
+            "q": "seafood restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=seafood+restaurant+near+VIT+Vellore&uds=AJ5uw1-3U10Z2MuosnO7HtXgdu0F2qFAcS4c2dBdVeNmSIkiQb7V__0sQ2NzB6EcNhhE8oYhGi9G6W943eo_aP9-iHViKUV-vfafkCBmkwDelYiMe8F8rYEODpiPA15-j1tNmouGlzHsYFUi2Wv-Wl60u5dYP_dptAui2F7f7nVfBAR_srQ-LtZXCTAgJgdgDMt0t14oHJIUA7-VGqn8AsOPbmMOrF5lW7PBN3So9yGotyUdeIt-RJZ4J_HrzgRYkR7sXuyGm3w_1udZn8G4hlNyQQKRhp5ewj4npURaFpOn37tI8IIy_Yd3hsshHEQBaYCMrmzB2Xz9awLiK8jsBoQQZoi_MgukEBxy-KSUMAj2LJcvH9-AEdYnJx2qN5aJAm2X_CMmKkAeA7zNok58nVAj501rx-7g5c0og8_DdyuawNMdD3FCBWQTrtWNeVK-nYKAdnD6Ggy_2SNBbwhSMwH1Xh1_PROjvIaIw_UyvgmWJhHRZB9WG9wT68BmI0Er9fPUhjm8URHdjlQep15_Tszo68M8tE6z43T57sZ56oiPn5fyo2NGG3B66M6_bzATngG1N61klujJeUmyZx5odSjni3WOoCq0tUSjZv3o83CZOEsmrvcWxTQsgoeMmBlPG44wNB9PBz7zkZcf3XJBs4Vb53IeRniL5GqYIIWuGXtviGUWG4dX1QVKOhBIRr0RenDH0vFkR8PwCuB6AAEzjGU6-piXI5JI26SjQ4fj0fIjxaKGL2jniDc&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAK",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=seafood+restaurant+near+VIT+Vellore&uds=AJ5uw1-3U10Z2MuosnO7HtXgdu0F2qFAcS4c2dBdVeNmSIkiQb7V__0sQ2NzB6EcNhhE8oYhGi9G6W943eo_aP9-iHViKUV-vfafkCBmkwDelYiMe8F8rYEODpiPA15-j1tNmouGlzHsYFUi2Wv-Wl60u5dYP_dptAui2F7f7nVfBAR_srQ-LtZXCTAgJgdgDMt0t14oHJIUA7-VGqn8AsOPbmMOrF5lW7PBN3So9yGotyUdeIt-RJZ4J_HrzgRYkR7sXuyGm3w_1udZn8G4hlNyQQKRhp5ewj4npURaFpOn37tI8IIy_Yd3hsshHEQBaYCMrmzB2Xz9awLiK8jsBoQQZoi_MgukEBxy-KSUMAj2LJcvH9-AEdYnJx2qN5aJAm2X_CMmKkAeA7zNok58nVAj501rx-7g5c0og8_DdyuawNMdD3FCBWQTrtWNeVK-nYKAdnD6Ggy_2SNBbwhSMwH1Xh1_PROjvIaIw_UyvgmWJhHRZB9WG9wT68BmI0Er9fPUhjm8URHdjlQep15_Tszo68M8tE6z43T57sZ56oiPn5fyo2NGG3B66M6_bzATngG1N61klujJeUmyZx5odSjni3WOoCq0tUSjZv3o83CZOEsmrvcWxTQsgoeMmBlPG44wNB9PBz7zkZcf3XJBs4Vb53IeRniL5GqYIIWuGXtviGUWG4dX1QVKOhBIRr0RenDH0vFkR8PwCuB6AAEzjGU6-piXI5JI26SjQ4fj0fIjxaKGL2jniDc"
+        },
+        {
+          "name": "South indian",
+          "parameters": {
+            "uds": "AJ5uw19tC8PRVLGT1bqBM7aYqr9h_b4NQJXmDRDkxfvQb3cUlVMjpWjz2sGUTwr3xgsED9dTqFtxP4wBf3t3uzYB3X1q_Mca0x6dh8It_HlO1NfdnUueCPUZWez71OTRpEOXKgHacz6ww19uyDdIR3fMPrhWvU_8135RbjMG_ZdNY36ZCML8G99JbuKz5Cv3ka3tedzyNq5-aeFxaCAvAJPJDsbWU0YefzlNkR6m1dI_ThhjNoVJVUzFM2TFLRgUWl7NBTwTgyCSp8vvK3kgWfT7JdJ36aHecEQDoysblq8abnrhgotLWrcp18AEeX4rFEWvYR7_FOO_BvltjISHi_ScrK11xMIg6FKWHfzy620Zkkm9Y9kqFbK59SjKiLXDXYlt2uu404aY7awCaqTsMR4JTF3f2un-qWtXOJaEC8kNxvTe95aa0hgjJFRe3oKjOredSFn0ctN2qIpAA_eChAerN4LPLxf4T7BEZiUqmrI-rJ6Vb9aYygFNcGP_5piboNb4QUUnO_wV4jDGsOXLXGkeoTIzCAtSrO16MZh_oX78zwnjxe2JvU5wLwbCsI5qZjE4LWzfqn68GCTzJNN3rhqdbQYHnYNubOmDTopK28wsuuxtmWhr2PN2ziWufEWDflu37mWrPVUKna9_Rs6w7hLXnYlhyxJhtUXT7IrlLvElVQbKOaqFeP1bz_tGf_0H8LXFN4N-2W0yXdz0GE4TvWCAYUeWN1ateUr70d-fPGb3NxUam7nguXQ",
+            "q": "south indian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=south+indian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9h_b4NQJXmDRDkxfvQb3cUlVMjpWjz2sGUTwr3xgsED9dTqFtxP4wBf3t3uzYB3X1q_Mca0x6dh8It_HlO1NfdnUueCPUZWez71OTRpEOXKgHacz6ww19uyDdIR3fMPrhWvU_8135RbjMG_ZdNY36ZCML8G99JbuKz5Cv3ka3tedzyNq5-aeFxaCAvAJPJDsbWU0YefzlNkR6m1dI_ThhjNoVJVUzFM2TFLRgUWl7NBTwTgyCSp8vvK3kgWfT7JdJ36aHecEQDoysblq8abnrhgotLWrcp18AEeX4rFEWvYR7_FOO_BvltjISHi_ScrK11xMIg6FKWHfzy620Zkkm9Y9kqFbK59SjKiLXDXYlt2uu404aY7awCaqTsMR4JTF3f2un-qWtXOJaEC8kNxvTe95aa0hgjJFRe3oKjOredSFn0ctN2qIpAA_eChAerN4LPLxf4T7BEZiUqmrI-rJ6Vb9aYygFNcGP_5piboNb4QUUnO_wV4jDGsOXLXGkeoTIzCAtSrO16MZh_oX78zwnjxe2JvU5wLwbCsI5qZjE4LWzfqn68GCTzJNN3rhqdbQYHnYNubOmDTopK28wsuuxtmWhr2PN2ziWufEWDflu37mWrPVUKna9_Rs6w7hLXnYlhyxJhtUXT7IrlLvElVQbKOaqFeP1bz_tGf_0H8LXFN4N-2W0yXdz0GE4TvWCAYUeWN1ateUr70d-fPGb3NxUam7nguXQ&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAL",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=south+indian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9h_b4NQJXmDRDkxfvQb3cUlVMjpWjz2sGUTwr3xgsED9dTqFtxP4wBf3t3uzYB3X1q_Mca0x6dh8It_HlO1NfdnUueCPUZWez71OTRpEOXKgHacz6ww19uyDdIR3fMPrhWvU_8135RbjMG_ZdNY36ZCML8G99JbuKz5Cv3ka3tedzyNq5-aeFxaCAvAJPJDsbWU0YefzlNkR6m1dI_ThhjNoVJVUzFM2TFLRgUWl7NBTwTgyCSp8vvK3kgWfT7JdJ36aHecEQDoysblq8abnrhgotLWrcp18AEeX4rFEWvYR7_FOO_BvltjISHi_ScrK11xMIg6FKWHfzy620Zkkm9Y9kqFbK59SjKiLXDXYlt2uu404aY7awCaqTsMR4JTF3f2un-qWtXOJaEC8kNxvTe95aa0hgjJFRe3oKjOredSFn0ctN2qIpAA_eChAerN4LPLxf4T7BEZiUqmrI-rJ6Vb9aYygFNcGP_5piboNb4QUUnO_wV4jDGsOXLXGkeoTIzCAtSrO16MZh_oX78zwnjxe2JvU5wLwbCsI5qZjE4LWzfqn68GCTzJNN3rhqdbQYHnYNubOmDTopK28wsuuxtmWhr2PN2ziWufEWDflu37mWrPVUKna9_Rs6w7hLXnYlhyxJhtUXT7IrlLvElVQbKOaqFeP1bz_tGf_0H8LXFN4N-2W0yXdz0GE4TvWCAYUeWN1ateUr70d-fPGb3NxUam7nguXQ"
+        },
+        {
+          "name": "Vegetarian",
+          "parameters": {
+            "uds": "AJ5uw19tC8PRVLGT1bqBM7aYqr9hAuSvI78OGEUUArGXeixCtn_k1DJ-k4CDE-vhHmiJD-7U2nFEYoVvAMj5BunHZMdTy1PMdshcusXVJXTMdvYUzH8QqsoirmF71Cd0M-w2-Twp7tdKhENesBEDtIgVzBmN3ZAFTZII5ukRvEcC4toyIC668c5nWZ-w-PT3id726vLiTei45GeTucGQWUPjsMmxxn29SCiHFg6NSGJZuDjfWIpmIGVCTUfIR4GcwWUbCTCtq3WIBchuP5wAYR81mPkYdZrXNp43GvZrvmRrkeq0AyD9tzMEuh_WiPKHJNikEYFLVBz0kQvsZ5UsPBmoRoQkPPqvEN-pS-OKZvJSXRLcDvafUrqPp41LLQGtWdY90AFFfM6PVLOmBd1N5iVByK3akZiO_LBNhPG3rCUkxy5YNrvF6IcJH5zeiUQxrC05Y311FiUlobBmCqdpL4jR-KFjUEaYUSkTv3EPaRFG4NZKchvmyDgOfJISm95EjKcb3G8byDFk2MojyhSWNorv-2qFH981KaiqdCuJTgUjHyZH4iOI1bbj1e-Cuc6PvLpTXFExhS_kagG3iBVHyYCvxicy9-QLejqyMwJ3oBLDWrakuVaRk5FauqE9qzgsA8n16R6VrHQPgjyuyJoKgVg4XQkjk_d6YuQdq6MVSZIWmGgqPCiOtor-hgHw-byOCrqCF_YdYRcMariP5F56PXihUF71w5Sejw",
+            "q": "vegetarian restaurant near VIT Vellore"
+          },
+          "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=vegetarian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hAuSvI78OGEUUArGXeixCtn_k1DJ-k4CDE-vhHmiJD-7U2nFEYoVvAMj5BunHZMdTy1PMdshcusXVJXTMdvYUzH8QqsoirmF71Cd0M-w2-Twp7tdKhENesBEDtIgVzBmN3ZAFTZII5ukRvEcC4toyIC668c5nWZ-w-PT3id726vLiTei45GeTucGQWUPjsMmxxn29SCiHFg6NSGJZuDjfWIpmIGVCTUfIR4GcwWUbCTCtq3WIBchuP5wAYR81mPkYdZrXNp43GvZrvmRrkeq0AyD9tzMEuh_WiPKHJNikEYFLVBz0kQvsZ5UsPBmoRoQkPPqvEN-pS-OKZvJSXRLcDvafUrqPp41LLQGtWdY90AFFfM6PVLOmBd1N5iVByK3akZiO_LBNhPG3rCUkxy5YNrvF6IcJH5zeiUQxrC05Y311FiUlobBmCqdpL4jR-KFjUEaYUSkTv3EPaRFG4NZKchvmyDgOfJISm95EjKcb3G8byDFk2MojyhSWNorv-2qFH981KaiqdCuJTgUjHyZH4iOI1bbj1e-Cuc6PvLpTXFExhS_kagG3iBVHyYCvxicy9-QLejqyMwJ3oBLDWrakuVaRk5FauqE9qzgsA8n16R6VrHQPgjyuyJoKgVg4XQkjk_d6YuQdq6MVSZIWmGgqPCiOtor-hgHw-byOCrqCF_YdYRcMariP5F56PXihUF71w5Sejw&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQkbEKegQINRAM",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=vegetarian+restaurant+near+VIT+Vellore&uds=AJ5uw19tC8PRVLGT1bqBM7aYqr9hAuSvI78OGEUUArGXeixCtn_k1DJ-k4CDE-vhHmiJD-7U2nFEYoVvAMj5BunHZMdTy1PMdshcusXVJXTMdvYUzH8QqsoirmF71Cd0M-w2-Twp7tdKhENesBEDtIgVzBmN3ZAFTZII5ukRvEcC4toyIC668c5nWZ-w-PT3id726vLiTei45GeTucGQWUPjsMmxxn29SCiHFg6NSGJZuDjfWIpmIGVCTUfIR4GcwWUbCTCtq3WIBchuP5wAYR81mPkYdZrXNp43GvZrvmRrkeq0AyD9tzMEuh_WiPKHJNikEYFLVBz0kQvsZ5UsPBmoRoQkPPqvEN-pS-OKZvJSXRLcDvafUrqPp41LLQGtWdY90AFFfM6PVLOmBd1N5iVByK3akZiO_LBNhPG3rCUkxy5YNrvF6IcJH5zeiUQxrC05Y311FiUlobBmCqdpL4jR-KFjUEaYUSkTv3EPaRFG4NZKchvmyDgOfJISm95EjKcb3G8byDFk2MojyhSWNorv-2qFH981KaiqdCuJTgUjHyZH4iOI1bbj1e-Cuc6PvLpTXFExhS_kagG3iBVHyYCvxicy9-QLejqyMwJ3oBLDWrakuVaRk5FauqE9qzgsA8n16R6VrHQPgjyuyJoKgVg4XQkjk_d6YuQdq6MVSZIWmGgqPCiOtor-hgHw-byOCrqCF_YdYRcMariP5F56PXihUF71w5Sejw"
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "options": []
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Veg restaurants near vit Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Veg+restaurants+near+vit+Vellore&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhGEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Veg+restaurants+near+vit+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Best restaurants near VIT Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Best+restaurants+near+VIT+Vellore&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhVEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+restaurants+near+VIT+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Best Veg Restaurants near VIT Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Best+Veg+Restaurants+near+VIT+Vellore&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhQEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+Veg+Restaurants+near+VIT+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Restaurants near VIT Chennai",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Restaurants+near+VIT+Chennai&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhPEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Restaurants+near+VIT+Chennai"
+    },
+    {
+      "block_position": 1,
+      "query": "Restaurants in Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Restaurants+in+Vellore&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhOEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Restaurants+in+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Veg restaurants near Vit Chennai",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Veg+restaurants+near+Vit+Chennai&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhNEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Veg+restaurants+near+Vit+Chennai"
+    },
+    {
+      "block_position": 1,
+      "query": "Zaitoon Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Zaitoon+Vellore&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhIEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Zaitoon+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Best restaurants in Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&gl=in&hl=en&q=Best+restaurants+in+Vellore&sa=X&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ1QJ6BAhHEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+restaurants+in+Vellore"
+    }
+  ],
+  "discussions_and_forums": [
+    {
+      "title": "Food spots near VIT Vellore (outside campus)?",
+      "link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/",
+      "date": "1 year ago",
+      "extensions": [
+        "r/Vit",
+        "20+ comments"
+      ],
+      "source": "Reddit",
+      "answers": [
+        {
+          "link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/ncc8oph/",
+          "extensions": [
+            "Top answer",
+            "26 votes",
+            "a year ago"
+          ]
+        },
+        {
+          "link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/ncccm8e/",
+          "extensions": [
+            "8 votes",
+            "a year ago"
+          ]
+        },
+        {
+          "link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/nccjfs5/",
+          "extensions": [
+            "3 votes",
+            "a year ago"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the best north Indian restaurant in near VIT Vellore?",
+      "link": "https://www.quora.com/What-is-the-best-north-Indian-restaurant-in-near-VIT-Vellore",
+      "date": "12 years ago",
+      "extensions": [
+        "40+ answers"
+      ],
+      "source": "Quora",
+      "answers": [
+        {
+          "link": "https://www.quora.com/What-is-the-best-north-Indian-restaurant-in-near-VIT-Vellore?top_ans=46101239",
+          "extensions": [
+            "Top answer",
+            "31 votes",
+            "9 years ago"
+          ]
+        },
+        {
+          "link": "https://www.quora.com/What-is-the-best-north-Indian-restaurant-in-near-VIT-Vellore?top_ans=6855476",
+          "extensions": [
+            "9 votes",
+            "12 years ago"
+          ]
+        },
+        {
+          "link": "https://www.quora.com/What-is-the-best-north-Indian-restaurant-in-near-VIT-Vellore?top_ans=15560770",
+          "extensions": [
+            "4 votes",
+            "11 years ago"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What are some great places to eat around VIT?",
+      "link": "https://www.quora.com/What-are-some-great-places-to-eat-around-VIT",
+      "date": "12 years ago",
+      "extensions": [
+        "30+ answers"
+      ],
+      "source": "Quora",
+      "answers": [
+        {
+          "link": "https://www.quora.com/What-are-some-great-places-to-eat-around-VIT?top_ans=3910767",
+          "extensions": [
+            "Top answer",
+            "8 votes",
+            "12 years ago"
+          ]
+        },
+        {
+          "link": "https://www.quora.com/What-are-some-great-places-to-eat-around-VIT?top_ans=14290949",
+          "extensions": [
+            "11 years ago"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=10&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8NMDegQIPhAU",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=10&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAE",
+      "3": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=20&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAG",
+      "4": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=30&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAI",
+      "5": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=40&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAK",
+      "6": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=50&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAM",
+      "7": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=60&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAO",
+      "8": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=70&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAQ",
+      "9": "https://www.google.com/search?q=restaurant+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&gl=in&hl=en&ei=4uCsarf8IrSrwbkPo8CcsAM&start=80&sa=N&sstk=AS6-VmK19ehhlAKaqpaBavuOy1Y6JbVI6bbquRh5-NP2b9SeN46UGjM57ueXwm8FRACK8n31mdrwnZP2mFxEw-949dgv1J94xZ-vXA&ved=2ahUKEwi39eTTxveWAxW0VTABHSMgBzYQ8tMDegQIPhAS"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=restaurant+near+VIT+Vellore&start=80"
+    }
+  }
+}

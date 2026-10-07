@@ -1,0 +1,505 @@
+{
+  "search_metadata": {
+    "id": "6aace0ee05bb598e1c545100",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/yO5mUdA2mlF3T4vz03y02EG9F7xK3NXdiOfT7KtHTkc/6aace0ee05bb598e1c545100.json",
+    "markdown_endpoint": "https://serpapi.com/searches/yO5mUdA2mlF3T4vz03y02EG9F7xK3NXdiOfT7KtHTkc/6aace0ee05bb598e1c545100.md",
+    "pixel_position_endpoint": "https://serpapi.com/searches/yO5mUdA2mlF3T4vz03y02EG9F7xK3NXdiOfT7KtHTkc/6aace0ee05bb598e1c545100.json_with_pixel_position",
+    "created_at": "2026-09-18 06:57:50 UTC",
+    "processed_at": "2026-09-18 06:57:50 UTC",
+    "google_url": "https://www.google.com/search?q=gym+near+VIT+Vellore&oq=gym+near+VIT+Vellore&uule=w+CAIQICIYVmVsbG9yZSxUYW1pbCBOYWR1LEluZGlh&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/yO5mUdA2mlF3T4vz03y02EG9F7xK3NXdiOfT7KtHTkc/6aace0ee05bb598e1c545100.html",
+    "total_time_taken": 2.05
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "gym near VIT Vellore",
+    "location_requested": "Vellore, Tamil Nadu, India",
+    "location_used": "Vellore,Tamil Nadu,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "gym near VIT Vellore",
+    "total_results": 138,
+    "time_taken_displayed": 0.37,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+    "image": "https://www.google.com/maps/vt/data=gjaeUJMTbAuFOS4Cbn-2fsUmCmerAgFOMZxns3IGBEnLbBrK_XyJNw6tnNdcB_mEt2mQpunW4X7iUk40lXQVyy-bpm5DPlS0T7ZVxXhqVWBf1fJ02PYkIcVJOT4DQn-olC6JGDA9NBo7Bg6Y4NBG80dZAhrZNwVuwLJaB4qOPvgLcfzM0P7kvCVWo5qY7SCoE6K2ZtefndGFsK5KT2WgI8t9I1u1_NWFs_fpuB6qT4QU2iS5jWk-rhNy3WM7jwjPfIsrMf53dYQpowni4WlhIDOWXanf29VAeQCjMRNX42xLb5BF_EUb6dj23zcYwv_P6mBsTpT8Jl_VLmrewxyTjGqEyNY70c-Lj3tY83xQQlPJsmgfCXkPFU-753gP3JwKkw-cvZnWck3-GCjulit6lrKFJoTJKmTfWT6KKlQAu0YP9sXf34iy4FJuP6bvWdaelfDEocPzOwB5_NsPxY4NgCvfSTNDj8V_K5K8HaxDIcpNmM_0_FRzkLMZ4N_BTDOEJJQ2cSEopURyvH6tDAAS9Mq34eSVuPfZqbfEbkWXT0YrNJeHeP3Mob1v1-cMqLpLzmrObeGoTh812bXGSD2OLeP0noIcXWWqjFmnZTTf_tLt01H5NKZib2wjTdQOqxAGeFdGesiSWQJCFotXPG6X8Cm8fPcIX739bWg7Uol6LBJVULuCUR4Wo2aCodZkAao5Ym1XBi0H2_-s47CYhz3vbr_mAf2ZB9g_3_zw4K5q527A1Fzv5fwXYpg6KYsRwe_PP3HgqOBjXAZCOCb84JPvR0LSfs_mf9yAvmq2Oq_ifirlvb10h03PkvceQ07tE5_nN-I4VYOWajEwOH-aKz-TCHij5mnEYNWT661F1D6BlSSX9Uqi2YasLFcrLVaeRF5gmxtmDtf4aC1T4mBIB2i8D7TX5yrCA0CkdHLLHNkTA3C816bs4Lpggt_2UemuJQyn8PxlGX6mAQ_BprnB75kKQ5AzFAGUSRuCUjDI6_0o2cJaw8c2KpqKY8eQmkeXn6jVa15T2W2W6bJ9BQgGOZ_ndz9xQoe3v-s9KwaDHXgYkeYTSmythadSt-lA3XnLnUcg8MoHabWfdzMTjCaOJ46dYkGy6Fn2kWOM08pnWwv6O1gZl9Ig12Zne6Jj_Q_IcJR8jLJ9_OASC6VVhhcjV0M2F7xV9ojG6WuLIh66aiSkvwZ20uXI3fIHSG_p-vL8hPdv3x982quWvO9FGdnEpdszTNYxFSEMOueXGrPhwmb99AwuyA7tnIxTzhBidlBdBwqx8E44UbCuaU4C5GrtWMo7knivL1MdtPLjs1HlO58ZVjxQ-nQRfrjfwkrO8nKvodWobXIMr8m1gLhoe-e5MjYHY2buyvYaQkDWA8QpojJqUi-XUbX7WMFjrl1ZjRo1pDay2bzZN6EUnztE38svgunNnALpRIK_cpa7M4y0JblVCg",
+    "gps_coordinates": {
+      "latitude": 12.940824033390822,
+      "longitude": 79.14379119873047
+    }
+  },
+  "local_results": {
+    "places": [
+      {
+        "position": 1,
+        "title": "GYM TOWN",
+        "type": "Gym",
+        "rating": 4.9,
+        "reviews": 94,
+        "description": "Online classes",
+        "links": {
+          "phone": "tel:090257 21997",
+          "directions": "https://www.google.com/maps/dir//GYM+TOWN,+%23NO-1,+GREEN+CIRCLE,+NH+SERVICE+ROAD,+next+to+VELLORE+KITCHEN,+Thottapalayam,+Vellore,+Tamil+Nadu+632004/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bad3935975421c1:0xb21cc19157554ba2?sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ48ADegQINRAA&hl=en&gl=in"
+        },
+        "place_id": "12834345868078697378",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=12834345868078697378&q=gym+near+VIT+Vellore",
+        "provider_id": "/g/11qg57dt6w",
+        "gps_coordinates": {
+          "latitude": 12.931361,
+          "longitude": 79.135725
+        },
+        "address": "#NO-1, GREEN CIRCLE, NH SERVICE ROAD, next to VELLORE KITCHEN, Thottapalayam, Vellore, Tamil Nadu 632004",
+        "hours": "Open · Closes 10 pm",
+        "phone": "090257 21997"
+      },
+      {
+        "position": 2,
+        "title": "ULTIMATE FITNESS CENTER VELLORE",
+        "type": "Gym",
+        "rating": 4.8,
+        "reviews": 129,
+        "description": "On-site services·Online classes",
+        "links": {
+          "phone": "tel:090255 97379",
+          "directions": "https://www.google.com/maps/dir//ULTIMATE+FITNESS+CENTER+VELLORE,+NO:1,+Filter+Bed+Rd,+next+to+SOUTH+POLICE+STATION,+Arasamarapettai,+Vellore,+Tamil+Nadu+632001/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bad3954e35892eb:0x1f2145216aec9850?sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ48ADegQINhAA&hl=en&gl=in"
+        },
+        "place_id": "2243150099237345360",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=2243150099237345360&q=gym+near+VIT+Vellore",
+        "provider_id": "/g/11stkms_l6",
+        "gps_coordinates": {
+          "latitude": 12.916169,
+          "longitude": 79.132941
+        },
+        "address": "NO:1, Filter Bed Rd, next to SOUTH POLICE STATION, Arasamarapettai, Vellore, Tamil Nadu 632001",
+        "hours": "Open · Closes 11 pm",
+        "phone": "090255 97379"
+      },
+      {
+        "position": 3,
+        "title": "Infinity Fitness Gym",
+        "type": "Gym",
+        "rating": 4.8,
+        "reviews": 300,
+        "description": "\"More spaces and nice environment, good trainers free to workout\"",
+        "links": {
+          "phone": "tel:096269 37796",
+          "website": "https://www.instagram.com/infinity_fitness_gym_?igsh=MWE3eHowYjIzNHZ1MA==",
+          "directions": "https://www.google.com/maps/dir//Infinity+Fitness+Gym,+571%2F26,+Kangeyanellore+Road,+Vellaikallmedu,+Katpadi,+Vellore,+Tamil+Nadu+632006/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bad47f203018f03:0x2bc59ca49bd03d55?sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ48ADegQIOxAA&hl=en&gl=in"
+        },
+        "place_id": "3154099344845585749",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=3154099344845585749&q=gym+near+VIT+Vellore",
+        "provider_id": "/g/11vwx0l21s",
+        "gps_coordinates": {
+          "latitude": 12.964014,
+          "longitude": 79.155903
+        },
+        "address": "571/26, Kangeyanellore Road, Vellaikallmedu, Katpadi, Vellore, Tamil Nadu 632006",
+        "hours": "Open · Closes 9:30 pm",
+        "phone": "096269 37796"
+      }
+    ],
+    "more_locations_link": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&udm=1&lsack=7-Csas75D9aDqgHPq9SYCw&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQjGp6BAhDEAA"
+  },
+  "related_questions": [
+    {
+      "question": "Is there a gym in VIT Vellore?",
+      "type": "ai_overview",
+      "page_token": "gF7viHicHdDPTsIwHADg-DIeZV0BIwkxTlawYcWN9rfRixmdMNc_TOkccPNdfCqfRuP5u31f3-bN6Z8rX3vfHieDQd_3N_vDYW9eb9TBDsrj2amBKo3ZlkpPxrdjdL9T07iLo8f3pygVbQuzLFgDrEAbzvUIeEjXEMKQWUOruH5OAuLy-QYJ0-IyZOWKy07a9pLPawTAooqoHgSV3BGqGhNIBG71iBg3NHo1ca8wG-ZW47KpCla0dNtE42RBhkUIYxHTs0LmqBqZZvrUMe2hFP45bYxTuV-K4E6D9WiLIpk1NEx1xuXMkASRroK7jqGH0RLocH2hx-qifMI1rnCN43qDl4JdNkWCmUhHG5GdZFCnihueC4bnbzTKFuy8yqXgASOpg4UMic2sOOUxc8uCLDJLRymuZn_irnfqc4qv_zenLzvrJ-3HYf8LRaWAsg",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=gF7viHicHdDPTsIwHADg-DIeZV0BIwkxTlawYcWN9rfRixmdMNc_TOkccPNdfCqfRuP5u31f3-bN6Z8rX3vfHieDQd_3N_vDYW9eb9TBDsrj2amBKo3ZlkpPxrdjdL9T07iLo8f3pygVbQuzLFgDrEAbzvUIeEjXEMKQWUOruH5OAuLy-QYJ0-IyZOWKy07a9pLPawTAooqoHgSV3BGqGhNIBG71iBg3NHo1ca8wG-ZW47KpCla0dNtE42RBhkUIYxHTs0LmqBqZZvrUMe2hFP45bYxTuV-K4E6D9WiLIpk1NEx1xuXMkASRroK7jqGH0RLocH2hx-qifMI1rnCN43qDl4JdNkWCmUhHG5GdZFCnihueC4bnbzTKFuy8yqXgASOpg4UMic2sOOUxc8uCLDJLRymuZn_irnfqc4qv_zenLzvrJ-3HYf8LRaWAsg",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IklzIHRoZXJlIGEgZ3ltIGluIFZJVCBWZWxsb3JlPyIsImxrIjoiR2gxcGN5QjBhR1Z5WlNCaElHZDViU0JwYmlCMmFYUWdkbVZzYkc5eVpRIiwiYnMiOiJjMldPc1E2Q01CaUU0OXJKMWFwd3ZBS09Ec1NnVVFZM3drN3dEMjFTYk5JMkpMNjlQeUFKeFBtLXVfdkVSVVNGUjFEa0NEWGFUd2Y5UmxXVXFNZ1k2eWhMWTNuVWYwU3ZBX3FKRUdkeHVGcnl5Sl81M0lLcS14LWRwWHU1ZXcxNTB6VnpaOG81RlRjQl9sOGNjcXZVNUhCQ1k0MmhsZzBTR2JQQjRwS1pzR0o0SmhrZGhxRzdkc2JqWVgwZ3N4S0JqRWFSWWFrZEliV0FHTmx1dmciLCJpZCI6ImZjXzctQ3Nhczc1RDlhRHFnSFBxOVNZQ3dfNyJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IklzIHRoZXJlIGEgZ3ltIGluIFZJVCBWZWxsb3JlPyIsImxrIjoiR2gxcGN5QjBhR1Z5WlNCaElHZDViU0JwYmlCMmFYUWdkbVZzYkc5eVpRIiwiYnMiOiJjMldPc1E2Q01CaUU0OXJKMWFwd3ZBS09Ec1NnVVFZM3drN3dEMjFTYk5JMkpMNjlQeUFKeFBtLXVfdkVSVVNGUjFEa0NEWGFUd2Y5UmxXVXFNZ1k2eWhMWTNuVWYwU3ZBX3FKRUdkeHVGcnl5Sl81M0lLcS14LWRwWHU1ZXcxNTB6VnpaOG81RlRjQl9sOGNjcXZVNUhCQ1k0MmhsZzBTR2JQQjRwS1pzR0o0SmhrZGhxRzdkc2JqWVgwZ3N4S0JqRWFSWWFrZEliV0FHTmx1dmciLCJpZCI6ImZjXzctQ3Nhczc1RDlhRHFnSFBxOVNZQ3dfNyJ9"
+    },
+    {
+      "question": "Does CMC Vellore have a gym?",
+      "type": "ai_overview",
+      "page_token": "78UrkXicHdBbboJAFADQdDN-Kk9rTUwThUFNGQLDPPCngQs41eFRoQL-dS9dVVfTpGcJ5_tHfdTX3ycu-77t1ovFMAzzc9OcVTGHplqk3VTDAlKlshSu6-XzUn8tYeN23XbXDNuQti1zIo08UJPFOAU30QOOJ8pH7Ff9PTPyO0GYZBQZAVNfCR8VZSuLo9B6E_ILYlllHjOoHiWFUAYXskkFnTKFZEHxJzNUzFw6gDiPRR11QFdT4bXL3LX3sSOtE89J7uQu2-m-0PogYO2xYC9azEfr5IV2WNmJryOcG64VPfK08KQTVYeJmUDQBfrQxBIeoEeOktEe1QRtx4DhU2hCergiF8yDfVIHy0dUZxXVU9YKoSmSxKwEB3dEqCO_RDe_hlkJ9405-w_bvJdVv25vzfkPoSB40Q",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=78UrkXicHdBbboJAFADQdDN-Kk9rTUwThUFNGQLDPPCngQs41eFRoQL-dS9dVVfTpGcJ5_tHfdTX3ycu-77t1ovFMAzzc9OcVTGHplqk3VTDAlKlshSu6-XzUn8tYeN23XbXDNuQti1zIo08UJPFOAU30QOOJ8pH7Ff9PTPyO0GYZBQZAVNfCR8VZSuLo9B6E_ILYlllHjOoHiWFUAYXskkFnTKFZEHxJzNUzFw6gDiPRR11QFdT4bXL3LX3sSOtE89J7uQu2-m-0PogYO2xYC9azEfr5IV2WNmJryOcG64VPfK08KQTVYeJmUDQBfrQxBIeoEeOktEe1QRtx4DhU2hCergiF8yDfVIHy0dUZxXVU9YKoSmSxKwEB3dEqCO_RDe_hlkJ9405-w_bvJdVv25vzfkPoSB40Q",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IkRvZXMgQ01DIFZlbGxvcmUgaGF2ZSBhIGd5bT8iLCJsayI6IkdobGtiMlZ6SUdOdFl5QjJaV3hzYjNKbElHaGhkbVVnWjNsdCIsImJzIjoiYzJXT3NRNkNNQmlFNDlySjFhcHd2QUtPRHNTZ1VRWTN3azd3RDIxU2JOSTJKTDY5UHlBSnhQbS11X3ZFUlVTRlIxRGtDRFhhVHdmOVJsV1VxTWdZNnloTFkzblVmMFN2QV9xSkVHZHh1RnJ5eUpfNTNJS3EteC1kcFh1NWV3MTUwelZ6WjhvNUZUY0JfbDhjY3F2VTVIQkNZNDJobGcwU0diUEI0cEtac0dKNEpoa2RocUc3ZHNiallYMGdzeEtCakVhUllha2RJYldBR05sdXZnIiwiaWQiOiJmY183LUNzYXM3NUQ5YURxZ0hQcTlTWUN3XzcifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IkRvZXMgQ01DIFZlbGxvcmUgaGF2ZSBhIGd5bT8iLCJsayI6IkdobGtiMlZ6SUdOdFl5QjJaV3hzYjNKbElHaGhkbVVnWjNsdCIsImJzIjoiYzJXT3NRNkNNQmlFNDlySjFhcHd2QUtPRHNTZ1VRWTN3azd3RDIxU2JOSTJKTDY5UHlBSnhQbS11X3ZFUlVTRlIxRGtDRFhhVHdmOVJsV1VxTWdZNnloTFkzblVmMFN2QV9xSkVHZHh1RnJ5eUpfNTNJS3EteC1kcFh1NWV3MTUwelZ6WjhvNUZUY0JfbDhjY3F2VTVIQkNZNDJobGcwU0diUEI0cEtac0dKNEpoa2RocUc3ZHNiallYMGdzeEtCakVhUllha2RJYldBR05sdXZnIiwiaWQiOiJmY183LUNzYXM3NUQ5YURxZ0hQcTlTWUN3XzcifQ%3D%3D"
+    },
+    {
+      "question": "Is VIT Vellore a Tier 3 college?",
+      "type": "ai_overview",
+      "page_token": "TV9LGnicHdBRboIwGADg7DI-TpDNRROzpNKiBuoo7Q_0ZcGiVq1QBQf6trvsVDvNkn1H-L5_zKE6_T61um1tMx0Ou6573tf13myfVX0eFs29UkNVGLMp1Gk6fhu77zs1wzeM5pclioW14DOHE7NL_RXQLO_gQfSWmIpldZuL2EsyRMK0foCvx0niOuoIYTFym03QRxExWGASq3PbsFN5p4vywFO2VI4OlWhaAOZHgrlKTDQ_uCAqSLiP5ty1SPmUxFnpQNDzwuy7jSdXSsgl96GQGfQlsSgFggFbh45e7gpPAsAkTEYTm42MXKeqLxaagyjtVkwwM_K2DuS1TFuEde6Fgj7yLPKoiF9zwXrp6Fhxw1NBveCwQmxB7-tUCrFYWVqRmJ7sPHrIS4TZR-zpCo5yvs5MVRiKBjv1NfMG_5uzz925ndprvf8D-NmB-g",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=TV9LGnicHdBRboIwGADg7DI-TpDNRROzpNKiBuoo7Q_0ZcGiVq1QBQf6trvsVDvNkn1H-L5_zKE6_T61um1tMx0Ou6573tf13myfVX0eFs29UkNVGLMp1Gk6fhu77zs1wzeM5pclioW14DOHE7NL_RXQLO_gQfSWmIpldZuL2EsyRMK0foCvx0niOuoIYTFym03QRxExWGASq3PbsFN5p4vywFO2VI4OlWhaAOZHgrlKTDQ_uCAqSLiP5ty1SPmUxFnpQNDzwuy7jSdXSsgl96GQGfQlsSgFggFbh45e7gpPAsAkTEYTm42MXKeqLxaagyjtVkwwM_K2DuS1TFuEde6Fgj7yLPKoiF9zwXrp6Fhxw1NBveCwQmxB7-tUCrFYWVqRmJ7sPHrIS4TZR-zpCo5yvs5MVRiKBjv1NfMG_5uzz925ndprvf8D-NmB-g",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IklzIFZJVCBWZWxsb3JlIGEgVGllciAzIGNvbGxlZ2U/IiwibGsiOiJHaDlwY3lCMmFYUWdkbVZzYkc5eVpTQmhJSFJwWlhJZ015QmpiMnhzWldkbCIsImJzIjoiYzJXT3NRNkNNQmlFNDlySjFhcHd2QUtPRHNTZ1VRWTN3azd3RDIxU2JOSTJKTDY5UHlBSnhQbS11X3ZFUlVTRlIxRGtDRFhhVHdmOVJsV1VxTWdZNnloTFkzblVmMFN2QV9xSkVHZHh1RnJ5eUpfNTNJS3EteC1kcFh1NWV3MTUwelZ6WjhvNUZUY0JfbDhjY3F2VTVIQkNZNDJobGcwU0diUEI0cEtac0dKNEpoa2RocUc3ZHNiallYMGdzeEtCakVhUllha2RJYldBR05sdXZnIiwiaWQiOiJmY183LUNzYXM3NUQ5YURxZ0hQcTlTWUN3XzcifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IklzIFZJVCBWZWxsb3JlIGEgVGllciAzIGNvbGxlZ2U%2FIiwibGsiOiJHaDlwY3lCMmFYUWdkbVZzYkc5eVpTQmhJSFJwWlhJZ015QmpiMnhzWldkbCIsImJzIjoiYzJXT3NRNkNNQmlFNDlySjFhcHd2QUtPRHNTZ1VRWTN3azd3RDIxU2JOSTJKTDY5UHlBSnhQbS11X3ZFUlVTRlIxRGtDRFhhVHdmOVJsV1VxTWdZNnloTFkzblVmMFN2QV9xSkVHZHh1RnJ5eUpfNTNJS3EteC1kcFh1NWV3MTUwelZ6WjhvNUZUY0JfbDhjY3F2VTVIQkNZNDJobGcwU0diUEI0cEtac0dKNEpoa2RocUc3ZHNiallYMGdzeEtCakVhUllha2RJYldBR05sdXZnIiwiaWQiOiJmY183LUNzYXM3NUQ5YURxZ0hQcTlTWUN3XzcifQ%3D%3D"
+    },
+    {
+      "question": "Does VIT Girls Hostel have a gym?",
+      "type": "ai_overview",
+      "page_token": "eZF3knicHdBdboIwAADg7DI-Klh10cQscfzJpMTSH-nLUiiK2lLUqujb7rJT7TRbdoIv-b6-1b45_rzY2tr2MhsM7vd7f2fMTlX90uiBuDyaclAKpQpRHmeT14n7ti3n_tVfvJ-WizVpW-ohJ1P5sCKxTUjccY8LqfIRZ12T-oFP3SDNh8YSahyu4zXWChGgWsmCI_agKB2pJYCGsrFXHWqHUclEw28ZQ6A4xmDFOigISjiBTeG0KWUooHppCa6dwknulMoNGiqLArgt1LSWITRZGN-w4h_kScbFw72KzBUQtCoN-Flu-IEPrUnw4pBm7ojqP-8pT4XLQ6q5ppFCfp2DFYHPfJMASNbjnKCOO_W6xAozAkG4jxcogo-UcYyjmhLWuRT4Dx7FeaVtWHlxJjetV0RBl4bTprctb3PQ-9-cf261nbVns_sFr7OC9g",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=eZF3knicHdBdboIwAADg7DI-Klh10cQscfzJpMTSH-nLUiiK2lLUqujb7rJT7TRbdoIv-b6-1b45_rzY2tr2MhsM7vd7f2fMTlX90uiBuDyaclAKpQpRHmeT14n7ti3n_tVfvJ-WizVpW-ohJ1P5sCKxTUjccY8LqfIRZ12T-oFP3SDNh8YSahyu4zXWChGgWsmCI_agKB2pJYCGsrFXHWqHUclEw28ZQ6A4xmDFOigISjiBTeG0KWUooHppCa6dwknulMoNGiqLArgt1LSWITRZGN-w4h_kScbFw72KzBUQtCoN-Flu-IEPrUnw4pBm7ojqP-8pT4XLQ6q5ppFCfp2DFYHPfJMASNbjnKCOO_W6xAozAkG4jxcogo-UcYyjmhLWuRT4Dx7FeaVtWHlxJjetV0RBl4bTprctb3PQ-9-cf261nbVns_sFr7OC9g",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IkRvZXMgVklUIEdpcmxzIEhvc3RlbCBoYXZlIGEgZ3ltPyIsImxrIjoiR2g1a2IyVnpJSFpwZENCbmFYSnNjeUJvYjNOMFpXd2dhR0YyWlNCbmVXMCIsImJzIjoiYzJXT3NRNkNNQmlFNDlySjFhcHd2QUtPRHNTZ1VRWTN3azd3RDIxU2JOSTJKTDY5UHlBSnhQbS11X3ZFUlVTRlIxRGtDRFhhVHdmOVJsV1VxTWdZNnloTFkzblVmMFN2QV9xSkVHZHh1RnJ5eUpfNTNJS3EteC1kcFh1NWV3MTUwelZ6WjhvNUZUY0JfbDhjY3F2VTVIQkNZNDJobGcwU0diUEI0cEtac0dKNEpoa2RocUc3ZHNiallYMGdzeEtCakVhUllha2RJYldBR05sdXZnIiwiaWQiOiJmY183LUNzYXM3NUQ5YURxZ0hQcTlTWUN3XzcifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSS1MxQTJhR0p6Tm1GU1dURlZUa2N0VFcxVU5YTlJaV1IzUjNSTWJtWkVkbTVNZG5wSlVqQXlRbGhVWVdKT1JFVnRkRXRVVlZsUWNFTk9URmczWTFsdllqaEZVRVZwYnpGUGRXcFNNa1JSUjA1R09VTlpXblpDYlZwT1FSSVdOeTFEYzJGek56VkVPV0ZFY1dkSVVIRTVVMWxEZHhvaVFVUnpjamxtVTBrdFRWaFJUVWgxTFU5Wk5sWkpNbWhSU0cxR2EwNVJWa1pYWnciLCJmY3YiOiIzIiwiZWkiOiI3LUNzYXM3NUQ5YURxZ0hQcTlTWUN3IiwicWMiOiJDaFJuZVcwZ2JtVmhjaUIyYVhRZ2RtVnNiRzl5WlJBQWZYSk80RDQiLCJxdWVzdGlvbiI6IkRvZXMgVklUIEdpcmxzIEhvc3RlbCBoYXZlIGEgZ3ltPyIsImxrIjoiR2g1a2IyVnpJSFpwZENCbmFYSnNjeUJvYjNOMFpXd2dhR0YyWlNCbmVXMCIsImJzIjoiYzJXT3NRNkNNQmlFNDlySjFhcHd2QUtPRHNTZ1VRWTN3azd3RDIxU2JOSTJKTDY5UHlBSnhQbS11X3ZFUlVTRlIxRGtDRFhhVHdmOVJsV1VxTWdZNnloTFkzblVmMFN2QV9xSkVHZHh1RnJ5eUpfNTNJS3EteC1kcFh1NWV3MTUwelZ6WjhvNUZUY0JfbDhjY3F2VTVIQkNZNDJobGcwU0diUEI0cEtac0dKNEpoa2RocUc3ZHNiallYMGdzeEtCakVhUllha2RJYldBR05sdXZnIiwiaWQiOiJmY183LUNzYXM3NUQ5YURxZ0hQcTlTWUN3XzcifQ%3D%3D"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "gymnasium - Vellore Institute of Technology",
+      "link": "https://vit.ac.in/gymnasium",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESUwHrOzAVt9i_0vsSUGg6qXw-Fcax0j8DHyGTf_jgYPwzbX9bDP0tXHD_qdZAibwd5n9uPh7ilga8GA2BtTRpGedIx9Io6eK9KFkObL_bwujof1Xw&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECB0QAQ&uoh=1",
+      "displayed_link": "https://vit.ac.in › gymnasium",
+      "favicon": "https://serpapi.com/images/i/UklGRi4BAABXRUJQVlA4ICIBAADwBQCdASocABwAPtE-tFooIigoFAEAGglkAM453At4w428sgrtYArkk5CnMXHbaPkMs4NdqhwYAAD-9gnO8WogRyGqSogHefp1DFgpt4-5FIgpoioFWCnbNv3nu9vxcNjACdXgC5QpIG4UJ5ri_r4xc1IXrWA7BdE73xcet-H5M8zOkUbvnqa8e9sZgi1G5c-L5EdfCBZN8bWPIBnYxz6KvxZEv_os9ymNpyZ_Kd6TnnWSXYsvxNNL5SxnIohC7lA5Nhz3r7jSt3dMELGt630bLEKOBDyLDznhij8gmuUhveMbGDMZH_eOYmGG5qgmnm6PZ9xQ72htN04h7NWob26aC-Ka91BDRXkY_KKB3fEkjcqK4cb6FNGlhyEAsv3Vv4AAAA.webp",
+      "snippet": "VIT's newest facilities for students include six gymnasium, Vellore Institute of Technolagy(VIT) Vellore – 632 014, Tamil Nadu, India Phone : 0416220117/ ...",
+      "snippet_highlighted_words": [
+        "six gymnasium"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "VIT's newest facilities for students include six gymnasium, Vellore Institute of Technolagy(VIT) Vellore – 632 014, Tamil Nadu, India Phone : 0416220117/ ...",
+          "source_info_link": "https://vit.ac.in/gymnasium",
+          "icon": "https://serpapi.com/images/i/UklGRi4BAABXRUJQVlA4ICIBAADwBQCdASocABwAPtE-tFooIigoFAEAGglkAM453At4w428sgrtYArkk5CnMXHbaPkMs4NdqhwYAAD-9gnO8WogRyGqSogHefp1DFgpt4-5FIgpoioFWCnbNv3nu9vxcNjACdXgC5QpIG4UJ5ri_r4xc1IXrWA7BdE73xcet-H5M8zOkUbvnqa8e9sZgi1G5c-L5EdfCBZN8bWPIBnYxz6KvxZEv_os9ymNpyZ_Kd6TnnWSXYsvxNNL5SxnIohC7lA5Nhz3r7jSt3dMELGt630bLEKOBDyLDznhij8gmuUhveMbGDMZH_eOYmGG5qgmnm6PZ9xQ72htN04h7NWob26aC-Ka91BDRXkY_KKB3fEkjcqK4cb6FNGlhyEAsv3Vv4AAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Vellore Institute of Technology"
+    },
+    {
+      "position": 2,
+      "title": "Best Gym in Vit Main Road, Vellore - Top Fitness Centers & ...",
+      "link": "https://www.justdial.com/Vellore/Gyms-in-Vit-Main-Road/nct-11575244",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESewHrOzAVrgPjyY0JatbFv1dGde9mPMTwYu5LL3B13-jsLgDg6sRytCdaBjAKfo1YN2cPGPKV_2EuQFAh6bP9lUxZeUvO88uzzIY_i05uK8m2dmLjZ7FQ3g1HQpUXk3LNsIlWRHiKwOC8jaznGDbqcZQAOzg2tSawWPj0Cw&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECBsQAQ&uoh=1",
+      "displayed_link": "https://www.justdial.com › ... › 39+ Listings",
+      "favicon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp",
+      "snippet": "Popular Gyms in Vit Main Road, Vellore · New Spartans Fitness Studio · Aesthetic Den Fitness Center · Infinity Fitness Gym · B Fit Fitness Centre · Muscle ...",
+      "snippet_highlighted_words": [
+        "Popular Gyms in Vit Main Road, Vellore"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Popular Gyms in Vit Main Road, Vellore · New Spartans Fitness Studio · Aesthetic Den Fitness Center · Infinity Fitness Gym · B Fit Fitness Centre · Muscle ...",
+          "source_info_link": "https://www.justdial.com/Vellore/Gyms-in-Vit-Main-Road/nct-11575244",
+          "icon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Justdial",
+      "read_more_link": "https://www.justdial.com/Vellore/Gyms-in-Vit-Main-Road/nct-11575244#:~:text=Popular%20Gyms%20in%20Vit%20Main,Road%2C%20Vellore&text=New%20Spartans%20Fitness%20Studio&text=Aesthetic%20Den%20Fitness%20Center&text=Infinity%20Fitness%20Gym&text=B%20Fit%20Fitness%20Centre&text=Muscle%20Engineer"
+    },
+    {
+      "position": 3,
+      "title": "I am a fresher at vit vellore wanting to join a gym. Which is ...",
+      "link": "https://www.reddit.com/r/Vit/comments/1m2twi0/i_am_a_fresher_at_vit_vellore_wanting_to_join_a/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFZGFHAwxp2L50s1dwhHnqkL4MtpSlZElup3u9l-djShqRqT_dury-myLZzrSqAEyXWRoZJLKQaMpdO6x__Dx6iQzqgWttbXj9FRmqDMtcihJ3_bmhVENztZA-AVTTQVI6PBb0_4sGw4wqDwBd45o-l5tui6wrEwbG1qVd_PG8u40z9UItfBX2Mx7IgFLcNfHI08&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECCcQAQ&uoh=1",
+      "displayed_link": "10+ comments · 1 year ago",
+      "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+      "snippet": "The gym is called TrendSet. The best is the fitty gym in the chillout plaza. Atleast the best gym in vit.",
+      "snippet_highlighted_words": [
+        "TrendSet"
+      ],
+      "sitelinks": {
+        "list": [
+          {
+            "title": "HI GOING TO JOIN VIT VELLORE CS(CORE)",
+            "link": "https://www.reddit.com/r/Vit/comments/1dsw48v/hi_going_to_join_vit_vellore_cscore/",
+            "answer_count": 41,
+            "date": "1 Jul 2024"
+          },
+          {
+            "title": "Gym scene in vit vellore? : r/Vit",
+            "link": "https://www.reddit.com/r/Vit/comments/1u3sgmi/gym_scene_in_vit_vellore/",
+            "answer_count": 21,
+            "date": "12 Jun 2026"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "The gym is called TrendSet. The best is the fitty gym in the chillout plaza. Atleast the best gym in vit.",
+          "source_info_link": "https://www.reddit.com/r/Vit/comments/1m2twi0/i_am_a_fresher_at_vit_vellore_wanting_to_join_a/",
+          "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Reddit · r/Vit"
+    },
+    {
+      "position": 4,
+      "title": "Muscle Engineer",
+      "link": "https://www.muscleengineer.in/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESVgHrOzAVMrX13kXlE_em7FBGK_TI1iJH6gEnWwuMWSFqiuT7WYnIzlys8irnrbJVrha_-HeDuv9kcok9tsgZxG9QIiLiefGWk45hZZ07L7PYbLyn_vip&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECBwQAQ&uoh=1",
+      "displayed_link": "https://www.muscleengineer.in",
+      "favicon": "https://serpapi.com/images/i/UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASocABwAPtEutFooIagoGAEAGglpAAdQCmO8qVBv5hP42SN-t_FFoIr7Y0AAAP72AWtna3_4HZjRw12Zn_8F6ZFJ4t7wkEYwQAGjzUatXBBVjPZN7F2b4DZyTiEqc1wuqhEJFHokiMackVUGMP9ssomBtatYbp-id_tSeFv7b0_fSXd0j_8XcctcDBhjhrD7_2iSanccbeXYZu74nD1DWjS9ayaTGuJgAAA.webp",
+      "snippet": "Muscle Engineer is the most premium fitness club in Vellore. +91 786-786-6555. Contact us +91 78678 66555. Opposite to VIT,",
+      "snippet_highlighted_words": [
+        "Muscle Engineer is the most premium fitness club in Vellore"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Muscle Engineer is the most premium fitness club in Vellore. +91 786-786-6555. Contact us +91 78678 66555. Opposite to VIT,",
+          "source_info_link": "https://www.muscleengineer.in/",
+          "icon": "https://serpapi.com/images/i/UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASocABwAPtEutFooIagoGAEAGglpAAdQCmO8qVBv5hP42SN-t_FFoIr7Y0AAAP72AWtna3_4HZjRw12Zn_8F6ZFJ4t7wkEYwQAGjzUatXBBVjPZN7F2b4DZyTiEqc1wuqhEJFHokiMackVUGMP9ssomBtatYbp-id_tSeFv7b0_fSXd0j_8XcctcDBhjhrD7_2iSanccbeXYZu74nD1DWjS9ayaTGuJgAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Muscle Engineer"
+    },
+    {
+      "position": 5,
+      "title": "Ultimate Guide to VIT Gym and Sports Facilities || VIT VELLORE",
+      "link": "https://www.youtube.com/watch?v=Y80D_FtCtW0",
+      "displayed_link": "5.6K+ views · 2 years ago",
+      "thumbnail": "https://serpapi.com/searches/6aace0ee05bb598e1c545100/images/-33wEbllZwo-LCvDq1xXhDEJnXRr_6ZyeB_R4Q4lRa8.jpeg",
+      "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "snippet": "Discover the ultimate guide to VIT's gym and sports facilities in Vellore. Learn about all the amenities and activities available for students ...",
+      "duration": "5:23",
+      "about_this_result": {
+        "source": {
+          "description": "Discover the ultimate guide to VIT's gym and sports facilities in Vellore. Learn about all the amenities and activities available for students ...",
+          "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+        }
+      },
+      "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRw6n9BGotj4WKkoSEjvBZA8b6U7oYmDAQxRQ",
+      "source": "YouTube · Ankit singh"
+    },
+    {
+      "position": 6,
+      "title": "How is the paid gym in VIT Vellore?",
+      "link": "https://www.quora.com/How-is-the-paid-gym-in-VIT-Vellore",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAV4wa-BtLoC423N_JoGK7EgjKS0kU8ToMf4BhdtVg97OBl-kvvlyZ56hXpIcC8j6S-k9BWISmsM3K73TI_H5zyLdKpHK9ABQ3KDT1NbgsgI7JIKQFvXYtmGS8ED--nSorDTKLRlym_tzLd14c&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECFoQAQ&uoh=1",
+      "displayed_link": "30+ answers · 9 years ago",
+      "favicon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp",
+      "snippet": "How is the paid gym in VIT Vellore?",
+      "sitelinks": {
+        "list": [
+          {
+            "title": "How can I join the gym at VIT Vellore campus?",
+            "link": "https://www.quora.com/How-can-I-join-the-gym-at-VIT-Vellore-campus",
+            "answer_count": 35,
+            "date": "11 Jul 2018"
+          },
+          {
+            "title": "How are non paid gyms in VIT, Vellore? Are they good?",
+            "link": "https://www.quora.com/How-are-non-paid-gyms-in-VIT-Vellore-Are-they-good",
+            "answer_count": 31,
+            "date": "24 Jun 2018"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "In VIT , we have got three gyms, one Non-AC gym at the men's hostel and Two AC- gyms ,one near Chief warden's office and one at first floor of ...",
+          "source_info_link": "https://www.quora.com/How-is-the-paid-gym-in-VIT-Vellore",
+          "icon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Quora"
+    },
+    {
+      "position": 7,
+      "title": "Vit Vellore Gym",
+      "link": "https://www.instagram.com/popular/vit-vellore-gym/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESagHrOzAVm5B04LESQqecOpTszNJYDlkkJpnCFFYnhssfU3VABc0pXOcylQNEqvhPqpG3Bqv8rQtNibj6ZL6G8UKmb7nl0BBUdJJ1tcr7jBJclPP-KqRElXD7JYrp1FRuGUe9PLO1bHbttGc&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECFMQAQ&uoh=1",
+      "displayed_link": "https://www.instagram.com › popular › vit-vellore-gym",
+      "favicon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp",
+      "snippet": "The campus has an AC Trendset Gymnasium and separate men and women indoor gyms, along with a Fitty AC Gym and multi gyms. There is also an outdoor gym located ...",
+      "snippet_highlighted_words": [
+        "AC Trendset Gymnasium and separate men and women indoor gyms"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The campus has an AC Trendset Gymnasium and separate men and women indoor gyms, along with a Fitty AC Gym and multi gyms. There is also an outdoor gym located ...",
+          "source_info_link": "https://www.instagram.com/popular/vit-vellore-gym/",
+          "icon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Instagram",
+      "read_more_link": "https://www.instagram.com/popular/vit-vellore-gym/#:~:text=The%20campus%20has%20an%20AC,located%20near%20the%20Football%20Field."
+    },
+    {
+      "position": 8,
+      "title": "Popular Women Gyms in Vit Main Road, Vellore",
+      "link": "https://www.justdial.com/Vellore/Women-Gyms-in-Vit-Main-Road/nct-11995807",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgQEB6zswFYdUOpaJhz2CHnpqSsQN_24HstJq3fHJveo7kpcnbKtJEoLGAD-9r9DzRdcM7h0jm3famwDYI6o-lNsyIoKc9yPBWox_uEwzc2j-r2ns8kjp-iE4vpC-t6Squb4amdQxbZpmby5TcMs6S8dR1RVG-WrCwSlZTjdBJyPHcLw&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQFnoECFUQAQ&uoh=1",
+      "displayed_link": "https://www.justdial.com › ... › 6+ Listings",
+      "favicon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp",
+      "snippet": "Popular Women Gyms in Vit Main Road, Vellore · New Spartans Fitness Studio · B Fit Fitness Centre · A J Fitness · Leo Gym · Slim Chance Fitness Studio · MB ...",
+      "snippet_highlighted_words": [
+        "Popular Women Gyms in Vit Main Road, Vellore"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Popular Women Gyms in Vit Main Road, Vellore · New Spartans Fitness Studio · B Fit Fitness Centre · A J Fitness · Leo Gym · Slim Chance Fitness Studio · MB ...",
+          "source_info_link": "https://www.justdial.com/Vellore/Women-Gyms-in-Vit-Main-Road/nct-11995807",
+          "icon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Justdial",
+      "read_more_link": "https://www.justdial.com/Vellore/Women-Gyms-in-Vit-Main-Road/nct-11995807#:~:text=Popular%20Women%20Gyms%20in%20Vit,Main%20Road%2C%20Vellore&text=New%20Spartans%20Fitness%20Studio&text=B%20Fit%20Fitness%20Centre&text=A%20J%20Fitness&text=Leo%20Gym&text=Slim%20Chance%20Fitness%20Studio&text=MB%20Fitness%20Studio"
+    },
+    {
+      "position": 9,
+      "title": "Life at VIT is more than just academics—it's about a lifestyle ...",
+      "link": "https://www.facebook.com/vituniversity/videos/life-at-vit-is-more-than-just-academicsits-about-a-lifestyle-that-keeps-you-ener/1376218454302366/",
+      "displayed_link": "360+ reactions · 4 months ago",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6vNMu6rcaRfWVqFOZXjRXz-3AD07bbhn6mTGsQS9V6CEIP4iC9d9CiA&s",
+      "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+      "snippet": "Amenities include: 🏋️‍♂️ Multi-facility Gyms Badminton, Basketball, & Table Tennis Playing Area 🍽️ Diverse mess Laundry & Medical ...",
+      "duration": "1:01",
+      "about_this_result": {
+        "source": {
+          "description": "Amenities include: 🏋️‍♂️ Multi-facility Gyms Badminton, Basketball, & Table Tennis Playing Area 🍽️ Diverse mess Laundry & Medical ...",
+          "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+        }
+      },
+      "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQkKV5MKe7wcfgnr0OsPcuTQKGPOpinzq3CvA",
+      "source": "Facebook · VIT"
+    }
+  ],
+  "filters": [
+    {
+      "name": "Online classes",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rZVXtY--JjndhJ9RbN6YJlGUKNoX2MNO31BBIM3HpyPI7iT3RDI2WhzNgp1OmEG9Dk_i8TnYciWLS6OV-l3cKXRDLWxviqLiBMSV9TKgVTG9QkrRgtWj6BCT0MJbaTs-NqJ_f5zC0PqHZVe-nEXodbeozcOO1AGpvXeP-g409ePvp-recpn4B5PLeLZRjugDlpy6l6yxIPUQtP0JbKWJ-2t0YS3ZhPdtVDRvottL2ZFRwawYkqKZfteJFJrtt9NhpzD2KCg",
+        "q": "online classes gym near VIT Vellore"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=online+classes+gym+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rZVXtY--JjndhJ9RbN6YJlGUKNoX2MNO31BBIM3HpyPI7iT3RDI2WhzNgp1OmEG9Dk_i8TnYciWLS6OV-l3cKXRDLWxviqLiBMSV9TKgVTG9QkrRgtWj6BCT0MJbaTs-NqJ_f5zC0PqHZVe-nEXodbeozcOO1AGpvXeP-g409ePvp-recpn4B5PLeLZRjugDlpy6l6yxIPUQtP0JbKWJ-2t0YS3ZhPdtVDRvottL2ZFRwawYkqKZfteJFJrtt9NhpzD2KCg&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQxKsJKAB6BAgYEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=online+classes+gym+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rZVXtY--JjndhJ9RbN6YJlGUKNoX2MNO31BBIM3HpyPI7iT3RDI2WhzNgp1OmEG9Dk_i8TnYciWLS6OV-l3cKXRDLWxviqLiBMSV9TKgVTG9QkrRgtWj6BCT0MJbaTs-NqJ_f5zC0PqHZVe-nEXodbeozcOO1AGpvXeP-g409ePvp-recpn4B5PLeLZRjugDlpy6l6yxIPUQtP0JbKWJ-2t0YS3ZhPdtVDRvottL2ZFRwawYkqKZfteJFJrtt9NhpzD2KCg"
+    },
+    {
+      "name": "Open now",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3rPdI3KT_90l4x48d4lEgOBG5oJaVSzwcnWu4scDpEqBoApRK5yST4A-F8uxhsHN9lGw3mtrXSJeoLdLMwMzNqXVaGJsFXCWYjCfornrBO8VPY_Lgr2kGV1fVRBOMEY9JTCTsU5vweuI-w_m8mx4bsiQOrIYLCHNFM6yhSsnDeSI78lV",
+        "q": "gym near VIT Vellore open now"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=gym+near+VIT+Vellore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3rPdI3KT_90l4x48d4lEgOBG5oJaVSzwcnWu4scDpEqBoApRK5yST4A-F8uxhsHN9lGw3mtrXSJeoLdLMwMzNqXVaGJsFXCWYjCfornrBO8VPY_Lgr2kGV1fVRBOMEY9JTCTsU5vweuI-w_m8mx4bsiQOrIYLCHNFM6yhSsnDeSI78lV&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQxKsJKAF6BAggEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3rPdI3KT_90l4x48d4lEgOBG5oJaVSzwcnWu4scDpEqBoApRK5yST4A-F8uxhsHN9lGw3mtrXSJeoLdLMwMzNqXVaGJsFXCWYjCfornrBO8VPY_Lgr2kGV1fVRBOMEY9JTCTsU5vweuI-w_m8mx4bsiQOrIYLCHNFM6yhSsnDeSI78lV"
+    },
+    {
+      "name": "Top rated",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYURz7-BK2dKud_oWarb7HPqVz3jY1ZD-BqtRjVTT3l1NXjtSAKX7UX_SiRkbFa1sz7OimtuHlVi72W9eIeP8P_9dxPukpRLfIqnuHWgGjWubj_XAfiBDbzuHZyDw8P7Ama7nYsq9c0Hl6uO2V4LZVeIxBctKYloN6GkmiUw0drjfi83eV0g",
+        "q": "top rated gym near VIT Vellore"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=top+rated+gym+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYURz7-BK2dKud_oWarb7HPqVz3jY1ZD-BqtRjVTT3l1NXjtSAKX7UX_SiRkbFa1sz7OimtuHlVi72W9eIeP8P_9dxPukpRLfIqnuHWgGjWubj_XAfiBDbzuHZyDw8P7Ama7nYsq9c0Hl6uO2V4LZVeIxBctKYloN6GkmiUw0drjfi83eV0g&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQxKsJKAJ6BAgfEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=top+rated+gym+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYURz7-BK2dKud_oWarb7HPqVz3jY1ZD-BqtRjVTT3l1NXjtSAKX7UX_SiRkbFa1sz7OimtuHlVi72W9eIeP8P_9dxPukpRLfIqnuHWgGjWubj_XAfiBDbzuHZyDw8P7Ama7nYsq9c0Hl6uO2V4LZVeIxBctKYloN6GkmiUw0drjfi83eV0g"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Ladies gym near vit vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Ladies+gym+near+vit+vellore&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhOEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Ladies+gym+near+vit+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Gym near vit vellore with fees",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Gym+near+vit+vellore+with+fees&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhSEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Gym+near+vit+vellore+with+fees"
+    },
+    {
+      "block_position": 1,
+      "query": "Best gym near vit vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Best+gym+near+vit+vellore&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhREAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+gym+near+vit+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Free gym near vit vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Free+gym+near+vit+vellore&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhQEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Free+gym+near+vit+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Cheap gym near vit vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Cheap+gym+near+vit+vellore&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhPEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Cheap+gym+near+vit+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "VIT Vellore gym timings",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=VIT+Vellore+gym+timings&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhMEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=VIT+Vellore+gym+timings"
+    },
+    {
+      "block_position": 1,
+      "query": "Free gym VIT Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Free+gym+VIT+Vellore&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhNEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Free+gym+VIT+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Gym near me",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&q=Gym+near+me&sa=X&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ1QJ6BAhLEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Gym+near+me"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=10&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8NMDegQIRBAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=10&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAE",
+      "3": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=20&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAG",
+      "4": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=30&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAI",
+      "5": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=40&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAK",
+      "6": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=50&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAM",
+      "7": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=60&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAO",
+      "8": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=70&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAQ",
+      "9": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=80&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAS",
+      "10": "https://www.google.com/search?q=gym+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&ei=7-Csas75D9aDqgHPq9SYCw&start=90&sa=N&sstk=AS6-VmIVAK09Nu0mqlU5qQ2RZdJ_vrLHMBXZXByDRAQz11SWJtKUkuUEdrvY-uUEd73Mpvza4UBUgpZ4HvvDVR8-xfpKcPY6iYnjWg&ved=2ahUKEwiOrevZxveWAxXWgSoKHc8VFbMQ8tMDegQIRBAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=gym+near+VIT+Vellore&start=90"
+    }
+  }
+}

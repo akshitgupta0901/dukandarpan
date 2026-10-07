@@ -1,0 +1,879 @@
+{
+  "search_metadata": {
+    "id": "6aace0eb66bc789509d1b212",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/VXoXChIyKQcr9jR-kT6Ecg9gNdJzLH2WWucE5AjVgxo/6aace0eb66bc789509d1b212.json",
+    "markdown_endpoint": "https://serpapi.com/searches/VXoXChIyKQcr9jR-kT6Ecg9gNdJzLH2WWucE5AjVgxo/6aace0eb66bc789509d1b212.md",
+    "created_at": "2026-09-18 06:57:47 UTC",
+    "processed_at": "2026-09-18 06:57:47 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/gym+near+VIT+Vellore/@12.9680,79.1503,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/VXoXChIyKQcr9jR-kT6Ecg9gNdJzLH2WWucE5AjVgxo/6aace0eb66bc789509d1b212.html",
+    "prettify_html_file": "https://serpapi.com/searches/VXoXChIyKQcr9jR-kT6Ecg9gNdJzLH2WWucE5AjVgxo/6aace0eb66bc789509d1b212.prettify",
+    "total_time_taken": 0.77
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "gym near VIT Vellore",
+    "ll": "@12.9680,79.1503,14z",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "gym near VIT Vellore"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Infinity Fitness Gym",
+      "place_id": "ChIJA48BA_JHrTsRVT3Qm6ScxSs",
+      "data_id": "0x3bad47f203018f03:0x2bc59ca49bd03d55",
+      "data_cid": "3154099344845585749",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f203018f03%3A0x2bc59ca49bd03d55&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f203018f03%3A0x2bc59ca49bd03d55&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.964013699999999,
+        "longitude": 79.1559031
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJA48BA_JHrTsRVT3Qm6ScxSs",
+      "provider_id": "/g/11vwx0l21s",
+      "rating": 4.8,
+      "reviews": 300,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "571/26, Kangeyanellore Road, Vellaikallmedu, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9:30 PM",
+      "hours": "Open · Closes 9:30 PM",
+      "operating_hours": {
+        "friday": "5:30 AM–9:30 PM",
+        "saturday": "5:30 AM–9:30 PM",
+        "sunday": "Closed",
+        "monday": "5:30 AM–9:30 PM",
+        "tuesday": "5:30 AM–9:30 PM",
+        "wednesday": "5:30 AM–9:30 PM",
+        "thursday": "5:30 AM–9:30 PM"
+      },
+      "phone": "+91 96269 37796",
+      "website": "https://www.instagram.com/infinity_fitness_gym_?igsh=MWE3eHowYjIzNHZ1MA==",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM7RhO3W-qWDyT31v85SX-vdlS5AmI6KW84ojaJx0OVScfRyuGnqBAg9Mfgxf6Pb9V_KHjAtHwaGkKh0AW-rlZRlrxYzvLeB_tg-Xfvvk_sKcXE4ph8oYYJx9Mcd9Udkrg7gd3ZMA=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NJjUwnicHcTbDoIgAADQLyJwdtG2HuiySnM1rdRenKHCEsWAyPrDPqG_aes8nO-Had2pKYSc2QMqBOXlQ5WSiFaXrR4Q0UAqc6UAURAvTMebYBKyvR2De7x8HW3LOKMoAabg0Qg327EfO0Nxy70e7c8RqcLXY93e55i6QUX7any4uufM39yw3jzzde0zhGMg-SXksk_fZlfOM01BUhlTZ8onyWrYMUekqde7ASncU1FLOqGFfQnw7GkhhAD7T0D7AxzBRjI"
+    },
+    {
+      "position": 2,
+      "title": "Hi-Tech Gym sai fitness studio& Fitness Centre",
+      "place_id": "ChIJKR3vzWQ4rTsR82VJbT9C9fc",
+      "data_id": "0x3bad3864cdef1d29:0xf7f5423f6d4965f3",
+      "data_cid": "17867259936846210547",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3864cdef1d29%3A0xf7f5423f6d4965f3&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3864cdef1d29%3A0xf7f5423f6d4965f3&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.935440999999999,
+        "longitude": 79.1625461
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKR3vzWQ4rTsR82VJbT9C9fc",
+      "provider_id": "/g/11dxblv0h1",
+      "rating": 4.8,
+      "reviews": 231,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "No. 76, 2nd Floor, South Avenue Road, opp. Thanjammal Mandapam, Phase 1, Sathuvachari, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours",
+        "sunday": "5 AM–9 PM",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours"
+      },
+      "phone": "+91 70107 83808",
+      "website": "https://saigyms.in/",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMNci4nxwoVbOA0MPozUCOZjVR6B9YJq0swPlJsf9XJMljxw0QVKYV8gc0Saw0sdF_bS_LhsnkHTf8l3xZUK2gr76C3VBQkMSA0GCeNaKZuzrUZHBTMRZ0_aWKGauh9p7j8No7e=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/BZ46uXicHcTdboIwGADQJ0K-jUVgyS6AZBqw-IN0szekdrUd1pZRWIkv6DP4Niaei3O_yWHo7LvvKxnMhDFC8dHynhk9cD3MmLn4oqfWesz6SfbfqQsq2e-bnpzBx3UCaGOudbYmLd7N0_iQ_4F1G5XbU_ydI9VODra4OOBIMKioA_vz2RyrZiWtPi_3p0gFE6mLV9GH8yzA6faMqgQWGS9pQcZrX5Nlukc7Ag39KhZ0lHEXtlFpQv7hXgDAk8-Zpx_RREUK"
+    },
+    {
+      "position": 3,
+      "title": "AESTHETIC DEN ️",
+      "place_id": "ChIJb8GFK-1HrTsRg1JzNaHWy6U",
+      "data_id": "0x3bad47ed2b85c16f:0xa5cbd6a135735283",
+      "data_cid": "11946878424405201539",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47ed2b85c16f%3A0xa5cbd6a135735283&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47ed2b85c16f%3A0xa5cbd6a135735283&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9581482,
+        "longitude": 79.14479999999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJb8GFK-1HrTsRg1JzNaHWy6U",
+      "provider_id": "/g/11lltd_j1x",
+      "rating": 4.9,
+      "reviews": 781,
+      "type": "Fitness center",
+      "types": [
+        "Fitness center"
+      ],
+      "address": "K.M.B Plaza, opposite to auxilium college, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9:30 PM",
+      "hours": "Open · Closes 9:30 PM",
+      "operating_hours": {
+        "friday": "6 AM–9:30 PM",
+        "saturday": "6 AM–9:30 PM",
+        "sunday": "6 AM–9:30 PM",
+        "monday": "6 AM–9:30 PM",
+        "tuesday": "6 AM–9:30 PM",
+        "wednesday": "6 AM–9:30 PM",
+        "thursday": "6 AM–9:30 PM"
+      },
+      "phone": "+91 93845 85764",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNTfqUWgC85ajZ8zBc5bV3MTMwc4nttLgQPm50gpNl7CynPNYdvsm4-4Gd5JeJ_7dcpc1jK2198cPI8i65yPjLKvjy3pHgONF6b_3NME1EhTZ5JBG-bf1rQXP6xhBOjQRc9HcX8=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/_L0TH3icHcTdboIwGADQJ6rQQbGaeDGI06HUsrD5c2PkA9s1UCrtUPaCe4a9zZKdi_P7I50zdu55jQwmoutEU3_ZuodOu1q7CXStJ_qLtQis95wMpmlZcb2970VCyUWd6HcMpPwIsiK7Q6id24qct8QXhjXTZNScHavBtiEKVxVJ6_Q8rcAAVpsnPKPAX-lnREautptBjYFZix17icpzwLIlXsriRNJ4hcor7vMDjx4y3qn8DWZrONDFHfu-j-T_gPQfVCtDZA"
+    },
+    {
+      "position": 4,
+      "title": "GYM TOWN",
+      "place_id": "ChIJwSFUlzU5rTsRoktVV5HBHLI",
+      "data_id": "0x3bad3935975421c1:0xb21cc19157554ba2",
+      "data_cid": "12834345868078697378",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3935975421c1%3A0xb21cc19157554ba2&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3935975421c1%3A0xb21cc19157554ba2&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.931375899999999,
+        "longitude": 79.1357215
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwSFUlzU5rTsRoktVV5HBHLI",
+      "provider_id": "/g/11qg57dt6w",
+      "rating": 4.9,
+      "reviews": 94,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "#NO-1, GREEN CIRCLE, NH SERVICE ROAD, next to VELLORE KITCHEN, Thottapalayam, Vellore, Tamil Nadu 632004, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "5 AM–10 PM",
+        "saturday": "5 AM–10 PM",
+        "sunday": "5–11 AM",
+        "monday": "5 AM–10 PM",
+        "tuesday": "5 AM–10 PM",
+        "wednesday": "5 AM–10 PM",
+        "thursday": "5 AM–10 PM"
+      },
+      "phone": "+91 90257 21997",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNqtR9jkfK75gRNj05txwwcdugX86zmnWMhv1NtP0q-aQokPaA5nQdsIhiUNa5o-5JEDbSrEWF_bKi-7K3J9zwxWSG3wF3GEHeKkkaff0o-Az4t9eneCPwPbj0emF4-RWh4VI5b=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/eotRSnicHcRdDoIgAADgE5E0JbOtB1dq5XJmK3triAj5AykYzQt2hm7T1vfwfT9c66daWVbL7RmTkrV0VHQgUmgq9IzIzmIDVgoQZfmb17Ptkl5nXt1UsYtYltQQ6bcxpBzZbbmYOpEf-Wue6BT2AJ9kk2IfiVOp9vxxSTCSAB2CbXEegjy8F_EDuLF98Cbzzs-RbUI7CnY0bhpcVVACf3K0RwXdpCYtaki70AFZzp3rHhVrM4cQAv6fAPED1L5EwQ"
+    },
+    {
+      "position": 5,
+      "title": "Hundreds Fitness",
+      "place_id": "ChIJ78bYomNHrTsR5ziGaD1nQzc",
+      "data_id": "0x3bad4763a2d8c6ef:0x3743673d688638e7",
+      "data_cid": "3982140008969943271",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4763a2d8c6ef%3A0x3743673d688638e7&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4763a2d8c6ef%3A0x3743673d688638e7&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9502203,
+        "longitude": 79.1399959
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ78bYomNHrTsR5ziGaD1nQzc",
+      "provider_id": "/g/11b_2tch_s",
+      "rating": 4.4,
+      "reviews": 248,
+      "type": "Fitness center",
+      "types": [
+        "Fitness center"
+      ],
+      "address": "No, 14th East Cross Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "6 AM–9 PM",
+        "saturday": "6 AM–9 PM",
+        "sunday": "7 AM–12 PM",
+        "monday": "6 AM–9 PM",
+        "tuesday": "5 AM–9 PM",
+        "wednesday": "6 AM–9 PM",
+        "thursday": "6 AM–9 PM"
+      },
+      "phone": "+91 95854 00100",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMrHn6UfjZB9zgVVPpYBm7aswuxQqdTAXnXeYjVvdkC5mbmkdawnhBHOFX1dlMQr6M-221wAvoXneKHs85C3k5cKF04ysWTvf6ExEhWqdjdooUsp9SbXpfs2O7r-kWrRTHY2j6e=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/hrKUgHicHcRJDoIwFADQE1UGBYfEBRANiSFOCMUdtoUG6GA_gnpBz-BtTHyL9_3wvtewsqyOTye1UnXHHsAMUbJnsp8QJazalACIgBVEg-5EYmLpX6rmGi7fdZYddBGKeQnj43m80zTAErOiyQbaRp64iZaWo-RhvN9ih3bJ0fgJcl1nDAaFJdvFsPCiaeuR3daevSBPh8rfPDc8v9OGKnUBvTzfsK7A3c8NanNzSuPCbXy2Hh3bthH_T5D8AUX0RmY"
+    },
+    {
+      "position": 6,
+      "title": "Muscle IQ Fitness Gym (Unisex)",
+      "place_id": "ChIJs_BpZS1HrTsRCqu5tnfmb4Q",
+      "data_id": "0x3bad472d6569f0b3:0x846fe677b6b9ab0a",
+      "data_cid": "9543099537262488330",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad472d6569f0b3%3A0x846fe677b6b9ab0a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad472d6569f0b3%3A0x846fe677b6b9ab0a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9611804,
+        "longitude": 79.1374645
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs_BpZS1HrTsRCqu5tnfmb4Q",
+      "provider_id": "/g/11vc6brntc",
+      "rating": 4.9,
+      "reviews": 94,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "Downphase to Nilkamal Furniture, to, Vellore - Chittoor Rd, opp.to ascar theater, Suthanthira Ponvizha Nagar, Bharathi Nagar, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Closed · Opens 3 PM",
+      "hours": "Closed · Opens 3 PM",
+      "operating_hours": {
+        "friday": "5–10 AM, 3–10 PM",
+        "saturday": "5–10 AM, 3–10 PM",
+        "sunday": "5–10 AM",
+        "monday": "5:30–10 AM, 3–10 PM",
+        "tuesday": "5–10 AM, 3–10 PM",
+        "wednesday": "5–10 AM, 3–10 PM",
+        "thursday": "5–10 AM, 3–10 PM"
+      },
+      "phone": "+91 86676 29671",
+      "website": "https://instagram.com/muscle_iq_fitness_gym?igshid=MzRlODBiNWFlZA==",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPQ6APA5Is67v9BFW_co_7CzPgHm2BNE4Ga3H3OdyrQHSv7oOzxRu4K0DVfTXYUCkRJFuyIsDRbohyZFjNsE9Gu8p1RJPRp5845pMNCb6taGAfIs67fFczgZn9CAbHNSLmtnOs=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/r4FS_XicHc1LjoIwGADgEyE4vMTERa0C6ghYnYduDFQomYG24S8oHNA7eBujm2_7Pe6lUhKmul6V5ogJwaq8hbyhgqucqxEVtc6aFECjoCPcyapOdg5KkL0Cx-28uf9zpuLs4iFhYf0xj5ZWkJqhGV_6ZhfuO1fEw4201sZYfBeH3-MX_idrv-1XsCCZKPuT_xfB0gvaiRyTdUKkPbFsuY1w5qg0QMVrKXw6sBP3MMrCaP9ZKx7D7Do2DEMr31KNPwHZBUOe"
+    },
+    {
+      "position": 7,
+      "title": "V - Solid unisex fitness gym",
+      "place_id": "ChIJs54pqUVHrTsRvrTP6C-UmQg",
+      "data_id": "0x3bad4745a9299eb3:0x899942fe8cfb4be",
+      "data_cid": "619689357230453950",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4745a9299eb3%3A0x899942fe8cfb4be&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4745a9299eb3%3A0x899942fe8cfb4be&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.929119199999999,
+        "longitude": 79.14391309999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs54pqUVHrTsRvrTP6C-UmQg",
+      "provider_id": "/g/11s8l5slww",
+      "rating": 5,
+      "reviews": 113,
+      "type": "Fitness center",
+      "types": [
+        "Fitness center"
+      ],
+      "address": "2nd Floor, 4, Arcot Rd, opposite Balaji Cracker Shop, Kagithapatarai, Vellore, Tamil Nadu 632012, India",
+      "country": "India",
+      "open_state": "Closed · Opens 5 PM",
+      "hours": "Closed · Opens 5 PM",
+      "operating_hours": {
+        "friday": "5 AM–12 PM, 5–11 PM",
+        "saturday": "5 AM–12 PM, 5–11 PM",
+        "sunday": "6 AM–12 PM",
+        "monday": "5 AM–12 PM, 5–11 PM",
+        "tuesday": "5 AM–12 PM, 5–11 PM",
+        "wednesday": "5 AM–12 PM, 5–11 PM",
+        "thursday": "5 AM–12 PM, 5–11 PM"
+      },
+      "phone": "+91 99449 06655",
+      "website": "https://www.instagram.com/p/ClgY8lvvpeP/?igsh=MXBrNThleHFkbDJ2NQ==",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNadCU8YsKPfTHVT-5IXuNs3nPLVZv4YR2Y8ZurYnIUd2dbBbk-o7qozEzNJX46nxOIBXp8fHmBUWdoxBdiYaYggDmx5pD1y563dLzbH52IgTdNbQBG60a2AJcGMhGDKjWHbqC-=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/YeEAg3icHcRJDoIwAADAF1U2QWLiwYJhUXEJIPVGWywqtEhBkQ_6Bn9j4hzm-ym7rpFzRalKY8KEYFXRy6IlgncF7yZE1AprcykBkcrSeTZVHeXUSWwk1_tL7KcxMIOsj6TB95v0_Jyio47sc98iHiRUpxjiOxCzhxhXYxRmU4sPuwBmjX3xa5icqBggvaIcMebWg9m42tu0DLoZsW_qAYtphA_Qs9RcX4bE25aeu76dfPxwwOKlqaoKyv8E8B-Eh0Qa"
+    },
+    {
+      "position": 8,
+      "title": "Muscle Engineer ️",
+      "place_id": "ChIJd8ZpVNBHrTsRFuF1Q6okDwU",
+      "data_id": "0x3bad47d05469c677:0x50f24aa4375e116",
+      "data_cid": "364550408535138582",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47d05469c677%3A0x50f24aa4375e116&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47d05469c677%3A0x50f24aa4375e116&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9674807,
+        "longitude": 79.157061
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJd8ZpVNBHrTsRFuF1Q6okDwU",
+      "provider_id": "/g/11s1rfw_kt",
+      "rating": 4.7,
+      "reviews": 147,
+      "type": "Gym",
+      "types": [
+        "Gym",
+        "Body shaping class",
+        "Fitness center"
+      ],
+      "address": "Plot No.4, 568/ 1A1, Vellore - Chennai Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Closed · Opens 4 PM",
+      "hours": "Closed · Opens 4 PM",
+      "operating_hours": {
+        "friday": "6 AM–12 PM, 4–9 PM",
+        "saturday": "6 AM–12 PM, 4–9 PM",
+        "sunday": "Closed",
+        "monday": "6 AM–12 PM, 4–9 PM",
+        "tuesday": "6 AM–12 PM, 4–9 PM",
+        "wednesday": "6 AM–12 PM, 4–9 PM",
+        "thursday": "6 AM–12 PM, 4–9 PM"
+      },
+      "phone": "+91 78678 66555",
+      "website": "https://www.muscleengineer.in/",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNIpWTxz5ITl2VX9_gJF_YgngdzhLMVrBwQqcyoYMtJIea_jONbKrmFo46HlajDAVUF7FyypiAyGKLv1Rf18KPe7FNUkNZRPFkT-vI53Sr8AwnH6cuVTsJ3xymeoJiHRPetd7y8hQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/LqcI9HicHcRLcoIwAADQE_ETBeqMC6wT-SgiItVuGBpjooYEkwjGG_YIvY0zfYv390uU6uTUsihxTcw5pughkYCcKcSUCXlrYdFIaUBphZ99R9ss7r7K52sSl3RUHT5qnID6iBk-vchqXYn5sL1DzY9rlcSoqa-b7CcVLeBjL6LNdRFWe-ADrbtLqJfpqneKsxOkOfJBtr9l30UObqXRxxN3J4JwYJEHH1UpE_epW8STS1TkSJ18HZDtbHBs2zbI_9Bgb65ORsI"
+    },
+    {
+      "position": 9,
+      "title": "iMMc Fit Club",
+      "place_id": "ChIJx89rlNJHrTsR2NJyXtSVe0E",
+      "data_id": "0x3bad47d2946bcfc7:0x417b95d45e72d2d8",
+      "data_cid": "4718529773950915288",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47d2946bcfc7%3A0x417b95d45e72d2d8&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47d2946bcfc7%3A0x417b95d45e72d2d8&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.967991,
+        "longitude": 79.1550951
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx89rlNJHrTsR2NJyXtSVe0E",
+      "provider_id": "/g/11wxry492p",
+      "rating": 5,
+      "reviews": 101,
+      "type": "Gym",
+      "types": [
+        "Gym",
+        "Fitness center",
+        "Physical fitness program"
+      ],
+      "address": "1st Floor iMMc Gym Building No.587/2A, Thiruvalam Road VIT, 1A, Gate, opposite Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "6 AM–9 PM",
+        "saturday": "6 AM–9 PM",
+        "sunday": "Closed",
+        "monday": "6 AM–9 PM",
+        "tuesday": "6 AM–9 PM",
+        "wednesday": "6 AM–9 PM",
+        "thursday": "6 AM–9 PM"
+      },
+      "phone": "+91 73056 70286",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM6q4mM5tSCUL3aGlzTTnAHa8cnTa7VTbWsVhDvqqNaUfySk5hEKkidDqXKq9vUsnlcVGqeVw4u97gaiYXWtmnDut9d24Lf8j_xqcgLFNbM8iWFjiG5RLvzc6If5pnvIxyY-WCiOcsQBdEq=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NPZa1HicHcTLjoIwFADQL0IYBQUTFw4oYwSN8tLVpF6grZZCbamPn3Tt35h4Fuf9Ikp1cmqajIwGuG0xq3pZXaHlquJqAG1j4iuS0gBpzn3dsSYeC7uJHZX4WTRCIXumKZ__IRd4iiZ5eipkTgItxAZl9SO5OGSxvtAyEIe18HQmOYM8FFV-s3tvghE9HgrV8KBXXjm0o9o9_98F4Gi5OcUuLZZnGjr7SD9hvKqdjuvV_XE0Cp9uQe5-y4WY3X4syzLIdzD4B4vZSbk"
+    },
+    {
+      "position": 10,
+      "title": "VVV GYM",
+      "place_id": "ChIJbX5lDgBHrTsRu2Z5iG00r4Q",
+      "data_id": "0x3bad47000e657e6d:0x84af346d887966bb",
+      "data_cid": "9560918178976589499",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47000e657e6d%3A0x84af346d887966bb&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47000e657e6d%3A0x84af346d887966bb&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.960023399999999,
+        "longitude": 79.1426228
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJbX5lDgBHrTsRu2Z5iG00r4Q",
+      "provider_id": "/g/11m6f2qljn",
+      "rating": 4.9,
+      "reviews": 10,
+      "unclaimed_listing": true,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "X46V+225, 1st East Cross Rd, Suthanthira Ponvizha Nagar, Bharathi Nagar, Katpadi, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "friday": "5 AM–10 PM",
+        "saturday": "5 AM–10 PM",
+        "sunday": "5–9 AM",
+        "monday": "5 AM–10 PM",
+        "tuesday": "5 AM–10 PM",
+        "wednesday": "5 AM–10 PM",
+        "thursday": "5 AM–10 PM"
+      },
+      "phone": "+91 98416 04589",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNZ1haJHzeoonRDnzZSbg7YDNvHUNKFtqMeYaFmK2fUiMF2xj0cjTe90GfQMe5JTksPzegAVAFcU0Fz4IYJocnKBIEjDgVIisXpNXRaeup8A6uZ8qzw2aT0wEJQXqCPVgPqe0gSDMegtyO_=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ULGXi3icHcTRboIwFADQL0Iqm5ua7IGJnUBAVCDAi-ma60WEFmyRrT-55_3Nkp2H8_tTa92rtW239dMMpcQWRgV3LoUGoWdcdjbemVIWV7a7efRtF1fzmgU7A1KKoydMdfrE19KLH7ssDqkeIigZ7ULnkl0j6nw1hDcprMjH5RDBIkhvKjGAbu5SnhFqnv0ykFyE7_628TD3r6ro4-LIYOyX7stYLQczOSwl0zY4FMMmyTEZgODJiwD19_78Ns0JIVb9P7fEH0ETSLM"
+    },
+    {
+      "position": 11,
+      "title": "B Fit",
+      "place_id": "ChIJqXWOAmlHrTsRmHty303YJb8",
+      "data_id": "0x3bad4769028e75a9:0xbf25d84ddf727b98",
+      "data_cid": "13773652864355433368",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad4769028e75a9%3A0xbf25d84ddf727b98&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad4769028e75a9%3A0xbf25d84ddf727b98&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.960181799999999,
+        "longitude": 79.1356275
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqXWOAmlHrTsRmHty303YJb8",
+      "provider_id": "/g/11b6hxbxft",
+      "rating": 4.4,
+      "reviews": 261,
+      "type": "Gym",
+      "types": [
+        "Gym",
+        "Fitness center"
+      ],
+      "address": "Aruppumedu Rd, behind Bombay Anand Bhavan, Suthanthira Ponvizha Nagar, Katpadi, Vellore, Tamil Nadu 632007, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "6 AM–9 PM",
+        "saturday": "6 AM–9 PM",
+        "sunday": "Closed",
+        "monday": "6 AM–9 PM",
+        "tuesday": "6 AM–9 PM",
+        "wednesday": "6 AM–9 PM",
+        "thursday": "6 AM–9 PM"
+      },
+      "phone": "+91 74185 31231",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPWc6vRB--bMoB-EQ_LSK9b67bSXzVQEvaUId08K2XdDiU6sXl-XbhgwMzqNeSwpckS_cGffGlPEI6qInewZRcCalgfYP2Nv_Zcf4X2HUCJGc_-m7lYUhoanUh_pA_VOvq4TumL=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/szJyoHicHcRLDoIwFADAE1UQDX4SF4oE8Ytitbpp4FlaY2nBYkm8oGfwNibOYr4f0TSVGTuOFL0O15pL9jLsCVo1TDUd0KXDn5kxCIwzDWwly-QMvj3MEMo3eobCPV2nq1HuD_KUvE_70GY4vrnDlUdu8zv2DZGI5IK3m3e9ZWlbwSOlEBVFJJMw9utYsfZ6gCCTvLgk3tbSKxR94i1wsIyAonIgL1joTGFBqyk97WzdP77K9aTtuq6LxH9A6geJ20WD"
+    },
+    {
+      "position": 12,
+      "title": "Purplle fitness gym (only for ladies) vellore",
+      "place_id": "ChIJ6_Mr4-U5rTsR8dDkgC6CbIE",
+      "data_id": "0x3bad39e5e32bf3eb:0x816c822e80e4d0f1",
+      "data_cid": "9325972064620040433",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad39e5e32bf3eb%3A0x816c822e80e4d0f1&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad39e5e32bf3eb%3A0x816c822e80e4d0f1&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.936515,
+        "longitude": 79.1530022
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6_Mr4-U5rTsR8dDkgC6CbIE",
+      "provider_id": "/g/11v0bc2hqq",
+      "rating": 4.9,
+      "reviews": 478,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "CMC Colony, 2nd St, near Collector's Office Road, Sathuvachari, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "5 AM–9 PM",
+        "saturday": "5 AM–9 PM",
+        "sunday": "Closed",
+        "monday": "5 AM–9 PM",
+        "tuesday": "5 AM–9 PM",
+        "wednesday": "5 AM–9 PM",
+        "thursday": "5 AM–9 PM"
+      },
+      "phone": "+91 88705 30575",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNKPmgKfbDGZ8_BTUJxGlNPdAPXcQ34mFj5U5HUmmLVaRXmV7w43lnoO1h10nCLDOvP1_7Ftq2AeGhh7AO46gRRN_BxEKAI5vEFQvkZTvZcJavCFNmtRDlDqdhNNK5GLgHMVRQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/98Ct_3icHcTLDYIwAADQiRAQEGPioYCgggUaIYYLwYpttB-1tTqhO7iNie_wvh-q9U0tbJtRb0KkJGx8qvGBpdCj0BMsuU0eg1IWVjaIzY1xmFec5OdjknXzPto323fGYHUC1QHXns_TS9AE64bzoh3Qgbfhy_eYkKVLXUfERVKayu3DVN-nYMwoDUHpzwhCsI_eqxxsArNKa3Pt9qbD28HEKeQaJSy5nyiEeZAVZL1rUb18uY7jWPQ_tsQP6jNDVw"
+    },
+    {
+      "position": 13,
+      "title": "AJ Fitness",
+      "place_id": "ChIJuwSXTXVHrTsR9oCtddukzas",
+      "data_id": "0x3bad47754d9704bb:0xabcda4db75ad80f6",
+      "data_cid": "12379732213190459638",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47754d9704bb%3A0xabcda4db75ad80f6&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47754d9704bb%3A0xabcda4db75ad80f6&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.969296799999999,
+        "longitude": 79.1541455
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuwSXTXVHrTsR9oCtddukzas",
+      "provider_id": "/g/11g6nht1fs",
+      "rating": 4.4,
+      "reviews": 167,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "No-2 Aj Fitness, Opp to VIT Home Land Chennai Salai, Katpadi, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Closed · Opens 3 PM",
+      "hours": "Closed · Opens 3 PM",
+      "operating_hours": {
+        "friday": "6–11 AM, 3–9 PM",
+        "saturday": "6–11 AM, 3–9 PM",
+        "sunday": "6–11 AM",
+        "monday": "6–11 AM, 3–9 PM",
+        "tuesday": "6–11 AM, 3–9 PM",
+        "wednesday": "6–11 AM, 3–9 PM",
+        "thursday": "6–11 AM, 3–9 PM"
+      },
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPuoVrtLimjM7d7ZeSilJ1zVfo--yOm9jZQN6TcKlWLaJWAfQ8w1h-O2xCGvoTRFL6v3-HtvVka1Cj5VZljf-975xG-EpmZvXlLjPw9I82GvAdsCii808bZHpap3v5qNM1iHry80g=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/88nNG3icHcTbboIwGADgJ_qllSBliReEbDCHp82g6R2rHNq1tKO16N5wj-DbmPhdfPf_3jljX4JA9uGs07qTzcU2I9ODawY3Y1oF3VhbC8wGaeaNVLuLrkZXciXW8TmmzReXK_xXtRrgtlWJoPvN4sA-5LGsV8e03ZMJ97CdX7Pc68PnW7nwIRTOVz81zkRUUSlaSOLomsOrUdSfZCl2U_JO5rlPzzbjnCDyTQtTm9BHv5s15sV4I6hbThghBP1zBsMDPFZFNQ"
+    },
+    {
+      "position": 14,
+      "title": "Shree Nidhi Fitness Center",
+      "place_id": "ChIJHR56w3k4rTsRyPlyYYmgwEc",
+      "data_id": "0x3bad3879c37a1e1d:0x47c0a0896172f9c8",
+      "data_cid": "5170308884127218120",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3879c37a1e1d%3A0x47c0a0896172f9c8&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3879c37a1e1d%3A0x47c0a0896172f9c8&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9314697,
+        "longitude": 79.1559438
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHR56w3k4rTsRyPlyYYmgwEc",
+      "provider_id": "/g/1v4k4z31",
+      "rating": 4.9,
+      "reviews": 375,
+      "type": "Gym",
+      "types": [
+        "Gym",
+        "Body shaping class",
+        "Weight loss service"
+      ],
+      "address": "Plot No 491 Second Floor Phase 2, Sathuvachari, On The Way To Kalaizhar(Or VELLORE ) Eye Hospital, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "5:40 AM–9 PM",
+        "saturday": "5:40 AM–9 PM",
+        "sunday": "Closed",
+        "monday": "5:40 AM–9 PM",
+        "tuesday": "5:40 AM–9 PM",
+        "wednesday": "5:40 AM–9 PM",
+        "thursday": "5:40 AM–9 PM"
+      },
+      "phone": "+91 99944 17011",
+      "website": "http://www.shreenidhifitness.com/",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNPWuYwmeNy4FKjVr-VFG270jtsbvg3WRUOervkWZqd92z27O2FMjyJpASlFTqaRS7hWIrBYFn4aeGetgUgoVPG18W2DyK8hfNUjqMhIxwHDAiSSiZaIg6fFqT4b_hck_Iblws=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/e3os_XicHcRdDoIgAADgE_kTuay2HiyHWctapsxemhJBhqJAmh2wO3Sbtr6H7_thWjdqblmcjU0qBOXkqYjEotak1iYWlUVlrpSBleWtuoZX0QE9s74i0eDAbZlKI4UBcO1Sq6KjY3RM9kR2D3RurzPwBu4ewF05bBov5vDU5sfYZSiUywzWTk4ComlCRXoIRlME_GE7ZbcoKdsdC1_92vfucXw_5yGd3GB7cooLw49LWPBeLfqRbdsG-4-N-gefXEW1"
+    },
+    {
+      "position": 15,
+      "title": "ALPHA GYM",
+      "place_id": "ChIJb-W4w7hHrTsRuQwnKp35HmE",
+      "data_id": "0x3bad47b8c3b8e56f:0x611ef99d2a270cb9",
+      "data_cid": "6998305324392713401",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47b8c3b8e56f%3A0x611ef99d2a270cb9&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47b8c3b8e56f%3A0x611ef99d2a270cb9&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.946276,
+        "longitude": 79.1410154
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJb-W4w7hHrTsRuQwnKp35HmE",
+      "provider_id": "/g/11z5c917dr",
+      "rating": 5,
+      "reviews": 15,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "Suthanthira Ponvizha Nagar, VALLIJAYAM NAGAR, Mottur, Viruthampattu, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Open · Closes 9:30 PM",
+      "hours": "Open · Closes 9:30 PM",
+      "operating_hours": {
+        "friday": "5:30 AM–9:30 PM",
+        "saturday": "5:30 AM–9:30 PM",
+        "sunday": "Closed",
+        "monday": "5:30 AM–9:30 PM",
+        "tuesday": "5:30 AM–9:30 PM",
+        "wednesday": "5:30 AM–9:30 PM",
+        "thursday": "5:30 AM–9:30 PM"
+      },
+      "phone": "+91 81241 11102",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN-LDVc36doq1qzWbQa24WQaysR-O-2gCQsGlTW4xaA7VX7_IRCMaYutoNffO0OUycCU6xKRrqNXHxvl--G1Kr4JoOGKsgv-FhcaNZG5fMhp8s5s-Qa_P_6ZMYNkmAwOw1cGeOiOaR0lEc_=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/W5hf1nicHcTRToMwFADQL7qjbIwZEx8IblWRVsg2tr2QWqE1FgrcDpg_6bN_Y-J5OL8_2rkO7z3P6NVCWatMdcVqkLZ1VesW0jaeGgQiSPSieOxMw-D18ShX4Yft_f67eM_EMigyccMcOCxVnCE1-yKYRbQ5njblcx6n4nx1ltU1J_xwk_EhnJN86NnpaR4NAPWTIXixnCaoRthpKdiFrutUd3e4RshE-VaGl_TMvppo4pMvacU_uciJ2cryYfIJIaD_l9D-AaMeRzI"
+    },
+    {
+      "position": 16,
+      "title": "TSR Fitness Gym Center",
+      "place_id": "ChIJLxxhmfdHrTsRicWaDhzyNiQ",
+      "data_id": "0x3bad47f799611c2f:0x2436f21c0e9ac589",
+      "data_cid": "2609539236425811337",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47f799611c2f%3A0x2436f21c0e9ac589&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47f799611c2f%3A0x2436f21c0e9ac589&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9525572,
+        "longitude": 79.1415323
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLxxhmfdHrTsRicWaDhzyNiQ",
+      "provider_id": "/g/11k8l8vj20",
+      "rating": 4.5,
+      "reviews": 50,
+      "type": "Fitness center",
+      "types": [
+        "Fitness center"
+      ],
+      "address": "8th East Main Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006, India",
+      "country": "India",
+      "open_state": "Closed · Opens 5 PM",
+      "hours": "Closed · Opens 5 PM",
+      "operating_hours": {
+        "friday": "6–9 AM, 5–9 PM",
+        "saturday": "6–9 AM, 5–9 PM",
+        "sunday": "Closed",
+        "monday": "6–9 AM, 5–9 PM",
+        "tuesday": "6–9 AM, 5–9 PM",
+        "wednesday": "6–9 AM, 5–9 PM",
+        "thursday": "6–9 AM, 5–9 PM"
+      },
+      "phone": "+91 63837 19219",
+      "website": "https://fitness-hub--chithrakannan04.replit.app/",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmODouOe7RqP6xsZ4HkoLCzoNjfhQI_nXcm6J_n-pDD4fkOo36Ftu-KIHQDyPw2vfsiD5HxFYBg1I2SXEJtTTcSS0mQ559Jel_BS7j84c2hwNMoU0RwWleIAVOQWWISn3lICRr4=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/oXeu03icHcTbboIwGADgJ6pUTuqSXSidoXhAqIp6Q5am0Gnpj7SI8wH3DnubJfsuvt8faW1r3hxHSW9UA9RK9EZ0HLQV2o44NE7dfRqDuHHm0aNVTUqgT8Ukv-_Cp7n48Q3W0Qu210pmtNQn3oRJqVFLiF_dUvDCpe3RisYZ-d4N7qMyXySIn8vzoh5Tl50-Ervfc8ZwkwXBLBGqXLDJdepzVw7bDRxwPhRK0PkxzYqCMu0pGuWd_z6MMcZI_s-R_gNcCkPu"
+    },
+    {
+      "position": 17,
+      "title": "VIT Indoor Gym",
+      "place_id": "ChIJbd_EoaFHrTsReM_d2T9MpOc",
+      "data_id": "0x3bad47a1a1c4df6d:0xe7a44c3fd9ddcf78",
+      "data_cid": "16691549956063743864",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47a1a1c4df6d%3A0xe7a44c3fd9ddcf78&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47a1a1c4df6d%3A0xe7a44c3fd9ddcf78&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9722153,
+        "longitude": 79.1590375
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJbd_EoaFHrTsReM_d2T9MpOc",
+      "provider_id": "/g/11g9h1prhl",
+      "rating": 3.5,
+      "reviews": 102,
+      "unclaimed_listing": true,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "Mens Hostel Office, Hostel Office Road, VIT University, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Closed · Opens 3 PM",
+      "hours": "Closed · Opens 3 PM",
+      "operating_hours": {
+        "friday": "6–9 AM, 3–8 PM",
+        "saturday": "6–9 AM, 3–8 PM",
+        "sunday": "6–9 AM, 3–8 PM",
+        "monday": "6–9 AM, 3–8 PM",
+        "tuesday": "6–9 AM, 3–8 PM",
+        "wednesday": "6–9 AM, 3–8 PM",
+        "thursday": "6–9 AM, 3–8 PM"
+      },
+      "website": "http://vit.ac.in/",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMEyTOkYaFUMTKq7RTK7mlvQExlcC9FN3U0KhU6QSwY3TQKRpERI_fovxcY557QulIRye7jdxA3mXwgsAGwFPNLK5UIXyP-wWKeWtdIppmcR8xPRHPvIb8FRBYULPMOHCc3J_0Bjg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/fbRl2nicHcRRbsIgAADQE9ViSFc12UdtWmVYpaxE-2UcIo2DgoKlPeKOsNss2ft4vz-d99at4lh1cCaNkUq8nHhy03vR-xk3OpbPi3MRd3GWD1bpqpiaw3d7KVnV4EdKG5xqNdTFqHi-LPeQAdyxt_oztLCpMbUFReebGUbeJklavxSik0jv1zGD-hSkyzahJPsdThg6TSQKRyyO_oqs1ZwuRkK3ZEBfi5KuW7Yj1WGbc_hxBuu7fA9zAEDU_c-j_g8w0kVq"
+    },
+    {
+      "position": 18,
+      "title": "Shree Nidhi Fitness center (UNISEX)",
+      "place_id": "ChIJZ_I8cGI4rTsRg484tUWdW0c",
+      "data_id": "0x3bad3862703cf267:0x475b9d45b5388f83",
+      "data_cid": "5141876322292240259",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3862703cf267%3A0x475b9d45b5388f83&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3862703cf267%3A0x475b9d45b5388f83&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9335527,
+        "longitude": 79.156108
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZ_I8cGI4rTsRg484tUWdW0c",
+      "provider_id": "/g/11c5zv50jl",
+      "rating": 5,
+      "reviews": 300,
+      "type": "Fitness center",
+      "types": [
+        "Fitness center"
+      ],
+      "address": "Krishna Plaza, Sri Krishna plaza 324 RTO Road (IOB BANK)Phase 2, second floor, 324, Regional Transport Office Rd, Phase 2, Sathuvachari, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "5 AM–9 PM",
+        "saturday": "5 AM–9 PM",
+        "sunday": "8 AM–1:30 PM",
+        "monday": "5 AM–9 PM",
+        "tuesday": "5 AM–9 PM",
+        "wednesday": "5 AM–9 PM",
+        "thursday": "5 AM–9 PM"
+      },
+      "phone": "+91 99944 17011",
+      "website": "https://shreenidhifitness.com/",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMfg06kdWmSGLSRDsbVMcOBwKIMxA08T_GC_XJjWfYPQ644mKlLMhZI3y4kas81-jomBod5V54rlCLZgb0aeey6bTM2FLFe0PODxVRSYeIyIk2tvEIYcnBqX1fC8_we04gyQvsaYg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/oiz0E3icHcRRDoIgAADQE5lY5FxbH2rlKFmZTbMfp4Q4BSkhzSN2hG7T1vt430-t9UOtTJPXixmTknH6UrQnstO00zMihcn6QimDKNP1hwcXuGLAbu-piIMwPm9UmWBy9MYDwm8XOJc88PPrvkmr7BTZEIoDD3F9Q4sJtoVyLKORwpP3ZbKEPffDGytBQelklxc834U7Ck7HzTs5xxlFE2rnetiijHTe82pVvpOPFEA2RYMqMrYeLQCAUf8nRvcD4PpFIg"
+    },
+    {
+      "position": 19,
+      "title": "V Fitness Club",
+      "place_id": "ChIJv1kjlVM5rTsRqnIWAGTLGEY",
+      "data_id": "0x3bad3953952359bf:0x4618cb64001672aa",
+      "data_cid": "5051010612454650538",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad3953952359bf%3A0x4618cb64001672aa&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad3953952359bf%3A0x4618cb64001672aa&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.938323299999999,
+        "longitude": 79.1732818
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJv1kjlVM5rTsRqnIWAGTLGEY",
+      "provider_id": "/g/11h27ltlwh",
+      "rating": 4.6,
+      "reviews": 51,
+      "type": "Gym",
+      "types": [
+        "Gym"
+      ],
+      "address": "15/2, thiyagarajapuram extension, hp petrol bunk backside, Rangapuram, Sathuvachari, Vellore, Tamil Nadu 632009, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "friday": "5:30 AM–9 PM",
+        "saturday": "5:30 AM–9 PM",
+        "sunday": "Closed",
+        "monday": "5:30 AM–9 PM",
+        "tuesday": "5:30 AM–9 PM",
+        "wednesday": "5:30 AM–9 PM",
+        "thursday": "5:30 AM–9 PM"
+      },
+      "phone": "+91 98433 90253",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNGqt6L2p-hkSVYNhoR_EylNsQDvOV8BPR2UNTZKph78LKQk04rR2vL26mLiJ6eX3SJThtpzD9yhHmLTCy3FbgzEBzOuVYeqDsZTACgEqbAwsAh5bGDuH1tQZZ7SdHZPUATeNIt8w=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ROBa3nicHcRRboIwGADgEyEIGzITHyqgTJsqUMnsyzJY038RaKEFAjf0CLvNkn0P3-8TjFF6a9s1eCshpaj5oHlfydbw1qwq2dii_9LaqrSNwlHVDTl2xseusuCRF3cCMvuM55roNBovRbC_Zu6NUHZWsAnwOX04L33mjtj1G_xz8vmHl58oGLVEbzMkDabh7B1KscT75TIUd95FmlEUirgr0aQRvJbHaEjWJmVsk38n7HpDlJN3E0y7ae04jgX_V1b7Bxy6RYY"
+    },
+    {
+      "position": 20,
+      "title": "VIT Mens Hostel Indoor Sports Complex",
+      "place_id": "ChIJKwsrn6FHrTsRIL_6XqvmZ08",
+      "data_id": "0x3bad47a19f2b0b2b:0x4f67e6ab5efabf20",
+      "data_cid": "5721795475304791840",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x3bad47a19f2b0b2b%3A0x4f67e6ab5efabf20&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x3bad47a19f2b0b2b%3A0x4f67e6ab5efabf20&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 12.9722222,
+        "longitude": 79.1591667
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKwsrn6FHrTsRIL_6XqvmZ08",
+      "provider_id": "/g/12645kfsx",
+      "rating": 4,
+      "reviews": 530,
+      "type": "Gym",
+      "types": [
+        "Gym",
+        "Sports complex"
+      ],
+      "address": "X5C5+VJM, Mens Hostel Office, Hostel Office Road, VIT University, Vellore, Tamil Nadu 632014, India",
+      "country": "India",
+      "open_state": "Closed · Opens 3 PM",
+      "hours": "Closed · Opens 3 PM",
+      "operating_hours": {
+        "friday": "6–9 AM, 3–8 PM",
+        "saturday": "6–9 AM, 3–8 PM",
+        "sunday": "6–9 AM, 3–8 PM",
+        "monday": "6–9 AM, 3–8 PM",
+        "tuesday": "6–9 AM, 3–8 PM",
+        "wednesday": "6–9 AM, 3–8 PM",
+        "thursday": "6–9 AM, 3–8 PM"
+      },
+      "website": "http://www.vit.ac.in/campus/sports/gym",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPwJ62Ny80uSv8uhEazZ5S62BWRjH0p_ApheHUNgpMpfERwlAuUZM-OahZqQ69WMqmuT3fPEplS-EIp24ea5TqW4iGdq1RLmqoDLbLQJpWWjGOj7G7GlcWl5tyioEVFGKCZW3nK=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Rk95jHicHcTbboIwGADgJ6pUENQlu2Cu1gN4AF0TbhZWK5UU-te2EveCe4a9zZJ9F9_vj3QO7EsQKBmNGq0bJbwVd657J3o34roLmnttLeI2SBcPUN1h2CTh7jnDvnzMvCT1dxWXSfjGinaF4TMFKVbnXQM5XEkxqNSfqxzta1mZYzJnuen8KboeCKgSkTWEE1HHJ8MmN3ox4yLrjH7PvrLjBhhr6b6d0ilVnKnYPW-afCzpdlGxqN--DmOMMZL_c9T_AZVNRMA"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9680%2C79.1503%2C14z&q=gym+near+VIT+Vellore&start=20&type=search"
+  }
+}

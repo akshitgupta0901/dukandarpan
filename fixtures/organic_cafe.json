@@ -1,0 +1,527 @@
+{
+  "search_metadata": {
+    "id": "6aace0f3be918afda81321b6",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/u9OW8Re0ecyJWJMBiFc-dPyomdoIkL4UGP-I4CNyB1M/6aace0f3be918afda81321b6.json",
+    "markdown_endpoint": "https://serpapi.com/searches/u9OW8Re0ecyJWJMBiFc-dPyomdoIkL4UGP-I4CNyB1M/6aace0f3be918afda81321b6.md",
+    "pixel_position_endpoint": "https://serpapi.com/searches/u9OW8Re0ecyJWJMBiFc-dPyomdoIkL4UGP-I4CNyB1M/6aace0f3be918afda81321b6.json_with_pixel_position",
+    "created_at": "2026-09-18 06:57:55 UTC",
+    "processed_at": "2026-09-18 06:57:55 UTC",
+    "google_url": "https://www.google.com/search?q=cafe+near+VIT+Vellore&oq=cafe+near+VIT+Vellore&uule=w+CAIQICIYVmVsbG9yZSxUYW1pbCBOYWR1LEluZGlh&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/u9OW8Re0ecyJWJMBiFc-dPyomdoIkL4UGP-I4CNyB1M/6aace0f3be918afda81321b6.html",
+    "total_time_taken": 4.38
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "cafe near VIT Vellore",
+    "location_requested": "Vellore, Tamil Nadu, India",
+    "location_used": "Vellore,Tamil Nadu,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "cafe near VIT Vellore",
+    "total_results": 132,
+    "time_taken_displayed": 0.4,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+    "image": "https://www.google.com/maps/vt/data=MZqruXeVjjnNnEjcEOq5mchbUIaw7L1cD5JvV8eaISiopkecZB45O-lu1AEzIXCdTOGHTDdvcpTcRH4vLCZTFDZPkI_XXYFJIgMhbgh9oqQU1rjPGbv8qNxIOdmI7DMQU9mSEKcp8HQzzQwqsgo80U3RAq_G6J3wlN4VKW2dAJzbcN5NDXXoiIx7PbTVyjcE-YgWhpw3-ybvnDhtdYukVf3wpulBo5HBVOoxCeivyGGoM-ogO9nNPvo7JCq-eueH6Mqd68CuojGoPK2j6xtgg0Da3tsCsLYXvSaPWaJK__vmMhn96jTnTDlmIJ9SxBIbIxnvo9Upfkyiku2dXP08yvPzwW9tWBm7_tsJIynNSvZKGJNg8j1PV9BWj9UG8GzakdDXQASIOQ6spUy9nCh_D3qR34PTwWsJaID9kUSmihlVCtT18qqHZXcZEemALFqs4E66r_Uqf4XjvszAmGWbDj2bTC02Nkrm4sV44IPaI3B5r25wd34fT5bQUr1CwIqO_UIbK9uGYBE1u0y5mmPpOeWXXjCqM3j9ujOIfVWuR78YNV9uSwidjHjv-L-dW9i5OlzxIPfX4bylHQFI7ha1gJL0Mp8aE1FsJXt6ZTQe2Dg3YLTAu-i1HPQVCXy7r1bA16DMWkaQFQJB1xC9IBczS4dNj5cKVS5szAFz0hIp-i2Vz__Idqxjzx-VT1vd3QkaKA_lOc7UIaW8sePBTistxP7pZeTbAfc4qAbUgytscbiPzVPKW7IMW81cNWvZNAkVdHi2GquT1sfM1mqBqMxMV6GVdeeUg0uwsZk2mzjjpokkf5Qsn226oh9hUEMrfwa38K32RZWRg-i5h50AT0xV2icyzOStYOh6LExz4UlOLEDeJnV6LOgUypaGmUl1UmnIK_wYwP19mxMd3HTdTRG0amsEPgKG5MpdCxNjTcrxzTv-R5FPa53mDKBeMkbWK1gQYNNYJap5gXDEe4jswe-PDXheE9om5PR8DXXQfnSFdPSbGu3ks43Av-8O5o4JMGkx0eZEl9LJSmaHoReMthl1DwHmqVOAcSnL5jH1Mfs14siqPdAO0OJbH4ETi0m3ckNLl9JxZyXKwmunQXAPbryPguOA-UIm-fe6Vgkr9q25QQ8ACtLdomJe8WJfA6n22-OUlnqPSipGz-olKDvNbRs6jNdLWlqDbVc8LjeDbUXlyN0blhintfTeH_CvWa_mf8GzE1fdXqQI5qbOJnk_yAoXMZsx1iXXJQrZHfjsP7gEUSJthd5Iu_SOFHk8eUr5WdrPGkfAtYC5_ycoiHz2gOeKOWbDkIfAq09qgiVZw2lQGKOrpor-WrBzkUyuKJWj5P6C1iZSIWgiQdWYkHlUQlY6_jZcn2KTEJYj6ZKKaOutSN5m_RuoNhZo0A02z3ULznN9QngWYjQevPlV_5HSkRHAt1SJCWPKwgqA",
+    "gps_coordinates": {
+      "latitude": 12.941158636167025,
+      "longitude": 79.14739608764648
+    }
+  },
+  "local_results": {
+    "places": [
+      {
+        "position": 1,
+        "title": "Café Laylat,",
+        "type": "Cafe",
+        "rating": 4.7,
+        "reviews": 80,
+        "price": "₹1–400",
+        "description": "Dine-in·Kerbside pickup·No delivery",
+        "thumbnail": "https://serpapi.com/searches/6aace0f3be918afda81321b6/images/MZnnmt20gA3FbCX_tbTlj-nXxHpTgLhEsYtcei2_M-U-OBk8rOzFN9QMlrfVZkmY.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl3-6SOMJWAdQeFdgo9V9kgkl_ScJihA98k8XNvJoznYEi-4l9fS0aTNXVAzw-BahTwNd6jwkghABHulmt8zdDp2rEzzTylmHYk1LrTo-RfbEhJHWF-RlPiHTtgw4j236zTmNFvTW9J5CUo=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:073388 29027"
+        },
+        "place_id": "17831342872075534746",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=17831342872075534746&q=cafe+near+VIT+Vellore",
+        "provider_id": "/g/11msfjp60z",
+        "gps_coordinates": {
+          "latitude": 12.967513,
+          "longitude": 79.150356
+        },
+        "address": "VIT Rd, opposite to INOX theatre, Katpadi, Vellore, Tamil Nadu 632014",
+        "hours": "Open · Closes 10:30 pm",
+        "phone": "073388 29027"
+      },
+      {
+        "position": 2,
+        "title": "Moon Lite Cafe",
+        "type": "Cafe",
+        "rating": 4.8,
+        "reviews": 49,
+        "price": "₹1–200",
+        "description": "Dine-in·Drive-through·No-contact delivery",
+        "thumbnail": "https://serpapi.com/searches/6aace0f3be918afda81321b6/images/MZnnmt20gA3FbCX_tbTljxHgZ__KdguUz92BMw8GDPWdWyG93yYp8Weqlc2g5pvm.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIUh0tZ-Kv0Tncxe6NKKtxy6wuh4L_ARMtuK2boPgj_T9-a7B9349xaURVzd0ui_o7BFYV8JPVIsUXl0YEtyQ8OZhq4Qn7BdERtw5USn4y39ruz0615hqw-CVUFM_NZlrZyn6f5797_MJ-=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:076039 97691"
+        },
+        "place_id": "15730704645118401757",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=15730704645118401757&q=cafe+near+VIT+Vellore",
+        "provider_id": "/g/11ytj0499r",
+        "gps_coordinates": {
+          "latitude": 12.901847,
+          "longitude": 79.134864
+        },
+        "address": "18 Arni Road, Sankaranpalayam Rd, Vellore, Tamil Nadu 632001",
+        "hours": "Closes soon · 1 pm",
+        "phone": "076039 97691"
+      },
+      {
+        "position": 3,
+        "title": "Hangout cafe",
+        "type": "Cafe",
+        "rating": 4.4,
+        "reviews": 293,
+        "price": "₹1–400",
+        "description": "Dine-in·Takeaway·No-contact delivery",
+        "thumbnail": "https://serpapi.com/searches/6aace0f3be918afda81321b6/images/MZnnmt20gA3FbCX_tbTljxKVZWQLCNB5DJ7Jq9SLR3pIA0JkYL9lhdNcN6Uxh71x.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWngLa3UX_39HiHOSoYnZpMpp-l8AaLfBxFtAEENqSncHzAARhDfkar0F1OepgPYVCuROg64UIT_av8_sXj3IkctCp-ZlpmtQpGKsj8GlDj_sJaJCVT0EFA6cin7P6PPT57wzUK6=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:079041 45035",
+          "website": "https://hangout-cafe-vlr.waiterio.com/"
+        },
+        "place_id": "4951702586220412575",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&ludocid=4951702586220412575&q=cafe+near+VIT+Vellore",
+        "provider_id": "/g/11p3bd76tq",
+        "gps_coordinates": {
+          "latitude": 12.956836,
+          "longitude": 79.145073
+        },
+        "address": "Katpadi, 1, 17th East Cross Rd, Gandhi Nagar, Vellore, Tamil Nadu 632006",
+        "hours": "Open · Closes 9 pm",
+        "phone": "079041 45035"
+      }
+    ],
+    "more_locations_link": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&udm=1&lsack=9uCsatiTBrHBhbIP_euOiAo&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQjGp6BAg5EAA"
+  },
+  "related_questions": [
+    {
+      "question": "What are some good restaurants near VIT Main Road in Vellore?",
+      "type": "ai_overview",
+      "page_token": "E1RdXXicHdHBbpswAIBh7WV6bAIUNiJFk2hsKA0mgG2wL1OwQ0gw2FqiGnLbu-y8B9rTrNr9P3zS_-u3ukzD3y9_-vvd3DarlbX2-az1WZ2ehR5Xx9syiZU4KtUexbAJvgbO905sgbavrzcbFcQYuivXGCKzb4SPVUhONBplrA55PWtCtVPW_p5RyU-QG0TCA_IyjykZ0LqMmYdoC0PG1woxkiKxK5mMw0zG6CUb79ecQkugJNkgQUb8RNZ2LaDsxa43xVTuMZRvrJFYgPmdu_5HUdulAlzltclaQAN6pZYmaqwaqFvPOJ-N0zg0R863uVjPbgVl0k7pe475hCnsKFC9AHyphuzBgToIki5Z03cEvy0kKXPi-sExfnHba7qcFLN7ClxSObi6OLnAEQC98CVBD9aUhoL005JqNqiicamDXRW1s74UpHyIqxqJWzbEkRAp1VVxqKlHU0SjS12nHsc8qQcVS_vUiY-t9_T_w_ZHN9435qc-_wNjm5U0",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=E1RdXXicHdHBbpswAIBh7WV6bAIUNiJFk2hsKA0mgG2wL1OwQ0gw2FqiGnLbu-y8B9rTrNr9P3zS_-u3ukzD3y9_-vvd3DarlbX2-az1WZ2ehR5Xx9syiZU4KtUexbAJvgbO905sgbavrzcbFcQYuivXGCKzb4SPVUhONBplrA55PWtCtVPW_p5RyU-QG0TCA_IyjykZ0LqMmYdoC0PG1woxkiKxK5mMw0zG6CUb79ecQkugJNkgQUb8RNZ2LaDsxa43xVTuMZRvrJFYgPmdu_5HUdulAlzltclaQAN6pZYmaqwaqFvPOJ-N0zg0R863uVjPbgVl0k7pe475hCnsKFC9AHyphuzBgToIki5Z03cEvy0kKXPi-sExfnHba7qcFLN7ClxSObi6OLnAEQC98CVBD9aUhoL005JqNqiicamDXRW1s74UpHyIqxqJWzbEkRAp1VVxqKlHU0SjS12nHsc8qQcVS_vUiY-t9_T_w_ZHN9435qc-_wNjm5U0",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHNvbWUgZ29vZCByZXN0YXVyYW50cyBuZWFyIFZJVCBNYWluIFJvYWQgaW4gVmVsbG9yZT8iLCJsayI6IkdoOXlaWE4wWVhWeVlXNTBjeUJwYmlCMlpXeHNiM0psSUc1bFlYSWdkbWwwIiwiYnMiOiJjMjJPTVEtQ1FBeEc0M29UY1dTeEVCMWQyQTJEZzJGZ01RYm55aFc1QkdoeWQtRGZ0NEZBSURvMTZmZS0xNnFYdWp4cjlJQ1d3SEZMOEdiV1lNbDU3QzEyM2tGSGFLSElIcENqNmVET3FFRm1RVTNEbHRJa0NnOXJXcUpoaXFiaVlMeksxU2x6NEd1U0pZSVczRUhKbWthUGlCZlhNWXpOREc0eDBjeGVkVlhuUHktWFdKRmJmUWJhT0c5TjZkTmtId1pMT2t0dUtob2xjcV9DbHZ0TjFUTVFTakVPNGZNRERSc28ySDBCIiwiaWQiOiJmY185dUNzYXRpVEJySEJoYklQX2V1T2lBb182In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHNvbWUgZ29vZCByZXN0YXVyYW50cyBuZWFyIFZJVCBNYWluIFJvYWQgaW4gVmVsbG9yZT8iLCJsayI6IkdoOXlaWE4wWVhWeVlXNTBjeUJwYmlCMlpXeHNiM0psSUc1bFlYSWdkbWwwIiwiYnMiOiJjMjJPTVEtQ1FBeEc0M29UY1dTeEVCMWQyQTJEZzJGZ01RYm55aFc1QkdoeWQtRGZ0NEZBSURvMTZmZS0xNnFYdWp4cjlJQ1d3SEZMOEdiV1lNbDU3QzEyM2tGSGFLSElIcENqNmVET3FFRm1RVTNEbHRJa0NnOXJXcUpoaXFiaVlMeksxU2x6NEd1U0pZSVczRUhKbWthUGlCZlhNWXpOREc0eDBjeGVkVlhuUHktWFdKRmJmUWJhT0c5TjZkTmtId1pMT2t0dUtob2xjcV9DbHZ0TjFUTVFTakVPNGZNRERSc28ySDBCIiwiaWQiOiJmY185dUNzYXRpVEJySEJoYklQX2V1T2lBb182In0%3D"
+    },
+    {
+      "question": "Is there a dress code in VIT Vellore?",
+      "type": "ai_overview",
+      "page_token": "Jd2-EXicHdBfbpswHABg9TJ9bDAmXYkUTaJAqFvcYexfgJfJmPyrbXATVhLedpedaqeZtO8I3-8_5tTrv3dfx3F0l9ViMU3Tw2EYDmb3oAa7kJdbrxZKGtNKpVeP3x7R971aJ79eoufPl6gQzkHMvHKOplzAuRU62NmupL3Jtj2pJCik-PEivTBluKv45mkqfYa3yfWdo4bVOpjBN1Zxs-UQem9irIuZxA0Kl9SnrozJLHBUqZhAbRPcfgB01r3WPUipzQY26LnrCd-JVApEc5qlTeEtae6rG-fgtnGX5xs4lx7BXZ--KkMd1Z5P8WEUqNEy07c2CQI4IWBe-qOxJKEVsOSolp2gc10xBwm5lQkZam2KygfEfRO11-FUCDarD2OFDd9abNIdb5bMhFk7swCwqUDX1yaLBMfR0E33e_W1xvf_P9c_93ZcufNw-AcoSYGy",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Jd2-EXicHdBfbpswHABg9TJ9bDAmXYkUTaJAqFvcYexfgJfJmPyrbXATVhLedpedaqeZtO8I3-8_5tTrv3dfx3F0l9ViMU3Tw2EYDmb3oAa7kJdbrxZKGtNKpVeP3x7R971aJ79eoufPl6gQzkHMvHKOplzAuRU62NmupL3Jtj2pJCik-PEivTBluKv45mkqfYa3yfWdo4bVOpjBN1Zxs-UQem9irIuZxA0Kl9SnrozJLHBUqZhAbRPcfgB01r3WPUipzQY26LnrCd-JVApEc5qlTeEtae6rG-fgtnGX5xs4lx7BXZ--KkMd1Z5P8WEUqNEy07c2CQI4IWBe-qOxJKEVsOSolp2gc10xBwm5lQkZam2KygfEfRO11-FUCDarD2OFDd9abNIdb5bMhFk7swCwqUDX1yaLBMfR0E33e_W1xvf_P9c_93ZcufNw-AcoSYGy",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IklzIHRoZXJlIGEgZHJlc3MgY29kZSBpbiBWSVQgVmVsbG9yZT8iLCJsayI6IkdpSnBjeUIwYUdWeVpTQmtjbVZ6Y3lCamIyUmxJR2x1SUhacGRDQjJaV3hzYjNKbCIsImJzIjoiYzIyT01RLUNRQXhHNDNvVGNXU3hFQjFkMkEyRGcyRmdNUWJueWhXNUJHaHlkLURmdDRGQUlEbzE2ZmUtMTZxWHVqeHI5SUNXd0hGTDhHYldZTWw1N0MxMjNrRkhhS0hJSHBDajZlRE9xRUZtUVUzRGx0SWtDZzlyV3FKaGlxYmlZTHpLMVNsejRHdVNKWUlXM0VISm1rYVBpQmZYTVl6TkRHNHgwY3hlZFZYblB5LVhXSkZiZlFiYU9HOU42ZE5rSHdaTE9rdHVLaG9sY3FfQ2x2dE4xVE1RU2pFTzRmTUREUnNvMkgwQiIsImlkIjoiZmNfOXVDc2F0aVRCckhCaGJJUF9ldU9pQW9fNiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IklzIHRoZXJlIGEgZHJlc3MgY29kZSBpbiBWSVQgVmVsbG9yZT8iLCJsayI6IkdpSnBjeUIwYUdWeVpTQmtjbVZ6Y3lCamIyUmxJR2x1SUhacGRDQjJaV3hzYjNKbCIsImJzIjoiYzIyT01RLUNRQXhHNDNvVGNXU3hFQjFkMkEyRGcyRmdNUWJueWhXNUJHaHlkLURmdDRGQUlEbzE2ZmUtMTZxWHVqeHI5SUNXd0hGTDhHYldZTWw1N0MxMjNrRkhhS0hJSHBDajZlRE9xRUZtUVUzRGx0SWtDZzlyV3FKaGlxYmlZTHpLMVNsejRHdVNKWUlXM0VISm1rYVBpQmZYTVl6TkRHNHgwY3hlZFZYblB5LVhXSkZiZlFiYU9HOU42ZE5rSHdaTE9rdHVLaG9sY3FfQ2x2dE4xVE1RU2pFTzRmTUREUnNvMkgwQiIsImlkIjoiZmNfOXVDc2F0aVRCckhCaGJJUF9ldU9pQW9fNiJ9"
+    },
+    {
+      "question": "What are some good cafes in Vellore district?",
+      "type": "ai_overview",
+      "page_token": "yPFWfXicHdBLbuIwAABQzWW6LLFTWgUJVXKJoWlxa8efxJsqsYFQ7MQDEYHseoWeYU41p5lRb_D0vv64fXv4--u76ftwmk0mwzDc7rpu5za3pvOT6nRtzcRUztWVOczuH-7B49bM07NBT0eDqAhBLliUx7owKUNMpqP04UpE0tgF8uUnvdNOwlw0MWsxFZi4UpaxiPpn4XW0lrKwEv82CwRU0ZwqiLvNQffcJ6ucWyahE3LF-hqzo2px9bbsX6qY4FeerdfwsqYw8xZkaLMH_C1tjrrIRA4QstH0qfblHfHM1bwRElCocQgKk0HuQWXVNGgQBF9oZ6V8McBm3CUk57J8LTKVF-RqVlZtFI5FK0Dlybttw397gtPGTK0gY1mwINPsmqdZVx4cLaAEHDpUX7o9FWw0n84LiM9U7UYRXWC9THyN9dICJJjCg14mFz3ad0pvtuY8j29-rucfW9_PwrHb_QNfNIvx",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=yPFWfXicHdBLbuIwAABQzWW6LLFTWgUJVXKJoWlxa8efxJsqsYFQ7MQDEYHseoWeYU41p5lRb_D0vv64fXv4--u76ftwmk0mwzDc7rpu5za3pvOT6nRtzcRUztWVOczuH-7B49bM07NBT0eDqAhBLliUx7owKUNMpqP04UpE0tgF8uUnvdNOwlw0MWsxFZi4UpaxiPpn4XW0lrKwEv82CwRU0ZwqiLvNQffcJ6ucWyahE3LF-hqzo2px9bbsX6qY4FeerdfwsqYw8xZkaLMH_C1tjrrIRA4QstH0qfblHfHM1bwRElCocQgKk0HuQWXVNGgQBF9oZ6V8McBm3CUk57J8LTKVF-RqVlZtFI5FK0Dlybttw397gtPGTK0gY1mwINPsmqdZVx4cLaAEHDpUX7o9FWw0n84LiM9U7UYRXWC9THyN9dICJJjCg14mFz3ad0pvtuY8j29-rucfW9_PwrHb_QNfNIvx",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHNvbWUgZ29vZCBjYWZlcyBpbiBWZWxsb3JlIGRpc3RyaWN0PyIsImxrIjoiR2hCallXWmxjeUJwYmlCMlpXeHNiM0psIiwiYnMiOiJjMjJPTVEtQ1FBeEc0M29UY1dTeEVCMWQyQTJEZzJGZ01RYm55aFc1QkdoeWQtRGZ0NEZBSURvMTZmZS0xNnFYdWp4cjlJQ1d3SEZMOEdiV1lNbDU3QzEyM2tGSGFLSElIcENqNmVET3FFRm1RVTNEbHRJa0NnOXJXcUpoaXFiaVlMeksxU2x6NEd1U0pZSVczRUhKbWthUGlCZlhNWXpOREc0eDBjeGVkVlhuUHktWFdKRmJmUWJhT0c5TjZkTmtId1pMT2t0dUtob2xjcV9DbHZ0TjFUTVFTakVPNGZNRERSc28ySDBCIiwiaWQiOiJmY185dUNzYXRpVEJySEJoYklQX2V1T2lBb182In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHNvbWUgZ29vZCBjYWZlcyBpbiBWZWxsb3JlIGRpc3RyaWN0PyIsImxrIjoiR2hCallXWmxjeUJwYmlCMlpXeHNiM0psIiwiYnMiOiJjMjJPTVEtQ1FBeEc0M29UY1dTeEVCMWQyQTJEZzJGZ01RYm55aFc1QkdoeWQtRGZ0NEZBSURvMTZmZS0xNnFYdWp4cjlJQ1d3SEZMOEdiV1lNbDU3QzEyM2tGSGFLSElIcENqNmVET3FFRm1RVTNEbHRJa0NnOXJXcUpoaXFiaVlMeksxU2x6NEd1U0pZSVczRUhKbWthUGlCZlhNWXpOREc0eDBjeGVkVlhuUHktWFdKRmJmUWJhT0c5TjZkTmtId1pMT2t0dUtob2xjcV9DbHZ0TjFUTVFTakVPNGZNRERSc28ySDBCIiwiaWQiOiJmY185dUNzYXRpVEJySEJoYklQX2V1T2lBb182In0%3D"
+    },
+    {
+      "question": "What is famous in Vellore to eat?",
+      "type": "ai_overview",
+      "page_token": "RSgzS3icHdBbUoMwGEDhcTM-2pvVaWc6jshFItAmzR8gL05IaLEkDVqEljf34qpcjY4LON_D-frWb8f656qr2rY5LUejvu9v9tbudXkjrRmJ0-UoR1JoXQhZL-_u7yYPO7nyPkPn6T10MDQNc8mYPvutMiikk8ZRHrGEPl6E4UNi5lZ4vr-GllM49VyjKK3zKaXOLRl0VB4Rj03rFi6KSuA49dgLUKcrDzqmGcrTOmyJXgwYzhsBi6A0C3ed_hmGdyQIxyKr5vioPguGutLndB34UUKVqxg-C1CxNAkRFKbxEN-KVGd5xtfymW-Bqk02OCIN-DwJKrw11V9dfcSUYFY3M6-ScwXJkGekYR66bD1k81rjbMomdKqd4mzfMJBBHrSBOhwDsAggORSU2YhxEGm1SX1-2M50ng2Iq_56J7vV7Pr_5-p1Z9pl82H3v2-9hT8",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=RSgzS3icHdBbUoMwGEDhcTM-2pvVaWc6jshFItAmzR8gL05IaLEkDVqEljf34qpcjY4LON_D-frWb8f656qr2rY5LUejvu9v9tbudXkjrRmJ0-UoR1JoXQhZL-_u7yYPO7nyPkPn6T10MDQNc8mYPvutMiikk8ZRHrGEPl6E4UNi5lZ4vr-GllM49VyjKK3zKaXOLRl0VB4Rj03rFi6KSuA49dgLUKcrDzqmGcrTOmyJXgwYzhsBi6A0C3ed_hmGdyQIxyKr5vioPguGutLndB34UUKVqxg-C1CxNAkRFKbxEN-KVGd5xtfymW-Bqk02OCIN-DwJKrw11V9dfcSUYFY3M6-ScwXJkGekYR66bD1k81rjbMomdKqd4mzfMJBBHrSBOhwDsAggORSU2YhxEGm1SX1-2M50ng2Iq_56J7vV7Pr_5-p1Z9pl82H3v2-9hT8",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IldoYXQgaXMgZmFtb3VzIGluIFZlbGxvcmUgdG8gZWF0PyIsImxrIjoiR2lCM2FHRjBJR2x6SUdaaGJXOTFjeUJwYmlCMlpXeHNiM0psSUhSdklHVmhkQSIsImJzIjoiYzIyT01RLUNRQXhHNDNvVGNXU3hFQjFkMkEyRGcyRmdNUWJueWhXNUJHaHlkLURmdDRGQUlEbzE2ZmUtMTZxWHVqeHI5SUNXd0hGTDhHYldZTWw1N0MxMjNrRkhhS0hJSHBDajZlRE9xRUZtUVUzRGx0SWtDZzlyV3FKaGlxYmlZTHpLMVNsejRHdVNKWUlXM0VISm1rYVBpQmZYTVl6TkRHNHgwY3hlZFZYblB5LVhXSkZiZlFiYU9HOU42ZE5rSHdaTE9rdHVLaG9sY3FfQ2x2dE4xVE1RU2pFTzRmTUREUnNvMkgwQiIsImlkIjoiZmNfOXVDc2F0aVRCckhCaGJJUF9ldU9pQW9fNiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1QzbE9iVUZ1YlVnM1YwMDBYMWRtVjJKR2NUaGZPSGhWZFhCMU1XdE5NMGhyUTJSMFRqUlhlVVIyY1haWFUzWjZlRVZyVm1sZlowMXRXVWR0ZFZBemVHNDFSRkF5YWpaZlZUTlpUWGx0TlMxSloxZDNRbFJ4YVhOSlp4SVhPWFZEYzJGMGFWUkNja2hDYUdKSlVGOWxkVTlwUVc4YUlrRkVjM0k1WmxKM2NYQjBRM0JvZGtwV0xWaG5NME5RT1hOcmFHOTZSVEpIU2tFIiwiZmN2IjoiMyIsImVpIjoiOXVDc2F0aVRCckhCaGJJUF9ldU9pQW8iLCJxYyI6IkNoVmpZV1psSUc1bFlYSWdkbWwwSUhabGJHeHZjbVVRQUgxd1JBSV8iLCJxdWVzdGlvbiI6IldoYXQgaXMgZmFtb3VzIGluIFZlbGxvcmUgdG8gZWF0PyIsImxrIjoiR2lCM2FHRjBJR2x6SUdaaGJXOTFjeUJwYmlCMlpXeHNiM0psSUhSdklHVmhkQSIsImJzIjoiYzIyT01RLUNRQXhHNDNvVGNXU3hFQjFkMkEyRGcyRmdNUWJueWhXNUJHaHlkLURmdDRGQUlEbzE2ZmUtMTZxWHVqeHI5SUNXd0hGTDhHYldZTWw1N0MxMjNrRkhhS0hJSHBDajZlRE9xRUZtUVUzRGx0SWtDZzlyV3FKaGlxYmlZTHpLMVNsejRHdVNKWUlXM0VISm1rYVBpQmZYTVl6TkRHNHgwY3hlZFZYblB5LVhXSkZiZlFiYU9HOU42ZE5rSHdaTE9rdHVLaG9sY3FfQ2x2dE4xVE1RU2pFTzRmTUREUnNvMkgwQiIsImlkIjoiZmNfOXVDc2F0aVRCckhCaGJJUF9ldU9pQW9fNiJ9"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "ss62iHiczVZZkqpIFF1Ar6P5qXqC4lgRxIvMBBWH0rQcHv4QTAIKpCVaDn-9l15Cr6ZX0wmiQhVW9XsfHX0jkiTheufD8Y8_PTdY_f3bX852uw6fWHa_3xdsQmzPKhjEZ7XwGBjsgnjhxnC-O55gBYztCW7A7HaeJewfEJCxjGRl6k9DvdU4zl8OE2VWXOsIDpTZqNiTvN285TnM8U3gGSMUOMZyhcYOhdrWHcNNGzq6PFSt3cAFhIndCaquhdaSRnNYhqzK0svqd16kh0JYsAK1BQudSa8KyY_hqjYplLhiozBgNZ_qgP9O-hjAaO8AdF-JvpK-NhUZkAGUUpZkYMc7vGkp59cIx6-QfdcaPPscxeqYLlE9tfcifZrUR7z7W-oCZo77OBYA9nGUELhfZ5MSnORyyeuTSl21s5JUj9yepHuciTUj9j5zbNIoVIDQzUnaGTXjZMK4VsqwQb1NoAjB5H7ctD5dGVRWAEt5KaQFS9PytXM9pUWfsKZNB5dj9Q3diqxrOEZ8swmjeUbjBkea08rRrIATF6L1KzjVa-PO6FCGdW7CA9bQqZ5HNNMyVUflvsfnYqlY4Rp8rf4YY8kIr2AK02AaEKW--zHn66tyoVeAxQuM0Lnp4EPHJHpGck5iECWqOS1ODXbUsKSluJm2m7QSRnMtjUC2td1hVNfW5Uhn9ERbk9a4eY2G_yOMzmKnlCmM4kBkkiimNc5arRR0U42VQd5n5n3euA0uWeDlB8UMABHNdwUuhVHeW1YARrYUYQBJbZhUzcjaQB_KHqWHbZgU6ZbJ-Q6mc4hKIGPQB7JEbboTmfbAjmb1Gqic-GpK7xB3Z-Bl6maG_s2nL0fgVyCKBF_w8m78M7B5XpWm7V7P3WoeUgamOwf9Bjl0_FcT58OE-PrPkY7xv8LSmZKkhJLuY0n6GksxJcFPKCm-v1FSNL-I3MUSbOVTUj-XkrJ5IzBKY-lzSvppLKFPsYSTaw6WSD6W1nexlFBSCktZSpLyKemKpV-hJPiLlBRDyzpvWX7aLe27PCWVB2hchhs9OGFedrr2ctl1-6-zxm6Ev-Sphb998jXTe1Rd8wmWOtuj-ajSB-TJMplXwdAW1kNgaZuHqTx-mFqeRzYW43sbInBa-a3zbfGiDHahWx30xNqI4xHpDPt80ObJ5NnB4m7OnZq1Ursx7AXLMqphUT8cZzNJGzlDHg-fYdAdDywnmPHV59JQbMwnk9pIFquuHfbl06wyEcFxVTVc7nncHY6V1mi5qDZfbedgEcU8-LJpj8W9GYRc1-y-9Ow4sFDAm0Od6K3Otj1h_I0h0D_L5W92E4OWTacOxdNIF6FrT1cVYLkJARMammqFb0KZ0_WaWeXrC7NUMcoVxre3x7VQ5IpMGGyE4j-ZIkwK",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ss62iHiczVZZkqpIFF1Ar6P5qXqC4lgRxIvMBBWH0rQcHv4QTAIKpCVaDn-9l15Cr6ZX0wmiQhVW9XsfHX0jkiTheufD8Y8_PTdY_f3bX852uw6fWHa_3xdsQmzPKhjEZ7XwGBjsgnjhxnC-O55gBYztCW7A7HaeJewfEJCxjGRl6k9DvdU4zl8OE2VWXOsIDpTZqNiTvN285TnM8U3gGSMUOMZyhcYOhdrWHcNNGzq6PFSt3cAFhIndCaquhdaSRnNYhqzK0svqd16kh0JYsAK1BQudSa8KyY_hqjYplLhiozBgNZ_qgP9O-hjAaO8AdF-JvpK-NhUZkAGUUpZkYMc7vGkp59cIx6-QfdcaPPscxeqYLlE9tfcifZrUR7z7W-oCZo77OBYA9nGUELhfZ5MSnORyyeuTSl21s5JUj9yepHuciTUj9j5zbNIoVIDQzUnaGTXjZMK4VsqwQb1NoAjB5H7ctD5dGVRWAEt5KaQFS9PytXM9pUWfsKZNB5dj9Q3diqxrOEZ8swmjeUbjBkea08rRrIATF6L1KzjVa-PO6FCGdW7CA9bQqZ5HNNMyVUflvsfnYqlY4Rp8rf4YY8kIr2AK02AaEKW--zHn66tyoVeAxQuM0Lnp4EPHJHpGck5iECWqOS1ODXbUsKSluJm2m7QSRnMtjUC2td1hVNfW5Uhn9ERbk9a4eY2G_yOMzmKnlCmM4kBkkiimNc5arRR0U42VQd5n5n3euA0uWeDlB8UMABHNdwUuhVHeW1YARrYUYQBJbZhUzcjaQB_KHqWHbZgU6ZbJ-Q6mc4hKIGPQB7JEbboTmfbAjmb1Gqic-GpK7xB3Z-Bl6maG_s2nL0fgVyCKBF_w8m78M7B5XpWm7V7P3WoeUgamOwf9Bjl0_FcT58OE-PrPkY7xv8LSmZKkhJLuY0n6GksxJcFPKCm-v1FSNL-I3MUSbOVTUj-XkrJ5IzBKY-lzSvppLKFPsYSTaw6WSD6W1nexlFBSCktZSpLyKemKpV-hJPiLlBRDyzpvWX7aLe27PCWVB2hchhs9OGFedrr2ctl1-6-zxm6Ev-Sphb998jXTe1Rd8wmWOtuj-ajSB-TJMplXwdAW1kNgaZuHqTx-mFqeRzYW43sbInBa-a3zbfGiDHahWx30xNqI4xHpDPt80ObJ5NnB4m7OnZq1Ursx7AXLMqphUT8cZzNJGzlDHg-fYdAdDywnmPHV59JQbMwnk9pIFquuHfbl06wyEcFxVTVc7nncHY6V1mi5qDZfbedgEcU8-LJpj8W9GYRc1-y-9Ow4sFDAm0Od6K3Otj1h_I0h0D_L5W92E4OWTacOxdNIF6FrT1cVYLkJARMammqFb0KZ0_WaWeXrC7NUMcoVxre3x7VQ5IpMGGyE4j-ZIkwK"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Cafe Near Me - Best Coffee Shops in Vit Main Road, Vellore",
+      "link": "https://www.justdial.com/Vellore/Coffee-Shops-in-Vit-Main-Road/nct-10104727",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFeIpQe4GJABs8iG74JOWcby49kDfGsMHDL9nmw05SRinTOtZEy3cOGEaSq9r-SzrjpdnidD4gO8JEryJzYMUnEM5upReQL7LDF2Ztj0gQyu7WPTIpE8BoAE7xl7ZAUOWxU9J3rMG6f9xw1XfBjADP7fVeJtk5E_PQDzPmbS3cA&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://www.justdial.com › ... › 116+ Listings",
+      "favicon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp",
+      "snippet": "Cafe Near Me - Best Coffee Shops in Vit Main Road, Vellore · Namma Vellore Bites · Vellore Thenir Angadi · Kaapi Kadai · Bubble Bee · Krishna Cafe Katpadi · Mc ...",
+      "snippet_highlighted_words": [
+        "Namma Vellore Bites"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Cafe Near Me - Best Coffee Shops in Vit Main Road, Vellore · Namma Vellore Bites · Vellore Thenir Angadi · Kaapi Kadai · Bubble Bee · Krishna Cafe Katpadi · Mc ...",
+          "source_info_link": "https://www.justdial.com/Vellore/Coffee-Shops-in-Vit-Main-Road/nct-10104727",
+          "icon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Justdial",
+      "read_more_link": "https://www.justdial.com/Vellore/Coffee-Shops-in-Vit-Main-Road/nct-10104727#:~:text=Cafe%20Near%20Me%20%2D%20Best,in%20Vit%20Main%20Road%2C%20Vellore&text=Namma%20Vellore%20Bites&text=Vellore%20Thenir%20Angadi&text=Kaapi%20Kadai&text=Bubble%20Bee&text=Krishna%20Cafe%20Katpadi&text=Mc%20Cafe%20By%20Mcdonald's"
+    },
+    {
+      "position": 2,
+      "title": "THE 10 BEST Restaurants Near VIT University, Vellore",
+      "link": "https://www.tripadvisor.in/RestaurantsNear-g1152780-d8265220-VIT_University-Vellore_Vellore_District_Tamil_Nadu.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrAEB6zswFS4dfEY9lzdN14Wk9R8VJXV0Kky5cxgmVKYPtUNi3ewlmf4OwSJ0_MzKGNZ91hyes9s4dVLz2bfL-ZwEdEyy6KEB7qNcWRCdyKzlHH8Y4h5tCPBxlG8X46lleaXel-V2RGB1afyFSITqZa2wDV6-uPWQNFqphCNLo2umvi65CXHqHKN-GiuVLNb86q7WwNkSDiGC9gNOEtsE4y-wpKsTFcvcn-09yExp&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://www.tripadvisor.in › ... › Vellore Restaurants",
+      "favicon": "https://serpapi.com/images/i/UklGRkoBAABXRUJQVlA4ID4BAADQBgCdASocABwAPrkurlcnIacnG_DgFwlsAJ0y43UHrqeAN4sRoIQDV4vgCTRvB1tMXw-Ape1f4gxv7fJIlmAA_FHCFlLdcABXyY72clExk4RdAtev8mLy_Ws-uojgoLjRWQZ0Gku77ttm-gMJFu3wFcz6gfhtA_OZN_79epZAT2R1__0YegM5bI2MS1sgfHl64Ymve17rG-lDfFSkP0pfcGpBIipy0siH9dzFV4xzcVO-6OrAR2QkZyrGrsLlkJJACSgyoWsgnNLLc5mXcbTqYXfBtftqxSxjvuV-6f1iJrv9NKKGGVrzr55G7G76DtPh7l8RrCfPlKt4k-QrcVlba5dWvj71G5MmPPx1ZbpHL-xUS1c4Ve8M_Co8xZoYJUKG-Z3wfFCGQUJmSLSO4_79-i6ze-Ay_IbZCcAAAAA.webp",
+      "snippet": "Hotel Aryaas 3.9. Good food, slow service Indian, Cafe₹₹ - ₹₹₹ … 2.1 km Vellore kitchen at Gandhi nagar , place for delicious food.",
+      "snippet_highlighted_words": [
+        "Hotel Aryaas 3.9"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Hotel Aryaas 3.9. Good food, slow service Indian, Cafe₹₹ - ₹₹₹ … 2.1 km Vellore kitchen at Gandhi nagar , place for delicious food.",
+          "source_info_link": "https://www.tripadvisor.in/RestaurantsNear-g1152780-d8265220-VIT_University-Vellore_Vellore_District_Tamil_Nadu.html",
+          "icon": "https://serpapi.com/images/i/UklGRkoBAABXRUJQVlA4ID4BAADQBgCdASocABwAPrkurlcnIacnG_DgFwlsAJ0y43UHrqeAN4sRoIQDV4vgCTRvB1tMXw-Ape1f4gxv7fJIlmAA_FHCFlLdcABXyY72clExk4RdAtev8mLy_Ws-uojgoLjRWQZ0Gku77ttm-gMJFu3wFcz6gfhtA_OZN_79epZAT2R1__0YegM5bI2MS1sgfHl64Ymve17rG-lDfFSkP0pfcGpBIipy0siH9dzFV4xzcVO-6OrAR2QkZyrGrsLlkJJACSgyoWsgnNLLc5mXcbTqYXfBtftqxSxjvuV-6f1iJrv9NKKGGVrzr55G7G76DtPh7l8RrCfPlKt4k-QrcVlba5dWvj71G5MmPPx1ZbpHL-xUS1c4Ve8M_Co8xZoYJUKG-Z3wfFCGQUJmSLSO4_79-i6ze-Ay_IbZCcAAAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 3,
+      "title": "Streets of Vellore | Vellore VIT College NEW SPOT : Story ...",
+      "link": "https://www.instagram.com/reel/DGVfwmjponV/",
+      "displayed_link": "1.7K+ likes · 1 year ago",
+      "thumbnail": "https://serpapi.com/searches/6aace0f3be918afda81321b6/images/njDiIyNe0iObtyoWQi8-X3zH3J1Ff5WQeo7yQc_ObB4.jpeg",
+      "favicon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp",
+      "snippet": "📍VIT Rd, opposite. Black Bird Cafe & Restaurant 📍 Purple Moon Cafe Whether you're craving biryani, burgers, pasta, pizza, coffee or just a good ...",
+      "duration": "0:34",
+      "about_this_result": {
+        "source": {
+          "description": "📍VIT Rd, opposite. Black Bird Cafe & Restaurant 📍 Purple Moon Cafe Whether you're craving biryani, burgers, pasta, pizza, coffee or just a good ...",
+          "icon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp"
+        }
+      },
+      "source": "Instagram · streetsofvellore"
+    },
+    {
+      "position": 4,
+      "title": "Please do suggest some good restaurants near Vit Vellore",
+      "link": "https://www.reddit.com/r/Vit/comments/1lx6hi2/please_do_suggest_some_good_restaurants_near_vit/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlwEB6zswFVtYN_8w2LxK3_eX3JeYronbqRKfE7f_aA4FD2ipZ8GhZ1zoxLQDxAsrKbHieRKQ432fvnBQcSnH6d4OxQYU6ThZu--rfWRQKgfkOXbi0xzaZUUYhBa4jrX1jPBL97uod5SBtweNMBZ8-iLC8AhVpfz3IgXOZK6h_5S_A2Qb6P3ssgYvLxnK_8MoUJMTo1wCq8th&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECFQQAQ&uoh=1",
+      "displayed_link": "30+ comments · 1 year ago",
+      "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+      "snippet": "Zan Cafe (for creamy pasta, fried chicken etc) Tom's Diner (continental) Zaitoon Hive Food Court. Frozen Bottle Story Book Cafe. Divine Cafe ...",
+      "snippet_highlighted_words": [
+        "Zan Cafe"
+      ],
+      "sitelinks": {
+        "list": [
+          {
+            "title": "What are all the food outlets in vit vellore? - Reddit",
+            "link": "https://www.reddit.com/r/Vit/comments/1n1ed9y/what_are_all_the_food_outlets_in_vit_vellore/",
+            "answer_count": 8,
+            "date": "27 Aug 2025"
+          },
+          {
+            "title": "Cafe or shop recs : r/vellore - Reddit",
+            "link": "https://www.reddit.com/r/vellore/comments/1suaz7y/cafe_or_shop_recs/",
+            "answer_count": 10,
+            "date": "24 Apr 2026"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Zan Cafe (for creamy pasta, fried chicken etc) Tom's Diner (continental) Zaitoon Hive Food Court. Frozen Bottle Story Book Cafe. Divine Cafe ...",
+          "source_info_link": "https://www.reddit.com/r/Vit/comments/1lx6hi2/please_do_suggest_some_good_restaurants_near_vit/",
+          "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Reddit · r/Vit"
+    },
+    {
+      "position": 5,
+      "title": "Order from Cafe Laylat online in Vellore",
+      "link": "https://www.swiggy.com/city/vellore/cafe-laylat-vit-katpadi-rest1272027",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfwHrOzAVa-ikqB7ZA77bAfVtFAl5zTQRV9kguS5loHD3YII-_wS1mD5JvtFtVulEZb4IBSlkVmNqbmg1WUnobqFYVS77fLjk-ov2nETEVBLTiiNSka7BlvFLHAMzGNqHPV8hXdvFEu05z6KGH62ajxnKm-SI6a5JNVR4QN15iZY&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECFMQAQ&uoh=1",
+      "displayed_link": "https://www.swiggy.com › city › vellore › cafe-laylat-vi...",
+      "favicon": "https://serpapi.com/images/i/UklGRkgBAABXRUJQVlA4IDwBAAAwCACdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHV3mduGcYtye807yISqfykPACv5d08Siandzc4hX57vcoRDTR2q1G1AOqVXAAD-7mrJhe_whQUybeQCofTC7g_CXQGVbYHhGWkVypz0kdMhzz3ADpwf_bj8UiTiMiqFKz_47THBdF05nwq9UrzcF2Lu3qwlMPntqBmwzn9ht62hZee73dyBNr4KXE9zk2wcEJEKi-Ncwytqu3TPQL5ptzc3e2CP6O23xK4Hrwx90GYVhIXL4mlk5IOgLH1P5rM-tlhuBh_P9flX9V3NaHqpYa4_Br3wwfsl11_rU_j_pci7HN3NFoYA-y5pz1gHMP_-DwbfCl7a7VIFLJJY8QLs6PjYUVD8fHb-GRIArfW1v0fmtE4gBw_bAPP48ZTM4MAA.webp",
+      "snippet": "Cafe Laylat is a popular food destination in VIT-Katpadi, Vellore, known for serving delicious korean food. Customers can order from Cafe Laylat for fresh ...",
+      "snippet_highlighted_words": [
+        "Cafe Laylat is a popular food destination in VIT-Katpadi, Vellore"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 4.3,
+            "reviews": 81,
+            "price": 320,
+            "currency": "₹"
+          },
+          "extensions": [
+            "4.3(81)",
+            "Price range: ₹320 for two"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Cafe Laylat is a popular food destination in VIT-Katpadi, Vellore, known for serving delicious korean food. Customers can order from Cafe Laylat for fresh ...",
+          "source_info_link": "https://www.swiggy.com/city/vellore/cafe-laylat-vit-katpadi-rest1272027",
+          "icon": "https://serpapi.com/images/i/UklGRkgBAABXRUJQVlA4IDwBAAAwCACdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHV3mduGcYtye807yISqfykPACv5d08Siandzc4hX57vcoRDTR2q1G1AOqVXAAD-7mrJhe_whQUybeQCofTC7g_CXQGVbYHhGWkVypz0kdMhzz3ADpwf_bj8UiTiMiqFKz_47THBdF05nwq9UrzcF2Lu3qwlMPntqBmwzn9ht62hZee73dyBNr4KXE9zk2wcEJEKi-Ncwytqu3TPQL5ptzc3e2CP6O23xK4Hrwx90GYVhIXL4mlk5IOgLH1P5rM-tlhuBh_P9flX9V3NaHqpYa4_Br3wwfsl11_rU_j_pci7HN3NFoYA-y5pz1gHMP_-DwbfCl7a7VIFLJJY8QLs6PjYUVD8fHb-GRIArfW1v0fmtE4gBw_bAPP48ZTM4MAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Swiggy",
+      "read_more_link": "https://www.swiggy.com/city/vellore/cafe-laylat-vit-katpadi-rest1272027#:~:text=Cafe%20Laylat%20is%20a%20popular,satisfying%20portions%2C%20and%20flavorful%20dishes."
+    },
+    {
+      "position": 6,
+      "title": "Cafés in Vellore",
+      "link": "https://www.zomato.com/vellore/caf%C3%A9",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYAHrOzAVtDmwsDAMDu0-AjSAuxRfxUO7zLErnECDAA1oeDFsRuqQTTKfsBnvdoGx0T-0vpG8Rh3z0oBvpvjb2PIABTYWhbbBdbzvDhcRwnjdqER1igmeuqsMU3AEM8No1g&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECFAQAQ&uoh=1",
+      "displayed_link": "https://www.zomato.com › vellore › café",
+      "favicon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp",
+      "snippet": "Cafés in Vellore ; Hangout Cafe · Cafe, Fast Food, Beverages. ₹250 for two. Gandhi Nagar, Vellore. Closes in 55 minutes. 4.7 km ; NH 46 · Cafe. ₹600 for two.",
+      "snippet_highlighted_words": [
+        "Hangout Cafe"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.4,
+            "reviews": 96
+          },
+          "extensions": [
+            "3.4(96)"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Cafés in Vellore ; Hangout Cafe · Cafe, Fast Food, Beverages. ₹250 for two. Gandhi Nagar, Vellore. Closes in 55 minutes. 4.7 km ; NH 46 · Cafe. ₹600 for two.",
+          "source_info_link": "https://www.zomato.com/vellore/caf%C3%A9",
+          "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Zomato",
+      "read_more_link": "https://www.zomato.com/vellore/caf%C3%A9#:~:text=Caf%C3%A9s%20in%20Vellore&text=Hangout%20Cafe&text=Cafe%2C%20Fast%20Food%2C%20Beverages,4.7%20km&text=NH%2046&text=Cafe,%E2%82%B9600%20for%20two"
+    },
+    {
+      "position": 7,
+      "title": "Food spots near VIT Vellore (outside campus)?",
+      "link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkQEB6zswFdk3IhUr0SZd7nnYA_qFavFEgldr4EfoARswq0y7X5QEiA6s0fvF5SOjzWDgEuKGEU3rTDD_kDxmTf3vdyvnb0gJeh9rFqn58AoHX9_NWa7I6msAIknQednX3xbc3HaC78VXo4FVUAoSNzu7qqWfZZkX9mtS8-W-Z_Q_o6BRNJH6rBVGbnjLVrpMP5Dm&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECFgQAQ&uoh=1",
+      "displayed_link": "20+ comments · 1 year ago",
+      "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+      "snippet": "Any good food joints/cafes near VIT but outside campus? Looking for solid recs; budget, chill spots, street food, anything works. Where do you guys usually go?",
+      "about_this_result": {
+        "source": {
+          "description": "Any good food joints/cafes near VIT but outside campus? Taara maa- good north indian food. Jaisha Grand- a different kind of experience. Chick ...",
+          "source_info_link": "https://www.reddit.com/r/Vit/comments/1n84b4n/food_spots_near_vit_vellore_outside_campus/",
+          "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Reddit · r/Vit"
+    },
+    {
+      "position": 8,
+      "title": "Cafe Near Vit Vellore",
+      "link": "https://www.instagram.com/popular/cafe-near-vit-vellore/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAVYocb5Xhrfckuy1jixsvQYcO9WWSodsxyyQ2SHnF9uUReWiuqr_oIega5f9qPKu2Ml6-AOqg6qto0FeBHSF4EhU6O63CjWDhauHdDyr_A8XCCK5qkxEsmZQ0cZp7trN70PCfcW-DL9Ozna6k&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECE8QAQ&uoh=1",
+      "displayed_link": "https://www.instagram.com › popular › cafe-near-vit-ve...",
+      "favicon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp",
+      "snippet": "NEW SPOT : Story Book Cafe … per hour ₹180 onwards. Snacks, Chaat, Pizza & Desserts All in One Place? Vellore's Hidden Gem! New cafe in erode",
+      "snippet_highlighted_words": [
+        "Story Book Cafe"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "NEW SPOT : Story Book Cafe … per hour ₹180 onwards. Snacks, Chaat, Pizza & Desserts All in One Place? Vellore's Hidden Gem! New cafe in erode",
+          "source_info_link": "https://www.instagram.com/popular/cafe-near-vit-vellore/",
+          "icon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Instagram"
+    },
+    {
+      "position": 9,
+      "title": "CCD outlets/restaurants near Vit College, Vellore",
+      "link": "https://www.cafecoffeeday.com/store-locator/tamil-nadu/vellore/vit-college",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFZ_95cQ5GG7xrUxGevYMi9-w9Jc6-dpFAsGClpUl_KE1rGo0PQjirD3fsLG6TGwqHDGEvytZVj5hOHTcx2HOeA7ZD1jxpft54kzvy_IXv7YxcOTUCl1zccWVy4-I1YiNXMxZTX_xvb0GYOoT91WA_yGmAmD3LVh5Qc6Ikr-U&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQFnoECFIQAQ&uoh=1",
+      "displayed_link": "https://www.cafecoffeeday.com › tamil-nadu › vit-college",
+      "favicon": "https://serpapi.com/images/i/UklGRqYBAABXRUJQVlA4IJoBAABwBwCdASogACAAPrkurlcnIacnG_DgFwlsAJ0yhHAmgzrx5BNNZXgnYGxWTAC1QthD0qKZzO9XsrrGiB0a8TOC3SfZAAD-9-0vjOeBSuw83AeVQ21mzPZ91TB8U3qAfqTlux-_QZhcbyIhR-ZW-vWcCuujXcRYxoeTekgfdMyout-b9fv_ltXCbrUFAbGk7Jq8mt0_vnUAfZNqPn4rvflNwin0mq_bcqFCOpm_LSnMiEF-0ccJttYQ2-zGTDL-K6UBReA0bPkdbi69ZG4oTrfnF134N5-FquVx3Fm_HTMKhQZvtyUCcQpoaZH-A1n75DdyO_3stlb7WVoiGMLio_i-rKPuKr12R1bmQyR0cMffUDKRZZ52R92H4R_P6SWN9YstHpf5V7YrqKU9ZwrxL-0uiMB4bxAEXg6PgPjlFBOfN4-D3l-c3syT5dEDnO4Jn79D-YPWUChv4Iht68J1Xrf0QgpXImVc6oVH1dAftHkCfbQKK832c2joODjSXh1lYG-kf2cmKjrCdcn7T692cOJ_k7iURjfvgAAAAA.webp",
+      "snippet": "Café Coffee Day - Katpadi. Selvam Nagar, Katpadi Near Vit College. Veg & Non-veg. Cafe Timings : 10:00 AM - 11:00 PM.",
+      "snippet_highlighted_words": [
+        "Café Coffee Day - Katpadi"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Café Coffee Day - Katpadi. Selvam Nagar, Katpadi Near Vit College. Veg & Non-veg. Cafe Timings : 10:00 AM - 11:00 PM.",
+          "source_info_link": "https://www.cafecoffeeday.com/store-locator/tamil-nadu/vellore/vit-college",
+          "icon": "https://serpapi.com/images/i/UklGRqYBAABXRUJQVlA4IJoBAABwBwCdASogACAAPrkurlcnIacnG_DgFwlsAJ0yhHAmgzrx5BNNZXgnYGxWTAC1QthD0qKZzO9XsrrGiB0a8TOC3SfZAAD-9-0vjOeBSuw83AeVQ21mzPZ91TB8U3qAfqTlux-_QZhcbyIhR-ZW-vWcCuujXcRYxoeTekgfdMyout-b9fv_ltXCbrUFAbGk7Jq8mt0_vnUAfZNqPn4rvflNwin0mq_bcqFCOpm_LSnMiEF-0ccJttYQ2-zGTDL-K6UBReA0bPkdbi69ZG4oTrfnF134N5-FquVx3Fm_HTMKhQZvtyUCcQpoaZH-A1n75DdyO_3stlb7WVoiGMLio_i-rKPuKr12R1bmQyR0cMffUDKRZZ52R92H4R_P6SWN9YstHpf5V7YrqKU9ZwrxL-0uiMB4bxAEXg6PgPjlFBOfN4-D3l-c3syT5dEDnO4Jn79D-YPWUChv4Iht68J1Xrf0QgpXImVc6oVH1dAftHkCfbQKK832c2joODjSXh1lYG-kf2cmKjrCdcn7T692cOJ_k7iURjfvgAAAAA.webp"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Cafe Coffee Day",
+      "read_more_link": "https://www.cafecoffeeday.com/store-locator/tamil-nadu/vellore/vit-college#:~:text=Caf%C3%A9%20Coffee%20Day%20%2D%20Katpadi,10%3A00%20AM%20%2D%2011%3A00%20PM"
+    }
+  ],
+  "filters": [
+    {
+      "name": "Open now",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r7FdG0i-8ZTZ48vnGFqutX63jy2tKWHNTMzCUn7TgN_np_mauYADmsC39UdWg_RtfYmdbI93mBF0NsXLanwYUkP6QFlvqnYQZOJrCRfTCR1UGJhfa084eIJFtKeXDJMS31gEqXmJ8TxLJaVmN0lMKulMsQOl_dzolHK033dghc_0sOLY6wFnP8dJosE2k4TTtLPfrKA",
+        "q": "cafe near VIT Vellore open now"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=cafe+near+VIT+Vellore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7FdG0i-8ZTZ48vnGFqutX63jy2tKWHNTMzCUn7TgN_np_mauYADmsC39UdWg_RtfYmdbI93mBF0NsXLanwYUkP6QFlvqnYQZOJrCRfTCR1UGJhfa084eIJFtKeXDJMS31gEqXmJ8TxLJaVmN0lMKulMsQOl_dzolHK033dghc_0sOLY6wFnP8dJosE2k4TTtLPfrKA&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQxKsJKAB6BAgdEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7FdG0i-8ZTZ48vnGFqutX63jy2tKWHNTMzCUn7TgN_np_mauYADmsC39UdWg_RtfYmdbI93mBF0NsXLanwYUkP6QFlvqnYQZOJrCRfTCR1UGJhfa084eIJFtKeXDJMS31gEqXmJ8TxLJaVmN0lMKulMsQOl_dzolHK033dghc_0sOLY6wFnP8dJosE2k4TTtLPfrKA"
+    },
+    {
+      "name": "Top rated",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtNuG8Z0kOHqzjWvklYMicOB2RknBOgX6nUKCCLFI7bL3cXQ_nlQE36NGDEGcc8NGbN5rQ9ODbJm6XaFYyRSX13uxj_ftntFBbtyaaNOva82Qh8m5bSULGfRpgn3Te5jphZPkFSvPlDTKkmJxkE-elRQw0wuaqR1aCxU5xHW3VYysrE3-sDhGhSkvorJiU0UmIMuLVg",
+        "q": "top rated cafe near VIT Vellore"
+      },
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=top+rated+cafe+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtNuG8Z0kOHqzjWvklYMicOB2RknBOgX6nUKCCLFI7bL3cXQ_nlQE36NGDEGcc8NGbN5rQ9ODbJm6XaFYyRSX13uxj_ftntFBbtyaaNOva82Qh8m5bSULGfRpgn3Te5jphZPkFSvPlDTKkmJxkE-elRQw0wuaqR1aCxU5xHW3VYysrE3-sDhGhSkvorJiU0UmIMuLVg&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQxKsJKAF6BAgfEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=top+rated+cafe+near+VIT+Vellore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtNuG8Z0kOHqzjWvklYMicOB2RknBOgX6nUKCCLFI7bL3cXQ_nlQE36NGDEGcc8NGbN5rQ9ODbJm6XaFYyRSX13uxj_ftntFBbtyaaNOva82Qh8m5bSULGfRpgn3Te5jphZPkFSvPlDTKkmJxkE-elRQw0wuaqR1aCxU5xHW3VYysrE3-sDhGhSkvorJiU0UmIMuLVg"
+    },
+    {
+      "name": "Price",
+      "options": []
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Best cafe near vit vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Best+cafe+near+vit+vellore&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhNEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+cafe+near+vit+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Veg cafe near vit vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Veg+cafe+near+vit+vellore&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhmEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Veg+cafe+near+vit+vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Best Cafe in Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Best+Cafe+in+Vellore&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAheEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+Cafe+in+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Best restaurants near VIT Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Best+restaurants+near+VIT+Vellore&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhMEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+restaurants+near+VIT+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Vellore cafe near me",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Vellore+cafe+near+me&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhZEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Vellore+cafe+near+me"
+    },
+    {
+      "block_position": 1,
+      "query": "Best Veg Restaurants near VIT Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Best+Veg+Restaurants+near+VIT+Vellore&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhXEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Best+Veg+Restaurants+near+VIT+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe Vellore",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Cafe+Vellore&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhVEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Cafe+Vellore"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe near vit chennai",
+      "link": "https://www.google.com/search?sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&q=Cafe+near+vit+chennai&sa=X&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ1QJ6BAhOEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=Cafe+near+vit+chennai"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=10&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8NMDegQISRAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=10&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAE",
+      "3": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=20&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAG",
+      "4": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=30&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAI",
+      "5": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=40&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAK",
+      "6": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=50&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAM",
+      "7": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=60&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAO",
+      "8": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=70&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAQ",
+      "9": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=80&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAS",
+      "10": "https://www.google.com/search?q=cafe+near+VIT+Vellore&sca_esv=40bb7d638fd25c45&hl=en&gl=in&sxsrf=APpeQnsnhTtdKRNy0jwiA5RLGhmZrwR9Fg:1789714678110&ei=9uCsatiTBrHBhbIP_euOiAo&start=90&sa=N&sstk=AS6-VmI0CxU-sp8mD8hCH1uLzH6ZhZ5hjyRgFKLdDP9cgAYUwefm8yEfnMSG9qCpNGq7nSIc0Hevv10JQ8ic77agRkYoVw6QFsl5kQ&ved=2ahUKEwjY5ozdxveWAxWxYEEAHf21A6EQ8tMDegQISRAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=Vellore%2C+Tamil+Nadu%2C+India&q=cafe+near+VIT+Vellore&start=90"
+    }
+  }
+}
