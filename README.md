@@ -25,6 +25,7 @@ Create `.env.local` in the project root (never committed — see
 | --- | --- | --- |
 | `DATABASE_URL` | everything (the app fails to even start without it) | A [Neon](https://neon.tech) Postgres connection string (`postgres://...`). Free tier is enough. |
 | `SERPAPI_API_KEY` | running rank checks (`npm run check`, `npm run check:all`, the cron routes) | Sign up at [serpapi.com](https://serpapi.com/) → your [dashboard](https://serpapi.com/dashboard) has the key. |
+| `SERPAPI_API_KEY_2` (optional) | a spare key, used only when the first account runs out of searches | A teammate's key, with their permission. Put it in `.env.local` / your host's env settings only. |
 | `CRON_SECRET` | protecting `/api/cron` and `/api/run-now` once deployed | Any random string you pick yourself (e.g. `openssl rand -hex 32`). Optional locally — those routes skip the auth check when it's unset. |
 | `TELEGRAM_BOT_TOKEN` | Phase 6 alert delivery | Message [@BotFather](https://t.me/BotFather) on Telegram, `/newbot`, follow the prompts — it gives you the token. |
 | `TELEGRAM_CHAT_ID` | Phase 6 alert delivery | Message your new bot once (anything), then open `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser — your chat id is in the JSON response (`message.chat.id`). |
