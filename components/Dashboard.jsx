@@ -7,6 +7,7 @@ import CompetitorPanel from "./CompetitorPanel";
 import AddQueryForm from "./AddQueryForm";
 import AlertsPanel from "./AlertsPanel";
 import InsightCard from "./InsightCard";
+import RunCheckButton from "./RunCheckButton";
 import { fetchJson } from "../lib/fetch-json.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
@@ -33,6 +34,7 @@ export default function Dashboard() {
   const [history, setHistory] = useState([]);
   const [competitors, setCompetitors] = useState(null);
   const [detailLoading, setDetailLoading] = useState(false);
+  const [detailRefreshKey, setDetailRefreshKey] = useState(0); // bumped after a check to re-fetch history/competitors
 
   const [alerts, setAlerts] = useState([]);
   const [alertsLoading, setAlertsLoading] = useState(false);
@@ -106,20 +108,32 @@ export default function Dashboard() {
     return () => {
       cancelled = true;
     };
-  }, [selectedId]);
+  }, [selectedId, detailRefreshKey]);
+
+  // Re-fetch the table without touching the loading state or resetting the selection.
+  async function refreshBusinesses() {
+    if (!activeCategory) return;
+    try {
+      const json = await fetchJson(`/api/businesses?category=${encodeURIComponent(activeCategory)}`);
+      setBusinesses(json.businesses);
+      if (!json.businesses.find((b) => b.id === selectedId)) {
+        setSelectedId(json.businesses[0]?.id ?? null);
+      }
+    } catch {
+      // keep showing what we have; the next full load surfaces any real problem
+    }
+  }
 
   function handleQueryAdded() {
     loadCategories();
-    if (activeCategory) {
-      fetchJson(`/api/businesses?category=${encodeURIComponent(activeCategory)}`)
-        .then((json) => {
-          setBusinesses(json.businesses);
-          if (!json.businesses.find((b) => b.id === selectedId)) {
-            setSelectedId(json.businesses[0]?.id ?? null);
-          }
-        })
-        .catch(() => {});
-    }
+    refreshBusinesses();
+  }
+
+  // After "Run check now": new snapshots exist, so refresh the table (and with it
+  // the stale-data banner), the chart/competitors, and the alerts list.
+  async function handleChecked() {
+    setDetailRefreshKey((k) => k + 1);
+    await Promise.all([refreshBusinesses(), loadAlerts()]);
   }
 
   const selectedBusiness = businesses.find((b) => b.id === selectedId) ?? null;
@@ -153,7 +167,12 @@ export default function Dashboard() {
       )}
 
       <div className="card">
-        <h2 className="card-title">Tracked businesses</h2>
+        <div className="alerts-header">
+          <h2 className="card-title">Tracked businesses</h2>
+          {selectedBusiness && (
+            <RunCheckButton key={selectedBusiness.id} business={selectedBusiness} onChecked={handleChecked} />
+          )}
+        </div>
         {businessesError && <div className="error-banner">{businessesError}</div>}
         {businessesLoading ? (
           <p className="loading">Loading…</p>
