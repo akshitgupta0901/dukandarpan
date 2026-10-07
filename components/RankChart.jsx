@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { MAPS_RESULTS_LIMIT } from "../lib/rank-limit.mjs";
 
 // Chart chrome, from the dataviz skill's reference palette (references/palette.md).
 // Read at runtime rather than via CSS var() on SVG attributes, which doesn't
@@ -53,7 +54,7 @@ function CustomTooltip({ active, payload, label, colors }) {
       }}
     >
       <div style={{ color: colors.muted, marginBottom: 2 }}>{formatDate(label)}</div>
-      <div style={{ fontWeight: 600 }}>{position == null ? "Not found" : `#${position}`}</div>
+      <div style={{ fontWeight: 600 }}>{position == null ? `Not in top ${MAPS_RESULTS_LIMIT}` : `#${position}`}</div>
     </div>
   );
 }

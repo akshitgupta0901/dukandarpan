@@ -1,5 +1,7 @@
 "use client";
 
+import { MAPS_RESULTS_LIMIT } from "../lib/rank-limit.mjs";
+
 function formatCheckedAt(iso) {
   if (!iso) return "—";
   const d = new Date(iso);
@@ -68,7 +70,7 @@ export default function BusinessTable({ businesses, selectedId, onSelect }) {
               {b.found === true ? (
                 `#${b.position}`
               ) : b.found === false ? (
-                <span className="not-found">Not found</span>
+                <span className="not-found">Not in top {MAPS_RESULTS_LIMIT}</span>
               ) : (
                 <span className="not-found">Not yet checked</span>
               )}
