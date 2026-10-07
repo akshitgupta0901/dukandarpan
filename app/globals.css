@@ -712,3 +712,22 @@ a {
   font-size: 12px;
   color: var(--text-muted);
 }
+
+/* --- Competitor details and review growth (Step 3) --- */
+
+.competitor-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.competitor-meta {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.competitor-growth {
+  color: var(--text-secondary);
+  font-weight: 500;
+}

@@ -224,7 +224,7 @@ describe("deriveDemoAlerts", () => {
   const alerts = deriveDemoAlerts(data);
 
   test("the hero's sharp dip raises a rank_drop alert on day 12", () => {
-    const a = alerts.find((x) => x.businessName === HERO_NAME);
+    const a = alerts.find((x) => x.businessName === HERO_NAME && x.type === "rank_drop");
     assert.equal(a.type, "rank_drop");
     assert.equal(a.dayIndex, 12);
     assert.equal(a.newPosition - a.previousPosition >= 3, true);
@@ -237,6 +237,37 @@ describe("deriveDemoAlerts", () => {
       assert.equal(a.newFound, false);
       assert.equal(a.newPosition, null);
     }
+  });
+
+  test("competitors passing the hero raise 'overtaken' alerts that name them, at most 2 per business per check", () => {
+    const overtaken = alerts.filter((a) => a.type === "overtaken");
+    assert.ok(overtaken.length >= 3);
+    const heroOnes = overtaken.filter((a) => a.businessName === HERO_NAME);
+    assert.ok(heroOnes.length >= 3);
+    for (const a of heroOnes) {
+      assert.ok(a.competitorName && a.competitorName !== HERO_NAME);
+      assert.match(a.message, /just outranked you \(you are now #\d+, they are #\d+\)/);
+      assert.ok(a.newPosition > a.previousPosition || a.newPosition >= 1);
+      assert.equal(a.previousFound, true);
+      assert.equal(a.newFound, true);
+    }
+    const perDay = {};
+    for (const a of overtaken) perDay[`${a.dayIndex}|${a.businessName}`] = (perDay[`${a.dayIndex}|${a.businessName}`] ?? 0) + 1;
+    assert.ok(Math.max(...Object.values(perDay)) <= 2);
+  });
+
+  test("rank alerts carry no competitor name", () => {
+    assert.ok(alerts.filter((a) => a.type !== "overtaken").every((a) => a.competitorName === null));
+  });
+
+  test("demo data lights up review growth: some competitors gain 10+ reviews in a week, and ratings move", async () => {
+    const { computeReviewGrowth, growthKey } = await import("../lib/review-growth.mjs");
+    const history = data.days.slice(-8).map((d) => ({ checkedAt: d.checkedAt, results: d.payload.local_results }));
+    const growth = computeReviewGrowth(history);
+    const gains = [...growth.values()].map((g) => g.reviewsGained);
+    assert.ok(gains.filter((g) => g >= 10).length >= 3, `gains: ${gains}`);
+    assert.ok([...growth.values()].some((g) => g.ratingChange !== 0 && g.ratingChange !== null));
+    assert.ok(growth.has(growthKey({ place_id: "DEMO_PLACE_kettle-crumb" })));
   });
 
   test("nothing fires on the first day (no previous check)", () => {

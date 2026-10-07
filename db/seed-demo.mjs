@@ -138,12 +138,12 @@ async function main() {
           INSERT INTO alerts (
             business_id, query_id, snapshot_id, alert_type,
             previous_position, previous_found, new_position, new_found,
-            message, telegram_sent, telegram_error, created_at
+            message, telegram_sent, telegram_error, created_at, competitor_name
           )
           VALUES (
             ${businessIds[a.businessName]}, ${query.id}, ${snapshotIdByKey.get(`${a.dayIndex}|${a.businessName}`)}, ${a.type},
             ${a.previousPosition}, ${a.previousFound}, ${a.newPosition}, ${a.newFound},
-            ${a.message}, false, ${null}, ${a.checkedAt}::timestamptz
+            ${a.message}, false, ${null}, ${a.checkedAt}::timestamptz, ${a.competitorName}
           )
         `
       )

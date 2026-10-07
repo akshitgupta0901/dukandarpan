@@ -1,6 +1,6 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { evaluateAlert } from "../lib/alert-rule.mjs";
+import { evaluateAlert, formatOvertakeMessage, formatTelegramText, escapeTelegramMarkdown } from "../lib/alert-rule.mjs";
 
 describe("evaluateAlert (pure rule, zero I/O)", () => {
   test("first-ever check (previousFound: null) never alerts, even when not_found", () => {
@@ -62,5 +62,33 @@ describe("evaluateAlert (pure rule, zero I/O)", () => {
     assert.equal(evaluateAlert({ previousFound: false, previousPosition: null, found: false, position: null }), null);
     assert.equal(evaluateAlert({ previousFound: false, previousPosition: null, found: false, position: null }), null);
     assert.equal(evaluateAlert({ previousFound: false, previousPosition: null, found: false, position: null }), null);
+  });
+});
+
+describe("overtake and Telegram text", () => {
+  test("formatOvertakeMessage says who passed you and both ranks", () => {
+    assert.equal(
+      formatOvertakeMessage({ competitorName: "Competitor X", yourPosition: 5, theirPosition: 4 }),
+      "Competitor X just outranked you (you are now #5, they are #4)"
+    );
+  });
+
+  test("each alert type gets its own emoji, and the layout is unchanged", () => {
+    const base = { businessName: "Zaitoon", queryText: "restaurant near VIT Vellore", category: "restaurant", message: "m" };
+    assert.equal(formatTelegramText({ ...base, type: "fell_out" }), '\u{1F6A8} *Zaitoon*\nm\nQuery: "restaurant near VIT Vellore" (restaurant)');
+    assert.ok(formatTelegramText({ ...base, type: "rank_drop" }).startsWith("\u{1F53B} "));
+    assert.ok(formatTelegramText({ ...base, type: "overtaken" }).startsWith("\u{26A0}\u{FE0F} "));
+  });
+
+  test("Markdown characters in names are escaped so Telegram can't reject the message", () => {
+    assert.equal(escapeTelegramMarkdown("Chai_&_Co *Best* `x` [y]"), "Chai\\_&\\_Co \\*Best\\* \\`x\\` \\[y]");
+    const text = formatTelegramText({ businessName: "Cafe_One", queryText: "q_1", category: "c", type: "overtaken", message: "Kettle_Crumb just outranked you" });
+    assert.ok(text.includes("*Cafe\\_One*"));
+    assert.ok(text.includes("Kettle\\_Crumb just outranked you"));
+    assert.ok(text.includes('Query: "q\\_1"'));
+  });
+
+  test("plain text passes through unchanged", () => {
+    assert.equal(escapeTelegramMarkdown("Brew & Bloom Cafe (#4)"), "Brew & Bloom Cafe (#4)");
   });
 });

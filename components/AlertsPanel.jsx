@@ -14,7 +14,7 @@ function formatAlertTime(iso) {
 }
 
 function AlertBadge({ type }) {
-  const label = type === "fell_out" ? "Fell out" : "Rank drop";
+  const label = type === "fell_out" ? "Fell out" : type === "overtaken" ? "Overtaken" : "Rank drop";
   return <span className="alert-badge">{label}</span>;
 }
 
@@ -40,8 +40,8 @@ export default function AlertsPanel({ alerts, loading, error, onRefresh }) {
         <p className="loading">Loading…</p>
       ) : alerts.length === 0 ? (
         <p className="empty-state">
-          No alerts yet — they'll show up here after a check finds a 3+ position drop or a business
-          falling out of the local pack.
+          No alerts yet — they'll show up here after a check finds a 3+ position drop, a business
+          falling out of the local pack, or a competitor overtaking you.
         </p>
       ) : (
         <ul className="alert-list">
@@ -50,7 +50,10 @@ export default function AlertsPanel({ alerts, loading, error, onRefresh }) {
               <AlertBadge type={a.alertType} />
               <div className="alert-body">
                 <div className="alert-headline">
-                  <span className="business-name">{a.businessName}</span> {a.message}
+                  <span className="business-name">{a.businessName}</span>
+                  {/* An overtake message starts with the competitor's name ("X just outranked you"), so set it off. */}
+                  {a.alertType === "overtaken" ? " — " : " "}
+                  {a.message}
                   {a.isDemo && <DemoBadge label="Demo" />}
                 </div>
                 <div className="alert-meta">

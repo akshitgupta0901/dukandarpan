@@ -18,6 +18,7 @@ export async function GET(request) {
         a.id,
         a.alert_type AS "alertType",
         a.message,
+        a.competitor_name AS "competitorName",
         a.previous_position AS "previousPosition",
         a.new_position AS "newPosition",
         a.telegram_sent AS "telegramSent",
