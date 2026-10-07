@@ -4,28 +4,9 @@ import { useEffect, useState } from "react";
 import { fetchJson } from "../lib/fetch-json.mjs";
 
 const initialForm = { queryText: "", category: "", location: "", businessNames: "" };
-const ADMIN_KEY_STORAGE = "dukandarpan.adminKey";
-
-// sessionStorage can throw (private mode, blocked storage); the field just won't be remembered.
-function readStoredAdminKey() {
-  try {
-    return window.sessionStorage.getItem(ADMIN_KEY_STORAGE) ?? "";
-  } catch {
-    return "";
-  }
-}
-
-function storeAdminKey(value) {
-  try {
-    window.sessionStorage.setItem(ADMIN_KEY_STORAGE, value);
-  } catch {
-    // not remembered; the admin retypes it
-  }
-}
 
 export default function AddQueryForm({ onAdded }) {
   const [form, setForm] = useState(initialForm);
-  const [adminKey, setAdminKey] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState(null); // { type: 'error'|'success', text }
   const [existingQueries, setExistingQueries] = useState([]);
@@ -45,7 +26,6 @@ export default function AddQueryForm({ onAdded }) {
 
   useEffect(() => {
     loadQueries();
-    setAdminKey(readStoredAdminKey());
   }, []);
 
   function updateField(name, value) {
@@ -67,10 +47,7 @@ export default function AddQueryForm({ onAdded }) {
         "/api/queries",
         {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            ...(adminKey ? { "x-admin-key": adminKey } : {}),
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             queryText: form.queryText,
             category: form.category,
@@ -86,7 +63,6 @@ export default function AddQueryForm({ onAdded }) {
           json.businessesAdded.length ? ` with ${json.businessesAdded.length} business(es)` : ""
         }.`,
       });
-      storeAdminKey(adminKey);
       setForm(initialForm);
       loadQueries();
       onAdded?.();
@@ -143,17 +119,6 @@ export default function AddQueryForm({ onAdded }) {
               placeholder={"Third Wave Coffee\nBlue Tokai"}
               value={form.businessNames}
               onChange={(e) => updateField("businessNames", e.target.value)}
-            />
-          </div>
-          <div className="field field-span-2">
-            <label htmlFor="adminKey">Admin key (needed on the live site)</label>
-            <input
-              id="adminKey"
-              type="password"
-              autoComplete="off"
-              placeholder="Not needed when running locally"
-              value={adminKey}
-              onChange={(e) => setAdminKey(e.target.value)}
             />
           </div>
         </div>

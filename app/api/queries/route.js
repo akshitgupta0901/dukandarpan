@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { sql } from "../../../lib/db.mjs";
 import { geocodeLocation } from "../../../lib/geocode.mjs";
-import { authorizeAdmin } from "../../../lib/admin-auth.mjs";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -23,15 +22,6 @@ export async function GET() {
 
 
 export async function POST(request) {
-  // First thing, before parsing, geocoding or touching the database: strangers
-  // must not be able to add queries (each one costs a SerpApi credit per day).
-  const auth = authorizeAdmin({
-    provided: request.headers.get("x-admin-key"),
-    expected: process.env.ADMIN_KEY,
-    nodeEnv: process.env.NODE_ENV,
-  });
-  if (!auth.ok) return NextResponse.json({ error: auth.error }, { status: auth.status });
-
   let body;
   try {
     body = await request.json();
