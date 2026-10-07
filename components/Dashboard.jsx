@@ -9,6 +9,7 @@ import AlertsPanel from "./AlertsPanel";
 import InsightCard from "./InsightCard";
 import RunCheckButton from "./RunCheckButton";
 import DemoBadge from "./DemoBadge";
+import ShareOfVoice from "./ShareOfVoice";
 import { fetchJson } from "../lib/fetch-json.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
@@ -188,6 +189,12 @@ export default function Dashboard() {
           <BusinessTable businesses={businesses} selectedId={selectedId} onSelect={setSelectedId} />
         )}
       </div>
+
+      {selectedBusiness && (
+        <div style={{ marginTop: 16 }}>
+          <ShareOfVoice business={selectedBusiness} />
+        </div>
+      )}
 
       {selectedBusiness && (
         <div className="split">

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { fetchJson } from "../lib/fetch-json.mjs";
 import { cooldownRemainingMs, formatWait } from "../lib/check-cooldown.mjs";
+import { manualCheckCredits } from "../lib/check-cost.mjs";
 
 /**
  * "Run check now" for one business. Posts to /api/businesses/:id/check, a
@@ -37,9 +38,9 @@ export default function RunCheckButton({ business, onChecked }) {
         "Couldn't run the check, try again"
       );
       setNow(Date.now());
-      const credits = result.serpApiCallsMade;
+      const used = result.serpApiCallsMade;
       const alertText = result.alertsFired > 0 ? ` · ${result.alertsFired} alert${result.alertsFired === 1 ? "" : "s"} fired` : "";
-      setNotice(`Checked just now · used ${credits} search credit${credits === 1 ? "" : "s"}${alertText}`);
+      setNotice(`Checked just now · used ${used} search credit${used === 1 ? "" : "s"}${alertText}`);
       await onChecked?.(result);
     } catch (err) {
       setNow(Date.now());
@@ -49,7 +50,11 @@ export default function RunCheckButton({ business, onChecked }) {
     }
   }
 
-  let note = "Uses 1 search credit. Updates every business on this search.";
+  const credits = manualCheckCredits(business.organicEnabled);
+  let note =
+    credits === 2
+      ? "Uses 2 search credits: the map and regular Google results. Updates every business on this search."
+      : "Uses 1 search credit (map only). Updates every business on this search.";
   if (running) note = `Checking Google Maps for ${business.name}… this can take up to 30 seconds.`;
   else if (waitMs > 0) note = `Checked recently. Next check available in ${formatWait(waitMs)}.`;
 

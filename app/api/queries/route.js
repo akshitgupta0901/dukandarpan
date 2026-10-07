@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { sql } from "../../../lib/db.mjs";
-import { geocodeLocation } from "../../../lib/geocode.mjs";
+import { geocodeLocation, isLatLng } from "../../../lib/geocode.mjs";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -47,12 +47,17 @@ export async function POST(request) {
     return NextResponse.json({ error: err.message }, { status: 400 });
   }
 
+  // The place name the user typed is what SerpApi's organic search needs as its `location`.
+  // Bare coordinates can't be used that way, so those queries stay maps-only (NULL).
+  const locationText = isLatLng(location) ? null : location;
+
   try {
     const [query] = await sql`
-      INSERT INTO queries (query_text, category, lat, lng)
-      VALUES (${queryText}, ${category}, ${lat}, ${lng})
-      ON CONFLICT (query_text) DO UPDATE SET category = EXCLUDED.category, lat = EXCLUDED.lat, lng = EXCLUDED.lng
-      RETURNING id, query_text AS "queryText", category, lat, lng
+      INSERT INTO queries (query_text, category, lat, lng, location_text)
+      VALUES (${queryText}, ${category}, ${lat}, ${lng}, ${locationText})
+      ON CONFLICT (query_text) DO UPDATE
+        SET category = EXCLUDED.category, lat = EXCLUDED.lat, lng = EXCLUDED.lng, location_text = EXCLUDED.location_text
+      RETURNING id, query_text AS "queryText", category, lat, lng, location_text AS "locationText"
     `;
 
     const businessesAdded = [];

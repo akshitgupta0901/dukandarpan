@@ -37,6 +37,7 @@ async function main() {
       position: s.position,
       found: s.found,
       in_organic_map_pack: s.in_organic_map_pack,
+      organic_position: s.organic_position,
       matched_title: s.matchedTitle,
       ambiguous: s.ambiguous,
     }))

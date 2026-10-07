@@ -63,9 +63,12 @@ export async function GET(request) {
         t.query_id AS "queryId",
         q.query_text AS "queryText",
         q.is_demo AS "isDemo",
+        (q.location_text IS NOT NULL AND length(trim(q.location_text)) > 0) AS "organicEnabled",
         latest.position AS "latestPosition",
         latest.found AS "latestFound",
         latest.checked_at AS "latestCheckedAt",
+        org.organic_position AS "organicPosition",
+        org.checked_at AS "organicCheckedAt",
         prev.position AS "prevPosition",
         prev.found AS "prevFound"
       FROM businesses b
@@ -73,6 +76,15 @@ export async function GET(request) {
       JOIN queries q ON q.id = t.query_id
       LEFT JOIN ranked latest ON latest.business_id = b.id AND latest.rn = 1
       LEFT JOIN ranked prev ON prev.business_id = b.id AND prev.rn = 2
+      LEFT JOIN LATERAL (
+        -- The newest check that actually ran the organic search (in_organic_map_pack is only NULL when it
+        -- didn't). The daily cron is maps-only, so this is usually older than the map rank.
+        SELECT s.organic_position, s.checked_at
+        FROM snapshots s
+        WHERE s.business_id = b.id AND s.in_organic_map_pack IS NOT NULL
+        ORDER BY s.checked_at DESC
+        LIMIT 1
+      ) org ON true
       WHERE b.category = ${category}
       ORDER BY
         CASE WHEN latest.found THEN 0 ELSE 1 END,
@@ -103,6 +115,13 @@ export async function GET(request) {
         queryId: r.queryId,
         queryText: r.queryText,
         isDemo: r.isDemo,
+        // Share of Voice: the regular-Google-results rank next to the map rank, from the newest check
+        // that ran the organic search. organicCheckedAt is null when none ever did, so "not ranking
+        // organically" is never claimed about a business we simply never looked up.
+        organicEnabled: r.organicEnabled,
+        organicChecked: r.organicCheckedAt !== null,
+        organicCheckedAt: r.organicCheckedAt,
+        organicPosition: r.organicCheckedAt !== null ? r.organicPosition : null,
         position: r.latestFound ? r.latestPosition : null,
         // true | false | null -- see the found: contract note above. Keep
         // this as the raw tri-state rather than coercing to a boolean --

@@ -77,7 +77,8 @@ export default function AddQueryForm({ onAdded }) {
     <div className="card">
       <h2 className="card-title">Add a tracked query</h2>
       <p className="card-subtitle">
-        Location can be a city/place name (geocoded automatically) or exact "lat,lng".
+        Location can be a city/place name (geocoded automatically) or exact "lat,lng". A place name also lets
+        us track your rank in the regular Google results; coordinates track the map only.
       </p>
       <form onSubmit={handleSubmit}>
         <div className="form-grid">

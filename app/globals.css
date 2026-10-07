@@ -731,3 +731,47 @@ a {
   color: var(--text-secondary);
   font-weight: 500;
 }
+
+/* --- Share of voice (Step 4) --- */
+
+.sov-row {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.sov-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sov-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sov-value {
+  font-size: 22px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.sov-divider {
+  width: 1px;
+  background: var(--border-strong);
+}
+
+.sov-note {
+  margin: 10px 0 0;
+}
+
+.sov-gap {
+  margin: 12px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 1.5;
+}

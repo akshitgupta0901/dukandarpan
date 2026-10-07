@@ -73,12 +73,12 @@ function doubles({ target, runCheckFn, alertsFn } = {}) {
 const tracked = (over = {}) => ({ id: 10, name: "Cafe Laylat", queryId: 4, lastCheckedAt: ago(2 * 3600000), ...over });
 
 describe("checkBusinessNow", () => {
-  test("runs maps-only (1 credit), then evaluates alerts, and reports this business's result", async () => {
+  test("asks for maps + organic (2 credits), then evaluates alerts, and reports this business's result", async () => {
     const d = doubles({ target: tracked() });
     const out = await checkBusinessNow(10, d.opts);
-    assert.deepEqual(d.calls.runCheck, [{ queryId: 4, includeOrganic: false }]);
+    assert.deepEqual(d.calls.runCheck, [{ queryId: 4, includeOrganic: true }]);
     assert.equal(d.calls.alerts.length, 1);
-    assert.equal(out.serpApiCallsMade, 1);
+    assert.equal(out.serpApiCallsMade, 2);
     assert.equal(out.found, true);
     assert.equal(out.position, 2);
     assert.equal(out.snapshotCount, 2);

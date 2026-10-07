@@ -220,6 +220,35 @@ describe("generateDemoData: raw payloads", () => {
   });
 });
 
+describe("generateDemoData: Share of Voice (organic) data", () => {
+  const col = (name, field) => data.days.map((d) => d.snapshots.find((s) => s.businessName === name)[field]);
+
+  test("the hero is strong on the map but never ranks organically (no website): a visibility gap", () => {
+    assert.ok(col(HERO_NAME, "organicPosition").every((p) => p === null));
+    assert.ok(hero[29] <= 5);
+  });
+
+  test("The Daily Grind (has a website) ranks in the regular results every day, within a first page", () => {
+    const grind = col("The Daily Grind", "organicPosition");
+    assert.ok(grind.every((p) => Number.isInteger(p) && p >= 1 && p <= 10));
+  });
+
+  test("Masala Mug rarely ranks organically", () => {
+    const masala = col("Masala Mug", "organicPosition").filter((p) => p !== null);
+    assert.ok(masala.length <= 8);
+  });
+
+  test("in-the-map-pack flag follows the top 3", () => {
+    data.days.forEach((d, i) => {
+      assert.equal(col(HERO_NAME, "inOrganicMapPack")[i], hero[i] <= 3);
+    });
+  });
+
+  test("adding organic data did not change the map rankings (own PRNG)", () => {
+    assert.deepEqual(hero, [12, 11, 10, 12, 11, 10, 9, 9, 11, 9, 9, 9, 13, 11, 9, 8, 7, 8, 7, 7, 6, 4, 6, 4, 5, 5, 3, 5, 2, 3]);
+  });
+});
+
 describe("deriveDemoAlerts", () => {
   const alerts = deriveDemoAlerts(data);
 

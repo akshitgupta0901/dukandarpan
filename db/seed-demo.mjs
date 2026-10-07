@@ -44,7 +44,8 @@ function summarize(data, alerts) {
     const positions = found.map((x) => x.position);
     lines.push(
       `  ${b.name}${b.isHero ? " (hero)" : ""}: first #${s[0].position ?? "not in top 20"}, last #${s[s.length - 1].position ?? "not in top 20"}, ` +
-        `best #${Math.min(...positions)}, worst #${Math.max(...positions)}, not in top 20 on ${s.length - found.length} day(s)`
+        `best #${Math.min(...positions)}, worst #${Math.max(...positions)}, not in top 20 on ${s.length - found.length} day(s), ` +
+        `organic rank on ${s.filter((x) => x.organicPosition).length} of ${s.length} day(s)`
     );
   }
   lines.push(`Alerts: ${alerts.length}`);
@@ -89,8 +90,8 @@ async function main() {
   await removeDemoData();
 
   const [query] = await sql`
-    INSERT INTO queries (query_text, category, lat, lng, is_demo)
-    VALUES (${data.query.queryText}, ${data.query.category}, ${data.query.lat}, ${data.query.lng}, true)
+    INSERT INTO queries (query_text, category, lat, lng, is_demo, location_text)
+    VALUES (${data.query.queryText}, ${data.query.category}, ${data.query.lat}, ${data.query.lng}, true, ${null})
     RETURNING id
   `;
 
@@ -123,8 +124,8 @@ async function main() {
   const snapshotSets = await sql.transaction(
     flat.map(
       ({ day, s }) => sql`
-        INSERT INTO snapshots (query_id, business_id, position, found, in_organic_map_pack, checked_at)
-        VALUES (${query.id}, ${businessIds[s.businessName]}, ${s.position}, ${s.found}, ${null}, ${day.checkedAt}::timestamptz)
+        INSERT INTO snapshots (query_id, business_id, position, found, in_organic_map_pack, organic_position, checked_at)
+        VALUES (${query.id}, ${businessIds[s.businessName]}, ${s.position}, ${s.found}, ${s.inOrganicMapPack}, ${s.organicPosition}, ${day.checkedAt}::timestamptz)
         RETURNING id
       `
     )
