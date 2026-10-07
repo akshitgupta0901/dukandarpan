@@ -15,6 +15,17 @@ async function getJson(url) {
   return json;
 }
 
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
+const STALE_AFTER_DAYS = 2;
+
+/** Whole days since the newest check in `businesses`, or null if it's fresh (or nothing was ever checked). */
+function staleDaysAgo(businesses) {
+  const times = businesses.map((b) => b.checkedAt).filter(Boolean).map((iso) => new Date(iso).getTime());
+  if (times.length === 0) return null;
+  const ageMs = Date.now() - Math.max(...times);
+  return ageMs > STALE_AFTER_DAYS * MS_PER_DAY ? Math.floor(ageMs / MS_PER_DAY) : null;
+}
+
 export default function Dashboard() {
   const [categories, setCategories] = useState([]);
   const [activeCategory, setActiveCategory] = useState(null);
@@ -118,6 +129,7 @@ export default function Dashboard() {
   }
 
   const selectedBusiness = businesses.find((b) => b.id === selectedId) ?? null;
+  const staleDays = businessesLoading ? null : staleDaysAgo(businesses);
 
   return (
     <div className="page">
@@ -127,6 +139,8 @@ export default function Dashboard() {
           <p className="page-subtitle">Local-pack rank tracker</p>
         </div>
       </div>
+
+      {staleDays !== null && <div className="stale-banner">Last checked {staleDays} days ago</div>}
 
       {categoriesError && <div className="error-banner">Couldn't load categories: {categoriesError}</div>}
 
