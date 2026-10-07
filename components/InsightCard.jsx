@@ -20,15 +20,21 @@ const LANGUAGES = [
 ];
 
 /**
- * Recommendation card. On mount (and whenever the selected business or the
- * language changes) this only ever GETs the cached recommendation -- recomputing
- * it (POST, which may call the AI) happens strictly on the button click below,
- * never automatically. The cache holds one language at a time, so switching
- * language shows an empty card until "Get insight" is clicked. The language
- * toggle only appears when the server has an AI key (Hinglish needs the AI; the
- * rule-based fallback is English only). `onInsightChange` lets the parent use
- * the current text (the WhatsApp summary).
+ * Competitor teardown card, written from the SerpApi results already stored for
+ * this business. On mount (and whenever the selected business or the language
+ * changes) this only ever GETs the cached text -- recomputing it (POST) happens
+ * strictly on the button click below, never automatically. The cache holds one
+ * language at a time, so switching language shows an empty card until
+ * "Get insight" is clicked. When there is nothing to compare (the business isn't
+ * in the top 20, or no other listing was found) the text is the older rule-based
+ * advice, which is English only. `onInsightChange` lets the parent use the
+ * current text (the WhatsApp summary).
  */
+
+const SOURCE_LABELS = {
+  teardown: { label: "Teardown", title: "Written from your SerpApi results: your listing compared with the top listings" },
+  rules: { label: "Rule-based", title: "Written by built-in rules from your rank history" },
+};
 export default function InsightCard({ businessId, onInsightChange }) {
   const [insight, setInsight] = useState(null);
   const [generatedAt, setGeneratedAt] = useState(null);
@@ -37,7 +43,6 @@ export default function InsightCard({ businessId, onInsightChange }) {
   const [fresh, setFresh] = useState(false);
   const [language, setLanguage] = useState("en"); // what the owner asked for
   const [textLanguage, setTextLanguage] = useState("en"); // what the shown text is actually in
-  const [aiAvailable, setAiAvailable] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -47,7 +52,6 @@ export default function InsightCard({ businessId, onInsightChange }) {
     setGeneratedAt(json.generatedAt);
     setFresh(json.fresh);
     setTextLanguage(json.language ?? "en");
-    setAiAvailable(Boolean(json.aiAvailable));
   }
 
   useEffect(() => {
@@ -68,7 +72,7 @@ export default function InsightCard({ businessId, onInsightChange }) {
   useEffect(() => {
     let cancelled = false;
     setBenchmark(null);
-    // The comparison reads the stored search response (no credits, no AI call), so it loads with the card.
+    // The comparison reads the stored search response (no credits), so it loads with the card.
     fetchJson(`/api/businesses/${businessId}/benchmark`)
       .then((json) => !cancelled && setBenchmark(json))
       .catch(() => {}); // optional extra: the recommendation still works without it
@@ -99,24 +103,22 @@ export default function InsightCard({ businessId, onInsightChange }) {
   return (
     <div className="card">
       <div className="alerts-header">
-        <h2 className="card-title">Recommendation</h2>
+        <h2 className="card-title">Competitor teardown, based on your SerpApi results</h2>
         <div className="card-actions">
-          {aiAvailable && (
-            <div className="lang-toggle" role="group" aria-label="Recommendation language">
-              {LANGUAGES.map((l) => (
-                <button
-                  key={l.value}
-                  type="button"
-                  className={`lang-option ${language === l.value ? "active" : ""}`}
-                  aria-pressed={language === l.value}
-                  disabled={loading}
-                  onClick={() => setLanguage(l.value)}
-                >
-                  {l.label}
-                </button>
-              ))}
-            </div>
-          )}
+          <div className="lang-toggle" role="group" aria-label="Recommendation language">
+            {LANGUAGES.map((l) => (
+              <button
+                key={l.value}
+                type="button"
+                className={`lang-option ${language === l.value ? "active" : ""}`}
+                aria-pressed={language === l.value}
+                disabled={loading}
+                onClick={() => setLanguage(l.value)}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
           <button className="btn" onClick={handleGenerate} disabled={loading}>
             {loading ? "Working…" : buttonLabel}
           </button>
@@ -131,12 +133,9 @@ export default function InsightCard({ businessId, onInsightChange }) {
         <div>
           <p className="insight-text">
             {insight}
-            {source && (
-              <span
-                className="source-tag"
-                title={source === "ai" ? "Written by an AI model from the numbers below" : "Written by built-in rules from your rank history"}
-              >
-                {source === "ai" ? "AI" : "Rule-based"}
+            {SOURCE_LABELS[source] && (
+              <span className="source-tag" title={SOURCE_LABELS[source].title}>
+                {SOURCE_LABELS[source].label}
               </span>
             )}
           </p>

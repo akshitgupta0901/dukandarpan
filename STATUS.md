@@ -7,7 +7,9 @@ data, nothing deployed) is superseded by what follows.
 Intelligence). It tracks where businesses rank on Google Maps (and regular Google) through SerpApi, stores every
 check in Neon Postgres, and turns the history into charts, competitor intelligence, alerts and plain-language advice.
 **Stack:** Next.js 15 (App Router, JS/JSX), React 18, Recharts, `@neondatabase/serverless`, `node-cron`, Node's built-in
-test runner. Gemini (plain `fetch`, optional) for the AI teardown.
+test runner. **No AI service:** the competitor teardown is deterministic code over stored SerpApi results. External
+services: SerpApi (data), Neon (database), and, only as noted, Telegram (optional alerts) and OpenStreetMap Nominatim
+(turns a typed place name into coordinates when a query is added; no key).
 
 ## 1. Summary
 
@@ -19,10 +21,10 @@ test runner. Gemini (plain `fetch`, optional) for the AI teardown.
   are no screenshots, demo video or live link yet.
 
 **Verdict:** the feature set is now strong for a hackathon: rank history, competitor intelligence (review growth,
-overtake alerts, benchmark, listing health), Share of Voice, an AI teardown with a safe rule-based fallback, a
-Run-check button, WhatsApp sharing, and a labeled judge-mode dataset so the site is full on first open. 341 offline tests
+overtake alerts, benchmark, listing health), Share of Voice, a deterministic competitor teardown (English and Hinglish, with a rule-based fallback), a
+Run-check button, WhatsApp sharing, and a labeled judge-mode dataset so the site is full on first open. 362 offline tests
 pass, including in a clean clone with no `.env.local`. The remaining risk is almost entirely "has this been run against
-the real thing": the new SQL, the migrations, a live organic search and the Gemini call have not. That is a short,
+the real thing": the new SQL, the migrations, and a live organic search have not. That is a short,
 mostly mechanical list (section 6), and it should happen before the demo, not after.
 
 ## 2. Done and working (tests pass; see section 3 for what is unproven live)
@@ -35,12 +37,12 @@ mostly mechanical list (section 6), and it should happen before the demo, not af
 - [x] **Competitor panel with review growth and rating change** over 7 days from stored responses. `lib/review-growth.mjs`, `lib/competitors.mjs`, `components/CompetitorPanel.jsx`
 - [x] **Alerts**: rank drop (3+), fell out of top 20, and **overtaken** (names the competitor, max 2 per business per check, only when the business's new position is #10 or better); Telegram text escapes Markdown characters. `lib/overtake.mjs`, `lib/alerts.mjs`, `lib/alert-rule.mjs`, `components/AlertsPanel.jsx`
 - [x] **Share of Voice**: Map Pack rank next to organic rank, with a visibility-gap sentence; organic uses each query's own saved place name (the hardcoded Vellore location is gone). `lib/share-of-voice.mjs`, `lib/rank-matcher.mjs`, `components/ShareOfVoice.jsx`
-- [x] **AI competitor teardown**: benchmark vs the top 3, listing-health checklist, Gemini client, prompt, and answer checks (exactly 2 sentences, no markdown, no numbers outside the data); any failure falls back to the rule-based text. `lib/benchmark.mjs`, `lib/llm.mjs`, `lib/teardown.mjs`, `lib/insight.mjs`, `components/BenchmarkPanel.jsx`, `components/InsightCard.jsx`
-- [x] **Hinglish option** (Roman script, cache keyed by language, rule-based fallback stays English). `lib/teardown.mjs`, `lib/insight.mjs`, `app/api/businesses/[id]/insight/route.js`
+- [x] **Competitor teardown, based on your SerpApi results**: benchmark vs the top 3, listing-health checklist, and `writeTeardown`, a pure function that writes exactly two sentences from the stored numbers (biggest gaps first, then one fix chosen by a fixed priority: reviews under 50% of the top average, unclaimed, no website, no phone or hours, no online ordering, otherwise "you are competitive"). Same input, same text; no network call, no external service. Falls back to the rule-based text when the business isn't in the top 20 or has no one to compare with. `lib/benchmark.mjs`, `lib/teardown.mjs`, `lib/insight.mjs`, `components/BenchmarkPanel.jsx`, `components/InsightCard.jsx`
+- [x] **Hinglish option** (Roman script only, works offline; cache keyed by language; the rule-based text stays English). `lib/teardown.mjs`, `lib/insight.mjs`, `app/api/businesses/[id]/insight/route.js`
 - [x] **Share on WhatsApp** (`wa.me` link, sample data labeled). `lib/share-text.mjs`, `components/WhatsAppShare.jsx`
 - [x] **Judge mode**: deterministic 30-day fictional dataset, seed script with `--dry-run` and unseed, labels everywhere, never searched live. `lib/demo-data.mjs`, `lib/demo.mjs`, `db/seed-demo.mjs`, `components/DemoBadge.jsx`
 - [x] **Schema**: 10 additive, re-runnable migrations, linted by a test. `db/migrations/0001..0010`, `test/migrations.test.mjs`
-- [x] **Tests**: 341, offline, no database, network or keys; clean-clone safe (lazy DB connection). `test/`
+- [x] **Tests**: 362, offline, no database, network or keys; clean-clone safe (lazy DB connection). `test/`
 - [x] **Docs**: README with problem, features, SerpApi usage, credit table, track fit, setup, env vars, judge mode. `.env.local.example` lists every variable.
 
 ## 3. Done but not verified against the real thing
@@ -56,10 +58,6 @@ tests or fakes, but none has run live:
   seed's batched inserts. No Postgres was available locally to even syntax-check them.
 - **A live organic search.** SerpApi's `location` parameter accepts the free-text place name a user typed; if it rejects
   one, the check keeps the map result and logs a warning (the failure is non-fatal), but I haven't seen that happen.
-- **The Gemini call.** The endpoint (`v1beta/models/{model}:generateContent`), the `x-goog-api-key` header and the default
-  model `gemini-3.5-flash-lite` come from Google's current docs, not from a live call. The answer checks are strict
-  (exactly 2 sentences, numbers only from the data), so a real model may be rejected more often than expected, in which
-  case users simply see the rule-based text.
 - **Telegram** delivery of the new alert type and the escaping change.
 - **Real-browser behavior beyond screenshots**: I rendered the dashboard in headless Chrome (light, dark, 390px wide)
   against fake API data, and saw no console errors or horizontal overflow, but never against your real database.
@@ -80,7 +78,7 @@ tests or fakes, but none has run live:
 - Several routes still read `params.id` synchronously (works on Next 15, breaks on Next 16): history, competitors.
 - `npm audit` reports 4 vulnerabilities (sharp, source-map-js fixable with `npm audit fix`; postcss via next needs Next 16).
 - `explore-serpapi.mjs` (a stray exploration script) prints the first 6 and last 4 characters of the API key.
-- The `ai_insight*` column names are historical (the card is no longer purely AI, and no longer purely rule-based).
+- The `ai_insight*` column names (and `ai_insight_source`) are historical: nothing about them involves an AI. Renaming needs a migration.
 
 ## 5. Not started
 
@@ -95,8 +93,8 @@ tests or fakes, but none has run live:
 | # | Task | Size | Files |
 | --- | --- | --- | --- |
 | 1 | **Prove it on a Neon branch.** `npm run db:migrate`, `npm run db:seed:demo`, then click through the dashboard. This is what verifies every SQL statement and migration listed in section 3. | S | `db/migrate.mjs`, `db/seed-demo.mjs` |
-| 2 | **Deploy to Vercel.** Set `DATABASE_URL`, `SERPAPI_API_KEY`, `SERPAPI_API_KEY_2`, `CRON_SECRET`, `GEMINI_API_KEY`, Telegram vars; migrate and seed the production DB; confirm the 03:00 UTC cron writes a run. | M | `vercel.json`, `README.md` |
-| 3 | **One live pass of each paid call.** One "Run check now" on a real business (2 credits) and one "Get insight" with a Gemini key, to confirm the organic search, the model name and that real answers pass the checks. | S | `lib/run-check.mjs`, `lib/llm.mjs`, `lib/teardown.mjs` |
+| 2 | **Deploy to Vercel.** Set `DATABASE_URL`, `SERPAPI_API_KEY`, `SERPAPI_API_KEY_2`, `CRON_SECRET`, Telegram vars; migrate and seed the production DB; confirm the 03:00 UTC cron writes a run. | M | `vercel.json`, `README.md` |
+| 3 | **One live SerpApi pass.** One "Run check now" on a real business (2 credits), to confirm the organic search accepts a typed place name and the matcher finds real listings. | S | `lib/run-check.mjs`, `lib/rank-matcher.mjs` |
 | 4 | **Screenshots and a 60 to 90 second demo video**; add the live URL and images to the README. Seed demo data right before recording so dates are current. | M | `README.md` |
 | 5 | **Push to GitHub**, then tidy: `await params` in the remaining routes, drop the key fragment print in `explore-serpapi.mjs`, run `npm audit fix`. | S | `app/api/businesses/[id]/history/route.js`, `.../competitors/route.js`, `explore-serpapi.mjs` |
 
@@ -106,6 +104,8 @@ All of today (2026-10-07), in this order (see `git log`):
 1. Initial commit, then dashboard polish (stale banner, "Not in top 20", trend size, chart labels).
 2. Friendly non-JSON errors, lazy database connection (tests run without `DATABASE_URL`), the Run-check button.
 3. Spare SerpApi key fallback.
-4. Judge-mode demo data, then the AI teardown (benchmark, listing health, Gemini with fallback), overtake alerts and
-   review growth, Share of Voice with per-query location, and the WhatsApp and Hinglish polish.
-5. This README and STATUS update.
+4. Judge-mode demo data, then the benchmark and listing health, overtake alerts (top 10 only) and review growth, Share of
+   Voice with per-query location, and the WhatsApp and Hinglish polish.
+5. Hackathon rule: the external AI service was removed; the teardown is now deterministic and built only from stored
+   SerpApi results.
+6. README and STATUS updates.

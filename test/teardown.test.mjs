@@ -1,242 +1,391 @@
-import { test, describe } from "node:test";
+import { test, describe, afterEach } from "node:test";
 import assert from "node:assert/strict";
-import { buildTeardownPrompt, checkTeardownText, splitSentences } from "../lib/teardown.mjs";
-import { composeInsight } from "../lib/insight.mjs";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { writeTeardown, normalizeLanguage, LOW_REVIEWS_RATIO } from "../lib/teardown.mjs";
+import { composeInsight, cacheMatchesLanguage, cacheLanguage } from "../lib/insight.mjs";
 import { buildBenchmark } from "../lib/benchmark.mjs";
 import { generateDemoData, HERO_NAME } from "../lib/demo-data.mjs";
 
-const demo = generateDemoData({ endDate: "2026-10-07T12:00:00Z" });
-const benchmark = buildBenchmark(demo.days[29].payload.local_results, HERO_NAME);
-const QUERY = "cafe near Katpadi (demo)";
-const built = buildTeardownPrompt(benchmark, { businessName: HERO_NAME, queryText: QUERY });
-const { facts } = built;
-const RULE = { text: "Rule-based fallback text." };
-const KEY_ENV = { GEMINI_API_KEY: "test-key-NOT-REAL" };
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const LANGS = ["en", "hinglish"];
 
-// A grounded answer that uses only numbers from the fact sheet.
-const GOOD = `You have ${benchmark.own.reviews} reviews while the top results average ${benchmark.averages.reviews}, and ${benchmark.checklist[0].topCount} of the top 3 have a website while you don't. The most useful fix is to add your website to your Google listing.`;
+// ---------------------------------------------------------------------------
+// A synthetic search: three strong competitors (300 reviews, 4.5 stars, everything
+// listed, open until 10 PM) and one listing that is "you". Override either side.
+// ---------------------------------------------------------------------------
+const STRONG = {
+  rating: 4.5,
+  reviews: 300,
+  website: "https://x.example",
+  phone: "+91 0",
+  hours: "Open · Closes 10 PM",
+  open_state: "Open · Closes 10 PM",
+  order_online: ["https://order.example"],
+};
+const ME = "Brew & Bloom Cafe";
 
-describe("buildTeardownPrompt", () => {
-  test("the system prompt asks for exactly 2 plain sentences grounded only in the data", () => {
-    assert.match(built.system, /exactly 2 sentences/);
-    assert.match(built.system, /ONLY the data/);
-    assert.match(built.system, /never calculate/);
-    assert.match(built.system, /single most useful thing/);
-    assert.match(built.system, /No jargon, no markdown/);
-  });
+function scenario({ own = {}, top = {}, topCount = 3 } = {}) {
+  const tops = Array.from({ length: topCount }, (_, i) => ({ position: i + 1, title: `Rival ${i + 1}`, place_id: `r${i + 1}`, ...STRONG, ...top }));
+  const mine = { position: topCount + 1, title: ME, place_id: "me", ...STRONG, ...own };
+  for (const [k, v] of Object.entries(own)) if (v === undefined) delete mine[k];
+  return buildBenchmark([...tops, mine], ME);
+}
+const tear = (opts, language = "en") => writeTeardown(scenario(opts), { language });
 
-  test("the user prompt carries the search and a compact JSON fact sheet", () => {
-    assert.ok(built.prompt.includes(`"${QUERY}"`));
-    const json = JSON.parse(built.prompt.slice(built.prompt.indexOf("{")));
-    assert.deepEqual(json, facts);
-  });
+const DEVANAGARI = /[ऀ-ॿ]/;
+const numbersIn = (text) => (String(text).match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((n) => String(Number(n.replace(/,/g, ""))));
+function sentenceCount(text) {
+  return text.trim().split(/(?<=[.!?])\s+(?=[A-Z"'\d])/).filter(Boolean).length;
+}
 
-  test("facts have the owner's listing, 3 competitors, averages and the listing basics", () => {
-    assert.equal(facts.you.name, HERO_NAME);
-    assert.equal(facts.you.reviews, benchmark.own.reviews);
-    assert.equal(facts.you.hasWebsite, false);
-    assert.equal(facts.you.listingClaimed, false);
-    assert.equal(facts.topCompetitors.length, 3);
-    assert.equal(facts.topAverages.reviews, benchmark.averages.reviews);
-    assert.equal(facts.listingBasics.length, 5);
-    assert.match(facts.listingBasics[0].topCompetitorsWithIt, /^\d of 3$/);
-  });
+describe("writeTeardown: the fixed priority for sentence 2", () => {
+  // each case: what the own listing lacks -> the focus it must pick, in both languages
+  const cases = [
+    ["reviews far below the top average", { own: { reviews: 100 } }, "reviews"],
+    ["unclaimed listing (reviews fine)", { own: { unclaimed_listing: true } }, "claimed"],
+    ["no website (everything else fine)", { own: { website: undefined } }, "website"],
+    ["no phone number", { own: { phone: undefined } }, "contact"],
+    ["no opening hours", { own: { hours: undefined, open_state: undefined } }, "contact"],
+    ["no phone and no hours", { own: { phone: undefined, hours: undefined, open_state: undefined } }, "contact"],
+    ["no online ordering or delivery", { own: { order_online: undefined } }, "onlineOrder"],
+    ["nothing missing", {}, "competitive"],
+  ];
 
-  test("prices are shown as rupee symbols, and only listing details are sent (no addresses, phones or URLs)", () => {
-    assert.match(JSON.stringify(facts), /"price":"₹+"/);
-    const text = built.prompt;
-    assert.doesNotMatch(text, /Sample Nagar|\+91|\.example|DEMO_PLACE/);
-  });
+  for (const [name, opts, focus] of cases) {
+    for (const language of LANGS) {
+      test(`${name} -> ${focus} (${language})`, () => {
+        const t = tear(opts, language);
+        assert.equal(t.focus, focus);
+        assert.equal(t.language, language);
+      });
+    }
+  }
 
-  test("an unranked business sends 'you: null'", () => {
-    const none = buildTeardownPrompt(buildBenchmark(demo.days[29].payload.local_results, "Nobody"), { businessName: "Nobody", queryText: QUERY });
-    assert.equal(none.facts.you, null);
-  });
-});
-
-describe("splitSentences", () => {
-  test("keeps decimals and 'PM.' endings intact", () => {
-    assert.equal(splitSentences("You are rated 4.5 with 30 reviews. They close at 10 PM. Fix it.").length, 3);
-    assert.deepEqual(splitSentences("Rated 4.5 overall. Add a website."), ["Rated 4.5 overall.", "Add a website."]);
-  });
-});
-
-describe("checkTeardownText", () => {
-  test("accepts exactly two plain sentences using only numbers from the data", () => {
-    const r = checkTeardownText(GOOD, facts);
-    assert.equal(r.ok, true, r.reason);
-    assert.equal(r.text, GOOD);
-  });
-
-  test("strips wrapping quotes", () => {
-    assert.equal(checkTeardownText(`"${GOOD}"`, facts).text, GOOD);
-  });
-
-  test("rejects empty, one-sentence and three-sentence answers", () => {
-    assert.equal(checkTeardownText("", facts).ok, false);
-    assert.equal(checkTeardownText(null, facts).ok, false);
-    assert.match(checkTeardownText("Add a website to your listing.", facts).reason, /two sentences/);
-    assert.match(checkTeardownText("Add a website. Claim your listing. Stay open later.", facts).reason, /two sentences/);
-  });
-
-  test("rejects markdown, lists and line breaks", () => {
-    for (const bad of ["**Add** a website to your listing. Then claim it.", "- Add a website.\n- Claim it.", "Add a website.\nClaim your listing.", "# Tip\nAdd a website. Claim it."]) {
-      assert.equal(checkTeardownText(bad, facts).ok, false, bad);
+  test("reviews win over everything else, then claimed, website, contact, online ordering, in that order", () => {
+    const lacking = { reviews: 10, unclaimed_listing: true, website: undefined, phone: undefined, hours: undefined, open_state: undefined, order_online: undefined };
+    const order = ["reviews", "claimed", "website", "contact", "onlineOrder", "competitive"];
+    const remove = [{ reviews: 300 }, { unclaimed_listing: undefined }, { website: STRONG.website }, { phone: STRONG.phone, hours: STRONG.hours, open_state: STRONG.open_state }, { order_online: STRONG.order_online }];
+    let own = { ...lacking };
+    for (let i = 0; i < order.length; i++) {
+      assert.equal(tear({ own }).focus, order[i], `step ${i}`);
+      if (remove[i]) {
+        own = { ...own, ...remove[i] };
+        for (const [k, v] of Object.entries(own)) if (v === undefined) delete own[k];
+        own = { ...own, ...Object.fromEntries(Object.entries(lacking).filter(([k, v]) => v === undefined && !(k in own)).map(([k]) => [k, undefined])) };
+      }
     }
   });
 
-  test("rejects an answer with a number that was not in the data (invented or calculated)", () => {
-    const r = checkTeardownText("You have 4242 reviews so far. Add a website to your listing.", facts);
-    assert.equal(r.ok, false);
-    assert.match(r.reason, /number not in the data: 4242/);
-    // A computed ratio is also a number the data doesn't contain.
-    assert.equal(checkTeardownText("Rivals have 99 times more reviews. Add a website.", facts).ok, false);
+  test("reviews exactly at 50% of the top average are NOT 'far below'; just under 50% are", () => {
+    assert.equal(LOW_REVIEWS_RATIO, 0.5);
+    assert.equal(tear({ own: { reviews: 150 } }).focus, "competitive");
+    assert.equal(tear({ own: { reviews: 149 } }).focus, "reviews");
+    assert.equal(tear({ own: { reviews: 150, unclaimed_listing: true } }).focus, "claimed");
   });
 
-  test("small counts like 'top 3' and '1 thing' are allowed", () => {
-    assert.equal(checkTeardownText("The top 3 results all show more detail than you do. Fix 1 thing first: add a website.", facts).ok, true);
+  test("reviews between 50% and 100% are mentioned in sentence 1 but never the 'fix first'", () => {
+    const t = tear({ own: { reviews: 200 } });
+    assert.equal(t.focus, "competitive");
+    assert.ok(t.gaps.includes("reviewsBelow"));
+    assert.match(t.sentences[0], /200 reviews while the top 3 average 300/);
   });
 
-  test("rejects an over-long answer", () => {
-    assert.equal(checkTeardownText(`${"Words ".repeat(120)}end. Second one.`, facts).ok, false);
-  });
-});
-
-describe("composeInsight (AI with rule-based fallback)", () => {
-  const input = { rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY };
-  const silent = () => {};
-
-  test("no API key: rule-based, and the model is never called", async () => {
-    let called = 0;
-    const out = await composeInsight(input, { env: {}, llmFn: async () => { called++; return GOOD; }, warn: silent });
-    assert.deepEqual(out, { text: RULE.text, source: "rules", language: "en" });
-    assert.equal(called, 0);
-  });
-
-  test("a valid answer is used and labeled 'ai'", async () => {
-    const out = await composeInsight(input, { env: KEY_ENV, llmFn: async () => GOOD, warn: silent });
-    assert.deepEqual(out, { text: GOOD, source: "ai", language: "en" });
-  });
-
-  test("the model receives the built system and user prompts", async () => {
-    let seen;
-    await composeInsight(input, { env: KEY_ENV, llmFn: async (p) => { seen = p; return GOOD; }, warn: silent });
-    assert.equal(seen.system, built.system);
-    assert.equal(seen.prompt, built.prompt);
-  });
-
-  test("a model error (timeout, HTTP 429...) falls back to rules without throwing", async () => {
-    const warnings = [];
-    const out = await composeInsight(input, { env: KEY_ENV, llmFn: async () => { throw new Error("Gemini request timed out after 12000 ms"); }, warn: (m) => warnings.push(m) });
-    assert.deepEqual(out, { text: RULE.text, source: "rules", language: "en" });
-    assert.match(warnings[0], /AI unavailable.*timed out/);
-  });
-
-  test("an off-format answer falls back to rules", async () => {
-    const warnings = [];
-    const out = await composeInsight(input, { env: KEY_ENV, llmFn: async () => "- add a website\n- claim it", warn: (m) => warnings.push(m) });
-    assert.equal(out.source, "rules");
-    assert.match(warnings[0], /rejected/);
-  });
-
-  test("an answer with an invented number falls back to rules", async () => {
-    const out = await composeInsight(input, { env: KEY_ENV, llmFn: async () => "You have 77777 reviews. Add a website.", warn: silent });
-    assert.equal(out.source, "rules");
-  });
-
-  test("an empty answer falls back to rules", async () => {
-    assert.equal((await composeInsight(input, { env: KEY_ENV, llmFn: async () => "   ", warn: silent })).source, "rules");
-  });
-
-  test("a business that isn't in the top 20 (or has no benchmark) uses rules without calling the model", async () => {
-    let called = 0;
-    const llmFn = async () => { called++; return GOOD; };
-    const unranked = buildBenchmark(demo.days[29].payload.local_results, "Nobody");
-    assert.equal((await composeInsight({ ...input, benchmark: unranked }, { env: KEY_ENV, llmFn, warn: silent })).source, "rules");
-    assert.equal((await composeInsight({ ...input, benchmark: null }, { env: KEY_ENV, llmFn, warn: silent })).source, "rules");
-    assert.equal(called, 0);
+  test("the sentence-2 text matches the focus, in both languages", () => {
+    const expectEn = { reviews: /more reviews/, claimed: /claim your Google Business Profile/, website: /add a website link/, contact: /phone number and opening hours/, onlineOrder: /online ordering or delivery/, competitive: /competitive/ };
+    const expectHi = { reviews: /reviews badhana/, claimed: /Google Business Profile claim karna/, website: /website ka link/, contact: /phone number aur opening hours/, onlineOrder: /online ordering ya delivery/, competitive: /competitive hain/ };
+    const byFocus = {
+      reviews: { own: { reviews: 10 } },
+      claimed: { own: { unclaimed_listing: true } },
+      website: { own: { website: undefined } },
+      contact: { own: { phone: undefined, hours: undefined, open_state: undefined } },
+      onlineOrder: { own: { order_online: undefined } },
+      competitive: {},
+    };
+    for (const [focus, opts] of Object.entries(byFocus)) {
+      assert.match(tear(opts, "en").sentences[1], expectEn[focus], `en ${focus}`);
+      assert.match(tear(opts, "hinglish").sentences[1], expectHi[focus], `hinglish ${focus}`);
+    }
+    // phone alone and hours alone each get their own wording
+    assert.match(tear({ own: { phone: undefined } }).sentences[1], /add your phone number to your Google listing/);
+    assert.match(tear({ own: { hours: undefined, open_state: undefined } }).sentences[1], /add your opening hours/);
   });
 });
 
-describe("Hinglish option", () => {
-  const hi = buildTeardownPrompt(benchmark, { businessName: HERO_NAME, queryText: QUERY, language: "hinglish" });
-
-  test("English is the default, and its prompt is unchanged by the option", () => {
-    assert.equal(buildTeardownPrompt(benchmark, { businessName: HERO_NAME, queryText: QUERY, language: "en" }).system, built.system);
-    assert.match(built.system, /plain, simple English/);
-    assert.doesNotMatch(built.system, /Hinglish/);
-  });
-
-  test("the Hinglish prompt asks for Roman-script Hinglish, keeps every other rule, and sends the same data", () => {
-    assert.match(hi.system, /Hinglish/);
-    assert.match(hi.system, /Roman \(English\) alphabet/);
-    assert.match(hi.system, /never in Devanagari/);
-    assert.match(hi.system, /"aap"/);
-    assert.match(hi.system, /exactly 2 sentences/);
-    assert.match(hi.system, /ONLY the data/);
-    assert.match(hi.system, /never calculate/);
-    assert.doesNotMatch(hi.system, /plain, simple English/);
-    assert.equal(hi.prompt, built.prompt);
-    assert.deepEqual(hi.facts, facts);
-  });
-
-  test("normalizeLanguage: anything but 'hinglish' is English", async () => {
-    const { normalizeLanguage } = await import("../lib/teardown.mjs");
-    assert.equal(normalizeLanguage("hinglish"), "hinglish");
-    assert.equal(normalizeLanguage(" HINGLISH "), "hinglish");
-    for (const v of ["en", "", null, undefined, "hindi", "fr", 7]) assert.equal(normalizeLanguage(v), "en");
-  });
-
-  const HINGLISH_GOOD = `Aapke ${benchmark.own.reviews} reviews hain jabki top results ka average ${benchmark.averages.reviews} hai, aur top 3 mein se ${benchmark.checklist[0].topCount} ke paas website hai. Sabse pehle apni listing mein website add kijiye.`;
-
-  test("a Roman-script Hinglish answer that uses only the data's numbers is accepted", () => {
-    const r = checkTeardownText(HINGLISH_GOOD, facts, { language: "hinglish" });
-    assert.equal(r.ok, true, r.reason);
-  });
-
-  test("an answer in Devanagari is rejected when Hinglish was asked for", () => {
-    const r = checkTeardownText("आपके पास कम reviews हैं। अपनी listing में website जोड़ें।", facts, { language: "hinglish" });
-    assert.equal(r.ok, false);
-    assert.equal(r.reason, "wrong script");
-  });
-
-  test("Hinglish answers still go through the same two-sentence and invented-number checks", () => {
-    assert.equal(checkTeardownText("Aapke paas reviews kam hain.", facts, { language: "hinglish" }).ok, false);
-    assert.equal(checkTeardownText("Aapke 99999 reviews hain. Website add kijiye.", facts, { language: "hinglish" }).ok, false);
-  });
-
-  test("composeInsight passes the language to the prompt and returns it", async () => {
-    let seen;
-    const out = await composeInsight(
-      { rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY, language: "hinglish" },
-      { env: KEY_ENV, llmFn: async (p) => { seen = p; return HINGLISH_GOOD; }, warn: () => {} }
+describe("writeTeardown: sentence 1 states the gaps with the benchmark's exact numbers", () => {
+  test("reviews, unclaimed and missing website, quoted from the data", () => {
+    const t = tear({ own: { reviews: 30, unclaimed_listing: true, website: undefined }, top: { reviews: 440 } });
+    assert.equal(
+      t.sentences[0],
+      "You have 30 reviews while the top 3 average 440, your listing is unclaimed while 3 of the top 3 are claimed, and 3 of the top 3 have a website and you don't."
     );
-    assert.equal(seen.system, hi.system);
-    assert.deepEqual(out, { text: HINGLISH_GOOD, source: "ai", language: "hinglish" });
+    assert.equal(t.text, `${t.sentences[0]} ${t.sentences[1]}`);
   });
 
-  test("the rule-based fallback is always English, even when Hinglish was asked for", async () => {
-    for (const llmFn of [async () => { throw new Error("down"); }, async () => "आपके लिए। सुझाव।", async () => "one sentence only"]) {
-      const out = await composeInsight(
-        { rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY, language: "hinglish" },
-        { env: KEY_ENV, llmFn, warn: () => {} }
-      );
-      assert.deepEqual(out, { text: RULE.text, source: "rules", language: "en" });
-    }
-    // and with no key at all
-    const noKey = await composeInsight({ rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY, language: "hinglish" }, { env: {}, warn: () => {} });
-    assert.equal(noKey.language, "en");
+  test("the same facts in Hinglish", () => {
+    const t = tear({ own: { reviews: 30, unclaimed_listing: true, website: undefined }, top: { reviews: 440 } }, "hinglish");
+    assert.equal(
+      t.sentences[0],
+      "Aapke 30 reviews hain jabki top 3 ka average 440 hai, aapki listing claim nahi hui hai jabki top 3 mein se 3 claimed hain aur top 3 mein se 3 ke paas website hai aur aapke paas nahi hai."
+    );
   });
 
-  test("an English request returns language 'en'", async () => {
-    const out = await composeInsight({ rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY }, { env: KEY_ENV, llmFn: async () => GOOD, warn: () => {} });
-    assert.equal(out.language, "en");
+  test("at most 3 gaps are in the sentence (the biggest ones), but all are reported in `gaps`", () => {
+    const t = tear({ own: { reviews: 10, unclaimed_listing: true, website: undefined, phone: undefined, order_online: undefined } });
+    assert.deepEqual(t.gaps, ["reviews", "claimed", "website", "phone", "onlineOrder"]);
+    assert.doesNotMatch(t.sentences[0], /phone number/);
+    assert.match(t.sentences[0], /reviews/);
+    assert.match(t.sentences[0], /unclaimed/);
+    assert.match(t.sentences[0], /website/);
+  });
+
+  test("a lower rating is stated with both numbers", () => {
+    const t = tear({ own: { rating: 4.1 } });
+    assert.match(t.sentences[0], /^Your rating is 4.1 against the top 3 average of 4.5/);
+    assert.match(tear({ own: { rating: 4.1 } }, "hinglish").sentences[0], /^Aapki rating 4.1 hai jabki top 3 ka average 4.5 hai/);
+  });
+
+  test("an earlier closing time is stated with the top listings' times", () => {
+    const t = tear({ own: { hours: "Open · Closes 7 PM", open_state: "Open · Closes 7 PM" } });
+    assert.match(t.sentences[0], /^You close at 7 PM while the top listings close at 10 PM/);
+    assert.equal(t.focus, "competitive"); // closing time is worth saying but never the fix-first
+    assert.match(tear({ own: { open_state: "Open · Closes 7 PM", hours: "x" } }, "hinglish").sentences[0], /^Aap 7 PM par band karte hain jabki top listings 10 PM par band hoti hain/);
+  });
+
+  test("top listings that close at different times give a range", () => {
+    const own = { own: { open_state: "Open · Closes 7 PM", hours: "x" } };
+    const benchmark = buildBenchmark(
+      [
+        { position: 1, title: "A", open_state: "Open · Closes 9 PM", hours: "x" },
+        { position: 2, title: "B", open_state: "Open · Closes 11:30 PM", hours: "x" },
+        { position: 3, title: ME, open_state: "Open · Closes 7 PM", hours: "x" },
+      ],
+      ME
+    );
+    assert.match(writeTeardown(benchmark).sentences[0], /^You close at 7 PM while the top listings close between 9 PM and 11:30 PM/);
+    assert.ok(own);
+  });
+
+  test("closing at the same time, or later, is not a gap", () => {
+    assert.ok(!tear({}).gaps.includes("closing"));
+    assert.ok(!tear({ own: { open_state: "Open · Closes 11 PM", hours: "x" } }).gaps.includes("closing"));
+  });
+
+  test("a basic that none of the top listings have is not a gap", () => {
+    const t = tear({ own: { website: undefined }, top: { website: undefined } });
+    assert.ok(!t.gaps.includes("website"));
+    assert.equal(t.focus, "competitive");
+  });
+
+  test("only some of the top listings having a basic is stated as 'N of the top 3'", () => {
+    const benchmark = buildBenchmark(
+      [
+        { position: 1, title: "A", ...STRONG },
+        { position: 2, title: "B", ...STRONG, website: undefined },
+        { position: 3, title: "C", ...STRONG, website: undefined },
+        { position: 4, title: ME, ...STRONG, website: undefined },
+      ],
+      ME
+    );
+    assert.match(writeTeardown(benchmark).sentences[0], /1 of the top 3 have a website and you don't/);
   });
 });
 
-describe("insight cache is keyed by language", () => {
-  test("a cached text is only usable for the same language; NULL (older rows) counts as English", async () => {
-    const { cacheMatchesLanguage, cacheLanguage } = await import("../lib/insight.mjs");
+describe("writeTeardown: edge cases", () => {
+  test("rating higher than the top 3 is never a gap, and is mentioned as a strength", () => {
+    const t = tear({ own: { rating: 4.9, website: undefined } });
+    assert.ok(!t.gaps.includes("rating"));
+    assert.match(t.sentences[0], /your rating of 4.9 is above the top 3 average of 4.5/);
+    assert.match(tear({ own: { rating: 4.9, website: undefined } }, "hinglish").sentences[0], /aapki rating 4.9 hai jo top 3 ke average 4.5 se zyada hai/);
+  });
+
+  test("ties are not gaps: equal reviews and equal rating", () => {
+    const t = tear({ own: { reviews: 300, rating: 4.5 } });
+    assert.deepEqual(t.gaps, []);
+    assert.equal(t.focus, "competitive");
+  });
+
+  test("no gaps at all: 'keeping pace', quoting the numbers, and the competitive fix", () => {
+    const t = tear({ own: { reviews: 400, rating: 4.8 } });
+    assert.match(t.sentences[0], /^You are keeping pace with the top 3: your rating of 4.8 is above the top 3 average of 4.5, and your 400 reviews match or beat the top 3 average of 300\.$/);
+    assert.equal(t.sentences[1], "You are competitive with the top listings, so keep collecting reviews and replying to them.");
+    assert.match(tear({ own: { reviews: 400, rating: 4.8 } }, "hinglish").sentences[0], /^Aap top 3 ke saath barabari par hain: /);
+  });
+
+  test("no gaps and no numbers to quote: still two sentences", () => {
+    const b = buildBenchmark([{ position: 1, title: "Rival", website: "x", phone: "1", hours: "h", order_online: ["x"] }, { position: 2, title: ME, website: "x", phone: "1", hours: "h", order_online: ["x"] }], ME);
+    const t = writeTeardown(b);
+    assert.equal(t.focus, "competitive");
+    assert.match(t.sentences[0], /^You are keeping pace with the top listing on the basics we check\.$/);
+  });
+
+  test("the business is not found, or there is nobody to compare with: null (the caller uses the rule-based text)", () => {
+    const results = scenario().top.map((t, i) => ({ position: i + 1, title: t.title, place_id: `r${i}`, ...STRONG }));
+    assert.equal(writeTeardown(buildBenchmark(results, "Nobody At All")), null);
+    assert.equal(writeTeardown(buildBenchmark([{ position: 1, title: ME, ...STRONG }], ME)), null);
+    for (const bad of [null, undefined, {}, { found: false }, { found: true, own: null, top: [] }]) assert.equal(writeTeardown(bad), null);
+  });
+
+  test("an own listing with missing fields never produces undefined, null or NaN in the text", () => {
+    const b = buildBenchmark([{ position: 1, title: "Rival", ...STRONG }, { position: 2, title: ME }], ME); // no rating, reviews, phone, ...
+    for (const language of LANGS) {
+      const t = writeTeardown(b, { language });
+      assert.doesNotMatch(t.text, /undefined|null|NaN|\[object/);
+      assert.equal(sentenceCount(t.text), 2);
+    }
+    const noRating = tear({ own: { rating: undefined, reviews: undefined } });
+    assert.doesNotMatch(noRating.text, /undefined|null|NaN/);
+    assert.ok(!noRating.gaps.includes("rating") && !noRating.gaps.includes("reviews"));
+  });
+
+  test("competitors with no review numbers: no review or rating gap is invented", () => {
+    const t = tear({ top: { reviews: undefined, rating: undefined } });
+    assert.ok(!t.gaps.includes("reviews") && !t.gaps.includes("reviewsBelow") && !t.gaps.includes("rating"));
+  });
+
+  test("fewer than 3 competitors uses wording that still reads correctly", () => {
+    const one = tear({ own: { reviews: 20, website: undefined }, topCount: 1 });
+    assert.match(one.sentences[0], /^You have 20 reviews while the top listing has 300/);
+    assert.match(one.sentences[0], /the top listing has a website and you don't/);
+    const two = tear({ own: { reviews: 20, website: undefined }, topCount: 2 });
+    assert.match(two.sentences[0], /the top 2 average 300/);
+    assert.match(two.sentences[0], /2 of the top 2 have a website/);
+    assert.match(tear({ own: { reviews: 20 }, topCount: 1 }, "hinglish").sentences[0], /top listing ke 300 hain/);
+  });
+
+  test("unknown languages are English; normalizeLanguage", () => {
+    assert.equal(writeTeardown(scenario(), { language: "klingon" }).language, "en");
+    assert.equal(writeTeardown(scenario()).language, "en");
+    assert.equal(normalizeLanguage(" HINGLISH "), "hinglish");
+    for (const v of ["en", "", null, undefined, "hindi", 7]) assert.equal(normalizeLanguage(v), "en");
+  });
+
+  test("businessName is accepted but the text speaks to the owner", () => {
+    assert.equal(writeTeardown(scenario(), { businessName: ME }).text, writeTeardown(scenario()).text);
+  });
+});
+
+describe("writeTeardown: guarantees across many situations", () => {
+  const situations = [
+    {},
+    { own: { reviews: 10 } },
+    { own: { reviews: 10, unclaimed_listing: true, website: undefined, phone: undefined, order_online: undefined } },
+    { own: { rating: 3.2 } },
+    { own: { rating: 5 } },
+    { own: { hours: "Open · Closes 6 PM", open_state: "Open · Closes 6 PM" } },
+    { own: { website: undefined } },
+    { own: { reviews: 1234, rating: 4.9 }, top: { reviews: 5 } },
+    { topCount: 1 },
+    { topCount: 2, own: { reviews: 1, unclaimed_listing: true } },
+  ];
+
+  for (const language of LANGS) {
+    test(`always exactly two sentences, only numbers from the benchmark, no stray tokens (${language})`, () => {
+      for (const s of situations) {
+        const benchmark = scenario(s);
+        const t = writeTeardown(benchmark, { language });
+        assert.equal(sentenceCount(t.text), 2, t.text);
+        assert.equal(t.sentences.length, 2);
+        assert.doesNotMatch(t.text, /undefined|null|NaN|\[object|\{|\}/);
+        const allowed = new Set(numbersIn(JSON.stringify(benchmark)));
+        for (const n of numbersIn(t.text)) assert.ok(allowed.has(n), `"${n}" is not in the benchmark: ${t.text}`);
+      }
+    });
+
+    test(`${language}: Roman script only, never Devanagari`, () => {
+      for (const s of situations) {
+        const t = writeTeardown(scenario(s), { language });
+        assert.doesNotMatch(t.text, DEVANAGARI);
+        assert.match(t.text, /^[\x20-\x7E]+$/, `non-ASCII character in: ${t.text}`);
+      }
+    });
+  }
+
+  test("deterministic: the same benchmark always gives the same text", () => {
+    for (const language of LANGS) {
+      assert.equal(writeTeardown(scenario({ own: { reviews: 30 } }), { language }).text, writeTeardown(scenario({ own: { reviews: 30 } }), { language }).text);
+    }
+  });
+
+  test("Hinglish and English differ, and each template set is complete", () => {
+    const en = tear({ own: { reviews: 30 } }, "en").text;
+    const hi = tear({ own: { reviews: 30 } }, "hinglish").text;
+    assert.notEqual(en, hi);
+    assert.match(hi, /hain/);
+  });
+});
+
+describe("the demo hero's teardown (re-seeded data)", () => {
+  const demo = generateDemoData({ endDate: "2026-10-07T12:00:00Z" });
+  const bench = (day) => buildBenchmark(demo.days[day].payload.local_results, HERO_NAME);
+
+  test("latest day: ~30 reviews against a top-3 average in the hundreds, unclaimed, no website", () => {
+    const b = bench(29);
+    const t = writeTeardown(b);
+    assert.equal(t.focus, "reviews");
+    assert.equal(b.own.reviews, 30);
+    assert.ok(b.averages.reviews >= 300);
+    assert.match(t.sentences[0], new RegExp(`You have 30 reviews while the top 3 average ${b.averages.reviews}`));
+    assert.match(t.sentences[0], /your listing is unclaimed while 3 of the top 3 are claimed/);
+    assert.match(t.sentences[0], /2 of the top 3 have a website and you don't/);
+    assert.match(t.sentences[1], /more reviews/);
+  });
+
+  test("first day: 14 reviews against the top-3 average", () => {
+    const b = bench(0);
+    assert.equal(b.own.reviews, 14);
+    assert.match(writeTeardown(b).sentences[0], new RegExp(`You have 14 reviews while the top 3 average ${b.averages.reviews}`));
+  });
+
+  test("Hinglish version for the same hero, in Roman script", () => {
+    const t = writeTeardown(bench(29), { language: "hinglish" });
+    assert.match(t.sentences[0], /^Aapke 30 reviews hain jabki top 3 ka average \d+ hai/);
+    assert.doesNotMatch(t.text, DEVANAGARI);
+  });
+
+  test("the other tracked businesses also get a teardown (or none, if not in the top 20)", () => {
+    const grind = writeTeardown(buildBenchmark(demo.days[29].payload.local_results, "The Daily Grind"));
+    assert.ok(grind === null || grind.sentences.length === 2);
+  });
+});
+
+describe("composeInsight", () => {
+  const RULE = { text: "Rule-based fallback text." };
+  const found = scenario({ own: { reviews: 30 } });
+  const notFound = buildBenchmark(scenario().top.map((t) => ({ position: t.position, title: t.title, ...STRONG })), "Nobody");
+  const alone = buildBenchmark([{ position: 1, title: ME, ...STRONG }], ME);
+
+  test("with the business found and a competitor: the teardown, labeled 'teardown'", () => {
+    const out = composeInsight({ rule: RULE, benchmark: found });
+    assert.equal(out.source, "teardown");
+    assert.equal(out.language, "en");
+    assert.equal(out.text, writeTeardown(found).text);
+  });
+
+  test("the language is passed through and returned", () => {
+    const out = composeInsight({ rule: RULE, benchmark: found, language: "hinglish" });
+    assert.deepEqual([out.source, out.language], ["teardown", "hinglish"]);
+    assert.match(out.text, /^Aapke 30 reviews hain/);
+  });
+
+  test("not in the top 20, nobody to compare with, or no benchmark: the rule-based text, always English", () => {
+    for (const benchmark of [notFound, alone, null, undefined]) {
+      for (const language of LANGS) {
+        assert.deepEqual(composeInsight({ rule: RULE, benchmark, language }), { text: RULE.text, source: "rules", language: "en" });
+      }
+    }
+  });
+
+  test("it is synchronous and takes no model or network parameters", () => {
+    const out = composeInsight({ rule: RULE, benchmark: found });
+    assert.ok(!(out instanceof Promise));
+    assert.ok(!("llmFn" in composeInsight) && composeInsight.length === 1);
+  });
+});
+
+describe("the cache is keyed by language", () => {
+  test("a cached text is only usable for the same language; NULL (older rows) counts as English", () => {
     assert.equal(cacheMatchesLanguage("en", "en"), true);
     assert.equal(cacheMatchesLanguage(null, "en"), true);
     assert.equal(cacheMatchesLanguage(undefined, undefined), true);
@@ -247,5 +396,50 @@ describe("insight cache is keyed by language", () => {
     assert.equal(cacheMatchesLanguage("hinglish", "something-else"), false); // unknown request = English
     assert.equal(cacheLanguage(null), "en");
     assert.equal(cacheLanguage("hinglish"), "hinglish");
+  });
+});
+
+describe("insights use no network and no external service", () => {
+  const realFetch = globalThis.fetch;
+  afterEach(() => {
+    globalThis.fetch = realFetch;
+  });
+
+  test("writing a teardown and composing an insight never call fetch", () => {
+    let calls = 0;
+    globalThis.fetch = () => {
+      calls++;
+      throw new Error("fetch must not be called for insights");
+    };
+    for (const language of LANGS) {
+      writeTeardown(scenario({ own: { reviews: 5 } }), { language });
+      composeInsight({ rule: { text: "x" }, benchmark: scenario(), language });
+      composeInsight({ rule: { text: "x" }, benchmark: null, language });
+    }
+    assert.equal(calls, 0);
+  });
+
+  test("the insight modules don't mention fetch, a network client, or an external AI service", () => {
+    const files = ["lib/insight.mjs", "lib/teardown.mjs", "lib/benchmark.mjs", "lib/benchmark-data.mjs", "app/api/businesses/[id]/insight/route.js", "app/api/businesses/[id]/benchmark/route.js", "components/InsightCard.jsx", "components/BenchmarkPanel.jsx"];
+    for (const f of files) {
+      const src = fs.readFileSync(path.join(ROOT, f), "utf8").replace(/\/\*[\s\S]*?\*\//g, "").replace(/\/\/.*$/gm, "");
+      assert.doesNotMatch(src, /\bfetch\s*\(|from ["'][^"']*llm[^"']*["']|XMLHttpRequest|https?:\/\//, `${f} must not make network calls`);
+      if (f.startsWith("lib/")) assert.doesNotMatch(src, /node:https?|node:net/, f);
+    }
+    assert.equal(fs.existsSync(path.join(ROOT, "lib/llm.mjs")), false);
+  });
+
+  test("nothing in the project refers to an external AI service (guards against it coming back)", () => {
+    const needle = new RegExp(["gem" + "ini", "generative" + "language", "open" + "ai", "anthro" + "pic", "GEM" + "INI_"].join("|"), "i");
+    const roots = ["lib", "app", "components", "db", "scripts", "test", "README.md", "STATUS.md", ".env.local.example", "package.json", "next.config.mjs", "vercel.json"];
+    const hits = [];
+    const walk = (p) => {
+      const full = path.join(ROOT, p);
+      if (!fs.existsSync(full)) return;
+      if (fs.statSync(full).isDirectory()) return fs.readdirSync(full).forEach((f) => walk(path.join(p, f)));
+      if (needle.test(fs.readFileSync(full, "utf8"))) hits.push(p);
+    };
+    roots.forEach(walk);
+    assert.deepEqual(hits, []);
   });
 });

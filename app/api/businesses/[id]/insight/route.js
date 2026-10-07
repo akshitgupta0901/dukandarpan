@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { generateInsight, getCachedInsight, isCacheFresh, cacheLanguage, cacheMatchesLanguage } from "../../../../../lib/insight.mjs";
 import { normalizeLanguage } from "../../../../../lib/teardown.mjs";
-import { isLlmConfigured } from "../../../../../lib/llm.mjs";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -13,8 +12,7 @@ export const maxDuration = 30;
  * recomputes anything. The cache holds one text in one language: asking for the
  * other language returns an empty result (`insight: null`) so the UI offers to
  * generate it, rather than showing the wrong language. `fresh` tells the UI
- * whether to offer "Get insight" or "Refresh insight". `aiAvailable` is whether
- * a Gemini key is configured (Hinglish only exists with the AI).
+ * whether to offer "Get insight" or "Refresh insight".
  */
 export async function GET(request, { params }) {
   const { id } = await params;
@@ -23,7 +21,6 @@ export async function GET(request, { params }) {
     return NextResponse.json({ error: "invalid business id" }, { status: 400 });
   }
   const language = normalizeLanguage(new URL(request.url).searchParams.get("lang"));
-  const aiAvailable = isLlmConfigured();
 
   try {
     const cached = await getCachedInsight(businessId);
@@ -32,7 +29,7 @@ export async function GET(request, { params }) {
     }
     if (!cacheMatchesLanguage(cached.language, language)) {
       return NextResponse.json(
-        { insight: null, source: null, language, generatedAt: null, fresh: false, aiAvailable },
+        { insight: null, source: null, language, generatedAt: null, fresh: false },
         { status: 200 }
       );
     }
@@ -43,7 +40,6 @@ export async function GET(request, { params }) {
         language: cacheLanguage(cached.language),
         generatedAt: cached.generatedAt,
         fresh: isCacheFresh(cached.generatedAt),
-        aiAvailable,
       },
       { status: 200 }
     );
@@ -55,11 +51,12 @@ export async function GET(request, { params }) {
 
 /**
  * POST /api/businesses/:id/insight?lang=en|hinglish
- * Always recomputes the recommendation (AI when GEMINI_API_KEY is set and the
- * answer passes its checks, otherwise rule-based) and overwrites the cache --
+ * Always recomputes the recommendation (the competitor teardown from the stored
+ * SerpApi results, or the rule-based text when there is nothing to compare) and
+ * overwrites the cache --
  * only runs on an explicit "Get insight" / "Refresh insight" click (see components/InsightCard.jsx). Never called
  * automatically on page load. `language` in the response is the language of the text
- * returned: the rule-based fallback is always English, even when Hinglish was asked for.
+ * returned: the rule-based text is always English, even when Hinglish was asked for.
  */
 export async function POST(request, { params }) {
   const { id } = await params;
@@ -79,7 +76,6 @@ export async function POST(request, { params }) {
         requestedLanguage: language,
         generatedAt: result.generatedAt,
         fresh: true,
-        aiAvailable: isLlmConfigured(),
       },
       { status: 200 }
     );
