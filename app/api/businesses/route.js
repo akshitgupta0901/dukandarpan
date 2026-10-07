@@ -18,6 +18,11 @@ export const dynamic = "force-dynamic";
  *   - "down" -- rank worsened (position increased), or went found -> not_found
  *   - "flat" -- unchanged (same position, or not_found both times)
  *
+ * trendChange is how many positions the rank moved between the previous and
+ * latest check (always positive; direction is in `trend`). It's null unless
+ * both checks found the business, since a move into or out of the pack has no
+ * position count to show.
+ *
  * found is one of true | false | null:
  *   - true  -- found in the latest check, at `position`
  *   - false -- a check ran and this business was genuinely not in the pack
@@ -76,9 +81,11 @@ export async function GET(request) {
 
     const businesses = rows.map((r) => {
       let trend = null;
+      let trendChange = null;
       if (r.prevPosition !== null || r.prevFound !== null) {
         if (r.latestFound && r.prevFound) {
           trend = r.latestPosition < r.prevPosition ? "up" : r.latestPosition > r.prevPosition ? "down" : "flat";
+          if (trend !== "flat") trendChange = Math.abs(r.latestPosition - r.prevPosition);
         } else if (r.latestFound && !r.prevFound) {
           trend = "up"; // not_found -> found
         } else if (!r.latestFound && r.prevFound) {
@@ -102,6 +109,7 @@ export async function GET(request) {
         found: r.latestFound ?? null,
         checkedAt: r.latestCheckedAt,
         trend,
+        trendChange,
       };
     });
 

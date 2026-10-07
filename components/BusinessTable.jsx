@@ -14,18 +14,18 @@ function formatCheckedAt(iso) {
   });
 }
 
-function Trend({ trend }) {
+function Trend({ trend, change }) {
   if (trend === "up") {
     return (
       <span className="trend trend-up" title="Rank improved since the last check">
-        ▲
+        ▲{change != null && ` ${change}`}
       </span>
     );
   }
   if (trend === "down") {
     return (
       <span className="trend trend-down" title="Rank dropped since the last check">
-        ▼
+        ▼{change != null && ` ${change}`}
       </span>
     );
   }
@@ -76,7 +76,7 @@ export default function BusinessTable({ businesses, selectedId, onSelect }) {
               )}
             </td>
             <td>
-              <Trend trend={b.trend} />
+              <Trend trend={b.trend} change={b.trendChange} />
             </td>
             <td>{formatCheckedAt(b.checkedAt)}</td>
           </tr>
