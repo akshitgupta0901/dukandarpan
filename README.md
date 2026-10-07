@@ -18,7 +18,7 @@ It tracks a set of businesses against real Google Maps (and regular Google) resu
 - **Rank over time.** Every check is stored; a chart shows each business's rank, with a trend arrow and the size of the move.
 - **Who is beating you.** The competitors ranked above a business, with their review counts, ratings, and how many
   reviews they gained this week (read from stored results, so it costs nothing extra).
-- **Overtake alerts.** When a competitor that was behind you passes you, you get an alert naming them
+- **Overtake alerts.** When a competitor that was behind you passes you and you are still ranked #10 or better, you get an alert naming them
   ("Kettle & Crumb just outranked you (you are now #3, they are #2)"), plus the usual alerts for a drop of 3+ places or
   falling out of the top 20. Alerts go to Telegram and show on the dashboard.
 - **Share of voice.** "Map Pack: #3 | Organic: not ranking organically", with a plain-language note when you are

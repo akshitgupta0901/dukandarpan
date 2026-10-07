@@ -285,6 +285,16 @@ describe("deriveDemoAlerts", () => {
     assert.ok(Math.max(...Object.values(perDay)) <= 2);
   });
 
+  test("overtake alerts follow the same #10 rule as the real pipeline", async () => {
+    const { OVERTAKE_MAX_POSITION } = await import("../lib/overtake.mjs");
+    const overtaken = alerts.filter((a) => a.type === "overtaken");
+    assert.ok(overtaken.length >= 3);
+    for (const a of overtaken) assert.ok(a.newPosition <= OVERTAKE_MAX_POSITION, `${a.businessName} day ${a.dayIndex}: #${a.newPosition}`);
+    // Masala Mug lives around #15 to #20, so it never gets an overtake alert (its other alerts are unaffected).
+    assert.ok(!overtaken.some((a) => a.businessName === "Masala Mug"));
+    assert.ok(alerts.some((a) => a.businessName === "Masala Mug" && a.type === "fell_out"));
+  });
+
   test("rank alerts carry no competitor name", () => {
     assert.ok(alerts.filter((a) => a.type !== "overtaken").every((a) => a.competitorName === null));
   });

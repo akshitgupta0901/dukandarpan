@@ -1,6 +1,6 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { detectOvertakes, MAX_OVERTAKE_ALERTS } from "../lib/overtake.mjs";
+import { detectOvertakes, MAX_OVERTAKE_ALERTS, OVERTAKE_MAX_POSITION } from "../lib/overtake.mjs";
 
 /** local_results from [title, place_id?] in rank order. */
 const results = (...entries) => entries.map(([title, place_id], i) => ({ position: i + 1, title, ...(place_id ? { place_id } : {}) }));
@@ -138,5 +138,60 @@ describe("detectOvertakes: ties and limits", () => {
     const before = results(["Alpha", "a"], [ME, "me"]);
     const now = results([ME, "me"], ["Alpha", "a"]);
     assert.ok(!names(detectOvertakes(before, now, ME)).includes(ME));
+  });
+});
+
+describe("detectOvertakes: only when the business's NEW position is #10 or better", () => {
+  // `filler(n)` is n unrelated listings; the business and one rival then sit at positions n+1 and n+2.
+  const filler = (n) => Array.from({ length: n }, (_, i) => [`Filler ${i + 1}`, `f${i + 1}`]);
+  /** Business at position `mine`, rival right behind; then the two swap. */
+  const swap = (mine) => ({
+    before: results(...filler(mine - 1), [ME, "me"], ["Rival", "r"]),
+    now: results(...filler(mine - 1), ["Rival", "r"], [ME, "me"]),
+  });
+
+  test("the cutoff is a named constant, #10", () => {
+    assert.equal(OVERTAKE_MAX_POSITION, 10);
+  });
+
+  test("new position exactly 10: fires", () => {
+    const { before, now } = swap(9); // business #9 -> #10
+    const found = detectOvertakes(before, now, ME);
+    assert.equal(found.length, 1);
+    assert.equal(found[0].yourPosition, OVERTAKE_MAX_POSITION);
+    assert.equal(found[0].competitor, "Rival");
+  });
+
+  test("new position 11: does not fire, even though a rival really did pass the business", () => {
+    const { before, now } = swap(10); // business #10 -> #11
+    assert.deepEqual(detectOvertakes(before, now, ME), []);
+  });
+
+  test("further down (#15 -> #16, or #19 -> #20): does not fire", () => {
+    for (const mine of [15, 19]) {
+      const { before, now } = swap(mine);
+      assert.deepEqual(detectOvertakes(before, now, ME), [], `#${mine}`);
+    }
+  });
+
+  test("a big drop that ends past #10 does not fire, but one that ends at #10 does", () => {
+    const before = results(...filler(4), [ME, "me"], ["A", "a"], ["B", "b"], ["C", "c"], ["D", "d"], ["E", "e"]); // ME #5
+    const endsAt10 = results(...filler(4), ["A", "a"], ["B", "b"], ["C", "c"], ["D", "d"], ["E", "e"], [ME, "me"]); // ME #10
+    const endsAt11 = results(...filler(4), ["A", "a"], ["B", "b"], ["C", "c"], ["D", "d"], ["E", "e"], ["Z", "z"], [ME, "me"]); // ME #11
+    assert.equal(detectOvertakes(before, endsAt10, ME).length, MAX_OVERTAKE_ALERTS);
+    assert.deepEqual(detectOvertakes(before, endsAt11, ME), []);
+  });
+
+  test("a business that is not found now does not fire (regardless of the cutoff)", () => {
+    const before = results(...filler(3), [ME, "me"], ["Rival", "r"]);
+    const gone = results(...filler(3), ["Rival", "r"], ["Other", "o"]);
+    assert.deepEqual(detectOvertakes(before, gone, ME), []);
+  });
+
+  test("the cutoff applies to where the business is NOW, not where it was: climbing into the top 10 from lower still needs a real overtake", () => {
+    // ME rises from #15 to #8 and nobody that was behind it passes it
+    const before = results(...filler(14), [ME, "me"]);
+    const now = results(...filler(7), [ME, "me"], ...filler(7).map(([t, id]) => [`${t}b`, `${id}b`]));
+    assert.deepEqual(detectOvertakes(before, now, ME), []);
   });
 });
