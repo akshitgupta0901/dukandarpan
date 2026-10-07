@@ -124,6 +124,10 @@ export default function RankChart({ history, businessName }) {
           <XAxis
             dataKey="checkedAt"
             tickFormatter={formatTick}
+            // Recharts drops any tick label that doesn't fit inside the axis range, and the
+            // first/last labels are centered on the plot edges. Insetting those points keeps
+            // them (otherwise the first point silently loses its label).
+            padding={{ left: 44, right: 44 }}
             stroke={colors.muted}
             tick={{ fill: colors.muted, fontSize: 11 }}
             axisLine={{ stroke: colors.gridline }}
