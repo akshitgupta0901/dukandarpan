@@ -22,7 +22,7 @@ export async function GET(request, { params }) {
       return NextResponse.json({ error: `No business with id ${businessId}` }, { status: 404 });
     }
     return NextResponse.json(
-      { insight: cached.insight, generatedAt: cached.generatedAt, fresh: isCacheFresh(cached.generatedAt) },
+      { insight: cached.insight, source: cached.source ?? null, generatedAt: cached.generatedAt, fresh: isCacheFresh(cached.generatedAt) },
       { status: 200 }
     );
   } catch (err) {
@@ -33,7 +33,8 @@ export async function GET(request, { params }) {
 
 /**
  * POST /api/businesses/:id/insight
- * Always recomputes the rule-based recommendation and overwrites the cache --
+ * Always recomputes the recommendation (AI when GEMINI_API_KEY is set and the
+ * answer passes its checks, otherwise rule-based) and overwrites the cache --
  * only runs on an explicit "Get insight" / "Refresh insight" click (see components/InsightCard.jsx). Never called
  * automatically on page load.
  */
@@ -44,7 +45,7 @@ export async function POST(request, { params }) {
   }
   try {
     const result = await generateInsight(businessId);
-    return NextResponse.json({ insight: result.insight, generatedAt: result.generatedAt, fresh: true }, { status: 200 });
+    return NextResponse.json({ insight: result.insight, source: result.source, generatedAt: result.generatedAt, fresh: true }, { status: 200 });
   } catch (err) {
     console.error(`[api/businesses/${businessId}/insight POST] failed:`, err);
     return NextResponse.json({ error: err.message }, { status: 500 });

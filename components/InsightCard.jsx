@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { fetchJson } from "../lib/fetch-json.mjs";
+import BenchmarkPanel from "./BenchmarkPanel";
 
 function formatGeneratedAt(iso) {
   if (!iso) return "";
@@ -22,6 +23,8 @@ function formatGeneratedAt(iso) {
 export default function InsightCard({ businessId }) {
   const [insight, setInsight] = useState(null);
   const [generatedAt, setGeneratedAt] = useState(null);
+  const [source, setSource] = useState(null);
+  const [benchmark, setBenchmark] = useState(null);
   const [fresh, setFresh] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -30,16 +33,23 @@ export default function InsightCard({ businessId }) {
     let cancelled = false;
     setInsight(null);
     setGeneratedAt(null);
+    setSource(null);
+    setBenchmark(null);
     setFresh(false);
     setError(null);
     fetchJson(`/api/businesses/${businessId}/insight`)
       .then((json) => {
         if (cancelled) return;
         setInsight(json.insight);
+        setSource(json.source ?? null);
         setGeneratedAt(json.generatedAt);
         setFresh(json.fresh);
       })
       .catch((err) => !cancelled && setError(err.message));
+    // The comparison reads the stored search response (no credits, no AI call), so it loads with the card.
+    fetchJson(`/api/businesses/${businessId}/benchmark`)
+      .then((json) => !cancelled && setBenchmark(json))
+      .catch(() => {}); // optional extra: the recommendation still works without it
     return () => {
       cancelled = true;
     };
@@ -51,6 +61,7 @@ export default function InsightCard({ businessId }) {
     try {
       const json = await fetchJson(`/api/businesses/${businessId}/insight`, { method: "POST" });
       setInsight(json.insight);
+      setSource(json.source ?? null);
       setGeneratedAt(json.generatedAt);
       setFresh(json.fresh);
     } catch (err) {
@@ -77,7 +88,17 @@ export default function InsightCard({ businessId }) {
         <p className="loading">Working…</p>
       ) : insight ? (
         <div>
-          <p className="insight-text">{insight}</p>
+          <p className="insight-text">
+            {insight}
+            {source && (
+              <span
+                className="source-tag"
+                title={source === "ai" ? "Written by an AI model from the numbers below" : "Written by built-in rules from your rank history"}
+              >
+                {source === "ai" ? "AI" : "Rule-based"}
+              </span>
+            )}
+          </p>
           <p className="alert-meta">
             Updated {formatGeneratedAt(generatedAt)}
             {!fresh && " · more than 24h old"}
@@ -88,6 +109,8 @@ export default function InsightCard({ businessId }) {
           No recommendation yet — click "Get insight" to get one based on this business's rank history and competitors.
         </p>
       )}
+
+      <BenchmarkPanel data={benchmark} />
     </div>
   );
 }

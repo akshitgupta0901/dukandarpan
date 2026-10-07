@@ -578,3 +578,137 @@ a {
   color: var(--text-primary);
   margin: 0;
 }
+
+
+/* --- Benchmark and listing health (Step 2) --- */
+
+.source-tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 0 7px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.6;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.bench {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 720px) {
+  .bench {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+.bench-empty {
+  margin-top: 12px;
+  padding: 8px 0 0;
+}
+
+.bench-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+}
+
+.bench-metric {
+  margin-bottom: 12px;
+}
+
+.bench-metric-name {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.bench-bar {
+  display: grid;
+  grid-template-columns: 96px 1fr 52px;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.bench-bar-label {
+  color: var(--text-secondary);
+}
+
+.bench-track {
+  height: 8px;
+  background: var(--gridline);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bench-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.bench-fill-you {
+  background: var(--series-1);
+}
+
+.bench-fill-top {
+  background: var(--text-muted);
+}
+
+.bench-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+
+.health-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.health-list li {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  column-gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--gridline);
+}
+
+.health-list li:last-child {
+  border-bottom: none;
+}
+
+.health-icon {
+  font-weight: 700;
+  grid-row: span 2;
+  align-self: start;
+}
+
+.health-ok .health-icon {
+  color: var(--good-text);
+}
+
+.health-miss .health-icon {
+  color: var(--critical);
+}
+
+.health-note {
+  font-size: 12px;
+  color: var(--text-muted);
+}

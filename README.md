@@ -5,7 +5,9 @@ local businesses against SerpApi's `google_maps` (and, optionally, `google`
 organic) engine on a schedule, stores every check, charts rank over time,
 flags competitors ranking above a business, alerts you on Telegram when a
 business drops, and shows a short rule-based recommendation card for any
-business's current situation (no external API or LLM involved).
+business's current situation. With an optional Gemini key, that card becomes an
+AI competitor teardown backed by a benchmark against the top 3 listings and a
+listing-health checklist (rule-based text is the automatic fallback).
 
 ## Setup
 
@@ -27,6 +29,8 @@ Create `.env.local` in the project root (never committed — see
 | `SERPAPI_API_KEY` | running rank checks (`npm run check`, `npm run check:all`, the cron routes) | Sign up at [serpapi.com](https://serpapi.com/) → your [dashboard](https://serpapi.com/dashboard) has the key. |
 | `SERPAPI_API_KEY_2` (optional) | a spare key, used only when the first account runs out of searches | A teammate's key, with their permission. Put it in `.env.local` / your host's env settings only. |
 | `CRON_SECRET` | protecting `/api/cron` and `/api/run-now` once deployed | Any random string you pick yourself (e.g. `openssl rand -hex 32`). Optional locally — those routes skip the auth check when it's unset. |
+| `GEMINI_API_KEY` (optional) | the AI competitor teardown on the recommendation card | A key from [Google AI Studio](https://aistudio.google.com/apikey). Without it (or if Gemini errors, times out, or answers off-format) the card uses the rule-based text. One call per "Get insight" click, cached for 24 hours. |
+| `GEMINI_MODEL` (optional) | which Gemini model the teardown uses | Defaults to `gemini-3.5-flash-lite`. |
 | `TELEGRAM_BOT_TOKEN` | Phase 6 alert delivery | Message [@BotFather](https://t.me/BotFather) on Telegram, `/newbot`, follow the prompts — it gives you the token. |
 | `TELEGRAM_CHAT_ID` | Phase 6 alert delivery | Message your new bot once (anything), then open `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser — your chat id is in the JSON response (`message.chat.id`). |
 
@@ -68,6 +72,8 @@ npm run db:unseed-demo                   # remove the demo data (real data is ne
 - **Safe by design:** demo queries are skipped by the cron and by "Run check now"
   (a live check on sample data is refused with a message), so they never cost a
   SerpApi credit. The seed makes no SerpApi calls and sends no Telegram messages.
+- If `GEMINI_API_KEY` is set when you seed, the pre-filled recommendation is written by
+  the AI (one Gemini call, no SerpApi credit); without it, the rule-based text is used.
 - **Timestamps are relative to when you run the seed** (newest check = now). Re-run
   `npm run db:seed:demo` before a demo to refresh the dates. It first deletes the
   previous demo data, so it is safe to repeat.
