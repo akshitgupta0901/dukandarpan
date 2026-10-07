@@ -7,13 +7,7 @@ import CompetitorPanel from "./CompetitorPanel";
 import AddQueryForm from "./AddQueryForm";
 import AlertsPanel from "./AlertsPanel";
 import InsightCard from "./InsightCard";
-
-async function getJson(url) {
-  const res = await fetch(url);
-  const json = await res.json();
-  if (!res.ok) throw new Error(json.error || `Request to ${url} failed`);
-  return json;
-}
+import { fetchJson } from "../lib/fetch-json.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 const STALE_AFTER_DAYS = 2;
@@ -46,7 +40,7 @@ export default function Dashboard() {
 
   async function loadCategories() {
     try {
-      const json = await getJson("/api/categories");
+      const json = await fetchJson("/api/categories");
       setCategories(json.categories);
       setActiveCategory((current) => current ?? json.categories[0] ?? null);
     } catch (err) {
@@ -58,7 +52,7 @@ export default function Dashboard() {
     setAlertsLoading(true);
     setAlertsError(null);
     try {
-      const json = await getJson("/api/alerts");
+      const json = await fetchJson("/api/alerts");
       setAlerts(json.alerts);
     } catch (err) {
       setAlertsError(err.message);
@@ -77,7 +71,7 @@ export default function Dashboard() {
     let cancelled = false;
     setBusinessesLoading(true);
     setBusinessesError(null);
-    getJson(`/api/businesses?category=${encodeURIComponent(activeCategory)}`)
+    fetchJson(`/api/businesses?category=${encodeURIComponent(activeCategory)}`)
       .then((json) => {
         if (cancelled) return;
         setBusinesses(json.businesses);
@@ -99,8 +93,8 @@ export default function Dashboard() {
     let cancelled = false;
     setDetailLoading(true);
     Promise.all([
-      getJson(`/api/businesses/${selectedId}/history`),
-      getJson(`/api/businesses/${selectedId}/competitors`),
+      fetchJson(`/api/businesses/${selectedId}/history`),
+      fetchJson(`/api/businesses/${selectedId}/competitors`),
     ])
       .then(([historyJson, competitorsJson]) => {
         if (cancelled) return;
@@ -117,7 +111,7 @@ export default function Dashboard() {
   function handleQueryAdded() {
     loadCategories();
     if (activeCategory) {
-      getJson(`/api/businesses?category=${encodeURIComponent(activeCategory)}`)
+      fetchJson(`/api/businesses?category=${encodeURIComponent(activeCategory)}`)
         .then((json) => {
           setBusinesses(json.businesses);
           if (!json.businesses.find((b) => b.id === selectedId)) {

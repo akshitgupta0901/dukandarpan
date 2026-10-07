@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { fetchJson } from "../lib/fetch-json.mjs";
 
 function formatGeneratedAt(iso) {
   if (!iso) return "";
@@ -31,11 +32,9 @@ export default function InsightCard({ businessId }) {
     setGeneratedAt(null);
     setFresh(false);
     setError(null);
-    fetch(`/api/businesses/${businessId}/insight`)
-      .then((res) => res.json())
+    fetchJson(`/api/businesses/${businessId}/insight`)
       .then((json) => {
         if (cancelled) return;
-        if (json.error) throw new Error(json.error);
         setInsight(json.insight);
         setGeneratedAt(json.generatedAt);
         setFresh(json.fresh);
@@ -50,9 +49,7 @@ export default function InsightCard({ businessId }) {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/businesses/${businessId}/insight`, { method: "POST" });
-      const json = await res.json();
-      if (!res.ok) throw new Error(json.error || "Failed to get insight");
+      const json = await fetchJson(`/api/businesses/${businessId}/insight`, { method: "POST" });
       setInsight(json.insight);
       setGeneratedAt(json.generatedAt);
       setFresh(json.fresh);

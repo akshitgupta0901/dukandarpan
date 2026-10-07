@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { fetchJson } from "../lib/fetch-json.mjs";
 
 const initialForm = { queryText: "", category: "", location: "", businessNames: "" };
 
@@ -14,9 +15,8 @@ export default function AddQueryForm({ onAdded }) {
   async function loadQueries() {
     setLoadingQueries(true);
     try {
-      const res = await fetch("/api/queries");
-      const json = await res.json();
-      if (res.ok) setExistingQueries(json.queries);
+      const json = await fetchJson("/api/queries");
+      setExistingQueries(json.queries);
     } catch {
       // non-fatal -- the "existing queries" list is a convenience, not load-bearing
     } finally {
@@ -43,21 +43,20 @@ export default function AddQueryForm({ onAdded }) {
       .filter(Boolean);
 
     try {
-      const res = await fetch("/api/queries", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          queryText: form.queryText,
-          category: form.category,
-          location: form.location,
-          businessNames,
-        }),
-      });
-      const json = await res.json();
-      if (!res.ok) {
-        setMessage({ type: "error", text: json.error || "Something went wrong" });
-        return;
-      }
+      const json = await fetchJson(
+        "/api/queries",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            queryText: form.queryText,
+            category: form.category,
+            location: form.location,
+            businessNames,
+          }),
+        },
+        "Couldn't add the query, try again"
+      );
       setMessage({
         type: "success",
         text: `Added "${json.query.queryText}" (${json.query.category}) at ${json.query.lat.toFixed(4)}, ${json.query.lng.toFixed(4)}${
