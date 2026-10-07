@@ -137,6 +137,10 @@ a {
   line-height: 1.2;
 }
 
+a.btn {
+  text-decoration: none;
+}
+
 .btn:hover {
   border-color: var(--text-primary);
 }
@@ -774,4 +778,50 @@ a {
   border-top: 1px solid var(--border);
   font-size: 13px;
   line-height: 1.5;
+}
+
+/* --- Language toggle on the recommendation card (Step 5) --- */
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.lang-option {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.lang-option + .lang-option {
+  border-left: 1px solid var(--border-strong);
+}
+
+.lang-option.active {
+  background: var(--text-primary);
+  color: var(--surface);
+}
+
+.lang-option:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.lang-option:focus-visible {
+  outline: 2px solid var(--series-1);
+  outline-offset: -2px;
 }

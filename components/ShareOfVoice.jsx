@@ -13,7 +13,7 @@ function formatDay(iso) {
  * Organic ranks come from the newest check that ran the organic search (the daily cron
  * is maps-only), so the date is shown.
  */
-export default function ShareOfVoice({ business }) {
+export default function ShareOfVoice({ business, action = null }) {
   const sov = describeShareOfVoice({
     found: business.found,
     position: business.position,
@@ -23,10 +23,13 @@ export default function ShareOfVoice({ business }) {
 
   return (
     <div className="card">
-      <h2 className="card-title">
-        Share of voice — {business.name}
-        {business.isDemo && <DemoBadge />}
-      </h2>
+      <div className="alerts-header">
+        <h2 className="card-title">
+          Share of voice — {business.name}
+          {business.isDemo && <DemoBadge />}
+        </h2>
+        {action}
+      </div>
       <div className="sov-row" aria-label={`Map Pack: ${sov.mapText}. Organic: ${sov.organicText}.`}>
         <div className="sov-stat">
           <span className="sov-label">Map Pack</span>

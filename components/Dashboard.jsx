@@ -10,6 +10,7 @@ import InsightCard from "./InsightCard";
 import RunCheckButton from "./RunCheckButton";
 import DemoBadge from "./DemoBadge";
 import ShareOfVoice from "./ShareOfVoice";
+import WhatsAppShare from "./WhatsAppShare";
 import { fetchJson } from "../lib/fetch-json.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
@@ -37,6 +38,7 @@ export default function Dashboard() {
   const [history, setHistory] = useState([]);
   const [competitors, setCompetitors] = useState(null);
   const [detailLoading, setDetailLoading] = useState(false);
+  const [insightText, setInsightText] = useState(null); // the card's current recommendation, for the WhatsApp summary
   const [detailRefreshKey, setDetailRefreshKey] = useState(0); // bumped after a check to re-fetch history/competitors
 
   const [alerts, setAlerts] = useState([]);
@@ -192,7 +194,10 @@ export default function Dashboard() {
 
       {selectedBusiness && (
         <div style={{ marginTop: 16 }}>
-          <ShareOfVoice business={selectedBusiness} />
+          <ShareOfVoice
+            business={selectedBusiness}
+            action={<WhatsAppShare business={selectedBusiness} competitors={competitors} insight={insightText} />}
+          />
         </div>
       )}
 
@@ -214,7 +219,7 @@ export default function Dashboard() {
 
       {selectedBusiness && (
         <div style={{ marginTop: 16 }}>
-          <InsightCard businessId={selectedBusiness.id} />
+          <InsightCard businessId={selectedBusiness.id} onInsightChange={setInsightText} />
         </div>
       )}
 

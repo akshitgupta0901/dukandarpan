@@ -1,28 +1,50 @@
 import { NextResponse } from "next/server";
-import { generateInsight, getCachedInsight, isCacheFresh } from "../../../../../lib/insight.mjs";
+import { generateInsight, getCachedInsight, isCacheFresh, cacheLanguage, cacheMatchesLanguage } from "../../../../../lib/insight.mjs";
+import { normalizeLanguage } from "../../../../../lib/teardown.mjs";
+import { isLlmConfigured } from "../../../../../lib/llm.mjs";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 30;
 
 /**
- * GET /api/businesses/:id/insight
+ * GET /api/businesses/:id/insight?lang=en|hinglish
  * Returns whatever's cached (possibly null, if never generated) -- never
- * recomputes anything. `fresh` tells the UI whether to offer
- * "Get insight" or "Refresh insight".
+ * recomputes anything. The cache holds one text in one language: asking for the
+ * other language returns an empty result (`insight: null`) so the UI offers to
+ * generate it, rather than showing the wrong language. `fresh` tells the UI
+ * whether to offer "Get insight" or "Refresh insight". `aiAvailable` is whether
+ * a Gemini key is configured (Hinglish only exists with the AI).
  */
 export async function GET(request, { params }) {
-  const businessId = Number(params.id);
+  const { id } = await params;
+  const businessId = Number(id);
   if (!Number.isInteger(businessId)) {
     return NextResponse.json({ error: "invalid business id" }, { status: 400 });
   }
+  const language = normalizeLanguage(new URL(request.url).searchParams.get("lang"));
+  const aiAvailable = isLlmConfigured();
+
   try {
     const cached = await getCachedInsight(businessId);
     if (!cached) {
       return NextResponse.json({ error: `No business with id ${businessId}` }, { status: 404 });
     }
+    if (!cacheMatchesLanguage(cached.language, language)) {
+      return NextResponse.json(
+        { insight: null, source: null, language, generatedAt: null, fresh: false, aiAvailable },
+        { status: 200 }
+      );
+    }
     return NextResponse.json(
-      { insight: cached.insight, source: cached.source ?? null, generatedAt: cached.generatedAt, fresh: isCacheFresh(cached.generatedAt) },
+      {
+        insight: cached.insight,
+        source: cached.source ?? null,
+        language: cacheLanguage(cached.language),
+        generatedAt: cached.generatedAt,
+        fresh: isCacheFresh(cached.generatedAt),
+        aiAvailable,
+      },
       { status: 200 }
     );
   } catch (err) {
@@ -32,20 +54,35 @@ export async function GET(request, { params }) {
 }
 
 /**
- * POST /api/businesses/:id/insight
+ * POST /api/businesses/:id/insight?lang=en|hinglish
  * Always recomputes the recommendation (AI when GEMINI_API_KEY is set and the
  * answer passes its checks, otherwise rule-based) and overwrites the cache --
  * only runs on an explicit "Get insight" / "Refresh insight" click (see components/InsightCard.jsx). Never called
- * automatically on page load.
+ * automatically on page load. `language` in the response is the language of the text
+ * returned: the rule-based fallback is always English, even when Hinglish was asked for.
  */
 export async function POST(request, { params }) {
-  const businessId = Number(params.id);
+  const { id } = await params;
+  const businessId = Number(id);
   if (!Number.isInteger(businessId)) {
     return NextResponse.json({ error: "invalid business id" }, { status: 400 });
   }
+  const language = normalizeLanguage(new URL(request.url).searchParams.get("lang"));
+
   try {
-    const result = await generateInsight(businessId);
-    return NextResponse.json({ insight: result.insight, source: result.source, generatedAt: result.generatedAt, fresh: true }, { status: 200 });
+    const result = await generateInsight(businessId, { language });
+    return NextResponse.json(
+      {
+        insight: result.insight,
+        source: result.source,
+        language: cacheLanguage(result.language),
+        requestedLanguage: language,
+        generatedAt: result.generatedAt,
+        fresh: true,
+        aiAvailable: isLlmConfigured(),
+      },
+      { status: 200 }
+    );
   } catch (err) {
     console.error(`[api/businesses/${businessId}/insight POST] failed:`, err);
     return NextResponse.json({ error: err.message }, { status: 500 });

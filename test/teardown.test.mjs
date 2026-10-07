@@ -109,13 +109,13 @@ describe("composeInsight (AI with rule-based fallback)", () => {
   test("no API key: rule-based, and the model is never called", async () => {
     let called = 0;
     const out = await composeInsight(input, { env: {}, llmFn: async () => { called++; return GOOD; }, warn: silent });
-    assert.deepEqual(out, { text: RULE.text, source: "rules" });
+    assert.deepEqual(out, { text: RULE.text, source: "rules", language: "en" });
     assert.equal(called, 0);
   });
 
   test("a valid answer is used and labeled 'ai'", async () => {
     const out = await composeInsight(input, { env: KEY_ENV, llmFn: async () => GOOD, warn: silent });
-    assert.deepEqual(out, { text: GOOD, source: "ai" });
+    assert.deepEqual(out, { text: GOOD, source: "ai", language: "en" });
   });
 
   test("the model receives the built system and user prompts", async () => {
@@ -128,7 +128,7 @@ describe("composeInsight (AI with rule-based fallback)", () => {
   test("a model error (timeout, HTTP 429...) falls back to rules without throwing", async () => {
     const warnings = [];
     const out = await composeInsight(input, { env: KEY_ENV, llmFn: async () => { throw new Error("Gemini request timed out after 12000 ms"); }, warn: (m) => warnings.push(m) });
-    assert.deepEqual(out, { text: RULE.text, source: "rules" });
+    assert.deepEqual(out, { text: RULE.text, source: "rules", language: "en" });
     assert.match(warnings[0], /AI unavailable.*timed out/);
   });
 
@@ -155,5 +155,97 @@ describe("composeInsight (AI with rule-based fallback)", () => {
     assert.equal((await composeInsight({ ...input, benchmark: unranked }, { env: KEY_ENV, llmFn, warn: silent })).source, "rules");
     assert.equal((await composeInsight({ ...input, benchmark: null }, { env: KEY_ENV, llmFn, warn: silent })).source, "rules");
     assert.equal(called, 0);
+  });
+});
+
+describe("Hinglish option", () => {
+  const hi = buildTeardownPrompt(benchmark, { businessName: HERO_NAME, queryText: QUERY, language: "hinglish" });
+
+  test("English is the default, and its prompt is unchanged by the option", () => {
+    assert.equal(buildTeardownPrompt(benchmark, { businessName: HERO_NAME, queryText: QUERY, language: "en" }).system, built.system);
+    assert.match(built.system, /plain, simple English/);
+    assert.doesNotMatch(built.system, /Hinglish/);
+  });
+
+  test("the Hinglish prompt asks for Roman-script Hinglish, keeps every other rule, and sends the same data", () => {
+    assert.match(hi.system, /Hinglish/);
+    assert.match(hi.system, /Roman \(English\) alphabet/);
+    assert.match(hi.system, /never in Devanagari/);
+    assert.match(hi.system, /"aap"/);
+    assert.match(hi.system, /exactly 2 sentences/);
+    assert.match(hi.system, /ONLY the data/);
+    assert.match(hi.system, /never calculate/);
+    assert.doesNotMatch(hi.system, /plain, simple English/);
+    assert.equal(hi.prompt, built.prompt);
+    assert.deepEqual(hi.facts, facts);
+  });
+
+  test("normalizeLanguage: anything but 'hinglish' is English", async () => {
+    const { normalizeLanguage } = await import("../lib/teardown.mjs");
+    assert.equal(normalizeLanguage("hinglish"), "hinglish");
+    assert.equal(normalizeLanguage(" HINGLISH "), "hinglish");
+    for (const v of ["en", "", null, undefined, "hindi", "fr", 7]) assert.equal(normalizeLanguage(v), "en");
+  });
+
+  const HINGLISH_GOOD = `Aapke ${benchmark.own.reviews} reviews hain jabki top results ka average ${benchmark.averages.reviews} hai, aur top 3 mein se ${benchmark.checklist[0].topCount} ke paas website hai. Sabse pehle apni listing mein website add kijiye.`;
+
+  test("a Roman-script Hinglish answer that uses only the data's numbers is accepted", () => {
+    const r = checkTeardownText(HINGLISH_GOOD, facts, { language: "hinglish" });
+    assert.equal(r.ok, true, r.reason);
+  });
+
+  test("an answer in Devanagari is rejected when Hinglish was asked for", () => {
+    const r = checkTeardownText("आपके पास कम reviews हैं। अपनी listing में website जोड़ें।", facts, { language: "hinglish" });
+    assert.equal(r.ok, false);
+    assert.equal(r.reason, "wrong script");
+  });
+
+  test("Hinglish answers still go through the same two-sentence and invented-number checks", () => {
+    assert.equal(checkTeardownText("Aapke paas reviews kam hain.", facts, { language: "hinglish" }).ok, false);
+    assert.equal(checkTeardownText("Aapke 99999 reviews hain. Website add kijiye.", facts, { language: "hinglish" }).ok, false);
+  });
+
+  test("composeInsight passes the language to the prompt and returns it", async () => {
+    let seen;
+    const out = await composeInsight(
+      { rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY, language: "hinglish" },
+      { env: KEY_ENV, llmFn: async (p) => { seen = p; return HINGLISH_GOOD; }, warn: () => {} }
+    );
+    assert.equal(seen.system, hi.system);
+    assert.deepEqual(out, { text: HINGLISH_GOOD, source: "ai", language: "hinglish" });
+  });
+
+  test("the rule-based fallback is always English, even when Hinglish was asked for", async () => {
+    for (const llmFn of [async () => { throw new Error("down"); }, async () => "आपके लिए। सुझाव।", async () => "one sentence only"]) {
+      const out = await composeInsight(
+        { rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY, language: "hinglish" },
+        { env: KEY_ENV, llmFn, warn: () => {} }
+      );
+      assert.deepEqual(out, { text: RULE.text, source: "rules", language: "en" });
+    }
+    // and with no key at all
+    const noKey = await composeInsight({ rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY, language: "hinglish" }, { env: {}, warn: () => {} });
+    assert.equal(noKey.language, "en");
+  });
+
+  test("an English request returns language 'en'", async () => {
+    const out = await composeInsight({ rule: RULE, benchmark, businessName: HERO_NAME, queryText: QUERY }, { env: KEY_ENV, llmFn: async () => GOOD, warn: () => {} });
+    assert.equal(out.language, "en");
+  });
+});
+
+describe("insight cache is keyed by language", () => {
+  test("a cached text is only usable for the same language; NULL (older rows) counts as English", async () => {
+    const { cacheMatchesLanguage, cacheLanguage } = await import("../lib/insight.mjs");
+    assert.equal(cacheMatchesLanguage("en", "en"), true);
+    assert.equal(cacheMatchesLanguage(null, "en"), true);
+    assert.equal(cacheMatchesLanguage(undefined, undefined), true);
+    assert.equal(cacheMatchesLanguage("hinglish", "hinglish"), true);
+    assert.equal(cacheMatchesLanguage("en", "hinglish"), false);
+    assert.equal(cacheMatchesLanguage("hinglish", "en"), false);
+    assert.equal(cacheMatchesLanguage(null, "hinglish"), false);
+    assert.equal(cacheMatchesLanguage("hinglish", "something-else"), false); // unknown request = English
+    assert.equal(cacheLanguage(null), "en");
+    assert.equal(cacheLanguage("hinglish"), "hinglish");
   });
 });
