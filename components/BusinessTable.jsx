@@ -1,6 +1,7 @@
 "use client";
 
 import { MAPS_RESULTS_LIMIT } from "../lib/rank-limit.mjs";
+import DemoBadge from "./DemoBadge";
 
 function formatCheckedAt(iso) {
   if (!iso) return "—";
@@ -65,7 +66,10 @@ export default function BusinessTable({ businesses, selectedId, onSelect }) {
             className={b.id === selectedId ? "selected" : ""}
             onClick={() => onSelect(b.id)}
           >
-            <td className="business-name">{b.name}</td>
+            <td className="business-name">
+              {b.name}
+              {b.isDemo && <DemoBadge />}
+            </td>
             <td>
               {b.found === true ? (
                 `#${b.position}`

@@ -1,5 +1,7 @@
 "use client";
 
+import DemoBadge from "./DemoBadge";
+
 function formatAlertTime(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -49,12 +51,17 @@ export default function AlertsPanel({ alerts, loading, error, onRefresh }) {
               <div className="alert-body">
                 <div className="alert-headline">
                   <span className="business-name">{a.businessName}</span> {a.message}
+                  {a.isDemo && <DemoBadge label="Demo" />}
                 </div>
                 <div className="alert-meta">
                   "{a.queryText}" ({a.category}) · {formatAlertTime(a.createdAt)} ·{" "}
-                  <span className={a.telegramSent ? "alert-delivery-ok" : "alert-delivery-fail"}>
-                    {a.telegramSent ? "Telegram sent" : "Telegram not sent"}
-                  </span>
+                  {a.isDemo ? (
+                    <span>Sample alert, nothing was sent</span>
+                  ) : (
+                    <span className={a.telegramSent ? "alert-delivery-ok" : "alert-delivery-fail"}>
+                      {a.telegramSent ? "Telegram sent" : "Telegram not sent"}
+                    </span>
+                  )}
                 </div>
               </div>
             </li>

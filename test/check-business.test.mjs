@@ -169,4 +169,22 @@ describe("checkBusinessNow", () => {
     const d = doubles({ target: tracked(), alertsFn: async () => [{ id: 1 }, { id: 2 }] });
     assert.equal((await checkBusinessNow(10, d.opts)).alertsFired, 2);
   });
+
+  test("sample (demo) data: 409 with the sample-data message, no SerpApi call, no alerts", async () => {
+    const d = doubles({ target: tracked({ isDemo: true, lastCheckedAt: null }) });
+    await assert.rejects(checkBusinessNow(10, d.opts), (err) => {
+      assert.ok(err instanceof CheckBusinessError);
+      assert.equal(err.status, 409);
+      assert.equal(err.message, "This is sample data, so live checks are turned off.");
+      return true;
+    });
+    assert.equal(d.calls.runCheck.length, 0);
+    assert.equal(d.calls.alerts.length, 0);
+  });
+
+  test("demo data is refused even when it was 'checked' long ago (the cooldown never gets a say)", async () => {
+    const d = doubles({ target: tracked({ isDemo: true, lastCheckedAt: ago(17 * 24 * 3600000) }) });
+    await assert.rejects(checkBusinessNow(10, d.opts), { status: 409 });
+    assert.equal(d.calls.runCheck.length, 0);
+  });
 });

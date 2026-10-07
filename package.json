@@ -10,6 +10,8 @@
     "test": "node --test test/*.test.mjs",
     "db:migrate": "node db/migrate.mjs",
     "db:seed": "node db/seed.mjs",
+    "db:seed:demo": "node db/seed-demo.mjs",
+    "db:unseed-demo": "node db/seed-demo.mjs --unseed",
     "check": "node scripts/run-check-cli.mjs",
     "check:all": "node scripts/run-all-cli.mjs",
     "cron:daemon": "node scripts/cron-daemon.mjs",

@@ -43,10 +43,37 @@ without its keys set. The recommendation card needs no extra key.
 | `npm test` | runs the offline test suite (`test/*.test.mjs`) |
 | `npm run db:migrate` | applies pending migrations from `db/migrations/` |
 | `npm run db:seed` | seeds sample data |
+| `npm run db:seed:demo` / `db:unseed-demo` | adds / removes the labeled judge-mode demo data (see below) |
 | `npm run check` | runs one rank-check for a single query, no alerts (see `scripts/run-check-cli.mjs`) |
 | `npm run check:all` | runs every tracked query, same as the scheduler — evaluates and sends alerts |
 | `npm run cron:daemon` | local/self-hosted fallback scheduler (use this OR Vercel Cron, not both) |
 | `npm run test:alert` | sends one real Telegram message using your real credentials, without touching the database (see `scripts/test-alert.mjs`) |
+
+## Judge mode (demo data)
+
+A fresh database has no history, which makes a dashboard look empty. Judge mode
+fills a **"demo cafe"** category with 30 days of generated, clearly fictional
+data: a hero business ("Brew & Bloom Cafe") that climbs from about #12 to #3,
+two more tracked businesses, 19 fictional competitors, rank-drop alerts and a
+pre-filled recommendation. It opens on the Demo tab, and everything generated
+is labeled "Demo data" in the UI.
+
+```bash
+npm run db:migrate                       # adds queries.is_demo (migration 0006)
+npm run db:seed:demo -- --dry-run        # preview only: prints a summary, needs no database
+npm run db:seed:demo                     # replace any earlier demo data and insert fresh
+npm run db:unseed-demo                   # remove the demo data (real data is never touched)
+```
+
+- **Safe by design:** demo queries are skipped by the cron and by "Run check now"
+  (a live check on sample data is refused with a message), so they never cost a
+  SerpApi credit. The seed makes no SerpApi calls and sends no Telegram messages.
+- **Timestamps are relative to when you run the seed** (newest check = now). Re-run
+  `npm run db:seed:demo` before a demo to refresh the dates. It first deletes the
+  previous demo data, so it is safe to repeat.
+- The generator is deterministic (`lib/demo-data.mjs`), so the story is the same
+  every time. To try it without touching your main database, point
+  `DATABASE_URL` at a [Neon branch](https://neon.tech/docs/introduction/branching).
 
 ## Deploying
 

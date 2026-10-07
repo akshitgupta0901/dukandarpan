@@ -26,7 +26,8 @@ export async function GET(request) {
         b.id AS "businessId",
         b.name AS "businessName",
         b.category,
-        q.query_text AS "queryText"
+        q.query_text AS "queryText",
+        q.is_demo AS "isDemo"
       FROM alerts a
       JOIN businesses b ON b.id = a.business_id
       JOIN queries q ON q.id = a.query_id

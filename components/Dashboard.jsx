@@ -8,6 +8,7 @@ import AddQueryForm from "./AddQueryForm";
 import AlertsPanel from "./AlertsPanel";
 import InsightCard from "./InsightCard";
 import RunCheckButton from "./RunCheckButton";
+import DemoBadge from "./DemoBadge";
 import { fetchJson } from "../lib/fetch-json.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
@@ -23,6 +24,7 @@ function staleDaysAgo(businesses) {
 
 export default function Dashboard() {
   const [categories, setCategories] = useState([]);
+  const [demoCategories, setDemoCategories] = useState([]);
   const [activeCategory, setActiveCategory] = useState(null);
   const [categoriesError, setCategoriesError] = useState(null);
 
@@ -44,6 +46,7 @@ export default function Dashboard() {
     try {
       const json = await fetchJson("/api/categories");
       setCategories(json.categories);
+      setDemoCategories(json.demoCategories ?? []);
       setActiveCategory((current) => current ?? json.categories[0] ?? null);
     } catch (err) {
       setCategoriesError(err.message);
@@ -137,7 +140,8 @@ export default function Dashboard() {
   }
 
   const selectedBusiness = businesses.find((b) => b.id === selectedId) ?? null;
-  const staleDays = businessesLoading ? null : staleDaysAgo(businesses);
+  // Sample data has no real "last checked", so it never counts toward the stale-data banner.
+  const staleDays = businessesLoading ? null : staleDaysAgo(businesses.filter((b) => !b.isDemo));
 
   return (
     <div className="page">
@@ -161,6 +165,7 @@ export default function Dashboard() {
               onClick={() => setActiveCategory(cat)}
             >
               {cat}
+              {demoCategories.includes(cat) && <span className="tab-chip">Demo</span>}
             </button>
           ))}
         </div>
@@ -169,9 +174,12 @@ export default function Dashboard() {
       <div className="card">
         <div className="alerts-header">
           <h2 className="card-title">Tracked businesses</h2>
-          {selectedBusiness && (
-            <RunCheckButton key={selectedBusiness.id} business={selectedBusiness} onChecked={handleChecked} />
-          )}
+          {selectedBusiness &&
+            (selectedBusiness.isDemo ? (
+              <p className="note run-check-note">Sample data. Live checks are turned off for this business.</p>
+            ) : (
+              <RunCheckButton key={selectedBusiness.id} business={selectedBusiness} onChecked={handleChecked} />
+            ))}
         </div>
         {businessesError && <div className="error-banner">{businessesError}</div>}
         {businessesLoading ? (
@@ -184,7 +192,10 @@ export default function Dashboard() {
       {selectedBusiness && (
         <div className="split">
           <div className="card">
-            <h2 className="card-title">Rank history — {selectedBusiness.name}</h2>
+            <h2 className="card-title">
+              Rank history — {selectedBusiness.name}
+              {selectedBusiness.isDemo && <DemoBadge />}
+            </h2>
             {detailLoading ? <p className="loading">Loading…</p> : <RankChart history={history} businessName={selectedBusiness.name} />}
           </div>
           <div className="card">

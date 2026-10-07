@@ -227,4 +227,41 @@ describe("runQueriesSequentially", () => {
     const totalCalls = results.reduce((sum, r) => sum + r.serpApiCallsMade, 0);
     assert.equal(totalCalls, 4); // 4 queries x 1 call (maps-only) = 4, not 8
   });
+
+  test("demo queries (judge mode) are never searched, so they never cost a credit", async () => {
+    const searched = [];
+    const queries = [
+      { ...makeQuery(1, "restaurant"), is_demo: false },
+      { ...makeQuery(2, "demo cafe"), is_demo: true },
+      makeQuery(3, "gym"), // a row without the flag counts as live
+    ];
+    const results = await runQueriesSequentially(queries, {
+      includeOrganic: false,
+      runCheckFn: async (id) => {
+        searched.push(id);
+        return { rawResultId: id, snapshots: [{}], organicChecked: false, serpApiCallsMade: 1 };
+      },
+      sleepFn: async () => {},
+    });
+    assert.deepEqual(searched, [1, 3]);
+    assert.deepEqual(results.map((r) => r.queryId), [1, 3]);
+    assert.equal(results.reduce((sum, r) => sum + r.serpApiCallsMade, 0), 2);
+  });
+
+  test("a list that is only demo queries makes no search and no delay", async () => {
+    let calls = 0;
+    let sleeps = 0;
+    const results = await runQueriesSequentially([{ ...makeQuery(9, "demo cafe"), is_demo: true }], {
+      runCheckFn: async () => {
+        calls++;
+        return { snapshots: [] };
+      },
+      sleepFn: async () => {
+        sleeps++;
+      },
+    });
+    assert.deepEqual(results, []);
+    assert.equal(calls, 0);
+    assert.equal(sleeps, 0);
+  });
 });

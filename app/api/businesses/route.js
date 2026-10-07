@@ -62,6 +62,7 @@ export async function GET(request) {
         b.category,
         t.query_id AS "queryId",
         q.query_text AS "queryText",
+        q.is_demo AS "isDemo",
         latest.position AS "latestPosition",
         latest.found AS "latestFound",
         latest.checked_at AS "latestCheckedAt",
@@ -101,6 +102,7 @@ export async function GET(request) {
         category: r.category,
         queryId: r.queryId,
         queryText: r.queryText,
+        isDemo: r.isDemo,
         position: r.latestFound ? r.latestPosition : null,
         // true | false | null -- see the found: contract note above. Keep
         // this as the raw tri-state rather than coercing to a boolean --

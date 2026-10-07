@@ -128,6 +128,8 @@ export default function RankChart({ history, businessName }) {
             // first/last labels are centered on the plot edges. Insetting those points keeps
             // them (otherwise the first point silently loses its label).
             padding={{ left: 44, right: 44 }}
+            // With many checks Recharts thins the labels; always keep the first and last date.
+            interval="preserveStartEnd"
             stroke={colors.muted}
             tick={{ fill: colors.muted, fontSize: 11 }}
             axisLine={{ stroke: colors.gridline }}
