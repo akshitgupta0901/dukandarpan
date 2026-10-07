@@ -136,7 +136,7 @@ export default function Dashboard() {
       <div className="page-header">
         <div>
           <h1 className="page-title">DukanDarpan</h1>
-          <p className="page-subtitle">Local-pack rank tracker</p>
+          <p className="page-subtitle">See where your shop shows up on Google Maps</p>
         </div>
       </div>
 
