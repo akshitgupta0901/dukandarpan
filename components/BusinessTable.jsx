@@ -1,7 +1,8 @@
 "use client";
 
-import { MAPS_RESULTS_LIMIT } from "../lib/rank-limit.mjs";
+import { mapRankBadge } from "../lib/rank-badge.mjs";
 import DemoBadge from "./DemoBadge";
+import RankBadge from "./RankBadge";
 
 function formatCheckedAt(iso) {
   if (!iso) return "—";
@@ -71,13 +72,7 @@ export default function BusinessTable({ businesses, selectedId, onSelect }) {
               {b.isDemo && <DemoBadge />}
             </td>
             <td>
-              {b.found === true ? (
-                `#${b.position}`
-              ) : b.found === false ? (
-                <span className="not-found">Not in top {MAPS_RESULTS_LIMIT}</span>
-              ) : (
-                <span className="not-found">Not yet checked</span>
-              )}
+              <RankBadge badge={mapRankBadge({ found: b.found, position: b.position })} />
             </td>
             <td>
               <Trend trend={b.trend} change={b.trendChange} />

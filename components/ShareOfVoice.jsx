@@ -1,7 +1,9 @@
 "use client";
 
 import { describeShareOfVoice } from "../lib/share-of-voice.mjs";
+import { mapRankBadge, organicRankBadge } from "../lib/rank-badge.mjs";
 import DemoBadge from "./DemoBadge";
+import RankBadge from "./RankBadge";
 
 function formatDay(iso) {
   return new Date(iso).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
@@ -33,12 +35,15 @@ export default function ShareOfVoice({ business, action = null }) {
       <div className="sov-row" aria-label={`Map Pack: ${sov.mapText}. Organic: ${sov.organicText}.`}>
         <div className="sov-stat">
           <span className="sov-label">Map Pack</span>
-          <span className="sov-value">{sov.mapText}</span>
+          <RankBadge size="lg" badge={mapRankBadge({ found: business.found, position: business.position })} />
         </div>
         <div className="sov-divider" aria-hidden="true" />
         <div className="sov-stat">
           <span className="sov-label">Organic</span>
-          <span className="sov-value">{sov.organicText}</span>
+          <RankBadge
+            size="lg"
+            badge={organicRankBadge({ checked: business.organicChecked, position: business.organicPosition })}
+          />
         </div>
       </div>
       {business.organicChecked && (

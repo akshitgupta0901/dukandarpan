@@ -1038,3 +1038,75 @@ a.btn {
   align-items: center;
   gap: 6px;
 }
+
+
+/* --- Rank status badges (lib/rank-badge.mjs). Text is always shown; colour is extra. --- */
+
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 1px 9px;
+  border: 1px solid;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.rank-badge-lg {
+  padding: 3px 14px;
+  font-size: 18px;
+}
+
+.rank-badge-icon {
+  font-size: 0.95em;
+  line-height: 1;
+}
+
+/* light mode */
+.rank-badge-gold    { background: #fff1bf; color: #5f4300; border-color: #c99a00; }
+.rank-badge-green   { background: #daf2de; color: #0a5519; border-color: #6fbf80; }
+.rank-badge-amber   { background: #ffe8c8; color: #7d3f00; border-color: #ec9d45; }
+.rank-badge-neutral { background: #ebeae5; color: #3b3a37; border-color: #b9b8b0; }
+.rank-badge-crimson { background: #fbe4e4; color: #8a1c1c; border-color: #dc9a9a; }
+.rank-badge-muted   { background: transparent; color: #625f5a; border-color: #c9c8c0; border-style: dashed; font-weight: 500; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .rank-badge-gold    { background: #352b07; color: #ffd966; border-color: #8a6b00; }
+  :root:not([data-theme="light"]) .rank-badge-green   { background: #0e3017; color: #86e39f; border-color: #2f7a42; }
+  :root:not([data-theme="light"]) .rank-badge-amber   { background: #37220e; color: #ffbb77; border-color: #8a5a20; }
+  :root:not([data-theme="light"]) .rank-badge-neutral { background: #272725; color: #dad9d1; border-color: #4b4b47; }
+  :root:not([data-theme="light"]) .rank-badge-crimson { background: #381515; color: #ffa3a3; border-color: #7c3434; }
+  :root:not([data-theme="light"]) .rank-badge-muted   { background: transparent; color: #a9a8a0; border-color: #4b4b47; }
+}
+
+/* On phones the longer badge labels ("Not in top 20", "Not ranking organically") must be able to wrap,
+   or the business table grows wider than the screen. */
+@media (max-width: 560px) {
+  .rank-badge {
+    white-space: normal;
+    padding: 1px 7px;
+    font-size: 12px;
+    border-radius: 10px;
+    line-height: 1.35;
+  }
+
+  .rank-badge-lg {
+    padding: 2px 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .alerts-header:has(.card-actions) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alerts-header .card-actions {
+    justify-content: flex-start;
+  }
+}
