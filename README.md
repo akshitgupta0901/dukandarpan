@@ -46,8 +46,9 @@ Everything the dashboard shows comes from SerpApi responses stored in Postgres, 
 - **Matching.** A business is matched to a result by name (accent- and punctuation-insensitive, ignoring words like
   "cafe" or "pvt"): token matching for map listings, whole-word matching in the title and link for regular results.
   Only the first 20 map results are visible, so a rank past 20 is shown as "Not in top 20".
-- **Raw responses are kept** (`raw_results`), which is what powers competitor lists, review growth, overtake
-  detection and the benchmark with no further credits.
+- **Raw responses are kept** (`raw_results`, one row per engine): the Maps response on every check, and the regular-results
+  (organic) response too on manual checks that run it. The Maps responses power competitor lists, review growth, overtake
+  detection and the benchmark with no further credits, and "View SerpApi Data" shows both in Maps / Organic tabs.
 - **Spare key.** If the first account reports it has run out of searches, an optional second key
   (`SERPAPI_API_KEY_2`) is used automatically, and a key seen out is skipped for an hour. Keys never appear in logs or errors.
 - **Retries.** The scheduled run retries a failed query once, with a 3-second gap between searches.
@@ -117,7 +118,7 @@ fictional competitors; rank-drop, fell-out and overtake alerts; review growth; S
 competitor teardown. The dashboard opens on the Demo tab, and everything generated is labeled "Demo data".
 
 ```bash
-npm run db:migrate                       # adds queries.is_demo and the other columns (migrations 0006 to 0010)
+npm run db:migrate                       # adds queries.is_demo and the other columns (migrations 0006 to 0011)
 npm run db:seed:demo -- --dry-run        # preview only: prints a summary, needs no database
 npm run db:seed:demo                     # replace any earlier demo data and insert fresh
 npm run db:unseed-demo                   # remove the demo data (real data is never touched)

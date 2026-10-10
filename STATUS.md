@@ -41,7 +41,7 @@ mostly mechanical list (section 6), and it should happen before the demo, not af
 - [x] **Hinglish option** (Roman script only, works offline; cache keyed by language; the rule-based text stays English). `lib/teardown.mjs`, `lib/insight.mjs`, `app/api/businesses/[id]/insight/route.js`
 - [x] **Share on WhatsApp** (`wa.me` link, sample data labeled). `lib/share-text.mjs`, `components/WhatsAppShare.jsx`
 - [x] **Judge mode**: deterministic 30-day fictional dataset, seed script with `--dry-run` and unseed, labels everywhere, never searched live. `lib/demo-data.mjs`, `lib/demo.mjs`, `db/seed-demo.mjs`, `components/DemoBadge.jsx`
-- [x] **Schema**: 10 additive, re-runnable migrations, linted by a test. `db/migrations/0001..0010`, `test/migrations.test.mjs`
+- [x] **Schema**: 11 additive, re-runnable migrations, linted by a test. `db/migrations/0001..0011`, `test/migrations.test.mjs`
 - [x] **Tests**: 362, offline, no database, network or keys; clean-clone safe (lazy DB connection). `test/`
 - [x] **Docs**: README with problem, features, SerpApi usage, credit table, track fit, setup, env vars, judge mode. `.env.local.example` lists every variable.
 
@@ -50,7 +50,7 @@ mostly mechanical list (section 6), and it should happen before the demo, not af
 I could not exercise these here (no DB writes, no SerpApi credits, no real LLM were allowed). All are covered by offline
 tests or fakes, but none has run live:
 
-- **Migrations 0006 to 0010 have not been applied** to your Neon database. Until they are, the dashboard's categories,
+- **Migrations 0006 to 0011 have not been applied** to your Neon database. Until they are, the dashboard's categories,
   businesses and alerts routes error (they read `queries.is_demo`, `alerts.competitor_name`, and others) and the cron
   would fail. **Run `npm run db:migrate` before using the app.**
 - **New SQL is untested on Postgres**: the businesses query (a `LEFT JOIN LATERAL` for the newest organic check), the

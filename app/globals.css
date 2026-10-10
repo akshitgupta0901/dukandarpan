@@ -1246,3 +1246,60 @@ a.btn {
     justify-content: center;
   }
 }
+
+/* --- Maps / Organic tabs in the SerpApi data modal --- */
+
+.raw-tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.raw-tab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  padding: 8px 14px;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.raw-tab:hover {
+  color: var(--text-primary);
+}
+
+.raw-tab.active {
+  color: var(--text-primary);
+  border-bottom-color: var(--series-1);
+}
+
+.raw-tab-flag {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.raw-tab:focus-visible {
+  outline: 2px solid var(--series-1);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+.raw-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+}
+
+.raw-empty {
+  margin: 0;
+  padding: 28px 8px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

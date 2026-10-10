@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { redactSecrets, buildRawView, loadRawView, REDACTED } from "../lib/raw-data.mjs";
+import { redactSecrets, buildRawView, loadRawView, REDACTED, ORGANIC_MISSING_MESSAGE, DEMO_NOTICE } from "../lib/raw-data.mjs";
 import { generateDemoData } from "../lib/demo-data.mjs";
 
 const FIXTURES = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "fixtures");
@@ -57,40 +57,83 @@ describe("redactSecrets", () => {
   });
 });
 
-describe("buildRawView", () => {
-  const row = { id: 7, payload: cafe, checkedAt: "2026-10-07T12:00:00.000Z" };
+describe("buildRawView: two tabs, Maps and Organic", () => {
   const business = { id: 10, name: "Café Laylat" };
+  const organic = JSON.parse(fs.readFileSync(path.join(FIXTURES, "organic_cafe.json"), "utf8"));
+  const mapsRow = { id: 7, engine: "google_maps", payload: cafe, checkedAt: "2026-10-07T12:00:00.000Z" };
+  const organicRow = { id: 8, engine: "google", payload: organic, checkedAt: "2026-10-07T12:00:01.000Z" };
+  const view = (rows, extra = {}) => buildRawView({ business, queryText: "cafe near VIT Vellore", isDemo: false, rows, ...extra });
 
-  test("carries the payload, when it was fetched, the engine and the query text", () => {
-    const v = buildRawView({ business, queryText: "cafe near VIT Vellore", isDemo: false, row });
-    assert.equal(v.engine, "google_maps");
-    assert.equal(v.checkedAt, "2026-10-07T12:00:00.000Z");
+  test("always two tabs, Maps first then Organic, each with its payload when it exists", () => {
+    const v = view([organicRow, mapsRow]); // order of the rows doesn't matter
+    assert.deepEqual(v.tabs.map((t) => [t.label, t.available]), [["Maps", true], ["Organic", true]]);
+    assert.deepEqual(v.tabs[0].payload, cafe);
+    assert.deepEqual(v.tabs[1].payload, organic);
+    assert.equal(v.tabs[0].rawResultId, 7);
+    assert.equal(v.tabs[1].rawResultId, 8);
+    assert.equal(v.tabs[0].checkedAt, "2026-10-07T12:00:00.000Z");
+    assert.equal(v.tabs[1].checkedAt, "2026-10-07T12:00:01.000Z");
     assert.equal(v.queryText, "cafe near VIT Vellore");
-    assert.equal(v.rawResultId, 7);
-    assert.equal(v.isDemo, false);
-    assert.deepEqual(v.payload, cafe);
-    assert.match(v.note, /organic.*not stored/i);
+    assert.deepEqual(v.business, { id: 10, name: "Café Laylat" });
   });
 
-  test("a demo query is flagged and labeled as sample data", () => {
-    const v = buildRawView({ business, queryText: "q", isDemo: true, row });
+  test("each tab names its engine, from the stored search_parameters", () => {
+    const v = view([mapsRow, organicRow]);
+    assert.equal(v.tabs[0].engine, "google_maps");
+    assert.equal(v.tabs[1].engine, "google");
+    // falls back to the row's own engine when the payload doesn't say
+    assert.equal(view([{ ...mapsRow, payload: {} }]).tabs[0].engine, "google_maps");
+    assert.equal(view([mapsRow, { ...organicRow, payload: { organic_results: [] } }]).tabs[1].engine, "google");
+  });
+
+  test("no organic response yet: the Organic tab is empty with the exact message, and Maps is unaffected", () => {
+    const v = view([mapsRow]);
+    assert.equal(v.tabs[1].available, false);
+    assert.equal(v.tabs[1].payload, null);
+    assert.equal(v.tabs[1].emptyMessage, "Organic results are saved on manual 'Run check now' runs for businesses with a place name");
+    assert.equal(v.tabs[1].emptyMessage, ORGANIC_MISSING_MESSAGE);
+    assert.equal(v.tabs[0].available, true);
+    assert.equal(v.tabs[0].emptyMessage, null);
+  });
+
+  test("a demo query keeps the sample-data notice; its notes are replaced by that notice", () => {
+    const v = view([mapsRow, organicRow], { isDemo: true });
     assert.equal(v.isDemo, true);
-    assert.match(v.note, /Sample data, not a real SerpApi response/);
+    assert.equal(v.notice, "Sample data, not a real SerpApi response.");
+    assert.equal(v.notice, DEMO_NOTICE);
+    assert.ok(v.tabs.every((t) => t.note === null));
   });
 
-  test("the engine comes from the stored search_parameters, defaulting to google_maps", () => {
-    assert.equal(buildRawView({ business, queryText: "q", isDemo: false, row: { ...row, payload: { search_parameters: { engine: "google" } } } }).engine, "google");
-    assert.equal(buildRawView({ business, queryText: "q", isDemo: false, row: { ...row, payload: {} } }).engine, "google_maps");
+  test("a real query has no demo notice, and each tab says what it is", () => {
+    const v = view([mapsRow, organicRow]);
+    assert.equal(v.notice, null);
+    assert.match(v.tabs[0].note, /Google Maps response/);
+    assert.match(v.tabs[1].note, /regular Google results/);
+  });
+
+  test("a demo query with no sample organic response doesn't claim 'Run check now' would help", () => {
+    const v = view([mapsRow], { isDemo: true });
+    assert.doesNotMatch(v.tabs[1].emptyMessage, /Run check now/);
+    assert.match(v.tabs[1].emptyMessage, /demo/);
+  });
+
+  test("a missing Maps response is reported too (the view never crashes on partial data)", () => {
+    const v = view([organicRow]);
+    assert.equal(v.tabs[0].available, false);
+    assert.match(v.tabs[0].emptyMessage, /Google Maps response/);
+    assert.equal(v.tabs[1].available, true);
+    assert.equal(view([]).tabs.every((t) => !t.available), true);
+    assert.equal(view(undefined).tabs.length, 2);
   });
 
   test("a Date checkedAt (what the database driver may return) becomes an ISO string", () => {
-    const v = buildRawView({ business, queryText: "q", isDemo: false, row: { ...row, checkedAt: new Date("2026-10-07T12:00:00Z") } });
-    assert.equal(v.checkedAt, "2026-10-07T12:00:00.000Z");
+    const v = view([{ ...mapsRow, checkedAt: new Date("2026-10-07T12:00:00Z") }]);
+    assert.equal(v.tabs[0].checkedAt, "2026-10-07T12:00:00.000Z");
   });
 
-  test("a key hiding in the payload is removed from the view", () => {
-    const payload = { search_parameters: { engine: "google_maps", api_key: KEY }, link: `https://serpapi.com/x?api_key=${KEY}`, text: `oops ${KEY}` };
-    const v = buildRawView({ business, queryText: "q", isDemo: false, row: { ...row, payload } }, { secrets: [KEY] });
+  test("a key hiding in EITHER payload is removed from the view", () => {
+    const leak = { search_parameters: { engine: "google", api_key: KEY }, link: `https://serpapi.com/x?api_key=${KEY}`, text: `oops ${KEY}` };
+    const v = buildRawView({ business, queryText: "q", isDemo: false, rows: [{ ...mapsRow, payload: leak }, { ...organicRow, payload: leak }] }, { secrets: [KEY] });
     assert.ok(!JSON.stringify(v).includes(KEY));
   });
 });
@@ -101,6 +144,7 @@ describe("loadRawView (with a fake sql)", () => {
     return async () => queue.shift();
   };
   const business = { id: 1, name: "Zaitoon Restaurant" };
+  const tracked = { queryId: 4, queryText: "restaurant near VIT Vellore", isDemo: false };
 
   test("unknown business", async () => {
     assert.deepEqual(await loadRawView(1, { sql: fakeSql([]), secrets: [] }), { kind: "no_business" });
@@ -110,24 +154,49 @@ describe("loadRawView (with a fake sql)", () => {
     assert.deepEqual(await loadRawView(1, { sql: fakeSql([business], []), secrets: [] }), { kind: "untracked", business });
   });
 
-  test("a query with no stored response yet", async () => {
-    const out = await loadRawView(1, { sql: fakeSql([business], [{ queryId: 4, queryText: "q", isDemo: false }], []), secrets: [] });
-    assert.deepEqual(out, { kind: "no_data", business, queryText: "q" });
+  test("a query with no stored response at all", async () => {
+    const out = await loadRawView(1, { sql: fakeSql([business], [tracked], []), secrets: [] });
+    assert.deepEqual(out, { kind: "no_data", business, queryText: tracked.queryText });
   });
 
-  test("the latest stored response is returned as a safe view", async () => {
-    const out = await loadRawView(1, {
-      sql: fakeSql([business], [{ queryId: 4, queryText: "restaurant near VIT Vellore", isDemo: false }], [{ id: 9, payload: { local_results: [], api_key: KEY }, checkedAt: "2026-10-07T12:00:00Z" }]),
-      secrets: [KEY],
-    });
+  test("both engines stored: both tabs are filled", async () => {
+    const rows = [
+      { id: 9, engine: "google_maps", payload: { local_results: [] }, checkedAt: "2026-10-07T12:00:00Z" },
+      { id: 10, engine: "google", payload: { organic_results: [] }, checkedAt: "2026-10-07T12:00:01Z" },
+    ];
+    const out = await loadRawView(1, { sql: fakeSql([business], [tracked], rows), secrets: [] });
     assert.equal(out.kind, "ok");
-    assert.equal(out.view.queryText, "restaurant near VIT Vellore");
-    assert.equal(out.view.rawResultId, 9);
+    assert.deepEqual(out.view.tabs.map((t) => t.available), [true, true]);
+  });
+
+  test("only a maps response stored (the cron, or no place name): the Organic tab is empty, not an error", async () => {
+    const out = await loadRawView(1, { sql: fakeSql([business], [tracked], [{ id: 9, engine: "google_maps", payload: {}, checkedAt: "2026-10-07T12:00:00Z" }]), secrets: [] });
+    assert.equal(out.kind, "ok");
+    assert.deepEqual(out.view.tabs.map((t) => t.available), [true, false]);
+  });
+
+  test("a key in a stored payload never reaches the view", async () => {
+    const rows = [{ id: 9, engine: "google_maps", payload: { local_results: [], api_key: KEY }, checkedAt: "2026-10-07T12:00:00Z" }];
+    const out = await loadRawView(1, { sql: fakeSql([business], [tracked], rows), secrets: [KEY] });
     assert.ok(!JSON.stringify(out.view).includes(KEY));
   });
 
   test("a demo query's view is marked as sample data", async () => {
-    const out = await loadRawView(1, { sql: fakeSql([business], [{ queryId: 4, queryText: "q (demo)", isDemo: true }], [{ id: 1, payload: {}, checkedAt: "2026-10-07T12:00:00Z" }]), secrets: [] });
+    const out = await loadRawView(1, { sql: fakeSql([business], [{ ...tracked, isDemo: true }], [{ id: 1, engine: "google_maps", payload: {}, checkedAt: "2026-10-07T12:00:00Z" }]), secrets: [] });
     assert.equal(out.view.isDemo, true);
+    assert.equal(out.view.notice, "Sample data, not a real SerpApi response.");
+  });
+
+  test("the raw-data query asks the database for both engines, newest of each", async () => {
+    const seen = [];
+    const sql = async (strings) => {
+      seen.push(strings.join("?"));
+      return [[business], [tracked], [{ id: 1, engine: "google_maps", payload: {}, checkedAt: "2026-10-07T12:00:00Z" }]][seen.length - 1];
+    };
+    await loadRawView(1, { sql, secrets: [] });
+    const rawQuery = seen[2];
+    assert.match(rawQuery, /DISTINCT ON \(engine\)/);
+    assert.match(rawQuery, /engine IN \('google_maps', 'google'\)/);
+    assert.match(rawQuery, /ORDER BY engine, checked_at DESC/);
   });
 });

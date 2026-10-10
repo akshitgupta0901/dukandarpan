@@ -24,7 +24,7 @@ const args = new Set(process.argv.slice(2));
 const dryRun = args.has("--dry-run");
 const unseed = args.has("--unseed");
 
-const RAW_CHUNK = 6; // raw payloads are ~17KB each; keep each transaction request small
+const RAW_CHUNK = 3; // each day is two payloads (~17KB maps + ~5KB organic); keep each transaction request small
 
 function chunk(items, size) {
   const out = [];
@@ -108,14 +108,19 @@ async function main() {
     )
   );
 
+  // One maps row and one organic (engine "google") row per day, so both tabs of "View SerpApi Data" are populated.
   for (const group of chunk(data.days, RAW_CHUNK)) {
     await sql.transaction(
-      group.map(
-        (day) => sql`
-          INSERT INTO raw_results (query_id, payload_json, checked_at)
-          VALUES (${query.id}, ${JSON.stringify(day.payload)}::jsonb, ${day.checkedAt}::timestamptz)
-        `
-      )
+      group.flatMap((day) => [
+        sql`
+          INSERT INTO raw_results (query_id, engine, payload_json, checked_at)
+          VALUES (${query.id}, ${"google_maps"}, ${JSON.stringify(day.payload)}::jsonb, ${day.checkedAt}::timestamptz)
+        `,
+        sql`
+          INSERT INTO raw_results (query_id, engine, payload_json, checked_at)
+          VALUES (${query.id}, ${"google"}, ${JSON.stringify(day.organicPayload)}::jsonb, ${day.checkedAt}::timestamptz)
+        `,
+      ])
     );
   }
 
@@ -161,7 +166,7 @@ async function main() {
   }
 
   console.log(
-    `\nSeeded ${data.days.length} days: ${flat.length} snapshots, ${data.days.length} raw payloads, ${alerts.length} alerts.`
+    `\nSeeded ${data.days.length} days: ${flat.length} snapshots, ${data.days.length * 2} raw payloads (maps + organic), ${alerts.length} alerts.`
   );
 }
 

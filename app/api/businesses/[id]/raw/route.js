@@ -6,9 +6,10 @@ export const dynamic = "force-dynamic";
 
 /**
  * GET /api/businesses/:id/raw
- * The latest STORED SerpApi response for the business's query (raw_results), for the
- * "View SerpApi Data" modal: the payload plus when it was fetched, the engine and the
- * query text. Read-only: it never calls SerpApi. Any API key is stripped (see lib/raw-data.mjs).
+ * The latest STORED SerpApi response for the business's query (raw_results), one per engine, for
+ * the "View SerpApi Data" modal's Maps and Organic tabs: each with its payload, when it was
+ * fetched and the engine, plus the query text. Read-only: it never calls SerpApi. Any API key
+ * is stripped (see lib/raw-data.mjs and lib/redact.mjs).
  * A business with nothing stored yet gets a clean 404 with a message the UI can show as is.
  */
 export async function GET(request, { params }) {
