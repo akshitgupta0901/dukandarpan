@@ -13,6 +13,8 @@ place name into coordinates when a query is added; no key).
 
 ## Working
 
+- Hosted on Vercel: https://dukandarpan.vercel.app (Neon Postgres, daily Vercel Cron on `/api/cron`).
+
 - Rank tracking on Google Maps and regular Google results through SerpApi, with a spare-key fallback. `lib/serpapi.mjs`, `lib/run-check.mjs`
 - Daily scheduled check plus a "Run check now" button (1-hour cooldown per business). `lib/run-all-checks.mjs`, `lib/check-business.mjs`
 - Dashboard: rank history chart, trend and size of move, "Not in top 20", stale-data banner. `components/`
@@ -37,6 +39,5 @@ place name into coordinates when a query is added; no key).
 
 ## Not built
 
-- Hosted deployment: the project is run locally and shown in the demo video.
 - Editing or deleting a business or query from the UI.
 - Multi-location grid tracking, CSV export, per-user accounts.

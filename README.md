@@ -4,6 +4,8 @@
 
 Built for the **SerpApi India Hackathon 2026**, Commerce & Market Intelligence track.
 
+**Live demo:** https://dukandarpan.vercel.app (open the "Demo Cafe" tab for a labeled sample category with 30 days of generated history)
+
 ## The problem
 
 A small shop's customers search "cafe near me", "salon in Katpadi", "gym near VIT". Whoever shows up in the top few
@@ -170,6 +172,8 @@ npm run db:unseed-demo                   # remove the demo data (real data is ne
   (1 credit a day), so that is where the monthly credit budget goes.
 
 ## Deploying
+
+Deployed on Vercel at https://dukandarpan.vercel.app, with Neon Postgres as the database.
 
 `vercel.json` has a daily cron entry hitting `/api/cron`. Set the same environment variables above in your Vercel
 project settings, run `npm run db:migrate` against the production database, and either rely on Vercel Cron or run
