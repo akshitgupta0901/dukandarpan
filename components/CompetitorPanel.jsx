@@ -1,6 +1,7 @@
 "use client";
 
 import { describeGrowth } from "../lib/review-growth.mjs";
+import ViewRawButton from "./ViewRawButton";
 
 function details(c) {
   const parts = [];
@@ -9,7 +10,7 @@ function details(c) {
   return parts.join(" · ");
 }
 
-export default function CompetitorPanel({ data }) {
+export default function CompetitorPanel({ data, business = null }) {
   if (!data) return <p className="empty-state">Select a business to see who's ranking above it.</p>;
 
   const { myPosition, competitors, note } = data;
@@ -43,6 +44,11 @@ export default function CompetitorPanel({ data }) {
             );
           })}
         </ul>
+      )}
+      {business && (
+        <div className="panel-footer">
+          <ViewRawButton business={business} />
+        </div>
       )}
     </div>
   );

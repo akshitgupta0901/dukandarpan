@@ -16,6 +16,14 @@
   --good: #0ca30c;
   --good-text: #006300;
   --critical: #d03b3b;
+  /* JSON viewer token colours, tuned for contrast on --code-bg */
+  --code-bg: #f4f3ef;
+  --json-key: #1b5aa8;
+  --json-string: #0a6a3a;
+  --json-number: #9a4a00;
+  --json-boolean: #7b3aa6;
+  --json-null: #686762;
+  --json-punct: #52514e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +41,13 @@
     --good: #0ca30c;
     --good-text: #0ca30c;
     --critical: #e66767;
+    --code-bg: #101010;
+    --json-key: #7fb4ff;
+    --json-string: #7fd6a4;
+    --json-number: #f2b66e;
+    --json-boolean: #cfa6f5;
+    --json-null: #a9a8a0;
+    --json-punct: #a9a8a0;
   }
 }
 
@@ -824,4 +839,182 @@ a.btn {
 .lang-option:focus-visible {
   outline: 2px solid var(--series-1);
   outline-offset: -2px;
+}
+
+
+/* --- Subtle button, modal and the JSON viewer ("View SerpApi Data") --- */
+
+.btn-subtle {
+  padding: 5px 10px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  border-color: var(--border);
+}
+
+.btn-subtle:hover {
+  color: var(--text-primary);
+}
+
+.panel-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--gridline);
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: min(980px, 100%);
+  max-height: min(88vh, 900px);
+  background: var(--surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.modal:focus {
+  outline: none;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  padding: 14px 18px 18px;
+  overflow: auto;
+}
+
+.raw-meta {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  overflow-wrap: anywhere;
+}
+
+.raw-notice {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.raw-notice-demo {
+  padding: 8px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.raw-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.raw-copy-status {
+  font-size: 12px;
+  color: var(--text-secondary);
+  min-height: 1em;
+}
+
+.json-view {
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font: 12px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  white-space: pre;
+  overflow: auto;
+  max-height: 55vh;
+  min-height: 80px;
+  color: var(--json-punct);
+}
+
+.json-view:focus-visible {
+  outline: 2px solid var(--series-1);
+  outline-offset: 1px;
+}
+
+.json-key {
+  color: var(--json-key);
+}
+
+.json-string {
+  color: var(--json-string);
+}
+
+.json-number {
+  color: var(--json-number);
+}
+
+.json-boolean {
+  color: var(--json-boolean);
+  font-weight: 600;
+}
+
+.json-null {
+  color: var(--json-null);
+  font-style: italic;
+}
+
+.json-punct,
+.json-other,
+.json-space {
+  color: var(--json-punct);
+}
+
+.raw-show-all {
+  align-self: flex-start;
+}
+
+@media (max-width: 560px) {
+  .modal-backdrop {
+    padding: 8px;
+  }
+
+  .modal {
+    max-height: 94vh;
+  }
+
+  .modal-header {
+    padding: 12px 14px;
+  }
+
+  .modal-body {
+    padding: 12px 14px 14px;
+  }
 }

@@ -11,6 +11,7 @@ import RunCheckButton from "./RunCheckButton";
 import DemoBadge from "./DemoBadge";
 import ShareOfVoice from "./ShareOfVoice";
 import WhatsAppShare from "./WhatsAppShare";
+import ViewRawButton from "./ViewRawButton";
 import { fetchJson } from "../lib/fetch-json.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
@@ -196,7 +197,12 @@ export default function Dashboard() {
         <div style={{ marginTop: 16 }}>
           <ShareOfVoice
             business={selectedBusiness}
-            action={<WhatsAppShare business={selectedBusiness} competitors={competitors} insight={insightText} />}
+            action={
+              <div className="card-actions">
+                <ViewRawButton business={selectedBusiness} />
+                <WhatsAppShare business={selectedBusiness} competitors={competitors} insight={insightText} />
+              </div>
+            }
           />
         </div>
       )}
@@ -212,7 +218,7 @@ export default function Dashboard() {
           </div>
           <div className="card">
             <h2 className="card-title">Ranking above {selectedBusiness.name}</h2>
-            {detailLoading ? <p className="loading">Loading…</p> : <CompetitorPanel data={competitors} />}
+            {detailLoading ? <p className="loading">Loading…</p> : <CompetitorPanel data={competitors} business={selectedBusiness} />}
           </div>
         </div>
       )}
