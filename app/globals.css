@@ -1110,3 +1110,53 @@ a.btn {
     justify-content: flex-start;
   }
 }
+
+/* --- Review gap bar in the competitor panel (lib/review-gap.mjs) --- */
+
+.gap-bar {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: 6px;
+  margin: 3px 0 1px;
+  background: var(--gridline);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.gap-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.gap-bar-fill-behind {
+  background: var(--series-1);
+}
+
+.gap-bar-fill-ahead,
+.gap-bar-fill-equal {
+  background: var(--good);
+}
+
+.gap-text {
+  font-weight: 600;
+}
+
+.gap-text-behind {
+  color: #8a1c1c;
+}
+
+.gap-text-ahead {
+  color: #0a5519;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .gap-text-behind {
+    color: #ffa3a3;
+  }
+
+  :root:not([data-theme="light"]) .gap-text-ahead {
+    color: #86e39f;
+  }
+}

@@ -11,7 +11,8 @@ export const dynamic = "force-dynamic";
  * insight generator, so both read the same competitor picture).
  */
 export async function GET(request, { params }) {
-  const businessId = Number(params.id);
+  const { id } = await params;
+  const businessId = Number(id);
   if (!Number.isInteger(businessId)) {
     return NextResponse.json({ error: "invalid business id" }, { status: 400 });
   }
