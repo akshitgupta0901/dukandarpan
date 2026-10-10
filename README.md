@@ -149,3 +149,11 @@ npm run db:unseed-demo                   # remove the demo data (real data is ne
 `vercel.json` has a daily cron entry hitting `/api/cron`. Set the same environment variables above in your Vercel
 project settings, run `npm run db:migrate` against the production database, and either rely on Vercel Cron or run
 `npm run cron:daemon` yourself, not both (see the comment in `scripts/cron-daemon.mjs`).
+
+## Team
+
+Built by Akshit Gupta ([@akshitgupta0901](https://github.com/akshitgupta0901)) and Shivansh Verma for the SerpApi India Hackathon 2026.
+
+## AI tools used
+
+We used Claude (through Claude Code) as a coding assistant while building this project.
