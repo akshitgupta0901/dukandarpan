@@ -36,6 +36,31 @@ It tracks a set of businesses against real Google Maps (and regular Google) resu
 
 Everything the dashboard shows comes from SerpApi responses stored in Postgres, so reading it never spends a credit.
 
+## Telegram bot
+
+DukanDarpan has a Telegram bot that sends rank alerts to your chat, so an owner hears about a problem without opening
+the dashboard. It is send-only: it has no commands to type, it just messages you when something changes.
+
+A message looks like this:
+
+```
+🔻 Brew & Bloom Cafe
+dropped from #4 to #8 (down 4)
+Query: "cafe near me" (cafe)
+```
+
+| Alert | When it is sent |
+| --- | --- |
+| 🔻 Rank drop | A business falls 3 or more places |
+| 🚨 Fell out | A business drops out of the top 20 |
+| ⚠️ Overtaken | A competitor that was behind you passes you and you are still #10 or better; the message names them |
+
+- Alerts are sent after the daily check and after "Run check now".
+- Every alert also shows on the dashboard, so the app works fully without Telegram.
+- **Set it up:** create a bot with [@BotFather](https://t.me/BotFather) (`/newbot`), then put `TELEGRAM_BOT_TOKEN` and
+  `TELEGRAM_CHAT_ID` in `.env.local` (see Environment variables below).
+- **Try it:** `npm run test:alert` sends one real test message to your chat without touching the database.
+
 ## How SerpApi is used
 
 | Call | Engine and key parameters | When | Cost |
