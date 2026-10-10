@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { CartesianGrid, Line, LineChart, ReferenceDot, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { chartPoints, describeCheck } from "../lib/history-top.mjs";
 
 // Chart chrome, from the dataviz skill's reference palette (references/palette.md).
@@ -15,6 +15,7 @@ const LIGHT = {
   textPrimary: "#0b0b0b",
   series1: "#2a78d6",
   rival: "#8a8982", // the faded dashed "top-ranked business" line
+  highlight: "#c2410c", // ring marking the check an alert came from
 };
 const DARK = {
   surface: "#1a1a19",
@@ -23,6 +24,7 @@ const DARK = {
   textPrimary: "#ffffff",
   series1: "#3987e5",
   rival: "#8f8e86",
+  highlight: "#fb923c",
 };
 
 function useThemeColors() {
@@ -93,13 +95,14 @@ function CustomTooltip({ active, label, colors, formatLabel, points }) {
   );
 }
 
-export default function RankChart({ history, businessName }) {
+export default function RankChart({ history, businessName, highlightAt = null }) {
   const colors = useThemeColors();
 
   const points = chartPoints(history);
   const formatTick = makeTickFormatter(points);
   const observedPositions = points.map((p) => p.position).filter((p) => p != null);
   const hasRival = points.some((p) => p.topPosition != null);
+  const highlighted = highlightAt ? points.find((p) => p.checkedAt === highlightAt) : null;
   // The scale must fit both lines, but an all-"not found" history is still reported as such below.
   const allPositions = [...observedPositions, ...points.map((p) => p.topPosition).filter((p) => p != null)];
   const maxPosition = allPositions.length ? Math.max(...allPositions) : 20;
@@ -194,9 +197,20 @@ export default function RankChart({ history, businessName }) {
               connectNulls={false}
               isAnimationActive={false}
             />
+            {/* The check an alert came from. The vertical band always shows; the ring only when the
+                business had a rank at that check (a "fell out" check has no point to ring). */}
+            {highlighted && (
+              <ReferenceLine x={highlighted.checkedAt} stroke={colors.highlight} strokeWidth={2} strokeOpacity={0.5} ifOverflow="visible" />
+            )}
+            {highlighted && highlighted.position != null && (
+              <ReferenceDot x={highlighted.checkedAt} y={highlighted.position} r={9} fill="none" stroke={colors.highlight} strokeWidth={2.5} ifOverflow="visible" />
+            )}
           </LineChart>
         </ResponsiveContainer>
       </div>
+      <p className="sr-only" role="status" aria-live="polite">
+        {highlighted ? `Highlighted the check on ${formatTick(highlighted.checkedAt)}.` : ""}
+      </p>
       <ul className="chart-legend" aria-label="Chart legend">
         <li>
           <svg width="24" height="8" aria-hidden="true">

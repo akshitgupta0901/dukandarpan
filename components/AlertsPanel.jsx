@@ -1,6 +1,7 @@
 "use client";
 
 import DemoBadge from "./DemoBadge";
+import AlertIcon from "./AlertIcon";
 
 function formatAlertTime(iso) {
   if (!iso) return "";
@@ -23,8 +24,11 @@ function AlertBadge({ type }) {
  * doesn't depend on anyone having Telegram open. Purely a read of
  * /api/alerts (the `alerts` table lib/alerts.mjs writes to) -- no
  * evaluation happens here.
+ *
+ * Each alert is a button: `onSelectAlert(alert)` lets the dashboard jump to that business, scroll to
+ * its rank chart and highlight the check the alert came from.
  */
-export default function AlertsPanel({ alerts, loading, error, onRefresh }) {
+export default function AlertsPanel({ alerts, loading, error, onRefresh, onSelectAlert }) {
   return (
     <div className="card">
       <div className="alerts-header">
@@ -47,26 +51,36 @@ export default function AlertsPanel({ alerts, loading, error, onRefresh }) {
         <ul className="alert-list">
           {alerts.map((a) => (
             <li key={a.id} className="alert-item">
-              <AlertBadge type={a.alertType} />
-              <div className="alert-body">
-                <div className="alert-headline">
-                  <span className="business-name">{a.businessName}</span>
-                  {/* An overtake message starts with the competitor's name ("X just outranked you"), so set it off. */}
-                  {a.alertType === "overtaken" ? " — " : " "}
-                  {a.message}
-                  {a.isDemo && <DemoBadge label="Demo" />}
+              <button
+                type="button"
+                className="alert-link"
+                onClick={() => onSelectAlert?.(a)}
+                title="Show this on the rank chart"
+              >
+                <AlertIcon type={a.alertType} />
+                <AlertBadge type={a.alertType} />
+                <div className="alert-body">
+                  <div className="alert-headline">
+                    <span className="business-name">{a.businessName}</span>
+                    {/* An overtake message starts with the competitor's name ("X just outranked you"), so set it off. */}
+                    {a.alertType === "overtaken" ? " — " : " "}
+                    {a.message}
+                    {a.isDemo && <DemoBadge label="Demo" />}
+                  </div>
+                  <div className="alert-meta">
+                    "{a.queryText}" ({a.category}) · {formatAlertTime(a.createdAt)} ·{" "}
+                    {a.isDemo ? (
+                      <span>Sample alert, nothing was sent</span>
+                    ) : (
+                      <span className={a.telegramSent ? "alert-delivery-ok" : "alert-delivery-fail"}>
+                        {a.telegramSent ? "Telegram sent" : "Telegram not sent"}
+                      </span>
+                    )}
+                    {" · "}
+                    <span className="alert-hint">View on chart</span>
+                  </div>
                 </div>
-                <div className="alert-meta">
-                  "{a.queryText}" ({a.category}) · {formatAlertTime(a.createdAt)} ·{" "}
-                  {a.isDemo ? (
-                    <span>Sample alert, nothing was sent</span>
-                  ) : (
-                    <span className={a.telegramSent ? "alert-delivery-ok" : "alert-delivery-fail"}>
-                      {a.telegramSent ? "Telegram sent" : "Telegram not sent"}
-                    </span>
-                  )}
-                </div>
-              </div>
+              </button>
             </li>
           ))}
         </ul>

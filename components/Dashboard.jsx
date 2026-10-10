@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import BusinessTable from "./BusinessTable";
 import RankChart from "./RankChart";
 import CompetitorPanel from "./CompetitorPanel";
@@ -13,8 +13,10 @@ import ShareOfVoice from "./ShareOfVoice";
 import WhatsAppShare from "./WhatsAppShare";
 import ViewRawButton from "./ViewRawButton";
 import { fetchJson } from "../lib/fetch-json.mjs";
+import { findPointForAlert } from "../lib/alert-focus.mjs";
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
+const HIGHLIGHT_MS = 4000; // how long a chart point stays highlighted after an alert is clicked
 const STALE_AFTER_DAYS = 2;
 
 /** Whole days since the newest check in `businesses`, or null if it's fresh (or nothing was ever checked). */
@@ -41,6 +43,16 @@ export default function Dashboard() {
   const [detailLoading, setDetailLoading] = useState(false);
   const [insightText, setInsightText] = useState(null); // the card's current recommendation, for the WhatsApp summary
   const [detailRefreshKey, setDetailRefreshKey] = useState(0); // bumped after a check to re-fetch history/competitors
+  const [historyFor, setHistoryFor] = useState(null); // which business `history` belongs to (it lags selectedId while loading)
+
+  // Clicking an alert: { businessId, at } waits here until that business's history has loaded,
+  // then the chart is scrolled into view and the matching point highlighted for a few seconds.
+  const [focusRequest, setFocusRequest] = useState(null);
+  const [highlightAt, setHighlightAt] = useState(null);
+  const focusRef = useRef(null);
+  focusRef.current = focusRequest;
+  const highlightTimer = useRef(null);
+  const scrollTimer = useRef(null);
 
   const [alerts, setAlerts] = useState([]);
   const [alertsLoading, setAlertsLoading] = useState(false);
@@ -84,7 +96,11 @@ export default function Dashboard() {
       .then((json) => {
         if (cancelled) return;
         setBusinesses(json.businesses);
-        setSelectedId(json.businesses[0]?.id ?? null);
+        // An alert click may have asked for a specific business in this category.
+        const wanted = focusRef.current?.businessId;
+        const wantedHere = json.businesses.some((b) => b.id === wanted);
+        setSelectedId(wantedHere ? wanted : json.businesses[0]?.id ?? null);
+        if (focusRef.current && !wantedHere) setFocusRequest(null);
       })
       .catch((err) => !cancelled && setBusinessesError(err.message))
       .finally(() => !cancelled && setBusinessesLoading(false));
@@ -96,6 +112,7 @@ export default function Dashboard() {
   useEffect(() => {
     if (!selectedId) {
       setHistory([]);
+      setHistoryFor(null);
       setCompetitors(null);
       return;
     }
@@ -108,6 +125,7 @@ export default function Dashboard() {
       .then(([historyJson, competitorsJson]) => {
         if (cancelled) return;
         setHistory(historyJson.history);
+        setHistoryFor(selectedId);
         setCompetitors(competitorsJson);
       })
       .catch((err) => !cancelled && setBusinessesError(err.message))
@@ -116,6 +134,49 @@ export default function Dashboard() {
       cancelled = true;
     };
   }, [selectedId, detailRefreshKey]);
+
+  // Once the clicked alert's business is selected AND its history has loaded: find the chart point the
+  // alert came from, scroll to the chart and highlight it. If no point is close enough in time, it only scrolls.
+  useEffect(() => {
+    if (!focusRequest || detailLoading || historyFor !== focusRequest.businessId || selectedId !== focusRequest.businessId) return;
+
+    setHighlightAt(findPointForAlert(history, focusRequest.at));
+    setFocusRequest(null);
+
+    const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    // The timers live in refs, not in this effect's cleanup: setFocusRequest(null) above re-runs the effect,
+    // and a cleanup would cancel them straight away.
+    clearTimeout(scrollTimer.current);
+    scrollTimer.current = setTimeout(() => {
+      document.getElementById("rank-history-card")?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+    }, 60);
+
+    clearTimeout(highlightTimer.current);
+    highlightTimer.current = setTimeout(() => setHighlightAt(null), HIGHLIGHT_MS);
+  }, [focusRequest, detailLoading, historyFor, selectedId, history]);
+
+  useEffect(
+    () => () => {
+      clearTimeout(highlightTimer.current);
+      clearTimeout(scrollTimer.current);
+    },
+    []
+  );
+
+  function selectBusiness(id) {
+    setHighlightAt(null);
+    setSelectedId(id);
+  }
+
+  function handleAlertClick(alert) {
+    setHighlightAt(null);
+    setFocusRequest({ businessId: alert.businessId, at: alert.createdAt });
+    if (alert.category !== activeCategory && categories.includes(alert.category)) {
+      setActiveCategory(alert.category); // the business is picked when this category's list loads
+    } else {
+      setSelectedId(alert.businessId);
+    }
+  }
 
   // Re-fetch the table without touching the loading state or resetting the selection.
   async function refreshBusinesses() {
@@ -189,7 +250,7 @@ export default function Dashboard() {
         {businessesLoading ? (
           <p className="loading">Loading…</p>
         ) : (
-          <BusinessTable businesses={businesses} selectedId={selectedId} onSelect={setSelectedId} />
+          <BusinessTable businesses={businesses} selectedId={selectedId} onSelect={selectBusiness} />
         )}
       </div>
 
@@ -209,12 +270,12 @@ export default function Dashboard() {
 
       {selectedBusiness && (
         <div className="split">
-          <div className="card">
+          <div className="card" id="rank-history-card">
             <h2 className="card-title">
               Rank history — {selectedBusiness.name}
               {selectedBusiness.isDemo && <DemoBadge />}
             </h2>
-            {detailLoading ? <p className="loading">Loading…</p> : <RankChart history={history} businessName={selectedBusiness.name} />}
+            {detailLoading ? <p className="loading">Loading…</p> : <RankChart history={history} businessName={selectedBusiness.name} highlightAt={highlightAt} />}
           </div>
           <div className="card">
             <h2 className="card-title">Ranking above {selectedBusiness.name}</h2>
@@ -230,7 +291,7 @@ export default function Dashboard() {
       )}
 
       <div style={{ marginTop: 24 }}>
-        <AlertsPanel alerts={alerts} loading={alertsLoading} error={alertsError} onRefresh={loadAlerts} />
+        <AlertsPanel alerts={alerts} loading={alertsLoading} error={alertsError} onRefresh={loadAlerts} onSelectAlert={handleAlertClick} />
       </div>
 
       <div style={{ marginTop: 16 }}>
